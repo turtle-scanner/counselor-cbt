@@ -2,8 +2,8 @@
 <html lang="ko" class="dark">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>청소년상담사 2급 기출 CBT 문제풀이 (맑은 고딕 대형 글씨)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=yes">
+  <title>청소년상담사 2급 기출 CBT (맑은 고딕 특대형 글씨)</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -25,27 +25,31 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <script src="data.js"></script>
   <style>
-    /* 맑은 고딕(Malgun Gothic) 최우선 적용 */
-    body, button, input, select, textarea {
+    /* 맑은 고딕(Malgun Gothic) 강제 적용 */
+    *, *::before, *::after, body, button, input, select, textarea {
       font-family: 'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', sans-serif !important;
-      letter-spacing: -0.02em;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
     }
     
-    .q-img-container img {
+    .q-img-box {
       width: 100%;
-      max-width: 900px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    
+    .q-img-box img {
+      width: 100%;
+      max-width: 960px;
       height: auto;
-      user-select: none;
-      filter: invert(0.92) hue-rotate(180deg) contrast(1.25) brightness(1.05);
+      object-fit: contain;
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: crisp-edges;
     }
     
     .custom-scroll::-webkit-scrollbar { width: 8px; height: 8px; }
     .custom-scroll::-webkit-scrollbar-thumb { background: #3f3f46; border-radius: 4px; }
-    
-    /* When user turns off invert */
-    .img-original {
-      filter: none !important;
-    }
   </style>
 </head>
 <body class="bg-black text-white min-h-screen flex flex-col selection:bg-brand-500 selection:text-white">
@@ -62,10 +66,10 @@
         <div>
           <h1 class="font-black text-xl leading-tight flex items-center gap-2 text-white">
             청소년상담사 2급 CBT
-            <span class="text-xs bg-brand-500/20 text-brand-400 font-bold px-2.5 py-0.5 rounded-full border border-brand-500/30">맑은 고딕 대형 글씨 모드</span>
+            <span class="text-xs bg-brand-500/20 text-brand-400 font-bold px-2.5 py-0.5 rounded-full border border-brand-500/30">맑은 고딕 특대형</span>
           </h1>
           <div class="flex items-center gap-2 mt-1">
-            <select id="examSelect" onchange="changeExam(this.value)" class="text-sm bg-zinc-900 border border-zinc-700 text-white font-bold rounded-lg px-3 py-1.5 focus:ring-2 focus:ring-brand-500 outline-none">
+            <select id="examSelect" onchange="changeExam(this.value)" class="text-sm bg-zinc-900 border border-zinc-700 text-white font-bold rounded-lg px-3 py-1.5 focus:ring-2 focus:ring-brand-500 outline-none cursor-pointer">
             </select>
             <span id="subjectBadge" class="text-xs bg-amber-950/80 text-amber-300 border border-amber-800/60 font-bold px-2.5 py-1 rounded">
               과목 로딩중...
@@ -96,11 +100,6 @@
             <i class="fa-solid fa-stopwatch"></i> 실전 시험
           </button>
         </div>
-
-        <!-- Invert Image Toggle Button -->
-        <button onclick="toggleImageInvert()" id="invertImgBtn" class="px-3 py-1.5 rounded-xl bg-zinc-900 border border-zinc-800 hover:bg-zinc-800 text-zinc-200 text-xs font-bold flex items-center gap-1.5" title="문제 시험지 흑백 반전 토글">
-          <i class="fa-solid fa-circle-half-stroke text-amber-400"></i> <span id="invertText">종이 다크 ON</span>
-        </button>
 
         <!-- Audio -->
         <button onclick="toggleSound()" id="soundBtn" class="w-9 h-9 rounded-xl bg-zinc-900 border border-zinc-800 hover:bg-zinc-800 text-zinc-200 flex items-center justify-center text-sm" title="효과음 켜기/끄기">
@@ -153,15 +152,17 @@
             <button onclick="bookmarkQuestion()" id="bookmarkBtn" class="text-xs px-3 py-1.5 rounded-lg bg-zinc-900 border border-zinc-800 hover:text-amber-400 text-zinc-200 flex items-center gap-1.5 font-bold transition-colors">
               <i class="fa-regular fa-star"></i> 북마크
             </button>
-            <button onclick="zoomImage(1.15)" class="px-2.5 py-1.5 rounded-lg bg-zinc-900 border border-zinc-800 hover:bg-zinc-800 text-xs flex items-center justify-center font-bold text-zinc-200" title="글자 확대"><i class="fa-solid fa-magnifying-glass-plus mr-1"></i> 확대</button>
-            <button onclick="zoomImage(0.85)" class="px-2.5 py-1.5 rounded-lg bg-zinc-900 border border-zinc-800 hover:bg-zinc-800 text-xs flex items-center justify-center font-bold text-zinc-200" title="글자 축소"><i class="fa-solid fa-magnifying-glass-minus mr-1"></i> 축소</button>
-            <button onclick="resetZoom()" class="px-2.5 py-1.5 rounded-lg bg-zinc-900 border border-zinc-800 hover:bg-zinc-800 text-xs flex items-center justify-center font-bold text-zinc-200" title="원래 크기"><i class="fa-solid fa-rotate-left mr-1"></i> 리셋</button>
+            <button onclick="zoomImage(1.2)" class="px-3 py-1.5 rounded-lg bg-zinc-900 border border-zinc-800 hover:bg-zinc-800 text-xs flex items-center justify-center font-bold text-zinc-200" title="글자 확대"><i class="fa-solid fa-magnifying-glass-plus mr-1"></i> 확대</button>
+            <button onclick="zoomImage(0.85)" class="px-3 py-1.5 rounded-lg bg-zinc-900 border border-zinc-800 hover:bg-zinc-800 text-xs flex items-center justify-center font-bold text-zinc-200" title="글자 축소"><i class="fa-solid fa-magnifying-glass-minus mr-1"></i> 축소</button>
+            <button onclick="resetZoom()" class="px-3 py-1.5 rounded-lg bg-zinc-900 border border-zinc-800 hover:bg-zinc-800 text-xs flex items-center justify-center font-bold text-zinc-200" title="원래 크기"><i class="fa-solid fa-rotate-left mr-1"></i> 100%</button>
           </div>
         </div>
 
-        <!-- The Image Box - Auto Height and Top Aligned -->
-        <div class="flex-1 flex items-start justify-center overflow-auto p-4 q-img-container min-h-[360px] bg-zinc-900/60 rounded-xl border border-zinc-800">
-          <img id="qImg" src="" alt="문제 이미지" class="transition-transform duration-150 rounded-lg shadow-md" style="transform: scale(1.05); transform-origin: top center;">
+        <!-- The Image Box - Crisp Ultra Bold HD Display -->
+        <div class="flex-1 overflow-auto p-4 min-h-[300px] bg-black rounded-xl border border-zinc-800/80 flex items-start justify-center">
+          <div class="q-img-box" id="imgBox">
+            <img id="qImg" src="" alt="문제" class="rounded-lg shadow-md transition-transform duration-150" style="transform: scale(1.0); transform-origin: top center;">
+          </div>
         </div>
 
         <!-- Answer / Feedback Toast -->
@@ -281,13 +282,12 @@
     let currentExamId = "2025_1";
     let currentQIndex = 0;
     let currentMode = "study";
-    let currentZoom = 1.05;
+    let currentZoom = 1.0;
     let soundEnabled = true;
     let timerSeconds = 0;
     let timerInterval = null;
     let timerPaused = false;
     let activeSubjectFilter = "ALL";
-    let isImageInverted = true;
 
     let userState = JSON.parse(localStorage.getItem("cbt_user_state") || "{}");
 
@@ -323,19 +323,6 @@
       soundEnabled = !soundEnabled;
       const btn = document.getElementById("soundBtn");
       btn.innerHTML = soundEnabled ? '<i class="fa-solid fa-volume-high"></i>' : '<i class="fa-solid fa-volume-xmark text-rose-500"></i>';
-    }
-
-    function toggleImageInvert() {
-      isImageInverted = !isImageInverted;
-      const img = document.getElementById("qImg");
-      const text = document.getElementById("invertText");
-      if (isImageInverted) {
-        img.classList.remove("img-original");
-        text.textContent = "종이 다크 ON";
-      } else {
-        img.classList.add("img-original");
-        text.textContent = "종이 화이트 ON";
-      }
     }
 
     function startTimer() {
@@ -459,8 +446,7 @@
 
       const imgElem = document.getElementById("qImg");
       imgElem.src = q.img;
-      if (isImageInverted) imgElem.classList.remove("img-original");
-      else imgElem.classList.add("img-original");
+      resetZoom();
 
       const isBookmarked = (userState[currentExamId]?.bookmarks || []).includes(q.q_num);
       const bmBtn = document.getElementById("bookmarkBtn");
@@ -521,13 +507,13 @@
 
       banner.classList.remove("hidden");
       if (isCorrect) {
-        banner.className = "mt-4 p-4 rounded-2xl flex items-center justify-between transition-all bg-emerald-950/80 border border-emerald-700 text-emerald-100 shadow-lg";
+        banner.className = "mt-4 p-4 rounded-xl flex items-center justify-between transition-all bg-emerald-950/80 border border-emerald-700 text-emerald-100 shadow-lg";
         icon.className = "w-12 h-12 rounded-full flex items-center justify-center text-2xl bg-emerald-500 text-white font-black shadow";
         icon.innerHTML = '<i class="fa-solid fa-check"></i>';
         title.textContent = "정답입니다! 🎉";
         desc.textContent = "훌륭합니다! 다음 문제로 넘어가세요.";
       } else {
-        banner.className = "mt-4 p-4 rounded-2xl flex items-center justify-between transition-all bg-rose-950/80 border border-rose-700 text-rose-100 shadow-lg";
+        banner.className = "mt-4 p-4 rounded-xl flex items-center justify-between transition-all bg-rose-950/80 border border-rose-700 text-rose-100 shadow-lg";
         icon.className = "w-12 h-12 rounded-full flex items-center justify-center text-2xl bg-rose-500 text-white font-black shadow";
         icon.innerHTML = '<i class="fa-solid fa-xmark"></i>';
         title.textContent = `오답입니다 (정답: ${ansNum > 0 ? ansNum + '번' : '확인 필요'})`;
@@ -652,12 +638,12 @@
 
     function zoomImage(factor) {
       currentZoom *= factor;
-      currentZoom = Math.min(Math.max(0.7, currentZoom), 2.5);
+      currentZoom = Math.min(Math.max(0.8, currentZoom), 3.0);
       document.getElementById("qImg").style.transform = `scale(${currentZoom})`;
     }
     function resetZoom() {
-      currentZoom = 1.05;
-      document.getElementById("qImg").style.transform = `scale(1.05)`;
+      currentZoom = 1.0;
+      document.getElementById("qImg").style.transform = `scale(1.0)`;
     }
 
     function resetCurrentExamProgress() {
