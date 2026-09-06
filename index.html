@@ -1,240 +1,491 @@
 <!DOCTYPE html>
-<html lang="ko" class="dark">
+<html lang="ko">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=yes">
-  <title>청소년상담사 2급 150제 CBT (문제 집중형 대화면)</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      darkMode: 'class',
-      theme: {
-        extend: {
-          colors: {
-            brand: {
-              400: '#818cf8',
-              500: '#6366f1',
-              600: '#4f46e5',
-              700: '#4338ca',
-            }
-          }
-        }
-      }
-    }
-  </script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <script src="data.js"></script>
+  <title>청소년상담사 2급 150제 CBT (특대형 맑은 고딕)</title>
+  <script src="data.js?v=2027"></script>
   <style>
-    /* 맑은 고딕(Malgun Gothic) 절대 우선 */
-    *, *::before, *::after, body, button, input, select, textarea {
+    /* 맑은 고딕(Malgun Gothic) 100% 강제 적용 */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
       font-family: 'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', sans-serif !important;
       -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
     }
     
-    .custom-scroll::-webkit-scrollbar { width: 6px; height: 6px; }
-    .custom-scroll::-webkit-scrollbar-thumb { background: #3f3f46; border-radius: 4px; }
-    
-    /* 폰트 단계별 동적 크기 */
-    .font-size-1 #qTitleText { font-size: 1.35rem; line-height: 1.65; }
-    .font-size-1 .opt-text { font-size: 1.05rem; line-height: 1.6; }
-    
-    .font-size-2 #qTitleText { font-size: 1.6rem; line-height: 1.7; }
-    .font-size-2 .opt-text { font-size: 1.2rem; line-height: 1.65; }
-    
-    .font-size-3 #qTitleText { font-size: 1.95rem; line-height: 1.75; font-weight: 800; }
-    .font-size-3 .opt-text { font-size: 1.35rem; line-height: 1.7; font-weight: 600; }
-    
-    .font-size-4 #qTitleText { font-size: 2.35rem; line-height: 1.8; font-weight: 900; }
-    .font-size-4 .opt-text { font-size: 1.55rem; line-height: 1.75; font-weight: 700; }
-    
-    .font-size-5 #qTitleText { font-size: 2.85rem; line-height: 1.85; font-weight: 900; }
-    .font-size-5 .opt-text { font-size: 1.85rem; line-height: 1.8; font-weight: 800; }
+    body {
+      background-color: #000000;
+      color: #FFFFFF;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 60px;
+    }
+
+    /* Top Bar */
+    header {
+      background-color: #09090b;
+      border-bottom: 1px solid #27272a;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      padding: 12px 16px;
+    }
+    .header-container {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    /* Select box */
+    select {
+      background-color: #18181b;
+      color: #FFFFFF;
+      border: 1px solid #3f3f46;
+      border-radius: 8px;
+      padding: 8px 12px;
+      font-size: 15px;
+      font-weight: bold;
+      outline: none;
+      cursor: pointer;
+    }
+
+    /* Subject Nav */
+    .subj-nav {
+      background-color: #09090b;
+      border-bottom: 1px solid #18181b;
+      padding: 8px 16px;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+    .subj-nav-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      gap: 8px;
+    }
+    .subj-btn {
+      background-color: #18181b;
+      color: #a1a1aa;
+      border: 1px solid #27272a;
+      border-radius: 8px;
+      padding: 6px 12px;
+      font-size: 13px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .subj-btn.active {
+      background-color: #4f46e5;
+      color: #FFFFFF;
+      border-color: #6366f1;
+    }
+
+    /* Main Container */
+    main {
+      max-width: 900px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    /* Size Controls */
+    .size-toolbar {
+      background-color: #09090b;
+      border: 1px solid #27272a;
+      border-radius: 14px;
+      padding: 10px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .size-btn-group {
+      display: flex;
+      gap: 6px;
+    }
+    .size-btn {
+      background-color: #18181b;
+      color: #a1a1aa;
+      border: 1px solid #27272a;
+      border-radius: 8px;
+      padding: 6px 12px;
+      font-size: 13px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .size-btn.active {
+      background-color: #4f46e5;
+      color: #FFFFFF;
+      border-color: #6366f1;
+    }
+
+    /* Hero Question Box */
+    .question-card {
+      background-color: #09090b;
+      border: 2px solid #27272a;
+      border-radius: 20px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Question Header */
+    .q-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #27272a;
+      padding-bottom: 12px;
+    }
+    .q-num-badge {
+      font-size: 32px;
+      font-weight: 900;
+      color: #818cf8;
+      letter-spacing: -1px;
+    }
+    .q-subj-title {
+      font-size: 15px;
+      font-weight: bold;
+      color: #e4e4e7;
+    }
+    .q-score-box {
+      display: flex;
+      gap: 12px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    /* The Massive Question Title */
+    .q-title {
+      color: #FFFFFF;
+      font-weight: 800;
+      line-height: 1.6;
+      word-break: keep-all;
+      letter-spacing: -0.5px;
+    }
+
+    /* 5 Options List */
+    .options-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .option-card {
+      background-color: #18181b;
+      border: 2px solid #27272a;
+      border-radius: 16px;
+      padding: 16px 20px;
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .option-card:hover {
+      border-color: #6366f1;
+      background-color: #1e1b4b;
+    }
+    .option-card:active {
+      transform: scale(0.99);
+    }
+    .opt-badge {
+      background-color: #27272a;
+      color: #FFFFFF;
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      font-weight: 900;
+      flex-shrink: 0;
+    }
+    .opt-text {
+      color: #f4f4f5;
+      font-weight: 600;
+      line-height: 1.6;
+      padding-top: 4px;
+      word-break: keep-all;
+    }
+
+    /* Correct / Incorrect Highlights */
+    .option-card.correct {
+      background-color: rgba(6, 78, 59, 0.7) !important;
+      border-color: #10b981 !important;
+      box-shadow: 0 0 15px rgba(16, 185, 129, 0.3);
+    }
+    .option-card.correct .opt-badge {
+      background-color: #10b981 !important;
+      color: #FFFFFF !important;
+    }
+    .option-card.wrong {
+      background-color: rgba(136, 19, 55, 0.7) !important;
+      border-color: #f43f5e !important;
+      box-shadow: 0 0 15px rgba(244, 63, 94, 0.3);
+    }
+    .option-card.wrong .opt-badge {
+      background-color: #f43f5e !important;
+      color: #FFFFFF !important;
+    }
+
+    /* Feedback & Explanation Box */
+    .feedback-box {
+      background-color: #18181b;
+      border: 2px solid #3f3f46;
+      border-radius: 16px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 10px;
+    }
+    .feedback-box.correct-box {
+      border-color: #10b981;
+      background-color: rgba(6, 78, 59, 0.3);
+    }
+    .feedback-box.wrong-box {
+      border-color: #f43f5e;
+      background-color: rgba(136, 19, 55, 0.3);
+    }
+    .exp-content {
+      background-color: rgba(0, 0, 0, 0.5);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      border-radius: 12px;
+      padding: 14px;
+      color: #fef08a;
+      font-size: 16px;
+      line-height: 1.65;
+    }
+
+    /* Bottom Navigation */
+    .bottom-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    .nav-btn {
+      background-color: #18181b;
+      color: #FFFFFF;
+      border: 1px solid #3f3f46;
+      border-radius: 12px;
+      padding: 14px 24px;
+      font-size: 16px;
+      font-weight: 900;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.15s;
+    }
+    .nav-btn:hover {
+      background-color: #27272a;
+    }
+    .nav-btn.primary {
+      background-color: #4f46e5;
+      border-color: #6366f1;
+    }
+    .nav-btn.primary:hover {
+      background-color: #4338ca;
+    }
+
+    /* OMR Drawer */
+    .omr-drawer {
+      background-color: #09090b;
+      border: 1px solid #27272a;
+      border-radius: 16px;
+      padding: 16px;
+    }
+    .omr-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(36px, 1fr));
+      gap: 6px;
+      max-height: 200px;
+      overflow-y: auto;
+      padding: 4px;
+    }
+    .omr-cell {
+      background-color: #18181b;
+      color: #a1a1aa;
+      border: 1px solid #27272a;
+      border-radius: 6px;
+      padding: 6px 0;
+      text-align: center;
+      font-size: 12px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .omr-cell.current {
+      border-color: #818cf8;
+      color: #FFFFFF;
+      background-color: #312e81;
+    }
+    .omr-cell.correct {
+      background-color: #059669;
+      color: #FFFFFF;
+      border-color: #10b981;
+    }
+    .omr-cell.wrong {
+      background-color: #e11d48;
+      color: #FFFFFF;
+      border-color: #f43f5e;
+    }
+
+    /* Font Size Presets (CSS Classes) */
+    .size-step-1 .q-title { font-size: 18px; }
+    .size-step-1 .opt-text { font-size: 15px; }
+
+    .size-step-2 .q-title { font-size: 22px; }
+    .size-step-2 .opt-text { font-size: 17px; }
+
+    .size-step-3 .q-title { font-size: 26px; }
+    .size-step-3 .opt-text { font-size: 19px; }
+
+    .size-step-4 .q-title { font-size: 32px; }
+    .size-step-4 .opt-text { font-size: 22px; }
+
+    .size-step-5 .q-title { font-size: 38px; }
+    .size-step-5 .opt-text { font-size: 26px; }
   </style>
 </head>
-<body id="appBody" class="bg-black text-white min-h-screen flex flex-col font-size-3 selection:bg-brand-500 selection:text-white">
+<body id="appBody" class="size-step-3">
 
-  <!-- SLIM TOP BAR (최소화된 상단 바로 세로 공간 극대화) -->
-  <header class="bg-zinc-950/95 backdrop-blur border-b border-zinc-800/80 sticky top-0 z-40 px-4 py-2.5 shadow-md">
-    <div class="max-w-6xl mx-auto flex items-center justify-between gap-3 flex-wrap">
-      
-      <!-- Session Switcher & Subject -->
-      <div class="flex items-center gap-3">
-        <select id="examSelect" onchange="changeExam(this.value)" class="text-xs sm:text-sm bg-zinc-900 border border-zinc-700 text-white font-bold rounded-lg px-3 py-1.5 focus:ring-2 focus:ring-brand-500 outline-none cursor-pointer">
+  <!-- TOP BAR -->
+  <header>
+    <div class="header-container">
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <span style="background: #4f46e5; padding: 6px 10px; border-radius: 8px; font-weight: 900; font-size: 14px;">청소년상담사 2급</span>
+        <select id="examSelect" onchange="changeExam(this.value)">
         </select>
-        <span id="subjectBadge" class="text-xs bg-brand-500/20 text-brand-300 border border-brand-500/30 font-bold px-2.5 py-1 rounded-md">
-          과목 로딩중...
-        </span>
       </div>
-
-      <!-- Controls: Size / Mode / Audio -->
-      <div class="flex items-center gap-2 flex-wrap">
-        
-        <!-- Font Size Controls (원터치 글씨 조절) -->
-        <div class="flex items-center bg-zinc-900 border border-zinc-800 rounded-xl p-1 gap-1">
-          <span class="text-xs text-zinc-400 font-bold px-1.5"><i class="fa-solid fa-text-height"></i></span>
-          <button onclick="setZoomStep(1)" id="zBtn1" class="px-2 py-0.5 rounded-lg text-xs font-bold text-zinc-400 hover:text-white transition">작게</button>
-          <button onclick="setZoomStep(2)" id="zBtn2" class="px-2 py-0.5 rounded-lg text-xs font-bold text-zinc-400 hover:text-white transition">보통</button>
-          <button onclick="setZoomStep(3)" id="zBtn3" class="px-2.5 py-0.5 rounded-lg text-xs font-black bg-brand-600 text-white transition shadow-sm">크게 (기본)</button>
-          <button onclick="setZoomStep(4)" id="zBtn4" class="px-2.5 py-0.5 rounded-lg text-xs font-bold text-zinc-400 hover:text-white transition">특대</button>
-          <button onclick="setZoomStep(5)" id="zBtn5" class="px-2.5 py-0.5 rounded-lg text-xs font-bold text-zinc-400 hover:text-white transition">왕글씨</button>
-        </div>
-
-        <!-- Timer -->
-        <div class="flex items-center gap-1.5 bg-zinc-900 border border-zinc-800 px-3 py-1.5 rounded-xl text-xs font-bold text-zinc-200">
-          <i class="fa-regular fa-clock text-brand-400"></i>
-          <span id="timerDisplay">00:00</span>
-        </div>
-
-        <!-- Mode Toggle (오답 / 전체) -->
-        <div class="flex bg-zinc-900 border border-zinc-800 p-1 rounded-xl text-xs font-bold">
-          <button onclick="setMode('study')" id="modeStudyBtn" class="px-3 py-1 rounded-lg bg-zinc-800 text-brand-400">1문제씩</button>
-          <button onclick="setMode('wrong')" id="modeWrongBtn" class="px-3 py-1 rounded-lg text-zinc-400 hover:text-white">오답 (<span id="wrongCountNav">0</span>)</button>
-        </div>
-
-        <!-- Audio -->
-        <button onclick="toggleSound()" id="soundBtn" class="w-8 h-8 rounded-xl bg-zinc-900 border border-zinc-800 hover:bg-zinc-800 text-zinc-200 flex items-center justify-center text-xs" title="효과음">
-          <i class="fa-solid fa-volume-high"></i>
-        </button>
-
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <span id="timerDisplay" style="background: #18181b; padding: 6px 12px; border-radius: 8px; font-weight: bold; font-size: 14px; border: 1px solid #27272a;">⏱️ 00:00</span>
+        <button onclick="toggleMode()" id="modeBtn" style="background: #18181b; color: #818cf8; border: 1px solid #27272a; padding: 6px 12px; border-radius: 8px; font-weight: bold; font-size: 13px; cursor: pointer;">1문제씩 풀기</button>
       </div>
-
     </div>
   </header>
 
-  <!-- SUBJECT NAV BAR (6개 과목 탭 바로가기) -->
-  <nav class="bg-zinc-950/60 border-b border-zinc-900 px-4 py-2">
-    <div class="max-w-6xl mx-auto flex items-center gap-1.5 overflow-x-auto custom-scroll" id="subjectTabs">
-      <!-- Dynamic Subject Buttons -->
+  <!-- SUBJECT NAV TABS -->
+  <nav class="subj-nav">
+    <div class="subj-nav-inner" id="subjectTabs">
     </div>
   </nav>
 
-  <!-- MAIN CONTAINER (문제에 100% 몰입하는 대화면 레이아웃) -->
-  <main class="max-w-5xl mx-auto px-4 py-6 flex-1 flex flex-col gap-6 w-full">
+  <!-- MAIN VIEW -->
+  <main>
+    
+    <!-- SIZE TOOLBAR -->
+    <div class="size-toolbar">
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 14px; font-weight: bold;">
+        <span>🔍 글씨 크기 조절:</span>
+      </div>
+      <div class="size-btn-group">
+        <button class="size-btn" onclick="setSizeStep(1)" id="sBtn1">작게</button>
+        <button class="size-btn" onclick="setSizeStep(2)" id="sBtn2">보통</button>
+        <button class="size-btn active" onclick="setSizeStep(3)" id="sBtn3">크게 (추천)</button>
+        <button class="size-btn" onclick="setSizeStep(4)" id="sBtn4">특대형</button>
+        <button class="size-btn" onclick="setSizeStep(5)" id="sBtn5">왕글씨 (최대)</button>
+      </div>
+    </div>
 
-    <!-- HERO QUESTION CARD (문제가 가장 잘 보이는 대형 카드) -->
-    <div class="bg-zinc-950 border-2 border-zinc-800/90 rounded-3xl p-6 sm:p-8 shadow-2xl flex flex-col gap-6 relative">
+    <!-- HERO QUESTION CARD -->
+    <div class="question-card">
       
-      <!-- Top Meta Line -->
-      <div class="flex items-center justify-between border-b border-zinc-800/80 pb-4">
-        <div class="flex items-center gap-3">
-          <span class="text-4xl sm:text-5xl font-black text-brand-400 tracking-tight" id="currentQNumText">Q.01</span>
-          <div>
-            <span class="text-xs font-extrabold uppercase tracking-wider text-zinc-400 block" id="qSubjCategory">청소년상담의 이론과 실제</span>
-            <span class="text-xs font-bold text-zinc-400">진행률: <span id="answeredRatio">1 / 150</span>문항</span>
-          </div>
+      <!-- Meta -->
+      <div class="q-meta">
+        <div>
+          <div class="q-num-badge" id="qNumBadge">Q.01</div>
+          <div class="q-subj-title" id="qSubjTitle">청소년상담의 이론과 실제</div>
         </div>
-
-        <div class="flex items-center gap-4 text-xs sm:text-sm font-black">
-          <span class="text-emerald-400 flex items-center gap-1"><i class="fa-solid fa-circle-check"></i> 정답 <span id="correctCountText">0</span></span>
-          <span class="text-rose-400 flex items-center gap-1"><i class="fa-solid fa-circle-xmark"></i> 오답 <span id="wrongCountText">0</span></span>
-          <span class="text-zinc-200 bg-zinc-900 px-2.5 py-1 rounded-lg border border-zinc-800">정답률 <span id="accuracyText">0</span>%</span>
-          <button onclick="bookmarkQuestion()" id="bookmarkBtn" class="text-zinc-400 hover:text-amber-400 transition" title="북마크">
-            <i class="fa-regular fa-star text-base"></i>
-          </button>
+        <div class="q-score-box">
+          <span style="color: #34d399;">정답 <b id="correctCountText">0</b></span>
+          <span style="color: #fb7185;">오답 <b id="wrongCountText">0</b></span>
+          <span style="color: #a1a1aa;">진행률 <b id="progressText">1/150</b></span>
         </div>
       </div>
 
-      <!-- MAIN QUESTION TITLE (화면에서 가장 크고 선명하게 배치된 문제 텍스트) -->
-      <div class="py-2">
-        <h2 id="qTitleText" class="text-white font-black leading-snug tracking-tight text-left">
-          문제를 불러오는 중입니다...
-        </h2>
+      <!-- Question Text (HUGE) -->
+      <div class="q-title" id="qTitleText">
+        문제를 불러오는 중입니다...
       </div>
 
-      <!-- 5 INTERACTIVE OPTION CHOICE CARDS (보기 1~5 대형 터치 카드) -->
-      <div id="optionsContainer" class="flex flex-col gap-3.5 pt-2">
-        <!-- 5 choices rendered as large cards -->
+      <!-- 5 Option Cards -->
+      <div class="options-list" id="optionsContainer">
       </div>
 
-      <!-- EXPLANATION & FEEDBACK BANNER (정답 클릭 시 부드럽게 펼쳐지는 해설) -->
-      <div id="feedbackBanner" class="hidden mt-4 p-5 sm:p-6 rounded-2xl flex flex-col gap-3.5 transition-all border shadow-2xl">
-        <div class="flex items-center justify-between gap-3">
-          <div class="flex items-center gap-3.5">
-            <div id="feedbackIcon" class="w-12 h-12 rounded-2xl flex items-center justify-center text-2xl text-white font-black shadow-lg"></div>
-            <div>
-              <h3 id="feedbackTitle" class="font-black text-xl text-white"></h3>
-              <p id="feedbackDesc" class="text-xs sm:text-sm text-zinc-300 font-semibold"></p>
-            </div>
-          </div>
-          <button onclick="nextQuestion()" class="px-5 py-3 bg-white text-black font-black rounded-xl text-sm shadow-xl hover:bg-zinc-200 transition flex items-center gap-2 shrink-0">
-            다음 문제 (Space) <i class="fa-solid fa-arrow-right"></i>
-          </button>
+      <!-- Feedback / Explanation -->
+      <div id="feedbackBanner" class="feedback-box" style="display: none;">
+        <div style="display: flex; align-items: center; justify-content: space-between;">
+          <div id="feedbackTitle" style="font-size: 20px; font-weight: 900;"></div>
+          <button onclick="nextQuestion()" class="nav-btn primary" style="padding: 10px 18px; font-size: 14px;">다음 문제 (Space) ▶</button>
         </div>
-
-        <!-- Golden Key Explanation Box -->
-        <div class="mt-2 pt-4 border-t border-zinc-700/60 bg-black/60 p-4 sm:p-5 rounded-2xl border border-amber-500/20">
-          <div class="font-black text-amber-300 text-sm sm:text-base flex items-center gap-2 mb-2">
-            <i class="fa-solid fa-lightbulb text-amber-400 text-lg"></i> 핵심 출제 포인트 및 정답 해설
-          </div>
-          <div id="explanationText" class="text-sm sm:text-base text-zinc-100 font-semibold leading-relaxed"></div>
+        <div class="exp-content">
+          <div style="font-weight: 900; margin-bottom: 6px;">💡 핵심 출제 포인트 & 정답 해설:</div>
+          <div id="explanationText"></div>
         </div>
       </div>
 
-      <!-- ACTION BAR -->
-      <div class="pt-4 border-t border-zinc-800/80 flex items-center justify-between text-xs text-zinc-500 font-bold">
-        <span><i class="fa-solid fa-keyboard"></i> 숫자키 1~5번으로 즉시 마킹 가능</span>
-        <button onclick="toggleRevealAnswer()" class="text-brand-400 hover:text-brand-300 hover:underline text-sm font-black flex items-center gap-1.5">
-          <i class="fa-regular fa-eye"></i> 정답 및 해설 바로 확인 (Enter)
-        </button>
+      <!-- Footer action -->
+      <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #27272a; padding-top: 14px; font-size: 13px; color: #71717a; font-weight: bold;">
+        <span>키보드 1~5번으로 마킹 가능</span>
+        <button onclick="toggleRevealAnswer()" style="background: none; border: none; color: #818cf8; font-size: 14px; font-weight: 900; cursor: pointer;">정답/해설 바로 확인 (Enter)</button>
       </div>
 
     </div>
 
-    <!-- BOTTOM NAVIGATION (이전 / 초기화 / 다음 버튼) -->
-    <div class="flex items-center justify-between gap-4 py-2">
-      <button onclick="prevQuestion()" class="px-6 py-3.5 bg-zinc-950 border-2 border-zinc-800 hover:border-zinc-700 rounded-2xl font-black text-base text-zinc-200 hover:text-white transition flex items-center gap-2.5 shadow-lg active:scale-95">
-        <i class="fa-solid fa-arrow-left"></i> 이전 문제 (←)
-      </button>
-      
-      <button onclick="resetCurrentExamProgress()" class="text-xs text-zinc-500 hover:text-rose-400 px-3 py-2 font-bold transition">
-        <i class="fa-solid fa-trash-can"></i> 이 시험지 초기화
-      </button>
-
-      <button onclick="nextQuestion()" class="px-8 py-3.5 bg-brand-600 hover:bg-brand-500 text-white rounded-2xl font-black text-base shadow-xl transition flex items-center gap-2.5 active:scale-95">
-        다음 문제 (→) <i class="fa-solid fa-arrow-right"></i>
-      </button>
+    <!-- BOTTOM NAV BUTTONS -->
+    <div class="bottom-nav">
+      <button onclick="prevQuestion()" class="nav-btn">◀ 이전 문제 (←)</button>
+      <button onclick="resetExamProgress()" style="background: none; border: none; color: #71717a; font-size: 13px; cursor: pointer; font-weight: bold;">기록 초기화</button>
+      <button onclick="nextQuestion()" class="nav-btn primary">다음 문제 (→) ▶</button>
     </div>
 
-    <!-- OMR 150제 DRAWER / GRID (접었다 폈다 할 수 있는 깔끔한 하단 네비게이터) -->
-    <div class="bg-zinc-950 border border-zinc-800/90 rounded-3xl p-5 shadow-xl">
-      <div class="flex items-center justify-between pb-3 border-b border-zinc-800 mb-3.5">
-        <h4 class="font-black text-sm text-zinc-200 flex items-center gap-2">
-          <i class="fa-solid fa-table-cells text-brand-400"></i> OMR 150문항 맵 (클릭 시 해당 문제로 즉시 이동)
-        </h4>
-        <span class="text-xs text-zinc-400 font-bold" id="omrStatsBadge">0 / 150 완료</span>
+    <!-- OMR 150 MAP -->
+    <div class="omr-drawer">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; font-size: 14px; font-weight: bold;">
+        <span>📋 OMR 150문항 맵 (클릭 시 이동)</span>
+        <span id="omrCountBadge" style="color: #a1a1aa; font-size: 12px;">0/150 완료</span>
       </div>
-      
-      <div id="omrGrid" class="grid grid-cols-10 sm:grid-cols-15 md:grid-cols-25 gap-1.5 max-h-48 overflow-y-auto custom-scroll p-1">
-        <!-- 150 small buttons -->
+      <div class="omr-grid" id="omrGrid">
       </div>
     </div>
 
   </main>
 
-  <!-- JAVASCRIPT LOGIC ENGINE -->
+  <!-- JAVASCRIPT ENGINE -->
   <script>
     let currentExamId = "mock_1";
     let currentQIndex = 0;
-    let currentMode = "study";
-    let zoomStep = parseInt(localStorage.getItem("cbt_zoom_hero_step") || "3"); // 1..5 (Default 3: 크게)
-    let soundEnabled = true;
+    let currentMode = "study"; // 'study', 'wrong'
+    let sizeStep = parseInt(localStorage.getItem("cbt_pure_size_step") || "3");
     let timerSeconds = 0;
     let timerInterval = null;
-    let timerPaused = false;
     let activeSubjectFilter = "ALL";
 
-    let userState = JSON.parse(localStorage.getItem("cbt_user_state_mock") || "{}");
+    let userState = JSON.parse(localStorage.getItem("cbt_user_state_pure_v2") || "{}");
 
+    // Sound Synthesis (Web Audio API)
     const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
     function playBeep(isCorrect) {
-      if (!soundEnabled) return;
       try {
         const osc = audioCtx.createOscillator();
         const gain = audioCtx.createGain();
         osc.connect(gain);
         gain.connect(audioCtx.destination);
-        
         if (isCorrect) {
           osc.type = "sine";
           osc.frequency.setValueAtTime(523.25, audioCtx.currentTime);
@@ -254,47 +505,31 @@
       } catch (e) {}
     }
 
-    function toggleSound() {
-      soundEnabled = !soundEnabled;
-      const btn = document.getElementById("soundBtn");
-      btn.innerHTML = soundEnabled ? '<i class="fa-solid fa-volume-high"></i>' : '<i class="fa-solid fa-volume-xmark text-rose-500"></i>';
-    }
+    function setSizeStep(step) {
+      sizeStep = Math.min(Math.max(1, step), 5);
+      localStorage.setItem("cbt_pure_size_step", sizeStep);
+      document.getElementById("appBody").className = `size-step-${sizeStep}`;
 
-    function setZoomStep(step) {
-      zoomStep = Math.min(Math.max(1, step), 5);
-      localStorage.setItem("cbt_zoom_hero_step", zoomStep);
-      
-      const body = document.getElementById("appBody");
-      body.className = `bg-black text-white min-h-screen flex flex-col font-size-${zoomStep} selection:bg-brand-500 selection:text-white`;
-
-      [1, 2, 3, 4, 5].forEach(p => {
-        const btn = document.getElementById(`zBtn${p}`);
-        if (btn) {
-          if (zoomStep === p) {
-            btn.className = "px-2.5 py-0.5 rounded-lg text-xs font-black bg-brand-600 text-white transition shadow-sm";
-          } else {
-            btn.className = "px-2 py-0.5 rounded-lg text-xs font-bold text-zinc-400 hover:text-white transition";
-          }
-        }
+      [1, 2, 3, 4, 5].forEach(i => {
+        const btn = document.getElementById(`sBtn${i}`);
+        if (btn) btn.className = (i === sizeStep) ? "size-btn active" : "size-btn";
       });
     }
 
     function startTimer() {
       clearInterval(timerInterval);
       timerInterval = setInterval(() => {
-        if (!timerPaused) {
-          timerSeconds++;
-          const mins = String(Math.floor(timerSeconds / 60)).padStart(2, '0');
-          const secs = String(timerSeconds % 60).padStart(2, '0');
-          document.getElementById("timerDisplay").textContent = `${mins}:${secs}`;
-        }
+        timerSeconds++;
+        const mins = String(Math.floor(timerSeconds / 60)).padStart(2, '0');
+        const secs = String(timerSeconds % 60).padStart(2, '0');
+        document.getElementById("timerDisplay").textContent = `⏱️ ${mins}:${secs}`;
       }, 1000);
     }
 
     window.addEventListener("DOMContentLoaded", () => {
       populateExamSelect();
       loadExam(currentExamId);
-      setZoomStep(zoomStep);
+      setSizeStep(sizeStep);
       startTimer();
       setupKeyboardShortcuts();
     });
@@ -326,12 +561,10 @@
     function getFilteredQuestions() {
       const exam = getCurrentExam();
       if (!exam) return [];
-      
       let list = exam.questions;
       if (activeSubjectFilter !== "ALL") {
         list = list.filter(q => q.subject.includes(activeSubjectFilter));
       }
-      
       if (currentMode === "wrong") {
         const examState = userState[currentExamId]?.answers || {};
         list = list.filter(q => examState[q.q_num] && !examState[q.q_num].isCorrect);
@@ -344,7 +577,7 @@
       if (!exam) return;
 
       if (!userState[examId]) {
-        userState[examId] = { answers: {}, bookmarks: [] };
+        userState[examId] = { answers: {} };
       }
 
       renderSubjectTabs();
@@ -359,7 +592,7 @@
       container.innerHTML = "";
       
       const allBtn = document.createElement("button");
-      allBtn.className = `text-xs px-3.5 py-1.5 rounded-xl font-bold whitespace-nowrap transition ${activeSubjectFilter === 'ALL' ? 'bg-brand-600 text-white shadow-md' : 'bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-white'}`;
+      allBtn.className = (activeSubjectFilter === 'ALL') ? "subj-btn active" : "subj-btn";
       allBtn.textContent = "전체 150문항";
       allBtn.onclick = () => { activeSubjectFilter = "ALL"; renderSubjectTabs(); renderOMRGrid(); renderQuestion(); };
       container.appendChild(allBtn);
@@ -367,7 +600,7 @@
       exam.subjects.forEach((sub, sIdx) => {
         const shortName = sub.split(" ")[0];
         const btn = document.createElement("button");
-        btn.className = `text-xs px-3 py-1.5 rounded-xl font-bold whitespace-nowrap transition ${activeSubjectFilter === shortName ? 'bg-brand-600 text-white shadow-md' : 'bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-white'}`;
+        btn.className = (activeSubjectFilter === shortName) ? "subj-btn active" : "subj-btn";
         btn.textContent = `${sIdx + 1}. ${shortName}`;
         btn.onclick = () => { activeSubjectFilter = shortName; renderSubjectTabs(); renderOMRGrid(); renderQuestion(); };
         container.appendChild(btn);
@@ -377,11 +610,11 @@
     function renderQuestion() {
       const qList = getFilteredQuestions();
       if (qList.length === 0) {
-        document.getElementById("currentQNumText").textContent = "-";
-        document.getElementById("qTitleText").textContent = currentMode === 'wrong' ? "틀린 문제가 없습니다! 🎉 만점입니다!" : "문항이 없습니다.";
+        document.getElementById("qNumBadge").textContent = "-";
+        document.getElementById("qTitleText").textContent = (currentMode === 'wrong') ? "오답이 없습니다! 🎉 만점입니다!" : "문항이 없습니다.";
         document.getElementById("optionsContainer").innerHTML = "";
-        document.getElementById("feedbackBanner").classList.add("hidden");
-        document.getElementById("qSubjCategory").textContent = "완료";
+        document.getElementById("feedbackBanner").style.display = "none";
+        document.getElementById("qSubjTitle").textContent = "완료";
         return;
       }
 
@@ -390,20 +623,14 @@
 
       const q = qList[currentQIndex];
 
-      document.getElementById("currentQNumText").textContent = `Q.${String(q.q_num).padStart(2, '0')}`;
-      document.getElementById("qSubjCategory").textContent = q.subject;
-      document.getElementById("subjectBadge").textContent = q.subject;
+      document.getElementById("qNumBadge").textContent = `Q.${String(q.q_num).padStart(2, '0')}`;
+      document.getElementById("qSubjTitle").textContent = q.subject;
+      document.getElementById("progressText").textContent = `${q.q_num} / ${qList.length}`;
 
-      // Question Title
-      const titleElem = document.getElementById("qTitleText");
-      titleElem.textContent = q.title.replace(/^\[.*?\]\s*/, '');
+      // Title
+      document.getElementById("qTitleText").textContent = q.title.replace(/^\[.*?\]\s*/, '');
 
-      // Bookmark
-      const isBookmarked = (userState[currentExamId]?.bookmarks || []).includes(q.q_num);
-      const bmBtn = document.getElementById("bookmarkBtn");
-      bmBtn.innerHTML = isBookmarked ? '<i class="fa-solid fa-star text-amber-400 text-lg"></i>' : '<i class="fa-regular fa-star text-lg"></i>';
-
-      // Render 5 Option Cards
+      // Options
       const optionsContainer = document.getElementById("optionsContainer");
       optionsContainer.innerHTML = "";
 
@@ -414,29 +641,20 @@
       q.options.forEach((optText, optIdx) => {
         const optNum = optIdx + 1;
         const btn = document.createElement("div");
-        
-        let borderClass = "border-zinc-800/90 bg-zinc-900/80 text-zinc-100 hover:border-brand-500 hover:bg-brand-950/40";
-        let numBg = "bg-zinc-800 text-zinc-300";
+        let cls = "option-card";
 
         if (saved) {
           if (optNum === saved.selected) {
-            if (saved.isCorrect) {
-              borderClass = "border-emerald-500 bg-emerald-950/70 text-emerald-200 ring-2 ring-emerald-500/50 shadow-xl";
-              numBg = "bg-emerald-500 text-white font-black";
-            } else {
-              borderClass = "border-rose-500 bg-rose-950/70 text-rose-200 ring-2 ring-rose-500/50 shadow-xl";
-              numBg = "bg-rose-500 text-white font-black";
-            }
+            cls += saved.isCorrect ? " correct" : " wrong";
           } else if (optNum === q.ans) {
-            borderClass = "border-emerald-500 bg-emerald-950/50 text-emerald-200";
-            numBg = "bg-emerald-500 text-white font-black";
+            cls += " correct";
           }
         }
 
-        btn.className = `p-4 sm:p-5 rounded-2xl border-2 transition-all cursor-pointer flex items-start gap-4 shadow-md active:scale-[0.99] ${borderClass}`;
+        btn.className = cls;
         btn.innerHTML = `
-          <span class="w-9 h-9 sm:w-10 sm:h-10 rounded-xl flex items-center justify-center text-lg sm:text-xl font-black shrink-0 ${numBg}">${optIcons[optIdx]}</span>
-          <span class="flex-1 opt-text pt-1 font-semibold leading-relaxed">${optText}</span>
+          <div class="opt-badge">${optIcons[optIdx]}</div>
+          <div class="opt-text">${optText}</div>
         `;
         btn.onclick = () => selectOption(optNum);
         optionsContainer.appendChild(btn);
@@ -445,7 +663,7 @@
       if (saved) {
         showFeedback(saved.isCorrect, q.ans, q.exp);
       } else {
-        banner.classList.add("hidden");
+        banner.style.display = "none";
       }
 
       renderOMRGrid();
@@ -459,12 +677,12 @@
 
       const isCorrect = (optNum === q.ans);
 
-      if (!userState[currentExamId]) userState[currentExamId] = { answers: {}, bookmarks: [] };
+      if (!userState[currentExamId]) userState[currentExamId] = { answers: {} };
       userState[currentExamId].answers[q.q_num] = {
         selected: optNum,
         isCorrect: isCorrect
       };
-      localStorage.setItem("cbt_user_state_mock", JSON.stringify(userState));
+      localStorage.setItem("cbt_user_state_pure_v2", JSON.stringify(userState));
 
       playBeep(isCorrect);
       renderQuestion();
@@ -472,26 +690,18 @@
 
     function showFeedback(isCorrect, ansNum, explanation) {
       const banner = document.getElementById("feedbackBanner");
-      const icon = document.getElementById("feedbackIcon");
       const title = document.getElementById("feedbackTitle");
-      const desc = document.getElementById("feedbackDesc");
       const expText = document.getElementById("explanationText");
 
-      banner.classList.remove("hidden");
-      expText.textContent = explanation || "해당 이론의 핵심 출제 개념을 다시 한번 복습하세요.";
+      banner.style.display = "flex";
+      expText.textContent = explanation || "해당 이론의 핵심 출제 포인트를 복습하세요.";
 
       if (isCorrect) {
-        banner.className = "mt-6 p-5 sm:p-6 rounded-2xl flex flex-col gap-3.5 transition-all bg-emerald-950/80 border-2 border-emerald-700 text-emerald-100 shadow-2xl";
-        icon.className = "w-12 h-12 rounded-2xl flex items-center justify-center text-2xl bg-emerald-500 text-white font-black shadow-lg";
-        icon.innerHTML = '<i class="fa-solid fa-check"></i>';
-        title.textContent = "정답입니다! 🎉";
-        desc.textContent = "정확하게 정답을 맞추셨습니다! 다음 문제로 이동하세요.";
+        banner.className = "feedback-box correct-box";
+        title.innerHTML = '<span style="color: #34d399;">🎉 정답입니다!</span>';
       } else {
-        banner.className = "mt-6 p-5 sm:p-6 rounded-2xl flex flex-col gap-3.5 transition-all bg-rose-950/80 border-2 border-rose-700 text-rose-100 shadow-2xl";
-        icon.className = "w-12 h-12 rounded-2xl flex items-center justify-center text-2xl bg-rose-500 text-white font-black shadow-lg";
-        icon.innerHTML = '<i class="fa-solid fa-xmark"></i>';
-        title.textContent = `오답입니다 (정답: ${ansNum}번)`;
-        desc.textContent = "틀린 문제는 오답노트에 자동 등록되었습니다.";
+        banner.className = "feedback-box wrong-box";
+        title.innerHTML = `<span style="color: #fb7185;">❌ 오답입니다 (정답: ${ansNum}번)</span>`;
       }
     }
 
@@ -522,21 +732,6 @@
       renderQuestion();
     }
 
-    function bookmarkQuestion() {
-      const qList = getFilteredQuestions();
-      if (qList.length === 0) return;
-      const q = qList[currentQIndex];
-
-      if (!userState[currentExamId].bookmarks) userState[currentExamId].bookmarks = [];
-      const bm = userState[currentExamId].bookmarks;
-      const idx = bm.indexOf(q.q_num);
-      if (idx >= 0) bm.splice(idx, 1);
-      else bm.push(q.q_num);
-
-      localStorage.setItem("cbt_user_state_mock", JSON.stringify(userState));
-      renderQuestion();
-    }
-
     function renderOMRGrid() {
       const grid = document.getElementById("omrGrid");
       grid.innerHTML = "";
@@ -544,27 +739,26 @@
       const examState = userState[currentExamId]?.answers || {};
 
       qList.forEach((q, idx) => {
-        const btn = document.createElement("button");
+        const btn = document.createElement("div");
         const isCurrent = (idx === currentQIndex);
         const ansInfo = examState[q.q_num];
 
-        let bgClass = "bg-zinc-900 border border-zinc-800 text-zinc-400 hover:bg-zinc-800";
+        let cls = "omr-cell";
         if (ansInfo) {
-          bgClass = ansInfo.isCorrect ? "bg-emerald-600 text-white font-bold border-emerald-500 shadow-sm" : "bg-rose-600 text-white font-bold border-rose-500 shadow-sm";
+          cls += ansInfo.isCorrect ? " correct" : " wrong";
         }
         if (isCurrent) {
-          bgClass += " ring-2 ring-brand-400 scale-105 font-black text-white";
+          cls += " current";
         }
 
-        btn.className = `py-1.5 rounded-lg text-xs font-bold transition flex items-center justify-center ${bgClass}`;
+        btn.className = cls;
         btn.textContent = q.q_num;
         btn.onclick = () => jumpToQuestion(idx);
         grid.appendChild(btn);
       });
 
       const answeredCount = Object.keys(examState).length;
-      document.getElementById("answeredRatio").textContent = `${answeredCount} / ${qList.length}`;
-      document.getElementById("omrStatsBadge").textContent = `${answeredCount} / ${qList.length} 완료`;
+      document.getElementById("omrCountBadge").textContent = `${answeredCount} / ${qList.length} 완료`;
     }
 
     function updateStats() {
@@ -572,7 +766,6 @@
       if (!exam) return;
       const examState = userState[currentExamId]?.answers || {};
       const answeredKeys = Object.keys(examState);
-      const totalAnswered = answeredKeys.length;
       
       let correct = 0;
       let wrong = 0;
@@ -583,34 +776,21 @@
 
       document.getElementById("correctCountText").textContent = correct;
       document.getElementById("wrongCountText").textContent = wrong;
-      document.getElementById("wrongCountNav").textContent = wrong;
-
+      const totalAnswered = answeredKeys.length;
       const acc = totalAnswered > 0 ? Math.round((correct / totalAnswered) * 100) : 0;
-      document.getElementById("accuracyText").textContent = acc;
     }
 
-    function setMode(mode) {
-      currentMode = mode;
+    function toggleMode() {
+      currentMode = (currentMode === 'study') ? 'wrong' : 'study';
+      document.getElementById("modeBtn").textContent = (currentMode === 'study') ? "1문제씩 풀기" : "오답노트 모드";
       currentQIndex = 0;
-
-      const sBtn = document.getElementById("modeStudyBtn");
-      const wBtn = document.getElementById("modeWrongBtn");
-
-      if (mode === 'study') {
-        sBtn.className = "px-3 py-1 rounded-lg bg-zinc-800 text-brand-400";
-        wBtn.className = "px-3 py-1 rounded-lg text-zinc-400 hover:text-white";
-      } else {
-        wBtn.className = "px-3 py-1 rounded-lg bg-zinc-800 text-brand-400";
-        sBtn.className = "px-3 py-1 rounded-lg text-zinc-400 hover:text-white";
-      }
-
       renderQuestion();
     }
 
-    function resetCurrentExamProgress() {
-      if (confirm("정말로 현재 시험지의 모든 풀이 기록을 초기화하시겠습니까?")) {
-        userState[currentExamId] = { answers: {}, bookmarks: [] };
-        localStorage.setItem("cbt_user_state_mock", JSON.stringify(userState));
+    function resetExamProgress() {
+      if (confirm("현재 시험지의 모든 풀이 기록을 초기화하시겠습니까?")) {
+        userState[currentExamId] = { answers: {} };
+        localStorage.setItem("cbt_user_state_pure_v2", JSON.stringify(userState));
         currentQIndex = 0;
         renderQuestion();
       }
@@ -631,10 +811,6 @@
         } else if (e.key === 'Enter') {
           e.preventDefault();
           toggleRevealAnswer();
-        } else if (e.key === '+' || e.key === '=') {
-          setZoomStep(zoomStep + 1);
-        } else if (e.key === '-' || e.key === '_') {
-          setZoomStep(zoomStep - 1);
         }
       });
     }
