@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=yes">
-  <title>청소년상담사 2급 150제 실전 모의고사 (100% 맑은 고딕 순수 텍스트)</title>
+  <title>청소년상담사 2급 150제 CBT (문제 집중형 대화면)</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -25,267 +25,199 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <script src="data.js"></script>
   <style>
-    /* 맑은 고딕(Malgun Gothic) 100% 강제 적용 */
+    /* 맑은 고딕(Malgun Gothic) 절대 우선 */
     *, *::before, *::after, body, button, input, select, textarea {
       font-family: 'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', sans-serif !important;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
     }
     
-    .custom-scroll::-webkit-scrollbar { width: 8px; height: 8px; }
+    .custom-scroll::-webkit-scrollbar { width: 6px; height: 6px; }
     .custom-scroll::-webkit-scrollbar-thumb { background: #3f3f46; border-radius: 4px; }
     
-    input[type=range] { accent-color: #6366f1; }
+    /* 폰트 단계별 동적 크기 */
+    .font-size-1 #qTitleText { font-size: 1.35rem; line-height: 1.65; }
+    .font-size-1 .opt-text { font-size: 1.05rem; line-height: 1.6; }
     
-    /* Dynamic scaling container */
-    .scale-text-sm { font-size: 0.95rem; line-height: 1.6; }
-    .scale-text-base { font-size: 1.15rem; line-height: 1.7; }
-    .scale-text-lg { font-size: 1.35rem; line-height: 1.75; }
-    .scale-text-xl { font-size: 1.6rem; line-height: 1.8; }
-    .scale-text-2xl { font-size: 1.95rem; line-height: 1.85; }
+    .font-size-2 #qTitleText { font-size: 1.6rem; line-height: 1.7; }
+    .font-size-2 .opt-text { font-size: 1.2rem; line-height: 1.65; }
+    
+    .font-size-3 #qTitleText { font-size: 1.95rem; line-height: 1.75; font-weight: 800; }
+    .font-size-3 .opt-text { font-size: 1.35rem; line-height: 1.7; font-weight: 600; }
+    
+    .font-size-4 #qTitleText { font-size: 2.35rem; line-height: 1.8; font-weight: 900; }
+    .font-size-4 .opt-text { font-size: 1.55rem; line-height: 1.75; font-weight: 700; }
+    
+    .font-size-5 #qTitleText { font-size: 2.85rem; line-height: 1.85; font-weight: 900; }
+    .font-size-5 .opt-text { font-size: 1.85rem; line-height: 1.8; font-weight: 800; }
   </style>
 </head>
-<body class="bg-black text-white min-h-screen flex flex-col selection:bg-brand-500 selection:text-white">
+<body id="appBody" class="bg-black text-white min-h-screen flex flex-col font-size-3 selection:bg-brand-500 selection:text-white">
 
-  <!-- TOP HEADER -->
-  <header class="bg-zinc-950 border-b border-zinc-800 sticky top-0 z-30 shadow-md">
-    <div class="max-w-7xl mx-auto px-4 py-3 flex flex-wrap items-center justify-between gap-3">
+  <!-- SLIM TOP BAR (최소화된 상단 바로 세로 공간 극대화) -->
+  <header class="bg-zinc-950/95 backdrop-blur border-b border-zinc-800/80 sticky top-0 z-40 px-4 py-2.5 shadow-md">
+    <div class="max-w-6xl mx-auto flex items-center justify-between gap-3 flex-wrap">
       
-      <!-- Brand & Exam Select -->
+      <!-- Session Switcher & Subject -->
       <div class="flex items-center gap-3">
-        <div class="bg-brand-600 text-white p-2.5 rounded-xl shadow-lg flex items-center justify-center">
-          <i class="fa-solid fa-graduation-cap text-2xl"></i>
-        </div>
-        <div>
-          <h1 class="font-black text-xl leading-tight flex items-center gap-2 text-white">
-            청소년상담사 2급 150제 모의고사
-            <span class="text-xs bg-brand-500/20 text-brand-400 font-bold px-2.5 py-0.5 rounded-full border border-brand-500/30">맑은 고딕 순수 텍스트</span>
-          </h1>
-          <div class="flex items-center gap-2 mt-1">
-            <select id="examSelect" onchange="changeExam(this.value)" class="text-sm bg-zinc-900 border border-zinc-700 text-white font-bold rounded-lg px-3 py-1.5 focus:ring-2 focus:ring-brand-500 outline-none cursor-pointer">
-            </select>
-            <span id="subjectBadge" class="text-xs bg-amber-950/80 text-amber-300 border border-amber-800/60 font-bold px-2.5 py-1 rounded">
-              과목 로딩중...
-            </span>
-          </div>
-        </div>
+        <select id="examSelect" onchange="changeExam(this.value)" class="text-xs sm:text-sm bg-zinc-900 border border-zinc-700 text-white font-bold rounded-lg px-3 py-1.5 focus:ring-2 focus:ring-brand-500 outline-none cursor-pointer">
+        </select>
+        <span id="subjectBadge" class="text-xs bg-brand-500/20 text-brand-300 border border-brand-500/30 font-bold px-2.5 py-1 rounded-md">
+          과목 로딩중...
+        </span>
       </div>
 
-      <!-- Mode & Controls -->
-      <div class="flex items-center gap-2.5 flex-wrap">
+      <!-- Controls: Size / Mode / Audio -->
+      <div class="flex items-center gap-2 flex-wrap">
         
-        <!-- Timer -->
-        <div class="flex items-center gap-1.5 bg-zinc-900 border border-zinc-800 px-3.5 py-1.5 rounded-lg text-sm font-bold text-zinc-100">
-          <i class="fa-regular fa-clock text-brand-400"></i>
-          <span id="timerDisplay">00:00</span>
-          <button onclick="toggleTimer()" id="timerBtn" class="text-xs ml-1 hover:text-brand-400"><i class="fa-solid fa-pause"></i></button>
+        <!-- Font Size Controls (원터치 글씨 조절) -->
+        <div class="flex items-center bg-zinc-900 border border-zinc-800 rounded-xl p-1 gap-1">
+          <span class="text-xs text-zinc-400 font-bold px-1.5"><i class="fa-solid fa-text-height"></i></span>
+          <button onclick="setZoomStep(1)" id="zBtn1" class="px-2 py-0.5 rounded-lg text-xs font-bold text-zinc-400 hover:text-white transition">작게</button>
+          <button onclick="setZoomStep(2)" id="zBtn2" class="px-2 py-0.5 rounded-lg text-xs font-bold text-zinc-400 hover:text-white transition">보통</button>
+          <button onclick="setZoomStep(3)" id="zBtn3" class="px-2.5 py-0.5 rounded-lg text-xs font-black bg-brand-600 text-white transition shadow-sm">크게 (기본)</button>
+          <button onclick="setZoomStep(4)" id="zBtn4" class="px-2.5 py-0.5 rounded-lg text-xs font-bold text-zinc-400 hover:text-white transition">특대</button>
+          <button onclick="setZoomStep(5)" id="zBtn5" class="px-2.5 py-0.5 rounded-lg text-xs font-bold text-zinc-400 hover:text-white transition">왕글씨</button>
         </div>
 
-        <!-- Mode Buttons -->
+        <!-- Timer -->
+        <div class="flex items-center gap-1.5 bg-zinc-900 border border-zinc-800 px-3 py-1.5 rounded-xl text-xs font-bold text-zinc-200">
+          <i class="fa-regular fa-clock text-brand-400"></i>
+          <span id="timerDisplay">00:00</span>
+        </div>
+
+        <!-- Mode Toggle (오답 / 전체) -->
         <div class="flex bg-zinc-900 border border-zinc-800 p-1 rounded-xl text-xs font-bold">
-          <button onclick="setMode('study')" id="modeStudyBtn" class="px-3 py-1.5 rounded-lg bg-zinc-800 text-brand-400 flex items-center gap-1.5">
-            <i class="fa-solid fa-bolt"></i> 1문제씩 풀기
-          </button>
-          <button onclick="setMode('wrong')" id="modeWrongBtn" class="px-3 py-1.5 rounded-lg text-zinc-400 hover:text-white flex items-center gap-1.5">
-            <i class="fa-solid fa-triangle-exclamation"></i> 오답노트 (<span id="wrongCountNav">0</span>)
-          </button>
-          <button onclick="setMode('exam')" id="modeExamBtn" class="px-3 py-1.5 rounded-lg text-zinc-400 hover:text-white flex items-center gap-1.5">
-            <i class="fa-solid fa-stopwatch"></i> 실전 150제 모의
-          </button>
+          <button onclick="setMode('study')" id="modeStudyBtn" class="px-3 py-1 rounded-lg bg-zinc-800 text-brand-400">1문제씩</button>
+          <button onclick="setMode('wrong')" id="modeWrongBtn" class="px-3 py-1 rounded-lg text-zinc-400 hover:text-white">오답 (<span id="wrongCountNav">0</span>)</button>
         </div>
 
         <!-- Audio -->
-        <button onclick="toggleSound()" id="soundBtn" class="w-9 h-9 rounded-xl bg-zinc-900 border border-zinc-800 hover:bg-zinc-800 text-zinc-200 flex items-center justify-center text-sm" title="효과음 켜기/끄기">
+        <button onclick="toggleSound()" id="soundBtn" class="w-8 h-8 rounded-xl bg-zinc-900 border border-zinc-800 hover:bg-zinc-800 text-zinc-200 flex items-center justify-center text-xs" title="효과음">
           <i class="fa-solid fa-volume-high"></i>
         </button>
+
       </div>
 
     </div>
   </header>
 
-  <!-- MAIN WRAPPER -->
-  <main class="max-w-7xl mx-auto px-4 py-5 flex-1 flex flex-col lg:flex-row gap-5 w-full">
+  <!-- SUBJECT NAV BAR (6개 과목 탭 바로가기) -->
+  <nav class="bg-zinc-950/60 border-b border-zinc-900 px-4 py-2">
+    <div class="max-w-6xl mx-auto flex items-center gap-1.5 overflow-x-auto custom-scroll" id="subjectTabs">
+      <!-- Dynamic Subject Buttons -->
+    </div>
+  </nav>
 
-    <!-- LEFT: QUESTION AREA (70%) -->
-    <div class="flex-1 flex flex-col gap-4">
+  <!-- MAIN CONTAINER (문제에 100% 몰입하는 대화면 레이아웃) -->
+  <main class="max-w-5xl mx-auto px-4 py-6 flex-1 flex flex-col gap-6 w-full">
+
+    <!-- HERO QUESTION CARD (문제가 가장 잘 보이는 대형 카드) -->
+    <div class="bg-zinc-950 border-2 border-zinc-800/90 rounded-3xl p-6 sm:p-8 shadow-2xl flex flex-col gap-6 relative">
       
-      <!-- Top Meta & Progress Bar -->
-      <div class="bg-zinc-950 border border-zinc-800 rounded-2xl p-4 shadow-sm flex flex-col gap-2.5">
-        <div class="flex items-center justify-between">
-          <div class="flex items-center gap-3">
-            <span class="text-3xl font-black text-brand-400" id="currentQNumText">Q1</span>
-            <span class="text-base font-bold text-zinc-400">/ <span id="totalQCountText">150</span>문항</span>
-          </div>
-          <div class="flex items-center gap-5 text-sm font-bold">
-            <span class="text-emerald-400 flex items-center gap-1.5">
-              <i class="fa-solid fa-circle-check"></i> 정답 <span id="correctCountText">0</span>
-            </span>
-            <span class="text-rose-400 flex items-center gap-1.5">
-              <i class="fa-solid fa-circle-xmark"></i> 오답 <span id="wrongCountText">0</span>
-            </span>
-            <span class="text-zinc-100 bg-zinc-800 px-3 py-1 rounded-lg border border-zinc-700">
-              정답률 <span id="accuracyText">0</span>%
-            </span>
+      <!-- Top Meta Line -->
+      <div class="flex items-center justify-between border-b border-zinc-800/80 pb-4">
+        <div class="flex items-center gap-3">
+          <span class="text-4xl sm:text-5xl font-black text-brand-400 tracking-tight" id="currentQNumText">Q.01</span>
+          <div>
+            <span class="text-xs font-extrabold uppercase tracking-wider text-zinc-400 block" id="qSubjCategory">청소년상담의 이론과 실제</span>
+            <span class="text-xs font-bold text-zinc-400">진행률: <span id="answeredRatio">1 / 150</span>문항</span>
           </div>
         </div>
-        <div class="w-full bg-zinc-800 h-2.5 rounded-full overflow-hidden">
-          <div id="progressBar" class="bg-brand-500 h-full rounded-full transition-all duration-300" style="width: 1%;"></div>
-        </div>
-      </div>
 
-      <!-- FONT SIZE ADJUSTMENT TOOLBAR -->
-      <div class="bg-zinc-950 border border-zinc-800 rounded-2xl px-4 py-3 flex flex-wrap items-center justify-between gap-3 shadow-sm">
-        <div class="flex items-center gap-2.5">
-          <span class="text-xs font-bold text-zinc-300 flex items-center gap-1.5">
-            <i class="fa-solid fa-text-height text-brand-400"></i> 글씨 크기 조절:
-          </span>
-          <button onclick="adjustZoom(-1)" class="w-8 h-8 rounded-lg bg-zinc-900 border border-zinc-800 hover:bg-zinc-800 text-sm font-bold text-zinc-200 flex items-center justify-center transition active:scale-95" title="글씨 작게">-</button>
-          
-          <div class="flex items-center gap-2">
-            <input type="range" id="zoomSlider" min="1" max="5" step="1" value="3" oninput="setZoomStep(parseInt(this.value))" class="w-28 sm:w-36 h-2 bg-zinc-800 rounded-lg cursor-pointer">
-            <span id="zoomPercentBadge" class="text-xs font-black bg-brand-600/30 text-brand-300 border border-brand-500/40 px-2 py-0.5 rounded-md min-w-[55px] text-center">130%</span>
-          </div>
-
-          <button onclick="adjustZoom(1)" class="w-8 h-8 rounded-lg bg-zinc-900 border border-zinc-800 hover:bg-zinc-800 text-sm font-bold text-zinc-200 flex items-center justify-center transition active:scale-95" title="글씨 크게">+</button>
-        </div>
-
-        <!-- Quick Preset Buttons -->
-        <div class="flex items-center gap-1.5 text-xs font-bold">
-          <button onclick="setZoomStep(1)" class="preset-btn px-2.5 py-1 rounded-lg bg-zinc-900 border border-zinc-800 hover:text-white text-zinc-400 transition" id="preset1">100%</button>
-          <button onclick="setZoomStep(2)" class="preset-btn px-2.5 py-1 rounded-lg bg-zinc-900 border border-zinc-800 hover:text-white text-zinc-400 transition" id="preset2">115%</button>
-          <button onclick="setZoomStep(3)" class="preset-btn px-2.5 py-1 rounded-lg bg-brand-600 text-white font-black transition" id="preset3">130% (추천)</button>
-          <button onclick="setZoomStep(4)" class="preset-btn px-2.5 py-1 rounded-lg bg-zinc-900 border border-zinc-800 hover:text-white text-zinc-400 transition" id="preset4">160% (크게)</button>
-          <button onclick="setZoomStep(5)" class="preset-btn px-2.5 py-1 rounded-lg bg-zinc-900 border border-zinc-800 hover:text-white text-zinc-400 transition" id="preset5">200% (왕글씨)</button>
-        </div>
-      </div>
-
-      <!-- PURE HTML TEXT QUESTION CONTAINER -->
-      <div class="bg-zinc-950 border border-zinc-800 rounded-2xl p-6 shadow-sm flex-1 flex flex-col justify-between relative overflow-hidden">
-        
-        <!-- Header Tag & Bookmark -->
-        <div class="flex items-center justify-between mb-4 border-b border-zinc-800 pb-3">
-          <span id="questionCategoryTag" class="text-sm font-bold text-brand-400 flex items-center gap-2">
-            <i class="fa-solid fa-bookmark"></i> <span id="qSubjName">청소년상담의 이론과 실제</span>
-          </span>
-          <button onclick="bookmarkQuestion()" id="bookmarkBtn" class="text-xs px-3 py-1.5 rounded-lg bg-zinc-900 border border-zinc-800 hover:text-amber-400 text-zinc-200 flex items-center gap-1.5 font-bold transition-colors">
-            <i class="fa-regular fa-star"></i> 북마크
+        <div class="flex items-center gap-4 text-xs sm:text-sm font-black">
+          <span class="text-emerald-400 flex items-center gap-1"><i class="fa-solid fa-circle-check"></i> 정답 <span id="correctCountText">0</span></span>
+          <span class="text-rose-400 flex items-center gap-1"><i class="fa-solid fa-circle-xmark"></i> 오답 <span id="wrongCountText">0</span></span>
+          <span class="text-zinc-200 bg-zinc-900 px-2.5 py-1 rounded-lg border border-zinc-800">정답률 <span id="accuracyText">0</span>%</span>
+          <button onclick="bookmarkQuestion()" id="bookmarkBtn" class="text-zinc-400 hover:text-amber-400 transition" title="북마크">
+            <i class="fa-regular fa-star text-base"></i>
           </button>
         </div>
+      </div>
 
-        <!-- Question Title (Pure Malgun Gothic Text) -->
-        <div class="mb-6">
-          <h2 id="qTitleText" class="font-bold text-white leading-relaxed scale-text-lg tracking-tight">
-            문제 텍스트 로딩중...
-          </h2>
-        </div>
+      <!-- MAIN QUESTION TITLE (화면에서 가장 크고 선명하게 배치된 문제 텍스트) -->
+      <div class="py-2">
+        <h2 id="qTitleText" class="text-white font-black leading-snug tracking-tight text-left">
+          문제를 불러오는 중입니다...
+        </h2>
+      </div>
 
-        <!-- 5 Interactive Option Cards (Pure Malgun Gothic Text) -->
-        <div id="optionsContainer" class="flex flex-col gap-3 my-2">
-          <!-- Option buttons 1..5 will be dynamically generated as large clickable text cards -->
-        </div>
+      <!-- 5 INTERACTIVE OPTION CHOICE CARDS (보기 1~5 대형 터치 카드) -->
+      <div id="optionsContainer" class="flex flex-col gap-3.5 pt-2">
+        <!-- 5 choices rendered as large cards -->
+      </div>
 
-        <!-- Answer / Feedback Toast -->
-        <div id="feedbackBanner" class="hidden mt-6 p-5 rounded-2xl flex flex-col gap-3 transition-all animate-fade-in border shadow-lg">
-          <div class="flex items-center justify-between">
-            <div class="flex items-center gap-3">
-              <div id="feedbackIcon" class="w-12 h-12 rounded-full flex items-center justify-center text-2xl text-white font-black shadow"></div>
-              <div>
-                <h4 id="feedbackTitle" class="font-black text-lg text-white"></h4>
-                <p id="feedbackDesc" class="text-sm font-semibold text-zinc-300"></p>
-              </div>
+      <!-- EXPLANATION & FEEDBACK BANNER (정답 클릭 시 부드럽게 펼쳐지는 해설) -->
+      <div id="feedbackBanner" class="hidden mt-4 p-5 sm:p-6 rounded-2xl flex flex-col gap-3.5 transition-all border shadow-2xl">
+        <div class="flex items-center justify-between gap-3">
+          <div class="flex items-center gap-3.5">
+            <div id="feedbackIcon" class="w-12 h-12 rounded-2xl flex items-center justify-center text-2xl text-white font-black shadow-lg"></div>
+            <div>
+              <h3 id="feedbackTitle" class="font-black text-xl text-white"></h3>
+              <p id="feedbackDesc" class="text-xs sm:text-sm text-zinc-300 font-semibold"></p>
             </div>
-            <button onclick="nextQuestion()" class="px-5 py-2.5 bg-zinc-800 text-white border border-zinc-700 rounded-xl text-sm font-bold shadow hover:bg-zinc-700 transition flex items-center gap-1.5">
-              다음 문제 (Space) <i class="fa-solid fa-arrow-right"></i>
-            </button>
           </div>
-
-          <!-- Explanation Box -->
-          <div id="explanationBox" class="mt-2 pt-3 border-t border-zinc-700/60 text-sm leading-relaxed text-zinc-200 bg-black/40 p-3.5 rounded-xl">
-            <span class="font-bold text-amber-400 flex items-center gap-1 mb-1"><i class="fa-solid fa-lightbulb"></i> 핵심 해설 & 출제 포인트:</span>
-            <span id="explanationText"></span>
-          </div>
-        </div>
-
-        <!-- Action Bar (Reveal / Jump) -->
-        <div class="mt-6 pt-4 border-t border-zinc-800 flex items-center justify-between">
-          <span class="text-xs font-bold text-zinc-500 uppercase">키보드 1~5번으로 즉시 마킹 가능</span>
-          <button onclick="toggleRevealAnswer()" id="revealAnsBtn" class="text-sm font-bold text-brand-400 hover:underline flex items-center gap-1.5">
-            <i class="fa-regular fa-eye"></i> 정답 및 해설 바로 확인 (Enter)
+          <button onclick="nextQuestion()" class="px-5 py-3 bg-white text-black font-black rounded-xl text-sm shadow-xl hover:bg-zinc-200 transition flex items-center gap-2 shrink-0">
+            다음 문제 (Space) <i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
 
+        <!-- Golden Key Explanation Box -->
+        <div class="mt-2 pt-4 border-t border-zinc-700/60 bg-black/60 p-4 sm:p-5 rounded-2xl border border-amber-500/20">
+          <div class="font-black text-amber-300 text-sm sm:text-base flex items-center gap-2 mb-2">
+            <i class="fa-solid fa-lightbulb text-amber-400 text-lg"></i> 핵심 출제 포인트 및 정답 해설
+          </div>
+          <div id="explanationText" class="text-sm sm:text-base text-zinc-100 font-semibold leading-relaxed"></div>
+        </div>
       </div>
 
-      <!-- Bottom Nav Buttons -->
-      <div class="flex items-center justify-between gap-3">
-        <button onclick="prevQuestion()" class="px-6 py-3 bg-zinc-900 border border-zinc-800 rounded-xl font-bold text-base text-zinc-200 hover:bg-zinc-800 transition flex items-center gap-2">
-          <i class="fa-solid fa-arrow-left"></i> 이전 문제 (←)
-        </button>
-        <div class="flex items-center gap-2">
-          <button onclick="resetCurrentExamProgress()" class="text-xs text-zinc-500 hover:text-rose-400 px-3 py-2 font-bold">
-            <i class="fa-solid fa-trash-can"></i> 이 시험지 초기화
-          </button>
-        </div>
-        <button onclick="nextQuestion()" class="px-7 py-3 bg-brand-600 hover:bg-brand-500 text-white rounded-xl font-bold text-base shadow-lg transition flex items-center gap-2">
-          다음 문제 (→) <i class="fa-solid fa-arrow-right"></i>
+      <!-- ACTION BAR -->
+      <div class="pt-4 border-t border-zinc-800/80 flex items-center justify-between text-xs text-zinc-500 font-bold">
+        <span><i class="fa-solid fa-keyboard"></i> 숫자키 1~5번으로 즉시 마킹 가능</span>
+        <button onclick="toggleRevealAnswer()" class="text-brand-400 hover:text-brand-300 hover:underline text-sm font-black flex items-center gap-1.5">
+          <i class="fa-regular fa-eye"></i> 정답 및 해설 바로 확인 (Enter)
         </button>
       </div>
 
     </div>
 
-    <!-- RIGHT: OMR & SUBJECT NAV (30%) -->
-    <aside class="w-full lg:w-84 flex flex-col gap-4">
+    <!-- BOTTOM NAVIGATION (이전 / 초기화 / 다음 버튼) -->
+    <div class="flex items-center justify-between gap-4 py-2">
+      <button onclick="prevQuestion()" class="px-6 py-3.5 bg-zinc-950 border-2 border-zinc-800 hover:border-zinc-700 rounded-2xl font-black text-base text-zinc-200 hover:text-white transition flex items-center gap-2.5 shadow-lg active:scale-95">
+        <i class="fa-solid fa-arrow-left"></i> 이전 문제 (←)
+      </button>
       
-      <!-- OMR Sheet Card -->
-      <div class="bg-zinc-950 border border-zinc-800 rounded-2xl p-4 shadow-sm flex-1 flex flex-col">
-        <div class="flex items-center justify-between pb-3 border-b border-zinc-800 mb-3">
-          <h3 class="font-black text-base flex items-center gap-2 text-white">
-            <i class="fa-solid fa-table-cells text-brand-400"></i> OMR 150제 네비게이터
-          </h3>
-          <span class="text-xs font-bold text-zinc-400" id="answeredRatio">0 / 150</span>
-        </div>
+      <button onclick="resetCurrentExamProgress()" class="text-xs text-zinc-500 hover:text-rose-400 px-3 py-2 font-bold transition">
+        <i class="fa-solid fa-trash-can"></i> 이 시험지 초기화
+      </button>
 
-        <!-- Subject Filter Tabs (6과목) -->
-        <div id="subjectTabs" class="flex flex-wrap gap-1.5 mb-3">
-        </div>
+      <button onclick="nextQuestion()" class="px-8 py-3.5 bg-brand-600 hover:bg-brand-500 text-white rounded-2xl font-black text-base shadow-xl transition flex items-center gap-2.5 active:scale-95">
+        다음 문제 (→) <i class="fa-solid fa-arrow-right"></i>
+      </button>
+    </div>
 
-        <!-- Grid of Questions -->
-        <div id="omrGrid" class="grid grid-cols-5 gap-2 overflow-y-auto max-h-[420px] p-1 custom-scroll flex-1">
-        </div>
-
-        <!-- OMR Legend -->
-        <div class="mt-3 pt-3 border-t border-zinc-800 flex items-center justify-between text-xs font-bold text-zinc-400">
-          <span class="flex items-center gap-1"><span class="w-3 h-3 rounded bg-emerald-500 inline-block"></span> 정답</span>
-          <span class="flex items-center gap-1"><span class="w-3 h-3 rounded bg-rose-500 inline-block"></span> 오답</span>
-          <span class="flex items-center gap-1"><span class="w-3 h-3 rounded bg-brand-500 inline-block"></span> 현재</span>
-          <span class="flex items-center gap-1"><span class="w-3 h-3 rounded bg-zinc-900 border border-zinc-700 inline-block"></span> 미풀이</span>
-        </div>
-
-      </div>
-
-      <!-- Quick Shortcuts Info -->
-      <div class="bg-zinc-950 border border-zinc-800 rounded-2xl p-4 text-xs text-zinc-300">
-        <h4 class="font-black text-sm flex items-center gap-1.5 mb-2 text-white">
-          <i class="fa-solid fa-keyboard text-brand-400"></i> 단축키 안내
+    <!-- OMR 150제 DRAWER / GRID (접었다 폈다 할 수 있는 깔끔한 하단 네비게이터) -->
+    <div class="bg-zinc-950 border border-zinc-800/90 rounded-3xl p-5 shadow-xl">
+      <div class="flex items-center justify-between pb-3 border-b border-zinc-800 mb-3.5">
+        <h4 class="font-black text-sm text-zinc-200 flex items-center gap-2">
+          <i class="fa-solid fa-table-cells text-brand-400"></i> OMR 150문항 맵 (클릭 시 해당 문제로 즉시 이동)
         </h4>
-        <ul class="space-y-1.5 opacity-90 leading-relaxed text-xs text-zinc-300 font-bold">
-          <li>• <kbd class="px-2 py-0.5 bg-zinc-800 text-white rounded border border-zinc-700 font-mono">1</kbd> ~ <kbd class="px-2 py-0.5 bg-zinc-800 text-white rounded border border-zinc-700 font-mono">5</kbd> : 정답 마킹</li>
-          <li>• <kbd class="px-2 py-0.5 bg-zinc-800 text-white rounded border border-zinc-700 font-mono">Space</kbd> / <kbd class="px-2 py-0.5 bg-zinc-800 text-white rounded border border-zinc-700 font-mono">→</kbd> : 다음 문제</li>
-          <li>• <kbd class="px-2 py-0.5 bg-zinc-800 text-white rounded border border-zinc-700 font-mono">←</kbd> : 이전 문제</li>
-          <li>• <kbd class="px-2 py-0.5 bg-zinc-800 text-white rounded border border-zinc-700 font-mono">Enter</kbd> : 해설 보기</li>
-        </ul>
+        <span class="text-xs text-zinc-400 font-bold" id="omrStatsBadge">0 / 150 완료</span>
       </div>
-
-    </aside>
+      
+      <div id="omrGrid" class="grid grid-cols-10 sm:grid-cols-15 md:grid-cols-25 gap-1.5 max-h-48 overflow-y-auto custom-scroll p-1">
+        <!-- 150 small buttons -->
+      </div>
+    </div>
 
   </main>
 
-  <!-- JAVASCRIPT ENGINE -->
+  <!-- JAVASCRIPT LOGIC ENGINE -->
   <script>
     let currentExamId = "mock_1";
     let currentQIndex = 0;
     let currentMode = "study";
-    let zoomStep = parseInt(localStorage.getItem("cbt_zoom_step") || "3"); // 1..5
+    let zoomStep = parseInt(localStorage.getItem("cbt_zoom_hero_step") || "3"); // 1..5 (Default 3: 크게)
     let soundEnabled = true;
     let timerSeconds = 0;
     let timerInterval = null;
@@ -293,14 +225,6 @@
     let activeSubjectFilter = "ALL";
 
     let userState = JSON.parse(localStorage.getItem("cbt_user_state_mock") || "{}");
-
-    const zoomMap = {
-      1: { name: "100%", cls: "scale-text-sm" },
-      2: { name: "115%", cls: "scale-text-base" },
-      3: { name: "130%", cls: "scale-text-lg" },
-      4: { name: "160%", cls: "scale-text-xl" },
-      5: { name: "200%", cls: "scale-text-2xl" }
-    };
 
     const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
     function playBeep(isCorrect) {
@@ -338,27 +262,21 @@
 
     function setZoomStep(step) {
       zoomStep = Math.min(Math.max(1, step), 5);
-      localStorage.setItem("cbt_zoom_step", zoomStep);
-      document.getElementById("zoomSlider").value = zoomStep;
-      document.getElementById("zoomPercentBadge").textContent = zoomMap[zoomStep].name;
+      localStorage.setItem("cbt_zoom_hero_step", zoomStep);
+      
+      const body = document.getElementById("appBody");
+      body.className = `bg-black text-white min-h-screen flex flex-col font-size-${zoomStep} selection:bg-brand-500 selection:text-white`;
 
-      // Update preset buttons styling
       [1, 2, 3, 4, 5].forEach(p => {
-        const btn = document.getElementById(`preset${p}`);
+        const btn = document.getElementById(`zBtn${p}`);
         if (btn) {
           if (zoomStep === p) {
-            btn.className = "preset-btn px-2.5 py-1 rounded-lg bg-brand-600 text-white font-black shadow-sm transition";
+            btn.className = "px-2.5 py-0.5 rounded-lg text-xs font-black bg-brand-600 text-white transition shadow-sm";
           } else {
-            btn.className = "preset-btn px-2.5 py-1 rounded-lg bg-zinc-900 border border-zinc-800 hover:text-white text-zinc-400 transition";
+            btn.className = "px-2 py-0.5 rounded-lg text-xs font-bold text-zinc-400 hover:text-white transition";
           }
         }
       });
-
-      renderQuestion();
-    }
-
-    function adjustZoom(delta) {
-      setZoomStep(zoomStep + delta);
     }
 
     function startTimer() {
@@ -371,11 +289,6 @@
           document.getElementById("timerDisplay").textContent = `${mins}:${secs}`;
         }
       }, 1000);
-    }
-    function toggleTimer() {
-      timerPaused = !timerPaused;
-      const btn = document.getElementById("timerBtn");
-      btn.innerHTML = timerPaused ? '<i class="fa-solid fa-play"></i>' : '<i class="fa-solid fa-pause"></i>';
     }
 
     window.addEventListener("DOMContentLoaded", () => {
@@ -446,16 +359,16 @@
       container.innerHTML = "";
       
       const allBtn = document.createElement("button");
-      allBtn.className = `text-xs px-3 py-1 rounded-lg font-bold ${activeSubjectFilter === 'ALL' ? 'bg-brand-600 text-white' : 'bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-white'}`;
-      allBtn.textContent = "전체 (150제)";
+      allBtn.className = `text-xs px-3.5 py-1.5 rounded-xl font-bold whitespace-nowrap transition ${activeSubjectFilter === 'ALL' ? 'bg-brand-600 text-white shadow-md' : 'bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-white'}`;
+      allBtn.textContent = "전체 150문항";
       allBtn.onclick = () => { activeSubjectFilter = "ALL"; renderSubjectTabs(); renderOMRGrid(); renderQuestion(); };
       container.appendChild(allBtn);
 
-      exam.subjects.forEach(sub => {
+      exam.subjects.forEach((sub, sIdx) => {
         const shortName = sub.split(" ")[0];
         const btn = document.createElement("button");
-        btn.className = `text-xs px-2.5 py-1 rounded-lg font-bold ${activeSubjectFilter === shortName ? 'bg-brand-600 text-white' : 'bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-white'}`;
-        btn.textContent = shortName;
+        btn.className = `text-xs px-3 py-1.5 rounded-xl font-bold whitespace-nowrap transition ${activeSubjectFilter === shortName ? 'bg-brand-600 text-white shadow-md' : 'bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-white'}`;
+        btn.textContent = `${sIdx + 1}. ${shortName}`;
         btn.onclick = () => { activeSubjectFilter = shortName; renderSubjectTabs(); renderOMRGrid(); renderQuestion(); };
         container.appendChild(btn);
       });
@@ -468,7 +381,7 @@
         document.getElementById("qTitleText").textContent = currentMode === 'wrong' ? "틀린 문제가 없습니다! 🎉 만점입니다!" : "문항이 없습니다.";
         document.getElementById("optionsContainer").innerHTML = "";
         document.getElementById("feedbackBanner").classList.add("hidden");
-        document.getElementById("qSubjName").textContent = "완료";
+        document.getElementById("qSubjCategory").textContent = "완료";
         return;
       }
 
@@ -476,46 +389,42 @@
       if (currentQIndex < 0) currentQIndex = 0;
 
       const q = qList[currentQIndex];
-      const fontCls = zoomMap[zoomStep].cls;
 
-      document.getElementById("currentQNumText").textContent = `Q${q.q_num}`;
-      document.getElementById("totalQCountText").textContent = qList.length;
-      document.getElementById("qSubjName").textContent = q.subject;
+      document.getElementById("currentQNumText").textContent = `Q.${String(q.q_num).padStart(2, '0')}`;
+      document.getElementById("qSubjCategory").textContent = q.subject;
       document.getElementById("subjectBadge").textContent = q.subject;
 
-      // Question Title in Pure Malgun Gothic Text
+      // Question Title
       const titleElem = document.getElementById("qTitleText");
-      titleElem.className = `font-bold text-white leading-relaxed tracking-tight ${fontCls}`;
-      titleElem.textContent = `${q.q_num}. ${q.title.replace(/^\[.*?\]\s*/, '')}`;
+      titleElem.textContent = q.title.replace(/^\[.*?\]\s*/, '');
 
-      // Bookmark State
+      // Bookmark
       const isBookmarked = (userState[currentExamId]?.bookmarks || []).includes(q.q_num);
       const bmBtn = document.getElementById("bookmarkBtn");
-      bmBtn.innerHTML = isBookmarked ? '<i class="fa-solid fa-star text-amber-400"></i> 북마크됨' : '<i class="fa-regular fa-star"></i> 북마크';
+      bmBtn.innerHTML = isBookmarked ? '<i class="fa-solid fa-star text-amber-400 text-lg"></i>' : '<i class="fa-regular fa-star text-lg"></i>';
 
-      // Render Option Cards
+      // Render 5 Option Cards
       const optionsContainer = document.getElementById("optionsContainer");
       optionsContainer.innerHTML = "";
 
       const saved = userState[currentExamId]?.answers[q.q_num];
       const banner = document.getElementById("feedbackBanner");
-
       const optIcons = ["①", "②", "③", "④", "⑤"];
 
       q.options.forEach((optText, optIdx) => {
         const optNum = optIdx + 1;
         const btn = document.createElement("div");
         
-        let borderClass = "border-zinc-800 bg-zinc-900/90 text-zinc-100 hover:border-brand-500 hover:bg-brand-950/40";
+        let borderClass = "border-zinc-800/90 bg-zinc-900/80 text-zinc-100 hover:border-brand-500 hover:bg-brand-950/40";
         let numBg = "bg-zinc-800 text-zinc-300";
 
         if (saved) {
           if (optNum === saved.selected) {
             if (saved.isCorrect) {
-              borderClass = "border-emerald-500 bg-emerald-950/70 text-emerald-200 ring-2 ring-emerald-500/50 shadow-lg";
+              borderClass = "border-emerald-500 bg-emerald-950/70 text-emerald-200 ring-2 ring-emerald-500/50 shadow-xl";
               numBg = "bg-emerald-500 text-white font-black";
             } else {
-              borderClass = "border-rose-500 bg-rose-950/70 text-rose-200 ring-2 ring-rose-500/50 shadow-lg";
+              borderClass = "border-rose-500 bg-rose-950/70 text-rose-200 ring-2 ring-rose-500/50 shadow-xl";
               numBg = "bg-rose-500 text-white font-black";
             }
           } else if (optNum === q.ans) {
@@ -524,16 +433,15 @@
           }
         }
 
-        btn.className = `p-4 rounded-2xl border-2 transition-all cursor-pointer flex items-start gap-3.5 shadow-sm active:scale-[0.99] ${borderClass} ${fontCls}`;
+        btn.className = `p-4 sm:p-5 rounded-2xl border-2 transition-all cursor-pointer flex items-start gap-4 shadow-md active:scale-[0.99] ${borderClass}`;
         btn.innerHTML = `
-          <span class="w-8 h-8 rounded-xl flex items-center justify-center text-base font-black shrink-0 ${numBg}">${optIcons[optIdx]}</span>
-          <span class="flex-1 font-medium pt-0.5 leading-relaxed">${optText}</span>
+          <span class="w-9 h-9 sm:w-10 sm:h-10 rounded-xl flex items-center justify-center text-lg sm:text-xl font-black shrink-0 ${numBg}">${optIcons[optIdx]}</span>
+          <span class="flex-1 opt-text pt-1 font-semibold leading-relaxed">${optText}</span>
         `;
         btn.onclick = () => selectOption(optNum);
         optionsContainer.appendChild(btn);
       });
 
-      // Show Feedback & Explanation if answered
       if (saved) {
         showFeedback(saved.isCorrect, q.ans, q.exp);
       } else {
@@ -573,14 +481,14 @@
       expText.textContent = explanation || "해당 이론의 핵심 출제 개념을 다시 한번 복습하세요.";
 
       if (isCorrect) {
-        banner.className = "mt-6 p-5 rounded-2xl flex flex-col gap-3 transition-all bg-emerald-950/80 border border-emerald-700 text-emerald-100 shadow-xl";
-        icon.className = "w-12 h-12 rounded-full flex items-center justify-center text-2xl bg-emerald-500 text-white font-black shadow";
+        banner.className = "mt-6 p-5 sm:p-6 rounded-2xl flex flex-col gap-3.5 transition-all bg-emerald-950/80 border-2 border-emerald-700 text-emerald-100 shadow-2xl";
+        icon.className = "w-12 h-12 rounded-2xl flex items-center justify-center text-2xl bg-emerald-500 text-white font-black shadow-lg";
         icon.innerHTML = '<i class="fa-solid fa-check"></i>';
         title.textContent = "정답입니다! 🎉";
         desc.textContent = "정확하게 정답을 맞추셨습니다! 다음 문제로 이동하세요.";
       } else {
-        banner.className = "mt-6 p-5 rounded-2xl flex flex-col gap-3 transition-all bg-rose-950/80 border border-rose-700 text-rose-100 shadow-xl";
-        icon.className = "w-12 h-12 rounded-full flex items-center justify-center text-2xl bg-rose-500 text-white font-black shadow";
+        banner.className = "mt-6 p-5 sm:p-6 rounded-2xl flex flex-col gap-3.5 transition-all bg-rose-950/80 border-2 border-rose-700 text-rose-100 shadow-2xl";
+        icon.className = "w-12 h-12 rounded-2xl flex items-center justify-center text-2xl bg-rose-500 text-white font-black shadow-lg";
         icon.innerHTML = '<i class="fa-solid fa-xmark"></i>';
         title.textContent = `오답입니다 (정답: ${ansNum}번)`;
         desc.textContent = "틀린 문제는 오답노트에 자동 등록되었습니다.";
@@ -640,15 +548,15 @@
         const isCurrent = (idx === currentQIndex);
         const ansInfo = examState[q.q_num];
 
-        let bgClass = "bg-zinc-900 border border-zinc-800 text-zinc-300 hover:bg-zinc-800";
+        let bgClass = "bg-zinc-900 border border-zinc-800 text-zinc-400 hover:bg-zinc-800";
         if (ansInfo) {
           bgClass = ansInfo.isCorrect ? "bg-emerald-600 text-white font-bold border-emerald-500 shadow-sm" : "bg-rose-600 text-white font-bold border-rose-500 shadow-sm";
         }
         if (isCurrent) {
-          bgClass += " ring-2 ring-brand-400 ring-offset-2 ring-offset-black scale-105 font-black";
+          bgClass += " ring-2 ring-brand-400 scale-105 font-black text-white";
         }
 
-        btn.className = `py-2 rounded-xl text-xs font-bold transition flex items-center justify-center ${bgClass}`;
+        btn.className = `py-1.5 rounded-lg text-xs font-bold transition flex items-center justify-center ${bgClass}`;
         btn.textContent = q.q_num;
         btn.onclick = () => jumpToQuestion(idx);
         grid.appendChild(btn);
@@ -656,6 +564,7 @@
 
       const answeredCount = Object.keys(examState).length;
       document.getElementById("answeredRatio").textContent = `${answeredCount} / ${qList.length}`;
+      document.getElementById("omrStatsBadge").textContent = `${answeredCount} / ${qList.length} 완료`;
     }
 
     function updateStats() {
@@ -678,24 +587,22 @@
 
       const acc = totalAnswered > 0 ? Math.round((correct / totalAnswered) * 100) : 0;
       document.getElementById("accuracyText").textContent = acc;
-
-      const qList = getFilteredQuestions();
-      const progressPercent = qList.length > 0 ? Math.round(((currentQIndex + 1) / qList.length) * 100) : 0;
-      document.getElementById("progressBar").style.width = `${progressPercent}%`;
     }
 
     function setMode(mode) {
       currentMode = mode;
       currentQIndex = 0;
 
-      ['study', 'wrong', 'exam'].forEach(m => {
-        const btn = document.getElementById(`mode${m.charAt(0).toUpperCase() + m.slice(1)}Btn`);
-        if (m === mode) {
-          btn.className = "px-3 py-1.5 rounded-lg bg-zinc-800 text-brand-400 font-bold flex items-center gap-1.5";
-        } else {
-          btn.className = "px-3 py-1.5 rounded-lg text-zinc-400 hover:text-white flex items-center gap-1.5";
-        }
-      });
+      const sBtn = document.getElementById("modeStudyBtn");
+      const wBtn = document.getElementById("modeWrongBtn");
+
+      if (mode === 'study') {
+        sBtn.className = "px-3 py-1 rounded-lg bg-zinc-800 text-brand-400";
+        wBtn.className = "px-3 py-1 rounded-lg text-zinc-400 hover:text-white";
+      } else {
+        wBtn.className = "px-3 py-1 rounded-lg bg-zinc-800 text-brand-400";
+        sBtn.className = "px-3 py-1 rounded-lg text-zinc-400 hover:text-white";
+      }
 
       renderQuestion();
     }
@@ -725,9 +632,9 @@
           e.preventDefault();
           toggleRevealAnswer();
         } else if (e.key === '+' || e.key === '=') {
-          adjustZoom(1);
+          setZoomStep(zoomStep + 1);
         } else if (e.key === '-' || e.key === '_') {
-          adjustZoom(-1);
+          setZoomStep(zoomStep - 1);
         }
       });
     }
