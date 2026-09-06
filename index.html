@@ -607,6 +607,16 @@
       });
     }
 
+    function highlightKeywords(text) {
+      if (!text) return "";
+      let clean = text.replace(/^\[.*?\]\s*/, '');
+      clean = clean.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+      
+      // 부정형/반대 질문 키워드 노란색 강조 (사용자 요청: '않은' 노란색 표시)
+      const highlightRegex = /(옳지\s*않은|적절하지\s*않은|포함되지\s*않은|해당하지\s*않은|알맞지\s*않은|바르지\s*않은|틀린|아닌|부적절한|거리가\s*먼|않은)/g;
+      return clean.replace(highlightRegex, '<span style="color: #facc15; font-weight: 900; text-decoration: underline; text-underline-offset: 4px; padding: 0 2px;">$1</span>');
+    }
+
     function renderQuestion() {
       const qList = getFilteredQuestions();
       if (qList.length === 0) {
@@ -627,8 +637,8 @@
       document.getElementById("qSubjTitle").textContent = q.subject;
       document.getElementById("progressText").textContent = `${q.q_num} / ${qList.length}`;
 
-      // Title
-      document.getElementById("qTitleText").textContent = q.title.replace(/^\[.*?\]\s*/, '');
+      // Title (With Yellow Highlight on '않은')
+      document.getElementById("qTitleText").innerHTML = highlightKeywords(q.title);
 
       // Options
       const optionsContainer = document.getElementById("optionsContainer");
