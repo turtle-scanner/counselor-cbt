@@ -1,4114 +1,22651 @@
 window.EXAM_DATA = {
-  "2025_1": {
-    "id": "2025_1",
-    "title": "2025년 제24회 2급 1교시 (1~100번)",
+  "mock_1": {
+    "id": "mock_1",
+    "title": "제1회 실전 모의고사 (150제 풀세트)",
+    "total": 150,
     "subjects": [
-      "청소년상담의 이론과 실제 (1~25)",
-      "상담연구방법론의 기초 (26~50)",
-      "심리측정 및 평가 (51~75)",
-      "청소년이해론 (76~100)"
+      "청소년상담의 이론과 실제",
+      "상담연구방법론의 기초",
+      "심리측정 및 평가",
+      "청소년이해론",
+      "가족상담",
+      "집단상담"
     ],
-    "total": 99,
     "questions": [
       {
         "q_num": 1,
         "subject": "청소년상담의 이론과 실제",
-        "page": 1,
-        "img": "img/2025_1/q_1.png",
-        "ans": 4,
-        "height": 215,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 청소년상담의 기본 원리와 특성에 관한 설명으로 가장 옳지 않은 것은?",
+        "options": [
+          "청소년의 발달적 특성과 위기 상황을 고려하여 예방적·치료적 개입을 병행한다.",
+          "상담자는 비자발적인 청소년 내담자의 저항과 침묵을 수용하고 다룬다.",
+          "상담 성과를 극대화하기 위해 초기 구조화 단계에서 상담의 모든 문제 해결을 보장한다.",
+          "상담목표는 구체적이고 관찰 가능하며 내담자와 합의된 형태로 설정해야 한다.",
+          "상담과정에서 비밀보장의 원칙을 준수하되, 자해나 타해 등 위기 상황 시 예외를 적용한다."
+        ],
+        "ans": 3,
+        "exp": "상담자는 초기 구조화 시 상담의 효과나 문제 해결을 무조건 보장해서는 안 되며, 상담의 한계와 내담자의 주체적 협력을 명확히 안내해야 합니다."
       },
       {
         "q_num": 2,
         "subject": "청소년상담의 이론과 실제",
-        "page": 1,
-        "img": "img/2025_1/q_2.png",
-        "ans": 5,
-        "height": 385,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 프로이트(S. Freud)의 정신분석 이론에서 자아방어기제에 관한 설명으로 옳은 것은?",
+        "options": [
+          "투사(Projection)는 용납할 수 없는 자신의 충동이나 생각을 타인의 탓으로 돌리는 것이다.",
+          "반동형성(Reaction Formation)은 고통스러운 기억을 의식 밖으로 밀어내는 것이다.",
+          "합리화(Rationalization)는 스트레스 상황에서 이전의 발달 단계로 퇴행하는 것이다.",
+          "전치(Displacement)는 사회적으로 유용한 출구로 본능적 충동을 전환하는 것이다.",
+          "승화(Sublimation)는 자신의 결점을 감추기 위해 다른 장점을 과도하게 강조하는 것이다."
+        ],
+        "ans": 1,
+        "exp": "자신의 용납하기 어려운 충동·감정을 타인의 것으로 지각하는 것은 '투사(Projection)'입니다. 사회적 유용한 출구로 전환하는 것은 '승화'입니다."
       },
       {
         "q_num": 3,
         "subject": "청소년상담의 이론과 실제",
-        "page": 1,
-        "img": "img/2025_1/q_3.png",
-        "ans": 4,
-        "height": 384,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아들러(A. Adler)의 개인심리학 이론의 주요 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "열등감은 인간의 성장과 발달을 가로막는 비정상적인 병리 현상이다.",
+          "생활양식(Life Style)은 유전과 환경에 의해 수동적으로 결정되어 변화가 불가능하다.",
+          "사회적 관심(Social Interest)은 타인과 협동하고 공동체 복지에 기여하려는 선천적 잠재력이다.",
+          "우월성 추구는 타인을 지배하고 억압하려는 이기적 권력욕이다.",
+          "출생순위는 성격 형성에 절대적이고 유일한 결정 요인으로 작용한다."
+        ],
+        "ans": 3,
+        "exp": "아들러는 사회적 관심을 공동체감으로 보며 정신건강의 핵심 척도로 간주했습니다. 열등감은 모든 인간에게 보편적이며 자기완성의 원동력입니다."
       },
       {
         "q_num": 4,
         "subject": "청소년상담의 이론과 실제",
-        "page": 1,
-        "img": "img/2025_1/q_4.png",
-        "ans": 5,
-        "height": 406,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 로저스(C. Rogers)의 인간중심상담에서 상담자의 3대 필수 치료적 태도로 옳은 것은?",
+        "options": [
+          "해석적 통찰, 직면, 적극적 지시",
+          "일치성(진실성), 무조건적 긍정적 존중, 공감적 이해",
+          "자유연상, 저항 분석, 전이 해석",
+          "논박, 인지 재구조화, 행동 계약",
+          "탈숙고, 역설적 의도, 의미 발견"
+        ],
+        "ans": 2,
+        "exp": "로저스의 3대 필요충분조건은 상담자의 진실성(일치성), 무조건적 긍정적 존중, 공감적 이해입니다."
       },
       {
         "q_num": 5,
         "subject": "청소년상담의 이론과 실제",
-        "page": 1,
-        "img": "img/2025_1/q_5.png",
-        "ans": 5,
-        "height": 307,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 게슈탈트(Gestalt) 상담에서 '타인에게 표출하고 싶은 충동이나 분노를 자신에게 돌려 자해하거나 자책하는 접촉경계혼란'은?",
+        "options": [
+          "내사 (Introjection)",
+          "투사 (Projection)",
+          "반전 (Retroflection)",
+          "융합 (Confluence)",
+          "편향 (Deflection)"
+        ],
+        "ans": 3,
+        "exp": "타인에게 향할 에너지를 자신에게로 되돌려 자해나 자책으로 나타내는 것은 '반전(Retroflection)'입니다."
       },
       {
         "q_num": 6,
         "subject": "청소년상담의 이론과 실제",
-        "page": 2,
-        "img": "img/2025_1/q_6.png",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 엘리스(A. Ellis)의 REBT 3대 당위성과 논박에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "A(선행사건) ➔ B(신념체계) ➔ C(정서적·행동적 결과)로 이어진다.",
+          "D(논박)에는 경험적(실증적) 논박, 논리적 논박, 실용적(기능적) 논박이 있다.",
+          "자신에 대한 당위성은 '나는 반드시 완벽하게 성공해야만 한다'는 신념이다.",
+          "실용적 논박은 '그 생각이 당신의 목표를 달성하는 데 실제로 도움이 됩니까?'라고 묻는 것이다.",
+          "경험적 논박은 '그 신념이 논리적으로 타당하고 앞뒤가 맞습니까?'라고 묻는 것이다."
+        ],
         "ans": 5,
-        "height": 457,
-        "width": 1363
+        "exp": "경험적(실증적) 논박은 '그 생각이 사실이라는 객관적 증거가 어디 있습니까?'라고 묻는 것이며, 논리적 타당성을 묻는 것은 '논리적 논박'입니다."
       },
       {
         "q_num": 7,
         "subject": "청소년상담의 이론과 실제",
-        "page": 2,
-        "img": "img/2025_1/q_7.png",
-        "ans": 0,
-        "height": 384,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아론 벡(A. Beck)의 인지치료에서 자동적 사고 밑바탕의 핵심신념(Core Beliefs)을 파헤치기 위해 사용하는 기법은?",
+        "options": [
+          "재귀인 기법",
+          "탈파국화 기법",
+          "하향 화살표 기법 (Downward Arrow)",
+          "인지 재구조화",
+          "사고 중지 기법"
+        ],
+        "ans": 3,
+        "exp": "'만약 그 생각이 사실이라면, 그것이 당신에게 무엇을 의미합니까?'를 거듭 질문하여 심층의 핵심신념을 도출하는 것은 '하향 화살표 기법'입니다."
       },
       {
         "q_num": 8,
         "subject": "청소년상담의 이론과 실제",
-        "page": 2,
-        "img": "img/2025_1/q_8.png",
-        "ans": 5,
-        "height": 385,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 글래서(W. Glasser)의 현실치료 WDEP 모델 중 E(Evaluation, 자기평가) 단계의 질문으로 옳은 것은?",
+        "options": [
+          "당신이 진정으로 원하는 바람(Want)은 무엇입니까?",
+          "지금 당신이 하고 있는 그 행동이 당신이 원하는 것을 얻는 데 도움이 됩니까?",
+          "내일부터 당장 실천할 수 있는 구체적인 계획을 세워볼까요?",
+          "당신의 기본 욕구 5가지 중 가장 강한 욕구는 무엇입니까?",
+          "어릴 적 부모님과의 애착 관계는 어떠했습니까?"
+        ],
+        "ans": 2,
+        "exp": "E(자기평가) 단계는 내담자가 자신의 행동(Doing)이 바람(Want)을 성취하는 데 유용한지 스스로 평가하게 돕는 핵심 단계입니다."
       },
       {
         "q_num": 9,
         "subject": "청소년상담의 이론과 실제",
-        "page": 2,
-        "img": "img/2025_1/q_9.png",
-        "ans": 4,
-        "height": 648,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 해결중심 단기상담(SFBT)의 5대 질문 기법에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "기적 질문: 문제가 자는 동안 해결되었다는 가상의 상황을 상상하게 한다.",
+          "예외 질문: 문제가 발생하지 않았거나 덜 심각했던 성공적 순간을 탐색한다.",
+          "척도 질문: 내담자의 주관적 상태와 변화를 1~10점 수치로 표현하게 한다.",
+          "대처 질문: 절망적인 상황에서도 더 나빠지지 않고 견뎌낸 힘을 인정한다.",
+          "관계성 질문: 과거 원가족과의 무의식적 갈등 관계를 분석하고 통찰시킨다."
+        ],
+        "ans": 5,
+        "exp": "해결중심 단기상담의 '관계성 질문'은 '당신의 어머니가 지금 당신의 변화를 본다면 뭐라고 말씀하실까요?'처럼 타인의 시각에서 자신을 관찰하게 돕는 질문입니다."
       },
       {
         "q_num": 10,
         "subject": "청소년상담의 이론과 실제",
-        "page": 3,
-        "img": "img/2025_1/q_10.png",
-        "ans": 4,
-        "height": 384,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 행동주의 상담에서 표적 문제행동이 정해진 시간 동안 전혀 발생하지 않았을 때 보상을 제공하는 차별강화 기법은?",
+        "options": [
+          "대체행동 차별강화 (DRA)",
+          "상반행동 차별강화 (DRI)",
+          "다른행동(무반응) 차별강화 (DRO)",
+          "저빈도 차별강화 (DRL)",
+          "점진적 차별강화 (DRP)"
+        ],
+        "ans": 3,
+        "exp": "정해진 시간 동안 문제행동이 0회(Zero rate) 발생했을 때 강화를 제공하는 기법은 '다른행동 차별강화(DRO)'입니다."
       },
       {
         "q_num": 11,
         "subject": "청소년상담의 이론과 실제",
-        "page": 3,
-        "img": "img/2025_1/q_11.png",
-        "ans": 1,
-        "height": 272,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 청소년상담의 기본 원리와 특성에 관한 설명으로 가장 옳지 않은 것은?",
+        "options": [
+          "청소년의 발달적 특성과 위기 상황을 고려하여 예방적·치료적 개입을 병행한다.",
+          "상담자는 비자발적인 청소년 내담자의 저항과 침묵을 수용하고 다룬다.",
+          "상담 성과를 극대화하기 위해 초기 구조화 단계에서 상담의 모든 문제 해결을 보장한다.",
+          "상담목표는 구체적이고 관찰 가능하며 내담자와 합의된 형태로 설정해야 한다.",
+          "상담과정에서 비밀보장의 원칙을 준수하되, 자해나 타해 등 위기 상황 시 예외를 적용한다."
+        ],
+        "ans": 3,
+        "exp": "상담자는 초기 구조화 시 상담의 효과나 문제 해결을 무조건 보장해서는 안 되며, 상담의 한계와 내담자의 주체적 협력을 명확히 안내해야 합니다."
       },
       {
         "q_num": 12,
         "subject": "청소년상담의 이론과 실제",
-        "page": 3,
-        "img": "img/2025_1/q_12.png",
-        "ans": 4,
-        "height": 384,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 프로이트(S. Freud)의 정신분석 이론에서 자아방어기제에 관한 설명으로 옳은 것은?",
+        "options": [
+          "투사(Projection)는 용납할 수 없는 자신의 충동이나 생각을 타인의 탓으로 돌리는 것이다.",
+          "반동형성(Reaction Formation)은 고통스러운 기억을 의식 밖으로 밀어내는 것이다.",
+          "합리화(Rationalization)는 스트레스 상황에서 이전의 발달 단계로 퇴행하는 것이다.",
+          "전치(Displacement)는 사회적으로 유용한 출구로 본능적 충동을 전환하는 것이다.",
+          "승화(Sublimation)는 자신의 결점을 감추기 위해 다른 장점을 과도하게 강조하는 것이다."
+        ],
+        "ans": 1,
+        "exp": "자신의 용납하기 어려운 충동·감정을 타인의 것으로 지각하는 것은 '투사(Projection)'입니다. 사회적 유용한 출구로 전환하는 것은 '승화'입니다."
       },
       {
         "q_num": 13,
         "subject": "청소년상담의 이론과 실제",
-        "page": 3,
-        "img": "img/2025_1/q_13.png",
-        "ans": 2,
-        "height": 215,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아들러(A. Adler)의 개인심리학 이론의 주요 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "열등감은 인간의 성장과 발달을 가로막는 비정상적인 병리 현상이다.",
+          "생활양식(Life Style)은 유전과 환경에 의해 수동적으로 결정되어 변화가 불가능하다.",
+          "사회적 관심(Social Interest)은 타인과 협동하고 공동체 복지에 기여하려는 선천적 잠재력이다.",
+          "우월성 추구는 타인을 지배하고 억압하려는 이기적 권력욕이다.",
+          "출생순위는 성격 형성에 절대적이고 유일한 결정 요인으로 작용한다."
+        ],
+        "ans": 3,
+        "exp": "아들러는 사회적 관심을 공동체감으로 보며 정신건강의 핵심 척도로 간주했습니다. 열등감은 모든 인간에게 보편적이며 자기완성의 원동력입니다."
       },
       {
         "q_num": 14,
         "subject": "청소년상담의 이론과 실제",
-        "page": 3,
-        "img": "img/2025_1/q_14.png",
-        "ans": 5,
-        "height": 369,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 로저스(C. Rogers)의 인간중심상담에서 상담자의 3대 필수 치료적 태도로 옳은 것은?",
+        "options": [
+          "해석적 통찰, 직면, 적극적 지시",
+          "일치성(진실성), 무조건적 긍정적 존중, 공감적 이해",
+          "자유연상, 저항 분석, 전이 해석",
+          "논박, 인지 재구조화, 행동 계약",
+          "탈숙고, 역설적 의도, 의미 발견"
+        ],
+        "ans": 2,
+        "exp": "로저스의 3대 필요충분조건은 상담자의 진실성(일치성), 무조건적 긍정적 존중, 공감적 이해입니다."
       },
       {
         "q_num": 15,
         "subject": "청소년상담의 이론과 실제",
-        "page": 3,
-        "img": "img/2025_1/q_15.png",
-        "ans": 2,
-        "height": 252,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 게슈탈트(Gestalt) 상담에서 '타인에게 표출하고 싶은 충동이나 분노를 자신에게 돌려 자해하거나 자책하는 접촉경계혼란'은?",
+        "options": [
+          "내사 (Introjection)",
+          "투사 (Projection)",
+          "반전 (Retroflection)",
+          "융합 (Confluence)",
+          "편향 (Deflection)"
+        ],
+        "ans": 3,
+        "exp": "타인에게 향할 에너지를 자신에게로 되돌려 자해나 자책으로 나타내는 것은 '반전(Retroflection)'입니다."
       },
       {
         "q_num": 16,
         "subject": "청소년상담의 이론과 실제",
-        "page": 4,
-        "img": "img/2025_1/q_16.png",
-        "ans": 1,
-        "height": 384,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 엘리스(A. Ellis)의 REBT 3대 당위성과 논박에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "A(선행사건) ➔ B(신념체계) ➔ C(정서적·행동적 결과)로 이어진다.",
+          "D(논박)에는 경험적(실증적) 논박, 논리적 논박, 실용적(기능적) 논박이 있다.",
+          "자신에 대한 당위성은 '나는 반드시 완벽하게 성공해야만 한다'는 신념이다.",
+          "실용적 논박은 '그 생각이 당신의 목표를 달성하는 데 실제로 도움이 됩니까?'라고 묻는 것이다.",
+          "경험적 논박은 '그 신념이 논리적으로 타당하고 앞뒤가 맞습니까?'라고 묻는 것이다."
+        ],
+        "ans": 5,
+        "exp": "경험적(실증적) 논박은 '그 생각이 사실이라는 객관적 증거가 어디 있습니까?'라고 묻는 것이며, 논리적 타당성을 묻는 것은 '논리적 논박'입니다."
       },
       {
         "q_num": 17,
         "subject": "청소년상담의 이론과 실제",
-        "page": 4,
-        "img": "img/2025_1/q_17.png",
-        "ans": 4,
-        "height": 539,
-        "width": 1363
-      },
-      {
-        "q_num": 19,
-        "subject": "청소년상담의 이론과 실제",
-        "page": 4,
-        "img": "img/2025_1/q_19.png",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아론 벡(A. Beck)의 인지치료에서 자동적 사고 밑바탕의 핵심신념(Core Beliefs)을 파헤치기 위해 사용하는 기법은?",
+        "options": [
+          "재귀인 기법",
+          "탈파국화 기법",
+          "하향 화살표 기법 (Downward Arrow)",
+          "인지 재구조화",
+          "사고 중지 기법"
+        ],
         "ans": 3,
-        "height": 281,
-        "width": 1363
-      },
-      {
-        "q_num": 20,
-        "subject": "청소년상담의 이론과 실제",
-        "page": 4,
-        "img": "img/2025_1/q_20.png",
-        "ans": 1,
-        "height": 670,
-        "width": 1363
-      },
-      {
-        "q_num": 21,
-        "subject": "청소년상담의 이론과 실제",
-        "page": 5,
-        "img": "img/2025_1/q_21.png",
-        "ans": 3,
-        "height": 395,
-        "width": 1363
-      },
-      {
-        "q_num": 22,
-        "subject": "청소년상담의 이론과 실제",
-        "page": 5,
-        "img": "img/2025_1/q_22.png",
-        "ans": 2,
-        "height": 603,
-        "width": 1363
-      },
-      {
-        "q_num": 23,
-        "subject": "청소년상담의 이론과 실제",
-        "page": 5,
-        "img": "img/2025_1/q_23.png",
-        "ans": 1,
-        "height": 875,
-        "width": 1363
-      },
-      {
-        "q_num": 24,
-        "subject": "청소년상담의 이론과 실제",
-        "page": 6,
-        "img": "img/2025_1/q_24.png",
-        "ans": 1,
-        "height": 638,
-        "width": 1363
-      },
-      {
-        "q_num": 25,
-        "subject": "청소년상담의 이론과 실제",
-        "page": 6,
-        "img": "img/2025_1/q_25.png",
-        "ans": 5,
-        "height": 1234,
-        "width": 1363
-      },
-      {
-        "q_num": 26,
-        "subject": "상담연구방법론의 기초",
-        "page": 7,
-        "img": "img/2025_1/q_26.png",
-        "ans": 3,
-        "height": 376,
-        "width": 1363
-      },
-      {
-        "q_num": 27,
-        "subject": "상담연구방법론의 기초",
-        "page": 7,
-        "img": "img/2025_1/q_27.png",
-        "ans": 2,
-        "height": 197,
-        "width": 1363
-      },
-      {
-        "q_num": 28,
-        "subject": "상담연구방법론의 기초",
-        "page": 7,
-        "img": "img/2025_1/q_28.png",
-        "ans": 5,
-        "height": 364,
-        "width": 1363
-      },
-      {
-        "q_num": 29,
-        "subject": "상담연구방법론의 기초",
-        "page": 7,
-        "img": "img/2025_1/q_29.png",
-        "ans": 1,
-        "height": 421,
-        "width": 1363
-      },
-      {
-        "q_num": 30,
-        "subject": "상담연구방법론의 기초",
-        "page": 7,
-        "img": "img/2025_1/q_30.png",
-        "ans": 2,
-        "height": 378,
-        "width": 1363
-      },
-      {
-        "q_num": 31,
-        "subject": "상담연구방법론의 기초",
-        "page": 8,
-        "img": "img/2025_1/q_31.png",
-        "ans": 4,
-        "height": 384,
-        "width": 1363
-      },
-      {
-        "q_num": 32,
-        "subject": "상담연구방법론의 기초",
-        "page": 8,
-        "img": "img/2025_1/q_32.png",
-        "ans": 3,
-        "height": 596,
-        "width": 1363
-      },
-      {
-        "q_num": 33,
-        "subject": "상담연구방법론의 기초",
-        "page": 8,
-        "img": "img/2025_1/q_33.png",
-        "ans": 3,
-        "height": 417,
-        "width": 1363
-      },
-      {
-        "q_num": 34,
-        "subject": "상담연구방법론의 기초",
-        "page": 8,
-        "img": "img/2025_1/q_34.png",
-        "ans": 5,
-        "height": 477,
-        "width": 1363
-      },
-      {
-        "q_num": 35,
-        "subject": "상담연구방법론의 기초",
-        "page": 9,
-        "img": "img/2025_1/q_35.png",
-        "ans": 5,
-        "height": 369,
-        "width": 1363
-      },
-      {
-        "q_num": 36,
-        "subject": "상담연구방법론의 기초",
-        "page": 9,
-        "img": "img/2025_1/q_36.png",
-        "ans": 2,
-        "height": 385,
-        "width": 1363
-      },
-      {
-        "q_num": 37,
-        "subject": "상담연구방법론의 기초",
-        "page": 9,
-        "img": "img/2025_1/q_37.png",
-        "ans": 5,
-        "height": 369,
-        "width": 1363
-      },
-      {
-        "q_num": 38,
-        "subject": "상담연구방법론의 기초",
-        "page": 9,
-        "img": "img/2025_1/q_38.png",
-        "ans": 4,
-        "height": 751,
-        "width": 1363
-      },
-      {
-        "q_num": 39,
-        "subject": "상담연구방법론의 기초",
-        "page": 10,
-        "img": "img/2025_1/q_39.png",
-        "ans": 5,
-        "height": 947,
-        "width": 1363
-      },
-      {
-        "q_num": 40,
-        "subject": "상담연구방법론의 기초",
-        "page": 10,
-        "img": "img/2025_1/q_40.png",
-        "ans": 1,
-        "height": 384,
-        "width": 1363
-      },
-      {
-        "q_num": 41,
-        "subject": "상담연구방법론의 기초",
-        "page": 10,
-        "img": "img/2025_1/q_41.png",
-        "ans": 3,
-        "height": 542,
-        "width": 1363
-      },
-      {
-        "q_num": 42,
-        "subject": "상담연구방법론의 기초",
-        "page": 11,
-        "img": "img/2025_1/q_42.png",
-        "ans": 1,
-        "height": 384,
-        "width": 1363
-      },
-      {
-        "q_num": 43,
-        "subject": "상담연구방법론의 기초",
-        "page": 11,
-        "img": "img/2025_1/q_43.png",
-        "ans": 5,
-        "height": 385,
-        "width": 1363
-      },
-      {
-        "q_num": 44,
-        "subject": "상담연구방법론의 기초",
-        "page": 11,
-        "img": "img/2025_1/q_44.png",
-        "ans": 5,
-        "height": 399,
-        "width": 1363
-      },
-      {
-        "q_num": 45,
-        "subject": "상담연구방법론의 기초",
-        "page": 11,
-        "img": "img/2025_1/q_45.png",
-        "ans": 4,
-        "height": 706,
-        "width": 1363
-      },
-      {
-        "q_num": 46,
-        "subject": "상담연구방법론의 기초",
-        "page": 12,
-        "img": "img/2025_1/q_46.png",
-        "ans": 4,
-        "height": 384,
-        "width": 1363
-      },
-      {
-        "q_num": 47,
-        "subject": "상담연구방법론의 기초",
-        "page": 12,
-        "img": "img/2025_1/q_47.png",
-        "ans": 5,
-        "height": 370,
-        "width": 1363
-      },
-      {
-        "q_num": 48,
-        "subject": "상담연구방법론의 기초",
-        "page": 12,
-        "img": "img/2025_1/q_48.png",
-        "ans": 2,
-        "height": 202,
-        "width": 1363
-      },
-      {
-        "q_num": 49,
-        "subject": "상담연구방법론의 기초",
-        "page": 12,
-        "img": "img/2025_1/q_49.png",
-        "ans": 3,
-        "height": 428,
-        "width": 1363
-      },
-      {
-        "q_num": 50,
-        "subject": "상담연구방법론의 기초",
-        "page": 12,
-        "img": "img/2025_1/q_50.png",
-        "ans": 4,
-        "height": 491,
-        "width": 1363
-      },
-      {
-        "q_num": 51,
-        "subject": "심리측정 및 평가",
-        "page": 13,
-        "img": "img/2025_1/q_51.png",
-        "ans": 1,
-        "height": 596,
-        "width": 1363
-      },
-      {
-        "q_num": 52,
-        "subject": "심리측정 및 평가",
-        "page": 13,
-        "img": "img/2025_1/q_52.png",
-        "ans": 5,
-        "height": 362,
-        "width": 1363
-      },
-      {
-        "q_num": 53,
-        "subject": "심리측정 및 평가",
-        "page": 13,
-        "img": "img/2025_1/q_53.png",
-        "ans": 4,
-        "height": 384,
-        "width": 1363
-      },
-      {
-        "q_num": 54,
-        "subject": "심리측정 및 평가",
-        "page": 13,
-        "img": "img/2025_1/q_54.png",
-        "ans": 5,
-        "height": 393,
-        "width": 1363
-      },
-      {
-        "q_num": 55,
-        "subject": "심리측정 및 평가",
-        "page": 14,
-        "img": "img/2025_1/q_55.png",
-        "ans": 5,
-        "height": 384,
-        "width": 1363
-      },
-      {
-        "q_num": 56,
-        "subject": "심리측정 및 평가",
-        "page": 14,
-        "img": "img/2025_1/q_56.png",
-        "ans": 3,
-        "height": 385,
-        "width": 1363
-      },
-      {
-        "q_num": 57,
-        "subject": "심리측정 및 평가",
-        "page": 14,
-        "img": "img/2025_1/q_57.png",
-        "ans": 4,
-        "height": 331,
-        "width": 1363
-      },
-      {
-        "q_num": 58,
-        "subject": "심리측정 및 평가",
-        "page": 14,
-        "img": "img/2025_1/q_58.png",
-        "ans": 2,
-        "height": 384,
-        "width": 1363
-      },
-      {
-        "q_num": 59,
-        "subject": "심리측정 및 평가",
-        "page": 14,
-        "img": "img/2025_1/q_59.png",
-        "ans": 5,
-        "height": 391,
-        "width": 1363
-      },
-      {
-        "q_num": 60,
-        "subject": "심리측정 및 평가",
-        "page": 15,
-        "img": "img/2025_1/q_60.png",
-        "ans": 3,
-        "height": 402,
-        "width": 1363
-      },
-      {
-        "q_num": 61,
-        "subject": "심리측정 및 평가",
-        "page": 15,
-        "img": "img/2025_1/q_61.png",
-        "ans": 4,
-        "height": 261,
-        "width": 1363
-      },
-      {
-        "q_num": 62,
-        "subject": "심리측정 및 평가",
-        "page": 15,
-        "img": "img/2025_1/q_62.png",
-        "ans": 5,
-        "height": 365,
-        "width": 1363
-      },
-      {
-        "q_num": 63,
-        "subject": "심리측정 및 평가",
-        "page": 15,
-        "img": "img/2025_1/q_63.png",
-        "ans": 3,
-        "height": 148,
-        "width": 1363
-      },
-      {
-        "q_num": 64,
-        "subject": "심리측정 및 평가",
-        "page": 15,
-        "img": "img/2025_1/q_64.png",
-        "ans": 4,
-        "height": 362,
-        "width": 1363
-      },
-      {
-        "q_num": 65,
-        "subject": "심리측정 및 평가",
-        "page": 15,
-        "img": "img/2025_1/q_65.png",
-        "ans": 3,
-        "height": 338,
-        "width": 1363
-      },
-      {
-        "q_num": 66,
-        "subject": "심리측정 및 평가",
-        "page": 16,
-        "img": "img/2025_1/q_66.png",
-        "ans": 5,
-        "height": 410,
-        "width": 1363
-      },
-      {
-        "q_num": 67,
-        "subject": "심리측정 및 평가",
-        "page": 16,
-        "img": "img/2025_1/q_67.png",
-        "ans": 2,
-        "height": 255,
-        "width": 1363
-      },
-      {
-        "q_num": 68,
-        "subject": "심리측정 및 평가",
-        "page": 16,
-        "img": "img/2025_1/q_68.png",
-        "ans": 4,
-        "height": 380,
-        "width": 1363
-      },
-      {
-        "q_num": 69,
-        "subject": "심리측정 및 평가",
-        "page": 16,
-        "img": "img/2025_1/q_69.png",
-        "ans": 4,
-        "height": 255,
-        "width": 1363
-      },
-      {
-        "q_num": 70,
-        "subject": "심리측정 및 평가",
-        "page": 16,
-        "img": "img/2025_1/q_70.png",
-        "ans": 5,
-        "height": 575,
-        "width": 1363
-      },
-      {
-        "q_num": 71,
-        "subject": "심리측정 및 평가",
-        "page": 17,
-        "img": "img/2025_1/q_71.png",
-        "ans": 1,
-        "height": 215,
-        "width": 1363
-      },
-      {
-        "q_num": 72,
-        "subject": "심리측정 및 평가",
-        "page": 17,
-        "img": "img/2025_1/q_72.png",
-        "ans": 4,
-        "height": 384,
-        "width": 1363
-      },
-      {
-        "q_num": 73,
-        "subject": "심리측정 및 평가",
-        "page": 17,
-        "img": "img/2025_1/q_73.png",
-        "ans": 5,
-        "height": 385,
-        "width": 1363
-      },
-      {
-        "q_num": 74,
-        "subject": "심리측정 및 평가",
-        "page": 17,
-        "img": "img/2025_1/q_74.png",
-        "ans": 3,
-        "height": 384,
-        "width": 1363
-      },
-      {
-        "q_num": 75,
-        "subject": "심리측정 및 평가",
-        "page": 17,
-        "img": "img/2025_1/q_75.png",
-        "ans": 2,
-        "height": 507,
-        "width": 1363
-      },
-      {
-        "q_num": 76,
-        "subject": "청소년이해론",
-        "page": 18,
-        "img": "img/2025_1/q_76.png",
-        "ans": 5,
-        "height": 429,
-        "width": 1363
-      },
-      {
-        "q_num": 77,
-        "subject": "청소년이해론",
-        "page": 18,
-        "img": "img/2025_1/q_77.png",
-        "ans": 3,
-        "height": 384,
-        "width": 1363
-      },
-      {
-        "q_num": 78,
-        "subject": "청소년이해론",
-        "page": 18,
-        "img": "img/2025_1/q_78.png",
-        "ans": 5,
-        "height": 413,
-        "width": 1363
-      },
-      {
-        "q_num": 79,
-        "subject": "청소년이해론",
-        "page": 18,
-        "img": "img/2025_1/q_79.png",
-        "ans": 5,
-        "height": 509,
-        "width": 1363
-      },
-      {
-        "q_num": 80,
-        "subject": "청소년이해론",
-        "page": 19,
-        "img": "img/2025_1/q_80.png",
-        "ans": 4,
-        "height": 329,
-        "width": 1363
-      },
-      {
-        "q_num": 81,
-        "subject": "청소년이해론",
-        "page": 19,
-        "img": "img/2025_1/q_81.png",
-        "ans": 4,
-        "height": 414,
-        "width": 1363
-      },
-      {
-        "q_num": 82,
-        "subject": "청소년이해론",
-        "page": 19,
-        "img": "img/2025_1/q_82.png",
-        "ans": 1,
-        "height": 457,
-        "width": 1363
-      },
-      {
-        "q_num": 83,
-        "subject": "청소년이해론",
-        "page": 19,
-        "img": "img/2025_1/q_83.png",
-        "ans": 3,
-        "height": 208,
-        "width": 1363
-      },
-      {
-        "q_num": 84,
-        "subject": "청소년이해론",
-        "page": 19,
-        "img": "img/2025_1/q_84.png",
-        "ans": 5,
-        "height": 467,
-        "width": 1363
-      },
-      {
-        "q_num": 85,
-        "subject": "청소년이해론",
-        "page": 20,
-        "img": "img/2025_1/q_85.png",
-        "ans": 1,
-        "height": 414,
-        "width": 1363
-      },
-      {
-        "q_num": 86,
-        "subject": "청소년이해론",
-        "page": 20,
-        "img": "img/2025_1/q_86.png",
-        "ans": 5,
-        "height": 392,
-        "width": 1363
-      },
-      {
-        "q_num": 87,
-        "subject": "청소년이해론",
-        "page": 20,
-        "img": "img/2025_1/q_87.png",
-        "ans": 1,
-        "height": 373,
-        "width": 1363
-      },
-      {
-        "q_num": 88,
-        "subject": "청소년이해론",
-        "page": 20,
-        "img": "img/2025_1/q_88.png",
-        "ans": 2,
-        "height": 153,
-        "width": 1363
-      },
-      {
-        "q_num": 89,
-        "subject": "청소년이해론",
-        "page": 20,
-        "img": "img/2025_1/q_89.png",
-        "ans": 5,
-        "height": 543,
-        "width": 1363
-      },
-      {
-        "q_num": 90,
-        "subject": "청소년이해론",
-        "page": 21,
-        "img": "img/2025_1/q_90.png",
-        "ans": 2,
-        "height": 472,
-        "width": 1363
-      },
-      {
-        "q_num": 91,
-        "subject": "청소년이해론",
-        "page": 21,
-        "img": "img/2025_1/q_91.png",
-        "ans": 5,
-        "height": 458,
-        "width": 1363
-      },
-      {
-        "q_num": 92,
-        "subject": "청소년이해론",
-        "page": 21,
-        "img": "img/2025_1/q_92.png",
-        "ans": 1,
-        "height": 428,
-        "width": 1363
-      },
-      {
-        "q_num": 93,
-        "subject": "청소년이해론",
-        "page": 21,
-        "img": "img/2025_1/q_93.png",
-        "ans": 4,
-        "height": 516,
-        "width": 1363
-      },
-      {
-        "q_num": 94,
-        "subject": "청소년이해론",
-        "page": 22,
-        "img": "img/2025_1/q_94.png",
-        "ans": 5,
-        "height": 325,
-        "width": 1363
-      },
-      {
-        "q_num": 95,
-        "subject": "청소년이해론",
-        "page": 22,
-        "img": "img/2025_1/q_95.png",
-        "ans": 5,
-        "height": 385,
-        "width": 1363
-      },
-      {
-        "q_num": 96,
-        "subject": "청소년이해론",
-        "page": 22,
-        "img": "img/2025_1/q_96.png",
-        "ans": 4,
-        "height": 215,
-        "width": 1363
-      },
-      {
-        "q_num": 97,
-        "subject": "청소년이해론",
-        "page": 22,
-        "img": "img/2025_1/q_97.png",
-        "ans": 5,
-        "height": 384,
-        "width": 1363
-      },
-      {
-        "q_num": 98,
-        "subject": "청소년이해론",
-        "page": 22,
-        "img": "img/2025_1/q_98.png",
-        "ans": 4,
-        "height": 566,
-        "width": 1363
-      },
-      {
-        "q_num": 99,
-        "subject": "청소년이해론",
-        "page": 23,
-        "img": "img/2025_1/q_99.png",
-        "ans": 1,
-        "height": 428,
-        "width": 1363
-      },
-      {
-        "q_num": 100,
-        "subject": "청소년이해론",
-        "page": 23,
-        "img": "img/2025_1/q_100.png",
-        "ans": 4,
-        "height": 1444,
-        "width": 1363
-      }
-    ]
-  },
-  "2025_2": {
-    "id": "2025_2",
-    "title": "2025년 제24회 2급 2교시 (1~50번)",
-    "subjects": [
-      "청소년수련활동론 (1~25)",
-      "청소년복지론 (26~50)"
-    ],
-    "total": 50,
-    "questions": [
-      {
-        "q_num": 26,
-        "subject": "청소년복지론",
-        "page": 1,
-        "img": "img/2025_2/q_26.png",
-        "ans": 2,
-        "height": 385,
-        "width": 1363
-      },
-      {
-        "q_num": 27,
-        "subject": "청소년복지론",
-        "page": 1,
-        "img": "img/2025_2/q_27.png",
-        "ans": 5,
-        "height": 369,
-        "width": 1363
-      },
-      {
-        "q_num": 28,
-        "subject": "청소년복지론",
-        "page": 1,
-        "img": "img/2025_2/q_28.png",
-        "ans": 4,
-        "height": 385,
-        "width": 1363
-      },
-      {
-        "q_num": 29,
-        "subject": "청소년복지론",
-        "page": 1,
-        "img": "img/2025_2/q_29.png",
-        "ans": 5,
-        "height": 596,
-        "width": 1363
-      },
-      {
-        "q_num": 30,
-        "subject": "청소년복지론",
-        "page": 2,
-        "img": "img/2025_2/q_30.png",
-        "ans": 3,
-        "height": 472,
-        "width": 1363
-      },
-      {
-        "q_num": 31,
-        "subject": "청소년복지론",
-        "page": 2,
-        "img": "img/2025_2/q_31.png",
-        "ans": 4,
-        "height": 385,
-        "width": 1363
-      },
-      {
-        "q_num": 32,
-        "subject": "청소년복지론",
-        "page": 2,
-        "img": "img/2025_2/q_32.png",
-        "ans": 5,
-        "height": 413,
-        "width": 1363
-      },
-      {
-        "q_num": 33,
-        "subject": "청소년복지론",
-        "page": 2,
-        "img": "img/2025_2/q_33.png",
-        "ans": 5,
-        "height": 604,
-        "width": 1363
-      },
-      {
-        "q_num": 34,
-        "subject": "청소년복지론",
-        "page": 3,
-        "img": "img/2025_2/q_34.png",
-        "ans": 5,
-        "height": 595,
-        "width": 1363
-      },
-      {
-        "q_num": 35,
-        "subject": "청소년복지론",
-        "page": 3,
-        "img": "img/2025_2/q_35.png",
-        "ans": 5,
-        "height": 369,
-        "width": 1363
-      },
-      {
-        "q_num": 36,
-        "subject": "청소년복지론",
-        "page": 3,
-        "img": "img/2025_2/q_36.png",
-        "ans": 3,
-        "height": 384,
-        "width": 1363
-      },
-      {
-        "q_num": 37,
-        "subject": "청소년복지론",
-        "page": 3,
-        "img": "img/2025_2/q_37.png",
-        "ans": 5,
-        "height": 526,
-        "width": 1363
-      },
-      {
-        "q_num": 38,
-        "subject": "청소년복지론",
-        "page": 4,
-        "img": "img/2025_2/q_38.png",
-        "ans": 4,
-        "height": 331,
-        "width": 1363
-      },
-      {
-        "q_num": 39,
-        "subject": "청소년복지론",
-        "page": 4,
-        "img": "img/2025_2/q_39.png",
-        "ans": 5,
-        "height": 384,
-        "width": 1363
-      },
-      {
-        "q_num": 40,
-        "subject": "청소년복지론",
-        "page": 4,
-        "img": "img/2025_2/q_40.png",
-        "ans": 1,
-        "height": 385,
-        "width": 1363
-      },
-      {
-        "q_num": 41,
-        "subject": "청소년복지론",
-        "page": 4,
-        "img": "img/2025_2/q_41.png",
-        "ans": 3,
-        "height": 384,
-        "width": 1363
-      },
-      {
-        "q_num": 42,
-        "subject": "청소년복지론",
-        "page": 4,
-        "img": "img/2025_2/q_42.png",
-        "ans": 3,
-        "height": 391,
-        "width": 1363
-      },
-      {
-        "q_num": 43,
-        "subject": "청소년복지론",
-        "page": 5,
-        "img": "img/2025_2/q_43.png",
-        "ans": 5,
-        "height": 380,
-        "width": 1363
-      },
-      {
-        "q_num": 44,
-        "subject": "청소년복지론",
-        "page": 5,
-        "img": "img/2025_2/q_44.png",
-        "ans": 4,
-        "height": 379,
-        "width": 1363
-      },
-      {
-        "q_num": 45,
-        "subject": "청소년복지론",
-        "page": 5,
-        "img": "img/2025_2/q_45.png",
-        "ans": 5,
-        "height": 380,
-        "width": 1363
-      },
-      {
-        "q_num": 46,
-        "subject": "청소년복지론",
-        "page": 5,
-        "img": "img/2025_2/q_46.png",
-        "ans": 1,
-        "height": 379,
-        "width": 1363
-      },
-      {
-        "q_num": 47,
-        "subject": "청소년복지론",
-        "page": 5,
-        "img": "img/2025_2/q_47.png",
-        "ans": 4,
-        "height": 357,
-        "width": 1363
-      },
-      {
-        "q_num": 48,
-        "subject": "청소년복지론",
-        "page": 6,
-        "img": "img/2025_2/q_48.png",
-        "ans": 1,
-        "height": 384,
-        "width": 1363
-      },
-      {
-        "q_num": 49,
-        "subject": "청소년복지론",
-        "page": 6,
-        "img": "img/2025_2/q_49.png",
-        "ans": 5,
-        "height": 438,
-        "width": 1363
-      },
-      {
-        "q_num": 50,
-        "subject": "청소년복지론",
-        "page": 6,
-        "img": "img/2025_2/q_50.png",
-        "ans": 5,
-        "height": 1051,
-        "width": 1363
-      },
-      {
-        "q_num": 51,
-        "subject": "청소년복지론",
-        "page": 7,
-        "img": "img/2025_2/q_51.png",
-        "ans": 4,
-        "height": 271,
-        "width": 1363
-      },
-      {
-        "q_num": 52,
-        "subject": "청소년복지론",
-        "page": 7,
-        "img": "img/2025_2/q_52.png",
-        "ans": 2,
-        "height": 385,
-        "width": 1363
-      },
-      {
-        "q_num": 53,
-        "subject": "청소년복지론",
-        "page": 7,
-        "img": "img/2025_2/q_53.png",
-        "ans": 2,
-        "height": 428,
-        "width": 1363
-      },
-      {
-        "q_num": 54,
-        "subject": "청소년복지론",
-        "page": 7,
-        "img": "img/2025_2/q_54.png",
-        "ans": 5,
-        "height": 651,
-        "width": 1363
-      },
-      {
-        "q_num": 55,
-        "subject": "청소년복지론",
-        "page": 8,
-        "img": "img/2025_2/q_55.png",
-        "ans": 2,
-        "height": 384,
-        "width": 1363
-      },
-      {
-        "q_num": 56,
-        "subject": "청소년복지론",
-        "page": 8,
-        "img": "img/2025_2/q_56.png",
-        "ans": 5,
-        "height": 285,
-        "width": 1363
-      },
-      {
-        "q_num": 57,
-        "subject": "청소년복지론",
-        "page": 8,
-        "img": "img/2025_2/q_57.png",
-        "ans": 5,
-        "height": 413,
-        "width": 1363
-      },
-      {
-        "q_num": 58,
-        "subject": "청소년복지론",
-        "page": 8,
-        "img": "img/2025_2/q_58.png",
-        "ans": 3,
-        "height": 428,
-        "width": 1363
-      },
-      {
-        "q_num": 59,
-        "subject": "청소년복지론",
-        "page": 8,
-        "img": "img/2025_2/q_59.png",
-        "ans": 1,
-        "height": 365,
-        "width": 1363
-      },
-      {
-        "q_num": 60,
-        "subject": "청소년복지론",
-        "page": 9,
-        "img": "img/2025_2/q_60.png",
-        "ans": 5,
-        "height": 318,
-        "width": 1363
-      },
-      {
-        "q_num": 61,
-        "subject": "청소년복지론",
-        "page": 9,
-        "img": "img/2025_2/q_61.png",
-        "ans": 4,
-        "height": 387,
-        "width": 1363
-      },
-      {
-        "q_num": 62,
-        "subject": "청소년복지론",
-        "page": 9,
-        "img": "img/2025_2/q_62.png",
-        "ans": 3,
-        "height": 372,
-        "width": 1363
-      },
-      {
-        "q_num": 63,
-        "subject": "청소년복지론",
-        "page": 9,
-        "img": "img/2025_2/q_63.png",
-        "ans": 5,
-        "height": 450,
-        "width": 1363
-      },
-      {
-        "q_num": 64,
-        "subject": "청소년복지론",
-        "page": 9,
-        "img": "img/2025_2/q_64.png",
-        "ans": 2,
-        "height": 348,
-        "width": 1363
-      },
-      {
-        "q_num": 65,
-        "subject": "청소년복지론",
-        "page": 10,
-        "img": "img/2025_2/q_65.png",
-        "ans": 5,
-        "height": 362,
-        "width": 1363
-      },
-      {
-        "q_num": 66,
-        "subject": "청소년복지론",
-        "page": 10,
-        "img": "img/2025_2/q_66.png",
-        "ans": 2,
-        "height": 372,
-        "width": 1363
-      },
-      {
-        "q_num": 67,
-        "subject": "청소년복지론",
-        "page": 10,
-        "img": "img/2025_2/q_67.png",
-        "ans": 3,
-        "height": 373,
-        "width": 1363
-      },
-      {
-        "q_num": 68,
-        "subject": "청소년복지론",
-        "page": 10,
-        "img": "img/2025_2/q_68.png",
-        "ans": 4,
-        "height": 332,
-        "width": 1363
-      },
-      {
-        "q_num": 69,
-        "subject": "청소년복지론",
-        "page": 10,
-        "img": "img/2025_2/q_69.png",
-        "ans": 5,
-        "height": 436,
-        "width": 1363
-      },
-      {
-        "q_num": 70,
-        "subject": "청소년복지론",
-        "page": 11,
-        "img": "img/2025_2/q_70.png",
-        "ans": 3,
-        "height": 744,
-        "width": 1363
-      },
-      {
-        "q_num": 71,
-        "subject": "청소년복지론",
-        "page": 11,
-        "img": "img/2025_2/q_71.png",
-        "ans": 1,
-        "height": 429,
-        "width": 1363
-      },
-      {
-        "q_num": 72,
-        "subject": "청소년복지론",
-        "page": 11,
-        "img": "img/2025_2/q_72.png",
-        "ans": 4,
-        "height": 700,
-        "width": 1363
-      },
-      {
-        "q_num": 73,
-        "subject": "청소년복지론",
-        "page": 12,
-        "img": "img/2025_2/q_73.png",
-        "ans": 5,
-        "height": 381,
-        "width": 1363
-      },
-      {
-        "q_num": 74,
-        "subject": "청소년복지론",
-        "page": 12,
-        "img": "img/2025_2/q_74.png",
-        "ans": 1,
-        "height": 472,
-        "width": 1363
-      },
-      {
-        "q_num": 75,
-        "subject": "청소년복지론",
-        "page": 12,
-        "img": "img/2025_2/q_75.png",
-        "ans": 5,
-        "height": 1020,
-        "width": 1363
-      }
-    ]
-  },
-  "2024_1": {
-    "id": "2024_1",
-    "title": "2024년 제23회 2급 1교시 (1~100번)",
-    "subjects": [
-      "청소년상담의 이론과 실제 (1~25)",
-      "상담연구방법론의 기초 (26~50)",
-      "심리측정 및 평가 (51~75)",
-      "청소년이해론 (76~100)"
-    ],
-    "total": 100,
-    "questions": [
-      {
-        "q_num": 1,
-        "subject": "청소년상담의 이론과 실제",
-        "page": 1,
-        "img": "img/2024_1/q_1.png",
-        "ans": 2,
-        "height": 272,
-        "width": 1363
-      },
-      {
-        "q_num": 2,
-        "subject": "청소년상담의 이론과 실제",
-        "page": 1,
-        "img": "img/2024_1/q_2.png",
-        "ans": 5,
-        "height": 369,
-        "width": 1363
-      },
-      {
-        "q_num": 3,
-        "subject": "청소년상담의 이론과 실제",
-        "page": 1,
-        "img": "img/2024_1/q_3.png",
-        "ans": 0,
-        "height": 384,
-        "width": 1363
-      },
-      {
-        "q_num": 4,
-        "subject": "청소년상담의 이론과 실제",
-        "page": 1,
-        "img": "img/2024_1/q_4.png",
-        "ans": 5,
-        "height": 215,
-        "width": 1363
-      },
-      {
-        "q_num": 5,
-        "subject": "청소년상담의 이론과 실제",
-        "page": 1,
-        "img": "img/2024_1/q_5.png",
-        "ans": 4,
-        "height": 457,
-        "width": 1363
-      },
-      {
-        "q_num": 6,
-        "subject": "청소년상담의 이론과 실제",
-        "page": 2,
-        "img": "img/2024_1/q_6.png",
-        "ans": 1,
-        "height": 544,
-        "width": 1363
-      },
-      {
-        "q_num": 7,
-        "subject": "청소년상담의 이론과 실제",
-        "page": 2,
-        "img": "img/2024_1/q_7.png",
-        "ans": 4,
-        "height": 382,
-        "width": 1363
-      },
-      {
-        "q_num": 8,
-        "subject": "청소년상담의 이론과 실제",
-        "page": 2,
-        "img": "img/2024_1/q_8.png",
-        "ans": 3,
-        "height": 385,
-        "width": 1363
-      },
-      {
-        "q_num": 9,
-        "subject": "청소년상담의 이론과 실제",
-        "page": 2,
-        "img": "img/2024_1/q_9.png",
-        "ans": 4,
-        "height": 563,
-        "width": 1363
-      },
-      {
-        "q_num": 10,
-        "subject": "청소년상담의 이론과 실제",
-        "page": 3,
-        "img": "img/2024_1/q_10.png",
-        "ans": 1,
-        "height": 604,
-        "width": 1363
-      },
-      {
-        "q_num": 11,
-        "subject": "청소년상담의 이론과 실제",
-        "page": 3,
-        "img": "img/2024_1/q_11.png",
-        "ans": 5,
-        "height": 364,
-        "width": 1363
-      },
-      {
-        "q_num": 12,
-        "subject": "청소년상담의 이론과 실제",
-        "page": 3,
-        "img": "img/2024_1/q_12.png",
-        "ans": 2,
-        "height": 385,
-        "width": 1363
-      },
-      {
-        "q_num": 13,
-        "subject": "청소년상담의 이론과 실제",
-        "page": 3,
-        "img": "img/2024_1/q_13.png",
-        "ans": 2,
-        "height": 521,
-        "width": 1363
-      },
-      {
-        "q_num": 14,
-        "subject": "청소년상담의 이론과 실제",
-        "page": 4,
-        "img": "img/2024_1/q_14.png",
-        "ans": 5,
-        "height": 596,
-        "width": 1363
-      },
-      {
-        "q_num": 15,
-        "subject": "청소년상담의 이론과 실제",
-        "page": 4,
-        "img": "img/2024_1/q_15.png",
-        "ans": 5,
-        "height": 428,
-        "width": 1363
-      },
-      {
-        "q_num": 16,
-        "subject": "청소년상담의 이론과 실제",
-        "page": 4,
-        "img": "img/2024_1/q_16.png",
-        "ans": 3,
-        "height": 385,
-        "width": 1363
-      },
-      {
-        "q_num": 17,
-        "subject": "청소년상담의 이론과 실제",
-        "page": 4,
-        "img": "img/2024_1/q_17.png",
-        "ans": 5,
-        "height": 465,
-        "width": 1363
+        "exp": "'만약 그 생각이 사실이라면, 그것이 당신에게 무엇을 의미합니까?'를 거듭 질문하여 심층의 핵심신념을 도출하는 것은 '하향 화살표 기법'입니다."
       },
       {
         "q_num": 18,
         "subject": "청소년상담의 이론과 실제",
-        "page": 5,
-        "img": "img/2024_1/q_18.png",
-        "ans": 5,
-        "height": 408,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 글래서(W. Glasser)의 현실치료 WDEP 모델 중 E(Evaluation, 자기평가) 단계의 질문으로 옳은 것은?",
+        "options": [
+          "당신이 진정으로 원하는 바람(Want)은 무엇입니까?",
+          "지금 당신이 하고 있는 그 행동이 당신이 원하는 것을 얻는 데 도움이 됩니까?",
+          "내일부터 당장 실천할 수 있는 구체적인 계획을 세워볼까요?",
+          "당신의 기본 욕구 5가지 중 가장 강한 욕구는 무엇입니까?",
+          "어릴 적 부모님과의 애착 관계는 어떠했습니까?"
+        ],
+        "ans": 2,
+        "exp": "E(자기평가) 단계는 내담자가 자신의 행동(Doing)이 바람(Want)을 성취하는 데 유용한지 스스로 평가하게 돕는 핵심 단계입니다."
       },
       {
         "q_num": 19,
         "subject": "청소년상담의 이론과 실제",
-        "page": 5,
-        "img": "img/2024_1/q_19.png",
-        "ans": 3,
-        "height": 367,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 해결중심 단기상담(SFBT)의 5대 질문 기법에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "기적 질문: 문제가 자는 동안 해결되었다는 가상의 상황을 상상하게 한다.",
+          "예외 질문: 문제가 발생하지 않았거나 덜 심각했던 성공적 순간을 탐색한다.",
+          "척도 질문: 내담자의 주관적 상태와 변화를 1~10점 수치로 표현하게 한다.",
+          "대처 질문: 절망적인 상황에서도 더 나빠지지 않고 견뎌낸 힘을 인정한다.",
+          "관계성 질문: 과거 원가족과의 무의식적 갈등 관계를 분석하고 통찰시킨다."
+        ],
+        "ans": 5,
+        "exp": "해결중심 단기상담의 '관계성 질문'은 '당신의 어머니가 지금 당신의 변화를 본다면 뭐라고 말씀하실까요?'처럼 타인의 시각에서 자신을 관찰하게 돕는 질문입니다."
       },
       {
         "q_num": 20,
         "subject": "청소년상담의 이론과 실제",
-        "page": 5,
-        "img": "img/2024_1/q_20.png",
-        "ans": 4,
-        "height": 406,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 행동주의 상담에서 표적 문제행동이 정해진 시간 동안 전혀 발생하지 않았을 때 보상을 제공하는 차별강화 기법은?",
+        "options": [
+          "대체행동 차별강화 (DRA)",
+          "상반행동 차별강화 (DRI)",
+          "다른행동(무반응) 차별강화 (DRO)",
+          "저빈도 차별강화 (DRL)",
+          "점진적 차별강화 (DRP)"
+        ],
+        "ans": 3,
+        "exp": "정해진 시간 동안 문제행동이 0회(Zero rate) 발생했을 때 강화를 제공하는 기법은 '다른행동 차별강화(DRO)'입니다."
       },
       {
         "q_num": 21,
         "subject": "청소년상담의 이론과 실제",
-        "page": 5,
-        "img": "img/2024_1/q_21.png",
-        "ans": 5,
-        "height": 366,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 청소년상담의 기본 원리와 특성에 관한 설명으로 가장 옳지 않은 것은?",
+        "options": [
+          "청소년의 발달적 특성과 위기 상황을 고려하여 예방적·치료적 개입을 병행한다.",
+          "상담자는 비자발적인 청소년 내담자의 저항과 침묵을 수용하고 다룬다.",
+          "상담 성과를 극대화하기 위해 초기 구조화 단계에서 상담의 모든 문제 해결을 보장한다.",
+          "상담목표는 구체적이고 관찰 가능하며 내담자와 합의된 형태로 설정해야 한다.",
+          "상담과정에서 비밀보장의 원칙을 준수하되, 자해나 타해 등 위기 상황 시 예외를 적용한다."
+        ],
+        "ans": 3,
+        "exp": "상담자는 초기 구조화 시 상담의 효과나 문제 해결을 무조건 보장해서는 안 되며, 상담의 한계와 내담자의 주체적 협력을 명확히 안내해야 합니다."
       },
       {
         "q_num": 22,
         "subject": "청소년상담의 이론과 실제",
-        "page": 5,
-        "img": "img/2024_1/q_22.png",
-        "ans": 5,
-        "height": 328,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 프로이트(S. Freud)의 정신분석 이론에서 자아방어기제에 관한 설명으로 옳은 것은?",
+        "options": [
+          "투사(Projection)는 용납할 수 없는 자신의 충동이나 생각을 타인의 탓으로 돌리는 것이다.",
+          "반동형성(Reaction Formation)은 고통스러운 기억을 의식 밖으로 밀어내는 것이다.",
+          "합리화(Rationalization)는 스트레스 상황에서 이전의 발달 단계로 퇴행하는 것이다.",
+          "전치(Displacement)는 사회적으로 유용한 출구로 본능적 충동을 전환하는 것이다.",
+          "승화(Sublimation)는 자신의 결점을 감추기 위해 다른 장점을 과도하게 강조하는 것이다."
+        ],
+        "ans": 1,
+        "exp": "자신의 용납하기 어려운 충동·감정을 타인의 것으로 지각하는 것은 '투사(Projection)'입니다. 사회적 유용한 출구로 전환하는 것은 '승화'입니다."
       },
       {
         "q_num": 23,
         "subject": "청소년상담의 이론과 실제",
-        "page": 6,
-        "img": "img/2024_1/q_23.png",
-        "ans": 1,
-        "height": 428,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아들러(A. Adler)의 개인심리학 이론의 주요 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "열등감은 인간의 성장과 발달을 가로막는 비정상적인 병리 현상이다.",
+          "생활양식(Life Style)은 유전과 환경에 의해 수동적으로 결정되어 변화가 불가능하다.",
+          "사회적 관심(Social Interest)은 타인과 협동하고 공동체 복지에 기여하려는 선천적 잠재력이다.",
+          "우월성 추구는 타인을 지배하고 억압하려는 이기적 권력욕이다.",
+          "출생순위는 성격 형성에 절대적이고 유일한 결정 요인으로 작용한다."
+        ],
+        "ans": 3,
+        "exp": "아들러는 사회적 관심을 공동체감으로 보며 정신건강의 핵심 척도로 간주했습니다. 열등감은 모든 인간에게 보편적이며 자기완성의 원동력입니다."
       },
       {
         "q_num": 24,
         "subject": "청소년상담의 이론과 실제",
-        "page": 6,
-        "img": "img/2024_1/q_24.png",
-        "ans": 4,
-        "height": 215,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 로저스(C. Rogers)의 인간중심상담에서 상담자의 3대 필수 치료적 태도로 옳은 것은?",
+        "options": [
+          "해석적 통찰, 직면, 적극적 지시",
+          "일치성(진실성), 무조건적 긍정적 존중, 공감적 이해",
+          "자유연상, 저항 분석, 전이 해석",
+          "논박, 인지 재구조화, 행동 계약",
+          "탈숙고, 역설적 의도, 의미 발견"
+        ],
+        "ans": 2,
+        "exp": "로저스의 3대 필요충분조건은 상담자의 진실성(일치성), 무조건적 긍정적 존중, 공감적 이해입니다."
       },
       {
         "q_num": 25,
         "subject": "청소년상담의 이론과 실제",
-        "page": 6,
-        "img": "img/2024_1/q_25.png",
-        "ans": 2,
-        "height": 1230,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 게슈탈트(Gestalt) 상담에서 '타인에게 표출하고 싶은 충동이나 분노를 자신에게 돌려 자해하거나 자책하는 접촉경계혼란'은?",
+        "options": [
+          "내사 (Introjection)",
+          "투사 (Projection)",
+          "반전 (Retroflection)",
+          "융합 (Confluence)",
+          "편향 (Deflection)"
+        ],
+        "ans": 3,
+        "exp": "타인에게 향할 에너지를 자신에게로 되돌려 자해나 자책으로 나타내는 것은 '반전(Retroflection)'입니다."
       },
       {
         "q_num": 26,
         "subject": "상담연구방법론의 기초",
-        "page": 7,
-        "img": "img/2024_1/q_26.png",
-        "ans": 4,
-        "height": 418,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
       },
       {
         "q_num": 27,
         "subject": "상담연구방법론의 기초",
-        "page": 7,
-        "img": "img/2024_1/q_27.png",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
         "ans": 5,
-        "height": 385,
-        "width": 1363
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
       },
       {
         "q_num": 28,
         "subject": "상담연구방법론의 기초",
-        "page": 7,
-        "img": "img/2024_1/q_28.png",
-        "ans": 5,
-        "height": 457,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
       },
       {
         "q_num": 29,
         "subject": "상담연구방법론의 기초",
-        "page": 7,
-        "img": "img/2024_1/q_29.png",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
         "ans": 1,
-        "height": 475,
-        "width": 1363
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
       },
       {
         "q_num": 30,
         "subject": "상담연구방법론의 기초",
-        "page": 8,
-        "img": "img/2024_1/q_30.png",
-        "ans": 3,
-        "height": 384,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
       },
       {
         "q_num": 31,
         "subject": "상담연구방법론의 기초",
-        "page": 8,
-        "img": "img/2024_1/q_31.png",
-        "ans": 2,
-        "height": 429,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
       },
       {
         "q_num": 32,
         "subject": "상담연구방법론의 기초",
-        "page": 8,
-        "img": "img/2024_1/q_32.png",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
         "ans": 5,
-        "height": 406,
-        "width": 1363
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
       },
       {
         "q_num": 33,
         "subject": "상담연구방법론의 기초",
-        "page": 8,
-        "img": "img/2024_1/q_33.png",
-        "ans": 5,
-        "height": 655,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
       },
       {
         "q_num": 34,
         "subject": "상담연구방법론의 기초",
-        "page": 9,
-        "img": "img/2024_1/q_34.png",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
         "ans": 1,
-        "height": 516,
-        "width": 1363
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
       },
       {
         "q_num": 35,
         "subject": "상담연구방법론의 기초",
-        "page": 9,
-        "img": "img/2024_1/q_35.png",
-        "ans": 5,
-        "height": 370,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
       },
       {
         "q_num": 36,
         "subject": "상담연구방법론의 기초",
-        "page": 9,
-        "img": "img/2024_1/q_36.png",
-        "ans": 4,
-        "height": 614,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
       },
       {
         "q_num": 37,
         "subject": "상담연구방법론의 기초",
-        "page": 9,
-        "img": "img/2024_1/q_37.png",
-        "ans": 2,
-        "height": 374,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
       },
       {
         "q_num": 38,
         "subject": "상담연구방법론의 기초",
-        "page": 10,
-        "img": "img/2024_1/q_38.png",
-        "ans": 5,
-        "height": 384,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
       },
       {
         "q_num": 39,
         "subject": "상담연구방법론의 기초",
-        "page": 10,
-        "img": "img/2024_1/q_39.png",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
         "ans": 1,
-        "height": 272,
-        "width": 1363
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
       },
       {
         "q_num": 40,
         "subject": "상담연구방법론의 기초",
-        "page": 10,
-        "img": "img/2024_1/q_40.png",
-        "ans": 5,
-        "height": 302,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
       },
       {
         "q_num": 41,
         "subject": "상담연구방법론의 기초",
-        "page": 10,
-        "img": "img/2024_1/q_41.png",
-        "ans": 4,
-        "height": 239,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
       },
       {
         "q_num": 42,
         "subject": "상담연구방법론의 기초",
-        "page": 10,
-        "img": "img/2024_1/q_42.png",
-        "ans": 4,
-        "height": 286,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
       },
       {
         "q_num": 43,
         "subject": "상담연구방법론의 기초",
-        "page": 10,
-        "img": "img/2024_1/q_43.png",
-        "ans": 4,
-        "height": 393,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
       },
       {
         "q_num": 44,
         "subject": "상담연구방법론의 기초",
-        "page": 11,
-        "img": "img/2024_1/q_44.png",
-        "ans": 4,
-        "height": 315,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
       },
       {
         "q_num": 45,
         "subject": "상담연구방법론의 기초",
-        "page": 11,
-        "img": "img/2024_1/q_45.png",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
         "ans": 1,
-        "height": 429,
-        "width": 1363
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
       },
       {
         "q_num": 46,
         "subject": "상담연구방법론의 기초",
-        "page": 11,
-        "img": "img/2024_1/q_46.png",
-        "ans": 5,
-        "height": 320,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
       },
       {
         "q_num": 47,
         "subject": "상담연구방법론의 기초",
-        "page": 11,
-        "img": "img/2024_1/q_47.png",
-        "ans": 2,
-        "height": 384,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
       },
       {
         "q_num": 48,
         "subject": "상담연구방법론의 기초",
-        "page": 11,
-        "img": "img/2024_1/q_48.png",
-        "ans": 1,
-        "height": 427,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
       },
       {
         "q_num": 49,
         "subject": "상담연구방법론의 기초",
-        "page": 12,
-        "img": "img/2024_1/q_49.png",
-        "ans": 4,
-        "height": 384,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
       },
       {
         "q_num": 50,
         "subject": "상담연구방법론의 기초",
-        "page": 12,
-        "img": "img/2024_1/q_50.png",
-        "ans": 5,
-        "height": 1488,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
       },
       {
         "q_num": 51,
         "subject": "심리측정 및 평가",
-        "page": 13,
-        "img": "img/2024_1/q_51.png",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
         "ans": 1,
-        "height": 264,
-        "width": 1363
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
       },
       {
         "q_num": 52,
         "subject": "심리측정 및 평가",
-        "page": 13,
-        "img": "img/2024_1/q_52.png",
-        "ans": 3,
-        "height": 364,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
       },
       {
         "q_num": 53,
         "subject": "심리측정 및 평가",
-        "page": 13,
-        "img": "img/2024_1/q_53.png",
-        "ans": 1,
-        "height": 364,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
       },
       {
         "q_num": 54,
         "subject": "심리측정 및 평가",
-        "page": 13,
-        "img": "img/2024_1/q_54.png",
-        "ans": 4,
-        "height": 364,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
       },
       {
         "q_num": 55,
         "subject": "심리측정 및 평가",
-        "page": 13,
-        "img": "img/2024_1/q_55.png",
-        "ans": 3,
-        "height": 380,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
       },
       {
         "q_num": 56,
         "subject": "심리측정 및 평가",
-        "page": 14,
-        "img": "img/2024_1/q_56.png",
-        "ans": 5,
-        "height": 384,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
       },
       {
         "q_num": 57,
         "subject": "심리측정 및 평가",
-        "page": 14,
-        "img": "img/2024_1/q_57.png",
-        "ans": 3,
-        "height": 385,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
       },
       {
         "q_num": 58,
         "subject": "심리측정 및 평가",
-        "page": 14,
-        "img": "img/2024_1/q_58.png",
-        "ans": 5,
-        "height": 385,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
       },
       {
         "q_num": 59,
         "subject": "심리측정 및 평가",
-        "page": 14,
-        "img": "img/2024_1/q_59.png",
-        "ans": 5,
-        "height": 384,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
       },
       {
         "q_num": 60,
         "subject": "심리측정 및 평가",
-        "page": 14,
-        "img": "img/2024_1/q_60.png",
-        "ans": 4,
-        "height": 337,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
       },
       {
         "q_num": 61,
         "subject": "심리측정 및 평가",
-        "page": 15,
-        "img": "img/2024_1/q_61.png",
-        "ans": 3,
-        "height": 384,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
       },
       {
         "q_num": 62,
         "subject": "심리측정 및 평가",
-        "page": 15,
-        "img": "img/2024_1/q_62.png",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
         "ans": 1,
-        "height": 277,
-        "width": 1363
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
       },
       {
         "q_num": 63,
         "subject": "심리측정 및 평가",
-        "page": 15,
-        "img": "img/2024_1/q_63.png",
-        "ans": 3,
-        "height": 159,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
       },
       {
         "q_num": 64,
         "subject": "심리측정 및 평가",
-        "page": 15,
-        "img": "img/2024_1/q_64.png",
-        "ans": 5,
-        "height": 501,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
       },
       {
         "q_num": 65,
         "subject": "심리측정 및 평가",
-        "page": 15,
-        "img": "img/2024_1/q_65.png",
-        "ans": 5,
-        "height": 554,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
       },
       {
         "q_num": 66,
         "subject": "심리측정 및 평가",
-        "page": 16,
-        "img": "img/2024_1/q_66.png",
-        "ans": 4,
-        "height": 341,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
       },
       {
         "q_num": 67,
         "subject": "심리측정 및 평가",
-        "page": 16,
-        "img": "img/2024_1/q_67.png",
-        "ans": 2,
-        "height": 214,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
       },
       {
         "q_num": 68,
         "subject": "심리측정 및 평가",
-        "page": 16,
-        "img": "img/2024_1/q_68.png",
-        "ans": 4,
-        "height": 385,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
       },
       {
         "q_num": 69,
         "subject": "심리측정 및 평가",
-        "page": 16,
-        "img": "img/2024_1/q_69.png",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
         "ans": 2,
-        "height": 384,
-        "width": 1363
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
       },
       {
         "q_num": 70,
         "subject": "심리측정 및 평가",
-        "page": 16,
-        "img": "img/2024_1/q_70.png",
-        "ans": 5,
-        "height": 363,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
       },
       {
         "q_num": 71,
         "subject": "심리측정 및 평가",
-        "page": 16,
-        "img": "img/2024_1/q_71.png",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
         "ans": 1,
-        "height": 189,
-        "width": 1363
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
       },
       {
         "q_num": 72,
         "subject": "심리측정 및 평가",
-        "page": 17,
-        "img": "img/2024_1/q_72.png",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
         "ans": 1,
-        "height": 428,
-        "width": 1363
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
       },
       {
         "q_num": 73,
         "subject": "심리측정 및 평가",
-        "page": 17,
-        "img": "img/2024_1/q_73.png",
-        "ans": 5,
-        "height": 407,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
       },
       {
         "q_num": 74,
         "subject": "심리측정 및 평가",
-        "page": 17,
-        "img": "img/2024_1/q_74.png",
-        "ans": 5,
-        "height": 275,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
       },
       {
         "q_num": 75,
         "subject": "심리측정 및 평가",
-        "page": 17,
-        "img": "img/2024_1/q_75.png",
-        "ans": 4,
-        "height": 764,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
       },
       {
         "q_num": 76,
         "subject": "청소년이해론",
-        "page": 18,
-        "img": "img/2024_1/q_76.png",
-        "ans": 4,
-        "height": 385,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
       },
       {
         "q_num": 77,
         "subject": "청소년이해론",
-        "page": 18,
-        "img": "img/2024_1/q_77.png",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
         "ans": 1,
-        "height": 214,
-        "width": 1363
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
       },
       {
         "q_num": 78,
         "subject": "청소년이해론",
-        "page": 18,
-        "img": "img/2024_1/q_78.png",
-        "ans": 4,
-        "height": 429,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
       },
       {
         "q_num": 79,
         "subject": "청소년이해론",
-        "page": 18,
-        "img": "img/2024_1/q_79.png",
-        "ans": 5,
-        "height": 707,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
       },
       {
         "q_num": 80,
         "subject": "청소년이해론",
-        "page": 19,
-        "img": "img/2024_1/q_80.png",
-        "ans": 3,
-        "height": 533,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
       },
       {
         "q_num": 81,
         "subject": "청소년이해론",
-        "page": 19,
-        "img": "img/2024_1/q_81.png",
-        "ans": 4,
-        "height": 272,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
       },
       {
         "q_num": 82,
         "subject": "청소년이해론",
-        "page": 19,
-        "img": "img/2024_1/q_82.png",
-        "ans": 3,
-        "height": 158,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
       },
       {
         "q_num": 83,
         "subject": "청소년이해론",
-        "page": 19,
-        "img": "img/2024_1/q_83.png",
-        "ans": 5,
-        "height": 457,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
       },
       {
         "q_num": 84,
         "subject": "청소년이해론",
-        "page": 19,
-        "img": "img/2024_1/q_84.png",
-        "ans": 1,
-        "height": 455,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
       },
       {
         "q_num": 85,
         "subject": "청소년이해론",
-        "page": 20,
-        "img": "img/2024_1/q_85.png",
-        "ans": 4,
-        "height": 342,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
       },
       {
         "q_num": 86,
         "subject": "청소년이해론",
-        "page": 20,
-        "img": "img/2024_1/q_86.png",
-        "ans": 5,
-        "height": 336,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
       },
       {
         "q_num": 87,
         "subject": "청소년이해론",
-        "page": 20,
-        "img": "img/2024_1/q_87.png",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
         "ans": 1,
-        "height": 464,
-        "width": 1363
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
       },
       {
         "q_num": 88,
         "subject": "청소년이해론",
-        "page": 20,
-        "img": "img/2024_1/q_88.png",
-        "ans": 5,
-        "height": 389,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
       },
       {
         "q_num": 89,
         "subject": "청소년이해론",
-        "page": 20,
-        "img": "img/2024_1/q_89.png",
-        "ans": 5,
-        "height": 344,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
       },
       {
         "q_num": 90,
         "subject": "청소년이해론",
-        "page": 21,
-        "img": "img/2024_1/q_90.png",
-        "ans": 4,
-        "height": 526,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
       },
       {
         "q_num": 91,
         "subject": "청소년이해론",
-        "page": 21,
-        "img": "img/2024_1/q_91.png",
-        "ans": 5,
-        "height": 369,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
       },
       {
         "q_num": 92,
         "subject": "청소년이해론",
-        "page": 21,
-        "img": "img/2024_1/q_92.png",
-        "ans": 5,
-        "height": 439,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
       },
       {
         "q_num": 93,
         "subject": "청소년이해론",
-        "page": 21,
-        "img": "img/2024_1/q_93.png",
-        "ans": 4,
-        "height": 540,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
       },
       {
         "q_num": 94,
         "subject": "청소년이해론",
-        "page": 22,
-        "img": "img/2024_1/q_94.png",
-        "ans": 4,
-        "height": 384,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
       },
       {
         "q_num": 95,
         "subject": "청소년이해론",
-        "page": 22,
-        "img": "img/2024_1/q_95.png",
-        "ans": 1,
-        "height": 385,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
       },
       {
         "q_num": 96,
         "subject": "청소년이해론",
-        "page": 22,
-        "img": "img/2024_1/q_96.png",
-        "ans": 5,
-        "height": 385,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
       },
       {
         "q_num": 97,
         "subject": "청소년이해론",
-        "page": 22,
-        "img": "img/2024_1/q_97.png",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
         "ans": 1,
-        "height": 384,
-        "width": 1363
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
       },
       {
         "q_num": 98,
         "subject": "청소년이해론",
-        "page": 22,
-        "img": "img/2024_1/q_98.png",
-        "ans": 4,
-        "height": 337,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
       },
       {
         "q_num": 99,
         "subject": "청소년이해론",
-        "page": 23,
-        "img": "img/2024_1/q_99.png",
-        "ans": 4,
-        "height": 477,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
       },
       {
         "q_num": 100,
         "subject": "청소년이해론",
-        "page": 23,
-        "img": "img/2024_1/q_100.png",
-        "ans": 4,
-        "height": 1395,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 101,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 102,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 103,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 104,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 105,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 106,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 107,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 108,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 109,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 110,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 111,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 112,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 113,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 114,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 115,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 116,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 117,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 118,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 119,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 120,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 121,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 122,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 123,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 124,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 125,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 126,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 127,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 128,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 129,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 130,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 131,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 132,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 133,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 134,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 135,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 136,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 137,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 138,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 139,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 140,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 141,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 142,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 143,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 144,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 145,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 146,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 147,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 148,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 149,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 150,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
       }
     ]
   },
-  "2024_2": {
-    "id": "2024_2",
-    "title": "2024년 제23회 2급 2교시 (1~50번)",
+  "mock_2": {
+    "id": "mock_2",
+    "title": "제2회 실전 모의고사 (150제 풀세트)",
+    "total": 150,
     "subjects": [
-      "청소년수련활동론 (1~25)",
-      "청소년복지론 (26~50)"
+      "청소년상담의 이론과 실제",
+      "상담연구방법론의 기초",
+      "심리측정 및 평가",
+      "청소년이해론",
+      "가족상담",
+      "집단상담"
     ],
-    "total": 50,
-    "questions": [
-      {
-        "q_num": 26,
-        "subject": "청소년복지론",
-        "page": 1,
-        "img": "img/2024_2/q_26.png",
-        "ans": 3,
-        "height": 395,
-        "width": 1363
-      },
-      {
-        "q_num": 27,
-        "subject": "청소년복지론",
-        "page": 1,
-        "img": "img/2024_2/q_27.png",
-        "ans": 2,
-        "height": 384,
-        "width": 1363
-      },
-      {
-        "q_num": 28,
-        "subject": "청소년복지론",
-        "page": 1,
-        "img": "img/2024_2/q_28.png",
-        "ans": 1,
-        "height": 385,
-        "width": 1363
-      },
-      {
-        "q_num": 29,
-        "subject": "청소년복지론",
-        "page": 1,
-        "img": "img/2024_2/q_29.png",
-        "ans": 4,
-        "height": 571,
-        "width": 1363
-      },
-      {
-        "q_num": 30,
-        "subject": "청소년복지론",
-        "page": 2,
-        "img": "img/2024_2/q_30.png",
-        "ans": 4,
-        "height": 417,
-        "width": 1363
-      },
-      {
-        "q_num": 31,
-        "subject": "청소년복지론",
-        "page": 2,
-        "img": "img/2024_2/q_31.png",
-        "ans": 1,
-        "height": 584,
-        "width": 1363
-      },
-      {
-        "q_num": 32,
-        "subject": "청소년복지론",
-        "page": 2,
-        "img": "img/2024_2/q_32.png",
-        "ans": 5,
-        "height": 376,
-        "width": 1363
-      },
-      {
-        "q_num": 33,
-        "subject": "청소년복지론",
-        "page": 2,
-        "img": "img/2024_2/q_33.png",
-        "ans": 5,
-        "height": 497,
-        "width": 1363
-      },
-      {
-        "q_num": 34,
-        "subject": "청소년복지론",
-        "page": 3,
-        "img": "img/2024_2/q_34.png",
-        "ans": 5,
-        "height": 325,
-        "width": 1363
-      },
-      {
-        "q_num": 35,
-        "subject": "청소년복지론",
-        "page": 3,
-        "img": "img/2024_2/q_35.png",
-        "ans": 5,
-        "height": 385,
-        "width": 1363
-      },
-      {
-        "q_num": 36,
-        "subject": "청소년복지론",
-        "page": 3,
-        "img": "img/2024_2/q_36.png",
-        "ans": 5,
-        "height": 450,
-        "width": 1363
-      },
-      {
-        "q_num": 37,
-        "subject": "청소년복지론",
-        "page": 3,
-        "img": "img/2024_2/q_37.png",
-        "ans": 4,
-        "height": 714,
-        "width": 1363
-      },
-      {
-        "q_num": 38,
-        "subject": "청소년복지론",
-        "page": 4,
-        "img": "img/2024_2/q_38.png",
-        "ans": 4,
-        "height": 511,
-        "width": 1363
-      },
-      {
-        "q_num": 39,
-        "subject": "청소년복지론",
-        "page": 4,
-        "img": "img/2024_2/q_39.png",
-        "ans": 4,
-        "height": 384,
-        "width": 1363
-      },
-      {
-        "q_num": 40,
-        "subject": "청소년복지론",
-        "page": 4,
-        "img": "img/2024_2/q_40.png",
-        "ans": 2,
-        "height": 516,
-        "width": 1363
-      },
-      {
-        "q_num": 41,
-        "subject": "청소년복지론",
-        "page": 4,
-        "img": "img/2024_2/q_41.png",
-        "ans": 1,
-        "height": 463,
-        "width": 1363
-      },
-      {
-        "q_num": 42,
-        "subject": "청소년복지론",
-        "page": 5,
-        "img": "img/2024_2/q_42.png",
-        "ans": 5,
-        "height": 413,
-        "width": 1363
-      },
-      {
-        "q_num": 43,
-        "subject": "청소년복지론",
-        "page": 5,
-        "img": "img/2024_2/q_43.png",
-        "ans": 5,
-        "height": 276,
-        "width": 1363
-      },
-      {
-        "q_num": 44,
-        "subject": "청소년복지론",
-        "page": 5,
-        "img": "img/2024_2/q_44.png",
-        "ans": 5,
-        "height": 385,
-        "width": 1363
-      },
-      {
-        "q_num": 45,
-        "subject": "청소년복지론",
-        "page": 5,
-        "img": "img/2024_2/q_45.png",
-        "ans": 5,
-        "height": 384,
-        "width": 1363
-      },
-      {
-        "q_num": 46,
-        "subject": "청소년복지론",
-        "page": 5,
-        "img": "img/2024_2/q_46.png",
-        "ans": 5,
-        "height": 417,
-        "width": 1363
-      },
-      {
-        "q_num": 47,
-        "subject": "청소년복지론",
-        "page": 6,
-        "img": "img/2024_2/q_47.png",
-        "ans": 5,
-        "height": 367,
-        "width": 1363
-      },
-      {
-        "q_num": 48,
-        "subject": "청소년복지론",
-        "page": 6,
-        "img": "img/2024_2/q_48.png",
-        "ans": 5,
-        "height": 362,
-        "width": 1363
-      },
-      {
-        "q_num": 49,
-        "subject": "청소년복지론",
-        "page": 6,
-        "img": "img/2024_2/q_49.png",
-        "ans": 1,
-        "height": 384,
-        "width": 1363
-      },
-      {
-        "q_num": 50,
-        "subject": "청소년복지론",
-        "page": 6,
-        "img": "img/2024_2/q_50.png",
-        "ans": 2,
-        "height": 761,
-        "width": 1363
-      },
-      {
-        "q_num": 51,
-        "subject": "청소년복지론",
-        "page": 7,
-        "img": "img/2024_2/q_51.png",
-        "ans": 3,
-        "height": 385,
-        "width": 1363
-      },
-      {
-        "q_num": 52,
-        "subject": "청소년복지론",
-        "page": 7,
-        "img": "img/2024_2/q_52.png",
-        "ans": 5,
-        "height": 384,
-        "width": 1363
-      },
-      {
-        "q_num": 53,
-        "subject": "청소년복지론",
-        "page": 7,
-        "img": "img/2024_2/q_53.png",
-        "ans": 1,
-        "height": 429,
-        "width": 1363
-      },
-      {
-        "q_num": 54,
-        "subject": "청소년복지론",
-        "page": 7,
-        "img": "img/2024_2/q_54.png",
-        "ans": 5,
-        "height": 537,
-        "width": 1363
-      },
-      {
-        "q_num": 55,
-        "subject": "청소년복지론",
-        "page": 8,
-        "img": "img/2024_2/q_55.png",
-        "ans": 5,
-        "height": 369,
-        "width": 1363
-      },
-      {
-        "q_num": 56,
-        "subject": "청소년복지론",
-        "page": 8,
-        "img": "img/2024_2/q_56.png",
-        "ans": 4,
-        "height": 551,
-        "width": 1363
-      },
-      {
-        "q_num": 57,
-        "subject": "청소년복지론",
-        "page": 8,
-        "img": "img/2024_2/q_57.png",
-        "ans": 3,
-        "height": 384,
-        "width": 1363
-      },
-      {
-        "q_num": 58,
-        "subject": "청소년복지론",
-        "page": 8,
-        "img": "img/2024_2/q_58.png",
-        "ans": 4,
-        "height": 570,
-        "width": 1363
-      },
-      {
-        "q_num": 59,
-        "subject": "청소년복지론",
-        "page": 9,
-        "img": "img/2024_2/q_59.png",
-        "ans": 5,
-        "height": 494,
-        "width": 1363
-      },
-      {
-        "q_num": 60,
-        "subject": "청소년복지론",
-        "page": 9,
-        "img": "img/2024_2/q_60.png",
-        "ans": 1,
-        "height": 215,
-        "width": 1363
-      },
-      {
-        "q_num": 61,
-        "subject": "청소년복지론",
-        "page": 9,
-        "img": "img/2024_2/q_61.png",
-        "ans": 4,
-        "height": 338,
-        "width": 1363
-      },
-      {
-        "q_num": 62,
-        "subject": "청소년복지론",
-        "page": 9,
-        "img": "img/2024_2/q_62.png",
-        "ans": 5,
-        "height": 281,
-        "width": 1363
-      },
-      {
-        "q_num": 63,
-        "subject": "청소년복지론",
-        "page": 9,
-        "img": "img/2024_2/q_63.png",
-        "ans": 5,
-        "height": 547,
-        "width": 1363
-      },
-      {
-        "q_num": 64,
-        "subject": "청소년복지론",
-        "page": 10,
-        "img": "img/2024_2/q_64.png",
-        "ans": 3,
-        "height": 158,
-        "width": 1363
-      },
-      {
-        "q_num": 65,
-        "subject": "청소년복지론",
-        "page": 10,
-        "img": "img/2024_2/q_65.png",
-        "ans": 5,
-        "height": 545,
-        "width": 1363
-      },
-      {
-        "q_num": 66,
-        "subject": "청소년복지론",
-        "page": 10,
-        "img": "img/2024_2/q_66.png",
-        "ans": 5,
-        "height": 369,
-        "width": 1363
-      },
-      {
-        "q_num": 67,
-        "subject": "청소년복지론",
-        "page": 10,
-        "img": "img/2024_2/q_67.png",
-        "ans": 5,
-        "height": 406,
-        "width": 1363
-      },
-      {
-        "q_num": 68,
-        "subject": "청소년복지론",
-        "page": 10,
-        "img": "img/2024_2/q_68.png",
-        "ans": 4,
-        "height": 397,
-        "width": 1363
-      },
-      {
-        "q_num": 69,
-        "subject": "청소년복지론",
-        "page": 11,
-        "img": "img/2024_2/q_69.png",
-        "ans": 1,
-        "height": 560,
-        "width": 1363
-      },
-      {
-        "q_num": 70,
-        "subject": "청소년복지론",
-        "page": 11,
-        "img": "img/2024_2/q_70.png",
-        "ans": 4,
-        "height": 385,
-        "width": 1363
-      },
-      {
-        "q_num": 71,
-        "subject": "청소년복지론",
-        "page": 11,
-        "img": "img/2024_2/q_71.png",
-        "ans": 4,
-        "height": 271,
-        "width": 1363
-      },
-      {
-        "q_num": 72,
-        "subject": "청소년복지론",
-        "page": 11,
-        "img": "img/2024_2/q_72.png",
-        "ans": 1,
-        "height": 658,
-        "width": 1363
-      },
-      {
-        "q_num": 73,
-        "subject": "청소년복지론",
-        "page": 12,
-        "img": "img/2024_2/q_73.png",
-        "ans": 4,
-        "height": 390,
-        "width": 1363
-      },
-      {
-        "q_num": 74,
-        "subject": "청소년복지론",
-        "page": 12,
-        "img": "img/2024_2/q_74.png",
-        "ans": 1,
-        "height": 384,
-        "width": 1363
-      },
-      {
-        "q_num": 75,
-        "subject": "청소년복지론",
-        "page": 12,
-        "img": "img/2024_2/q_75.png",
-        "ans": 5,
-        "height": 1099,
-        "width": 1363
-      }
-    ]
-  },
-  "2023_1": {
-    "id": "2023_1",
-    "title": "2023년 제22회 2급 1교시 (1~100번)",
-    "subjects": [
-      "청소년상담의 이론과 실제 (1~25)",
-      "상담연구방법론의 기초 (26~50)",
-      "심리측정 및 평가 (51~75)",
-      "청소년이해론 (76~100)"
-    ],
-    "total": 100,
     "questions": [
       {
         "q_num": 1,
         "subject": "청소년상담의 이론과 실제",
-        "page": 1,
-        "img": "img/2023_1/q_1.png",
-        "ans": 5,
-        "height": 385,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 청소년상담의 기본 원리와 특성에 관한 설명으로 가장 옳지 않은 것은?",
+        "options": [
+          "청소년의 발달적 특성과 위기 상황을 고려하여 예방적·치료적 개입을 병행한다.",
+          "상담자는 비자발적인 청소년 내담자의 저항과 침묵을 수용하고 다룬다.",
+          "상담 성과를 극대화하기 위해 초기 구조화 단계에서 상담의 모든 문제 해결을 보장한다.",
+          "상담목표는 구체적이고 관찰 가능하며 내담자와 합의된 형태로 설정해야 한다.",
+          "상담과정에서 비밀보장의 원칙을 준수하되, 자해나 타해 등 위기 상황 시 예외를 적용한다."
+        ],
+        "ans": 3,
+        "exp": "상담자는 초기 구조화 시 상담의 효과나 문제 해결을 무조건 보장해서는 안 되며, 상담의 한계와 내담자의 주체적 협력을 명확히 안내해야 합니다."
       },
       {
         "q_num": 2,
         "subject": "청소년상담의 이론과 실제",
-        "page": 1,
-        "img": "img/2023_1/q_2.png",
-        "ans": 5,
-        "height": 471,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 프로이트(S. Freud)의 정신분석 이론에서 자아방어기제에 관한 설명으로 옳은 것은?",
+        "options": [
+          "투사(Projection)는 용납할 수 없는 자신의 충동이나 생각을 타인의 탓으로 돌리는 것이다.",
+          "반동형성(Reaction Formation)은 고통스러운 기억을 의식 밖으로 밀어내는 것이다.",
+          "합리화(Rationalization)는 스트레스 상황에서 이전의 발달 단계로 퇴행하는 것이다.",
+          "전치(Displacement)는 사회적으로 유용한 출구로 본능적 충동을 전환하는 것이다.",
+          "승화(Sublimation)는 자신의 결점을 감추기 위해 다른 장점을 과도하게 강조하는 것이다."
+        ],
+        "ans": 1,
+        "exp": "자신의 용납하기 어려운 충동·감정을 타인의 것으로 지각하는 것은 '투사(Projection)'입니다. 사회적 유용한 출구로 전환하는 것은 '승화'입니다."
       },
       {
         "q_num": 3,
         "subject": "청소년상담의 이론과 실제",
-        "page": 1,
-        "img": "img/2023_1/q_3.png",
-        "ans": 5,
-        "height": 289,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아들러(A. Adler)의 개인심리학 이론의 주요 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "열등감은 인간의 성장과 발달을 가로막는 비정상적인 병리 현상이다.",
+          "생활양식(Life Style)은 유전과 환경에 의해 수동적으로 결정되어 변화가 불가능하다.",
+          "사회적 관심(Social Interest)은 타인과 협동하고 공동체 복지에 기여하려는 선천적 잠재력이다.",
+          "우월성 추구는 타인을 지배하고 억압하려는 이기적 권력욕이다.",
+          "출생순위는 성격 형성에 절대적이고 유일한 결정 요인으로 작용한다."
+        ],
+        "ans": 3,
+        "exp": "아들러는 사회적 관심을 공동체감으로 보며 정신건강의 핵심 척도로 간주했습니다. 열등감은 모든 인간에게 보편적이며 자기완성의 원동력입니다."
       },
       {
         "q_num": 4,
         "subject": "청소년상담의 이론과 실제",
-        "page": 1,
-        "img": "img/2023_1/q_4.png",
-        "ans": 4,
-        "height": 410,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 로저스(C. Rogers)의 인간중심상담에서 상담자의 3대 필수 치료적 태도로 옳은 것은?",
+        "options": [
+          "해석적 통찰, 직면, 적극적 지시",
+          "일치성(진실성), 무조건적 긍정적 존중, 공감적 이해",
+          "자유연상, 저항 분석, 전이 해석",
+          "논박, 인지 재구조화, 행동 계약",
+          "탈숙고, 역설적 의도, 의미 발견"
+        ],
+        "ans": 2,
+        "exp": "로저스의 3대 필요충분조건은 상담자의 진실성(일치성), 무조건적 긍정적 존중, 공감적 이해입니다."
       },
       {
         "q_num": 5,
         "subject": "청소년상담의 이론과 실제",
-        "page": 1,
-        "img": "img/2023_1/q_5.png",
-        "ans": 5,
-        "height": 142,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 게슈탈트(Gestalt) 상담에서 '타인에게 표출하고 싶은 충동이나 분노를 자신에게 돌려 자해하거나 자책하는 접촉경계혼란'은?",
+        "options": [
+          "내사 (Introjection)",
+          "투사 (Projection)",
+          "반전 (Retroflection)",
+          "융합 (Confluence)",
+          "편향 (Deflection)"
+        ],
+        "ans": 3,
+        "exp": "타인에게 향할 에너지를 자신에게로 되돌려 자해나 자책으로 나타내는 것은 '반전(Retroflection)'입니다."
       },
       {
         "q_num": 6,
         "subject": "청소년상담의 이론과 실제",
-        "page": 2,
-        "img": "img/2023_1/q_6.png",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 엘리스(A. Ellis)의 REBT 3대 당위성과 논박에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "A(선행사건) ➔ B(신념체계) ➔ C(정서적·행동적 결과)로 이어진다.",
+          "D(논박)에는 경험적(실증적) 논박, 논리적 논박, 실용적(기능적) 논박이 있다.",
+          "자신에 대한 당위성은 '나는 반드시 완벽하게 성공해야만 한다'는 신념이다.",
+          "실용적 논박은 '그 생각이 당신의 목표를 달성하는 데 실제로 도움이 됩니까?'라고 묻는 것이다.",
+          "경험적 논박은 '그 신념이 논리적으로 타당하고 앞뒤가 맞습니까?'라고 묻는 것이다."
+        ],
         "ans": 5,
-        "height": 371,
-        "width": 1363
+        "exp": "경험적(실증적) 논박은 '그 생각이 사실이라는 객관적 증거가 어디 있습니까?'라고 묻는 것이며, 논리적 타당성을 묻는 것은 '논리적 논박'입니다."
       },
       {
         "q_num": 7,
         "subject": "청소년상담의 이론과 실제",
-        "page": 2,
-        "img": "img/2023_1/q_7.png",
-        "ans": 5,
-        "height": 428,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아론 벡(A. Beck)의 인지치료에서 자동적 사고 밑바탕의 핵심신념(Core Beliefs)을 파헤치기 위해 사용하는 기법은?",
+        "options": [
+          "재귀인 기법",
+          "탈파국화 기법",
+          "하향 화살표 기법 (Downward Arrow)",
+          "인지 재구조화",
+          "사고 중지 기법"
+        ],
+        "ans": 3,
+        "exp": "'만약 그 생각이 사실이라면, 그것이 당신에게 무엇을 의미합니까?'를 거듭 질문하여 심층의 핵심신념을 도출하는 것은 '하향 화살표 기법'입니다."
       },
       {
         "q_num": 8,
         "subject": "청소년상담의 이론과 실제",
-        "page": 2,
-        "img": "img/2023_1/q_8.png",
-        "ans": 1,
-        "height": 271,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 글래서(W. Glasser)의 현실치료 WDEP 모델 중 E(Evaluation, 자기평가) 단계의 질문으로 옳은 것은?",
+        "options": [
+          "당신이 진정으로 원하는 바람(Want)은 무엇입니까?",
+          "지금 당신이 하고 있는 그 행동이 당신이 원하는 것을 얻는 데 도움이 됩니까?",
+          "내일부터 당장 실천할 수 있는 구체적인 계획을 세워볼까요?",
+          "당신의 기본 욕구 5가지 중 가장 강한 욕구는 무엇입니까?",
+          "어릴 적 부모님과의 애착 관계는 어떠했습니까?"
+        ],
+        "ans": 2,
+        "exp": "E(자기평가) 단계는 내담자가 자신의 행동(Doing)이 바람(Want)을 성취하는 데 유용한지 스스로 평가하게 돕는 핵심 단계입니다."
       },
       {
         "q_num": 9,
         "subject": "청소년상담의 이론과 실제",
-        "page": 2,
-        "img": "img/2023_1/q_9.png",
-        "ans": 1,
-        "height": 804,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 해결중심 단기상담(SFBT)의 5대 질문 기법에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "기적 질문: 문제가 자는 동안 해결되었다는 가상의 상황을 상상하게 한다.",
+          "예외 질문: 문제가 발생하지 않았거나 덜 심각했던 성공적 순간을 탐색한다.",
+          "척도 질문: 내담자의 주관적 상태와 변화를 1~10점 수치로 표현하게 한다.",
+          "대처 질문: 절망적인 상황에서도 더 나빠지지 않고 견뎌낸 힘을 인정한다.",
+          "관계성 질문: 과거 원가족과의 무의식적 갈등 관계를 분석하고 통찰시킨다."
+        ],
+        "ans": 5,
+        "exp": "해결중심 단기상담의 '관계성 질문'은 '당신의 어머니가 지금 당신의 변화를 본다면 뭐라고 말씀하실까요?'처럼 타인의 시각에서 자신을 관찰하게 돕는 질문입니다."
       },
       {
         "q_num": 10,
         "subject": "청소년상담의 이론과 실제",
-        "page": 3,
-        "img": "img/2023_1/q_10.png",
-        "ans": 4,
-        "height": 387,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 행동주의 상담에서 표적 문제행동이 정해진 시간 동안 전혀 발생하지 않았을 때 보상을 제공하는 차별강화 기법은?",
+        "options": [
+          "대체행동 차별강화 (DRA)",
+          "상반행동 차별강화 (DRI)",
+          "다른행동(무반응) 차별강화 (DRO)",
+          "저빈도 차별강화 (DRL)",
+          "점진적 차별강화 (DRP)"
+        ],
+        "ans": 3,
+        "exp": "정해진 시간 동안 문제행동이 0회(Zero rate) 발생했을 때 강화를 제공하는 기법은 '다른행동 차별강화(DRO)'입니다."
       },
       {
         "q_num": 11,
         "subject": "청소년상담의 이론과 실제",
-        "page": 3,
-        "img": "img/2023_1/q_11.png",
-        "ans": 4,
-        "height": 524,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 청소년상담의 기본 원리와 특성에 관한 설명으로 가장 옳지 않은 것은?",
+        "options": [
+          "청소년의 발달적 특성과 위기 상황을 고려하여 예방적·치료적 개입을 병행한다.",
+          "상담자는 비자발적인 청소년 내담자의 저항과 침묵을 수용하고 다룬다.",
+          "상담 성과를 극대화하기 위해 초기 구조화 단계에서 상담의 모든 문제 해결을 보장한다.",
+          "상담목표는 구체적이고 관찰 가능하며 내담자와 합의된 형태로 설정해야 한다.",
+          "상담과정에서 비밀보장의 원칙을 준수하되, 자해나 타해 등 위기 상황 시 예외를 적용한다."
+        ],
+        "ans": 3,
+        "exp": "상담자는 초기 구조화 시 상담의 효과나 문제 해결을 무조건 보장해서는 안 되며, 상담의 한계와 내담자의 주체적 협력을 명확히 안내해야 합니다."
       },
       {
         "q_num": 12,
         "subject": "청소년상담의 이론과 실제",
-        "page": 3,
-        "img": "img/2023_1/q_12.png",
-        "ans": 4,
-        "height": 384,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 프로이트(S. Freud)의 정신분석 이론에서 자아방어기제에 관한 설명으로 옳은 것은?",
+        "options": [
+          "투사(Projection)는 용납할 수 없는 자신의 충동이나 생각을 타인의 탓으로 돌리는 것이다.",
+          "반동형성(Reaction Formation)은 고통스러운 기억을 의식 밖으로 밀어내는 것이다.",
+          "합리화(Rationalization)는 스트레스 상황에서 이전의 발달 단계로 퇴행하는 것이다.",
+          "전치(Displacement)는 사회적으로 유용한 출구로 본능적 충동을 전환하는 것이다.",
+          "승화(Sublimation)는 자신의 결점을 감추기 위해 다른 장점을 과도하게 강조하는 것이다."
+        ],
+        "ans": 1,
+        "exp": "자신의 용납하기 어려운 충동·감정을 타인의 것으로 지각하는 것은 '투사(Projection)'입니다. 사회적 유용한 출구로 전환하는 것은 '승화'입니다."
       },
       {
         "q_num": 13,
         "subject": "청소년상담의 이론과 실제",
-        "page": 3,
-        "img": "img/2023_1/q_13.png",
-        "ans": 4,
-        "height": 579,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아들러(A. Adler)의 개인심리학 이론의 주요 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "열등감은 인간의 성장과 발달을 가로막는 비정상적인 병리 현상이다.",
+          "생활양식(Life Style)은 유전과 환경에 의해 수동적으로 결정되어 변화가 불가능하다.",
+          "사회적 관심(Social Interest)은 타인과 협동하고 공동체 복지에 기여하려는 선천적 잠재력이다.",
+          "우월성 추구는 타인을 지배하고 억압하려는 이기적 권력욕이다.",
+          "출생순위는 성격 형성에 절대적이고 유일한 결정 요인으로 작용한다."
+        ],
+        "ans": 3,
+        "exp": "아들러는 사회적 관심을 공동체감으로 보며 정신건강의 핵심 척도로 간주했습니다. 열등감은 모든 인간에게 보편적이며 자기완성의 원동력입니다."
       },
       {
         "q_num": 14,
         "subject": "청소년상담의 이론과 실제",
-        "page": 4,
-        "img": "img/2023_1/q_14.png",
-        "ans": 3,
-        "height": 384,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 로저스(C. Rogers)의 인간중심상담에서 상담자의 3대 필수 치료적 태도로 옳은 것은?",
+        "options": [
+          "해석적 통찰, 직면, 적극적 지시",
+          "일치성(진실성), 무조건적 긍정적 존중, 공감적 이해",
+          "자유연상, 저항 분석, 전이 해석",
+          "논박, 인지 재구조화, 행동 계약",
+          "탈숙고, 역설적 의도, 의미 발견"
+        ],
+        "ans": 2,
+        "exp": "로저스의 3대 필요충분조건은 상담자의 진실성(일치성), 무조건적 긍정적 존중, 공감적 이해입니다."
       },
       {
         "q_num": 15,
         "subject": "청소년상담의 이론과 실제",
-        "page": 4,
-        "img": "img/2023_1/q_15.png",
-        "ans": 5,
-        "height": 449,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 게슈탈트(Gestalt) 상담에서 '타인에게 표출하고 싶은 충동이나 분노를 자신에게 돌려 자해하거나 자책하는 접촉경계혼란'은?",
+        "options": [
+          "내사 (Introjection)",
+          "투사 (Projection)",
+          "반전 (Retroflection)",
+          "융합 (Confluence)",
+          "편향 (Deflection)"
+        ],
+        "ans": 3,
+        "exp": "타인에게 향할 에너지를 자신에게로 되돌려 자해나 자책으로 나타내는 것은 '반전(Retroflection)'입니다."
       },
       {
         "q_num": 16,
         "subject": "청소년상담의 이론과 실제",
-        "page": 4,
-        "img": "img/2023_1/q_16.png",
-        "ans": 2,
-        "height": 384,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 엘리스(A. Ellis)의 REBT 3대 당위성과 논박에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "A(선행사건) ➔ B(신념체계) ➔ C(정서적·행동적 결과)로 이어진다.",
+          "D(논박)에는 경험적(실증적) 논박, 논리적 논박, 실용적(기능적) 논박이 있다.",
+          "자신에 대한 당위성은 '나는 반드시 완벽하게 성공해야만 한다'는 신념이다.",
+          "실용적 논박은 '그 생각이 당신의 목표를 달성하는 데 실제로 도움이 됩니까?'라고 묻는 것이다.",
+          "경험적 논박은 '그 신념이 논리적으로 타당하고 앞뒤가 맞습니까?'라고 묻는 것이다."
+        ],
+        "ans": 5,
+        "exp": "경험적(실증적) 논박은 '그 생각이 사실이라는 객관적 증거가 어디 있습니까?'라고 묻는 것이며, 논리적 타당성을 묻는 것은 '논리적 논박'입니다."
       },
       {
         "q_num": 17,
         "subject": "청소년상담의 이론과 실제",
-        "page": 4,
-        "img": "img/2023_1/q_17.png",
-        "ans": 5,
-        "height": 436,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아론 벡(A. Beck)의 인지치료에서 자동적 사고 밑바탕의 핵심신념(Core Beliefs)을 파헤치기 위해 사용하는 기법은?",
+        "options": [
+          "재귀인 기법",
+          "탈파국화 기법",
+          "하향 화살표 기법 (Downward Arrow)",
+          "인지 재구조화",
+          "사고 중지 기법"
+        ],
+        "ans": 3,
+        "exp": "'만약 그 생각이 사실이라면, 그것이 당신에게 무엇을 의미합니까?'를 거듭 질문하여 심층의 핵심신념을 도출하는 것은 '하향 화살표 기법'입니다."
       },
       {
         "q_num": 18,
         "subject": "청소년상담의 이론과 실제",
-        "page": 4,
-        "img": "img/2023_1/q_18.png",
-        "ans": 4,
-        "height": 222,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 글래서(W. Glasser)의 현실치료 WDEP 모델 중 E(Evaluation, 자기평가) 단계의 질문으로 옳은 것은?",
+        "options": [
+          "당신이 진정으로 원하는 바람(Want)은 무엇입니까?",
+          "지금 당신이 하고 있는 그 행동이 당신이 원하는 것을 얻는 데 도움이 됩니까?",
+          "내일부터 당장 실천할 수 있는 구체적인 계획을 세워볼까요?",
+          "당신의 기본 욕구 5가지 중 가장 강한 욕구는 무엇입니까?",
+          "어릴 적 부모님과의 애착 관계는 어떠했습니까?"
+        ],
+        "ans": 2,
+        "exp": "E(자기평가) 단계는 내담자가 자신의 행동(Doing)이 바람(Want)을 성취하는 데 유용한지 스스로 평가하게 돕는 핵심 단계입니다."
       },
       {
         "q_num": 19,
         "subject": "청소년상담의 이론과 실제",
-        "page": 5,
-        "img": "img/2023_1/q_19.png",
-        "ans": 1,
-        "height": 692,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 해결중심 단기상담(SFBT)의 5대 질문 기법에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "기적 질문: 문제가 자는 동안 해결되었다는 가상의 상황을 상상하게 한다.",
+          "예외 질문: 문제가 발생하지 않았거나 덜 심각했던 성공적 순간을 탐색한다.",
+          "척도 질문: 내담자의 주관적 상태와 변화를 1~10점 수치로 표현하게 한다.",
+          "대처 질문: 절망적인 상황에서도 더 나빠지지 않고 견뎌낸 힘을 인정한다.",
+          "관계성 질문: 과거 원가족과의 무의식적 갈등 관계를 분석하고 통찰시킨다."
+        ],
+        "ans": 5,
+        "exp": "해결중심 단기상담의 '관계성 질문'은 '당신의 어머니가 지금 당신의 변화를 본다면 뭐라고 말씀하실까요?'처럼 타인의 시각에서 자신을 관찰하게 돕는 질문입니다."
       },
       {
         "q_num": 20,
         "subject": "청소년상담의 이론과 실제",
-        "page": 5,
-        "img": "img/2023_1/q_20.png",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 행동주의 상담에서 표적 문제행동이 정해진 시간 동안 전혀 발생하지 않았을 때 보상을 제공하는 차별강화 기법은?",
+        "options": [
+          "대체행동 차별강화 (DRA)",
+          "상반행동 차별강화 (DRI)",
+          "다른행동(무반응) 차별강화 (DRO)",
+          "저빈도 차별강화 (DRL)",
+          "점진적 차별강화 (DRP)"
+        ],
         "ans": 3,
-        "height": 282,
-        "width": 1363
+        "exp": "정해진 시간 동안 문제행동이 0회(Zero rate) 발생했을 때 강화를 제공하는 기법은 '다른행동 차별강화(DRO)'입니다."
       },
       {
         "q_num": 21,
         "subject": "청소년상담의 이론과 실제",
-        "page": 5,
-        "img": "img/2023_1/q_21.png",
-        "ans": 4,
-        "height": 302,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 청소년상담의 기본 원리와 특성에 관한 설명으로 가장 옳지 않은 것은?",
+        "options": [
+          "청소년의 발달적 특성과 위기 상황을 고려하여 예방적·치료적 개입을 병행한다.",
+          "상담자는 비자발적인 청소년 내담자의 저항과 침묵을 수용하고 다룬다.",
+          "상담 성과를 극대화하기 위해 초기 구조화 단계에서 상담의 모든 문제 해결을 보장한다.",
+          "상담목표는 구체적이고 관찰 가능하며 내담자와 합의된 형태로 설정해야 한다.",
+          "상담과정에서 비밀보장의 원칙을 준수하되, 자해나 타해 등 위기 상황 시 예외를 적용한다."
+        ],
+        "ans": 3,
+        "exp": "상담자는 초기 구조화 시 상담의 효과나 문제 해결을 무조건 보장해서는 안 되며, 상담의 한계와 내담자의 주체적 협력을 명확히 안내해야 합니다."
       },
       {
         "q_num": 22,
         "subject": "청소년상담의 이론과 실제",
-        "page": 5,
-        "img": "img/2023_1/q_22.png",
-        "ans": 3,
-        "height": 598,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 프로이트(S. Freud)의 정신분석 이론에서 자아방어기제에 관한 설명으로 옳은 것은?",
+        "options": [
+          "투사(Projection)는 용납할 수 없는 자신의 충동이나 생각을 타인의 탓으로 돌리는 것이다.",
+          "반동형성(Reaction Formation)은 고통스러운 기억을 의식 밖으로 밀어내는 것이다.",
+          "합리화(Rationalization)는 스트레스 상황에서 이전의 발달 단계로 퇴행하는 것이다.",
+          "전치(Displacement)는 사회적으로 유용한 출구로 본능적 충동을 전환하는 것이다.",
+          "승화(Sublimation)는 자신의 결점을 감추기 위해 다른 장점을 과도하게 강조하는 것이다."
+        ],
+        "ans": 1,
+        "exp": "자신의 용납하기 어려운 충동·감정을 타인의 것으로 지각하는 것은 '투사(Projection)'입니다. 사회적 유용한 출구로 전환하는 것은 '승화'입니다."
       },
       {
         "q_num": 23,
         "subject": "청소년상담의 이론과 실제",
-        "page": 6,
-        "img": "img/2023_1/q_23.png",
-        "ans": 1,
-        "height": 384,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아들러(A. Adler)의 개인심리학 이론의 주요 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "열등감은 인간의 성장과 발달을 가로막는 비정상적인 병리 현상이다.",
+          "생활양식(Life Style)은 유전과 환경에 의해 수동적으로 결정되어 변화가 불가능하다.",
+          "사회적 관심(Social Interest)은 타인과 협동하고 공동체 복지에 기여하려는 선천적 잠재력이다.",
+          "우월성 추구는 타인을 지배하고 억압하려는 이기적 권력욕이다.",
+          "출생순위는 성격 형성에 절대적이고 유일한 결정 요인으로 작용한다."
+        ],
+        "ans": 3,
+        "exp": "아들러는 사회적 관심을 공동체감으로 보며 정신건강의 핵심 척도로 간주했습니다. 열등감은 모든 인간에게 보편적이며 자기완성의 원동력입니다."
       },
       {
         "q_num": 24,
         "subject": "청소년상담의 이론과 실제",
-        "page": 6,
-        "img": "img/2023_1/q_24.png",
-        "ans": 4,
-        "height": 474,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 로저스(C. Rogers)의 인간중심상담에서 상담자의 3대 필수 치료적 태도로 옳은 것은?",
+        "options": [
+          "해석적 통찰, 직면, 적극적 지시",
+          "일치성(진실성), 무조건적 긍정적 존중, 공감적 이해",
+          "자유연상, 저항 분석, 전이 해석",
+          "논박, 인지 재구조화, 행동 계약",
+          "탈숙고, 역설적 의도, 의미 발견"
+        ],
+        "ans": 2,
+        "exp": "로저스의 3대 필요충분조건은 상담자의 진실성(일치성), 무조건적 긍정적 존중, 공감적 이해입니다."
       },
       {
         "q_num": 25,
         "subject": "청소년상담의 이론과 실제",
-        "page": 6,
-        "img": "img/2023_1/q_25.png",
-        "ans": 5,
-        "height": 1015,
-        "width": 1363
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 게슈탈트(Gestalt) 상담에서 '타인에게 표출하고 싶은 충동이나 분노를 자신에게 돌려 자해하거나 자책하는 접촉경계혼란'은?",
+        "options": [
+          "내사 (Introjection)",
+          "투사 (Projection)",
+          "반전 (Retroflection)",
+          "융합 (Confluence)",
+          "편향 (Deflection)"
+        ],
+        "ans": 3,
+        "exp": "타인에게 향할 에너지를 자신에게로 되돌려 자해나 자책으로 나타내는 것은 '반전(Retroflection)'입니다."
       },
       {
         "q_num": 26,
         "subject": "상담연구방법론의 기초",
-        "page": 7,
-        "img": "img/2023_1/q_26.png",
-        "ans": 5,
-        "height": 429,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
       },
       {
         "q_num": 27,
         "subject": "상담연구방법론의 기초",
-        "page": 7,
-        "img": "img/2023_1/q_27.png",
-        "ans": 3,
-        "height": 158,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
       },
       {
         "q_num": 28,
         "subject": "상담연구방법론의 기초",
-        "page": 7,
-        "img": "img/2023_1/q_28.png",
-        "ans": 5,
-        "height": 325,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
       },
       {
         "q_num": 29,
         "subject": "상담연구방법론의 기초",
-        "page": 7,
-        "img": "img/2023_1/q_29.png",
-        "ans": 5,
-        "height": 385,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
       },
       {
         "q_num": 30,
         "subject": "상담연구방법론의 기초",
-        "page": 7,
-        "img": "img/2023_1/q_30.png",
-        "ans": 5,
-        "height": 439,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
       },
       {
         "q_num": 31,
         "subject": "상담연구방법론의 기초",
-        "page": 8,
-        "img": "img/2023_1/q_31.png",
-        "ans": 4,
-        "height": 382,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
       },
       {
         "q_num": 32,
         "subject": "상담연구방법론의 기초",
-        "page": 8,
-        "img": "img/2023_1/q_32.png",
-        "ans": 2,
-        "height": 384,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
       },
       {
         "q_num": 33,
         "subject": "상담연구방법론의 기초",
-        "page": 8,
-        "img": "img/2023_1/q_33.png",
-        "ans": 1,
-        "height": 385,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
       },
       {
         "q_num": 34,
         "subject": "상담연구방법론의 기초",
-        "page": 8,
-        "img": "img/2023_1/q_34.png",
-        "ans": 4,
-        "height": 723,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
       },
       {
         "q_num": 35,
         "subject": "상담연구방법론의 기초",
-        "page": 9,
-        "img": "img/2023_1/q_35.png",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
         "ans": 1,
-        "height": 384,
-        "width": 1363
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
       },
       {
         "q_num": 36,
         "subject": "상담연구방법론의 기초",
-        "page": 9,
-        "img": "img/2023_1/q_36.png",
-        "ans": 5,
-        "height": 282,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
       },
       {
         "q_num": 37,
         "subject": "상담연구방법론의 기초",
-        "page": 9,
-        "img": "img/2023_1/q_37.png",
-        "ans": 2,
-        "height": 384,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
       },
       {
         "q_num": 38,
         "subject": "상담연구방법론의 기초",
-        "page": 9,
-        "img": "img/2023_1/q_38.png",
-        "ans": 4,
-        "height": 385,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
       },
       {
         "q_num": 39,
         "subject": "상담연구방법론의 기초",
-        "page": 9,
-        "img": "img/2023_1/q_39.png",
-        "ans": 5,
-        "height": 440,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
       },
       {
         "q_num": 40,
         "subject": "상담연구방법론의 기초",
-        "page": 10,
-        "img": "img/2023_1/q_40.png",
-        "ans": 4,
-        "height": 608,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
       },
       {
         "q_num": 41,
         "subject": "상담연구방법론의 기초",
-        "page": 10,
-        "img": "img/2023_1/q_41.png",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
         "ans": 3,
-        "height": 512,
-        "width": 1363
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
       },
       {
         "q_num": 42,
         "subject": "상담연구방법론의 기초",
-        "page": 10,
-        "img": "img/2023_1/q_42.png",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
         "ans": 5,
-        "height": 369,
-        "width": 1363
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
       },
       {
         "q_num": 43,
         "subject": "상담연구방법론의 기초",
-        "page": 10,
-        "img": "img/2023_1/q_43.png",
-        "ans": 5,
-        "height": 385,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
       },
       {
         "q_num": 44,
         "subject": "상담연구방법론의 기초",
-        "page": 11,
-        "img": "img/2023_1/q_44.png",
-        "ans": 4,
-        "height": 404,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
       },
       {
         "q_num": 45,
         "subject": "상담연구방법론의 기초",
-        "page": 11,
-        "img": "img/2023_1/q_45.png",
-        "ans": 5,
-        "height": 469,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
       },
       {
         "q_num": 46,
         "subject": "상담연구방법론의 기초",
-        "page": 11,
-        "img": "img/2023_1/q_46.png",
-        "ans": 2,
-        "height": 604,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
       },
       {
         "q_num": 47,
         "subject": "상담연구방법론의 기초",
-        "page": 11,
-        "img": "img/2023_1/q_47.png",
-        "ans": 2,
-        "height": 397,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
       },
       {
         "q_num": 48,
         "subject": "상담연구방법론의 기초",
-        "page": 12,
-        "img": "img/2023_1/q_48.png",
-        "ans": 4,
-        "height": 271,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
       },
       {
         "q_num": 49,
         "subject": "상담연구방법론의 기초",
-        "page": 12,
-        "img": "img/2023_1/q_49.png",
-        "ans": 5,
-        "height": 259,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
       },
       {
         "q_num": 50,
         "subject": "상담연구방법론의 기초",
-        "page": 12,
-        "img": "img/2023_1/q_50.png",
-        "ans": 5,
-        "height": 1343,
-        "width": 1363
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
       },
       {
         "q_num": 51,
         "subject": "심리측정 및 평가",
-        "page": 13,
-        "img": "img/2023_1/q_51.png",
-        "ans": 0,
-        "height": 383,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
       },
       {
         "q_num": 52,
         "subject": "심리측정 및 평가",
-        "page": 13,
-        "img": "img/2023_1/q_52.png",
-        "ans": 0,
-        "height": 202,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
       },
       {
         "q_num": 53,
         "subject": "심리측정 및 평가",
-        "page": 13,
-        "img": "img/2023_1/q_53.png",
-        "ans": 0,
-        "height": 429,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
       },
       {
         "q_num": 54,
         "subject": "심리측정 및 평가",
-        "page": 13,
-        "img": "img/2023_1/q_54.png",
-        "ans": 0,
-        "height": 384,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
       },
       {
         "q_num": 55,
         "subject": "심리측정 및 평가",
-        "page": 13,
-        "img": "img/2023_1/q_55.png",
-        "ans": 0,
-        "height": 338,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
       },
       {
         "q_num": 56,
         "subject": "심리측정 및 평가",
-        "page": 14,
-        "img": "img/2023_1/q_56.png",
-        "ans": 0,
-        "height": 406,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
       },
       {
         "q_num": 57,
         "subject": "심리측정 및 평가",
-        "page": 14,
-        "img": "img/2023_1/q_57.png",
-        "ans": 0,
-        "height": 385,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
       },
       {
         "q_num": 58,
         "subject": "심리측정 및 평가",
-        "page": 14,
-        "img": "img/2023_1/q_58.png",
-        "ans": 0,
-        "height": 202,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
       },
       {
         "q_num": 59,
         "subject": "심리측정 및 평가",
-        "page": 14,
-        "img": "img/2023_1/q_59.png",
-        "ans": 0,
-        "height": 315,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
       },
       {
         "q_num": 60,
         "subject": "심리측정 및 평가",
-        "page": 14,
-        "img": "img/2023_1/q_60.png",
-        "ans": 0,
-        "height": 567,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
       },
       {
         "q_num": 61,
         "subject": "심리측정 및 평가",
-        "page": 15,
-        "img": "img/2023_1/q_61.png",
-        "ans": 0,
-        "height": 516,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
       },
       {
         "q_num": 62,
         "subject": "심리측정 및 평가",
-        "page": 15,
-        "img": "img/2023_1/q_62.png",
-        "ans": 0,
-        "height": 259,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
       },
       {
         "q_num": 63,
         "subject": "심리측정 및 평가",
-        "page": 15,
-        "img": "img/2023_1/q_63.png",
-        "ans": 0,
-        "height": 428,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
       },
       {
         "q_num": 64,
         "subject": "심리측정 및 평가",
-        "page": 15,
-        "img": "img/2023_1/q_64.png",
-        "ans": 0,
-        "height": 272,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
       },
       {
         "q_num": 65,
         "subject": "심리측정 및 평가",
-        "page": 15,
-        "img": "img/2023_1/q_65.png",
-        "ans": 0,
-        "height": 400,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
       },
       {
         "q_num": 66,
         "subject": "심리측정 및 평가",
-        "page": 16,
-        "img": "img/2023_1/q_66.png",
-        "ans": 0,
-        "height": 338,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
       },
       {
         "q_num": 67,
         "subject": "심리측정 및 평가",
-        "page": 16,
-        "img": "img/2023_1/q_67.png",
-        "ans": 0,
-        "height": 271,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
       },
       {
         "q_num": 68,
         "subject": "심리측정 및 평가",
-        "page": 16,
-        "img": "img/2023_1/q_68.png",
-        "ans": 0,
-        "height": 429,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
       },
       {
         "q_num": 69,
         "subject": "심리측정 및 평가",
-        "page": 16,
-        "img": "img/2023_1/q_69.png",
-        "ans": 0,
-        "height": 384,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
       },
       {
         "q_num": 70,
         "subject": "심리측정 및 평가",
-        "page": 16,
-        "img": "img/2023_1/q_70.png",
-        "ans": 0,
-        "height": 453,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
       },
       {
         "q_num": 71,
         "subject": "심리측정 및 평가",
-        "page": 17,
-        "img": "img/2023_1/q_71.png",
-        "ans": 0,
-        "height": 369,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
       },
       {
         "q_num": 72,
         "subject": "심리측정 및 평가",
-        "page": 17,
-        "img": "img/2023_1/q_72.png",
-        "ans": 0,
-        "height": 215,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
       },
       {
         "q_num": 73,
         "subject": "심리측정 및 평가",
-        "page": 17,
-        "img": "img/2023_1/q_73.png",
-        "ans": 0,
-        "height": 413,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
       },
       {
         "q_num": 74,
         "subject": "심리측정 및 평가",
-        "page": 17,
-        "img": "img/2023_1/q_74.png",
-        "ans": 0,
-        "height": 426,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
       },
       {
         "q_num": 75,
         "subject": "심리측정 및 평가",
-        "page": 17,
-        "img": "img/2023_1/q_75.png",
-        "ans": 0,
-        "height": 452,
-        "width": 1363
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
       },
       {
         "q_num": 76,
         "subject": "청소년이해론",
-        "page": 18,
-        "img": "img/2023_1/q_76.png",
-        "ans": 0,
-        "height": 381,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
       },
       {
         "q_num": 77,
         "subject": "청소년이해론",
-        "page": 18,
-        "img": "img/2023_1/q_77.png",
-        "ans": 0,
-        "height": 320,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
       },
       {
         "q_num": 78,
         "subject": "청소년이해론",
-        "page": 18,
-        "img": "img/2023_1/q_78.png",
-        "ans": 0,
-        "height": 419,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
       },
       {
         "q_num": 79,
         "subject": "청소년이해론",
-        "page": 18,
-        "img": "img/2023_1/q_79.png",
-        "ans": 0,
-        "height": 381,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
       },
       {
         "q_num": 80,
         "subject": "청소년이해론",
-        "page": 18,
-        "img": "img/2023_1/q_80.png",
-        "ans": 0,
-        "height": 235,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
       },
       {
         "q_num": 81,
         "subject": "청소년이해론",
-        "page": 19,
-        "img": "img/2023_1/q_81.png",
-        "ans": 0,
-        "height": 398,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
       },
       {
         "q_num": 82,
         "subject": "청소년이해론",
-        "page": 19,
-        "img": "img/2023_1/q_82.png",
-        "ans": 0,
-        "height": 222,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
       },
       {
         "q_num": 83,
         "subject": "청소년이해론",
-        "page": 19,
-        "img": "img/2023_1/q_83.png",
-        "ans": 0,
-        "height": 362,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
       },
       {
         "q_num": 84,
         "subject": "청소년이해론",
-        "page": 19,
-        "img": "img/2023_1/q_84.png",
-        "ans": 0,
-        "height": 199,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
       },
       {
         "q_num": 85,
         "subject": "청소년이해론",
-        "page": 19,
-        "img": "img/2023_1/q_85.png",
-        "ans": 0,
-        "height": 359,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
       },
       {
         "q_num": 86,
         "subject": "청소년이해론",
-        "page": 19,
-        "img": "img/2023_1/q_86.png",
-        "ans": 0,
-        "height": 336,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
       },
       {
         "q_num": 87,
         "subject": "청소년이해론",
-        "page": 20,
-        "img": "img/2023_1/q_87.png",
-        "ans": 0,
-        "height": 470,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
       },
       {
         "q_num": 88,
         "subject": "청소년이해론",
-        "page": 20,
-        "img": "img/2023_1/q_88.png",
-        "ans": 0,
-        "height": 384,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
       },
       {
         "q_num": 89,
         "subject": "청소년이해론",
-        "page": 20,
-        "img": "img/2023_1/q_89.png",
-        "ans": 0,
-        "height": 470,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
       },
       {
         "q_num": 90,
         "subject": "청소년이해론",
-        "page": 20,
-        "img": "img/2023_1/q_90.png",
-        "ans": 0,
-        "height": 550,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
       },
       {
         "q_num": 91,
         "subject": "청소년이해론",
-        "page": 21,
-        "img": "img/2023_1/q_91.png",
-        "ans": 0,
-        "height": 367,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
       },
       {
         "q_num": 92,
         "subject": "청소년이해론",
-        "page": 21,
-        "img": "img/2023_1/q_92.png",
-        "ans": 0,
-        "height": 367,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
       },
       {
         "q_num": 93,
         "subject": "청소년이해론",
-        "page": 21,
-        "img": "img/2023_1/q_93.png",
-        "ans": 0,
-        "height": 258,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
       },
       {
         "q_num": 94,
         "subject": "청소년이해론",
-        "page": 21,
-        "img": "img/2023_1/q_94.png",
-        "ans": 0,
-        "height": 403,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
       },
       {
         "q_num": 95,
         "subject": "청소년이해론",
-        "page": 21,
-        "img": "img/2023_1/q_95.png",
-        "ans": 0,
-        "height": 480,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
       },
       {
         "q_num": 96,
         "subject": "청소년이해론",
-        "page": 22,
-        "img": "img/2023_1/q_96.png",
-        "ans": 0,
-        "height": 384,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
       },
       {
         "q_num": 97,
         "subject": "청소년이해론",
-        "page": 22,
-        "img": "img/2023_1/q_97.png",
-        "ans": 0,
-        "height": 429,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
       },
       {
         "q_num": 98,
         "subject": "청소년이해론",
-        "page": 22,
-        "img": "img/2023_1/q_98.png",
-        "ans": 0,
-        "height": 315,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
       },
       {
         "q_num": 99,
         "subject": "청소년이해론",
-        "page": 22,
-        "img": "img/2023_1/q_99.png",
-        "ans": 0,
-        "height": 385,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
       },
       {
         "q_num": 100,
         "subject": "청소년이해론",
-        "page": 22,
-        "img": "img/2023_1/q_100.png",
-        "ans": 0,
-        "height": 362,
-        "width": 1363
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 101,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 102,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 103,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 104,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 105,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 106,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 107,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 108,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 109,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 110,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 111,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 112,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 113,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 114,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 115,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 116,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 117,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 118,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 119,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 120,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 121,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 122,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 123,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 124,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 125,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 126,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 127,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 128,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 129,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 130,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 131,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 132,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 133,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 134,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 135,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 136,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 137,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 138,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 139,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 140,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 141,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 142,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 143,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 144,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 145,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 146,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 147,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 148,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 149,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 150,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
       }
     ]
   },
-  "2023_2": {
-    "id": "2023_2",
-    "title": "2023년 제22회 2급 2교시 (1~50번)",
+  "mock_3": {
+    "id": "mock_3",
+    "title": "제3회 실전 모의고사 (150제 풀세트)",
+    "total": 150,
     "subjects": [
-      "청소년수련활동론 (1~25)",
-      "청소년복지론 (26~50)"
+      "청소년상담의 이론과 실제",
+      "상담연구방법론의 기초",
+      "심리측정 및 평가",
+      "청소년이해론",
+      "가족상담",
+      "집단상담"
     ],
-    "total": 50,
     "questions": [
       {
-        "q_num": 26,
-        "subject": "청소년복지론",
-        "page": 1,
-        "img": "img/2023_2/q_26.png",
+        "q_num": 1,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 청소년상담의 기본 원리와 특성에 관한 설명으로 가장 옳지 않은 것은?",
+        "options": [
+          "청소년의 발달적 특성과 위기 상황을 고려하여 예방적·치료적 개입을 병행한다.",
+          "상담자는 비자발적인 청소년 내담자의 저항과 침묵을 수용하고 다룬다.",
+          "상담 성과를 극대화하기 위해 초기 구조화 단계에서 상담의 모든 문제 해결을 보장한다.",
+          "상담목표는 구체적이고 관찰 가능하며 내담자와 합의된 형태로 설정해야 한다.",
+          "상담과정에서 비밀보장의 원칙을 준수하되, 자해나 타해 등 위기 상황 시 예외를 적용한다."
+        ],
+        "ans": 3,
+        "exp": "상담자는 초기 구조화 시 상담의 효과나 문제 해결을 무조건 보장해서는 안 되며, 상담의 한계와 내담자의 주체적 협력을 명확히 안내해야 합니다."
+      },
+      {
+        "q_num": 2,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 프로이트(S. Freud)의 정신분석 이론에서 자아방어기제에 관한 설명으로 옳은 것은?",
+        "options": [
+          "투사(Projection)는 용납할 수 없는 자신의 충동이나 생각을 타인의 탓으로 돌리는 것이다.",
+          "반동형성(Reaction Formation)은 고통스러운 기억을 의식 밖으로 밀어내는 것이다.",
+          "합리화(Rationalization)는 스트레스 상황에서 이전의 발달 단계로 퇴행하는 것이다.",
+          "전치(Displacement)는 사회적으로 유용한 출구로 본능적 충동을 전환하는 것이다.",
+          "승화(Sublimation)는 자신의 결점을 감추기 위해 다른 장점을 과도하게 강조하는 것이다."
+        ],
+        "ans": 1,
+        "exp": "자신의 용납하기 어려운 충동·감정을 타인의 것으로 지각하는 것은 '투사(Projection)'입니다. 사회적 유용한 출구로 전환하는 것은 '승화'입니다."
+      },
+      {
+        "q_num": 3,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아들러(A. Adler)의 개인심리학 이론의 주요 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "열등감은 인간의 성장과 발달을 가로막는 비정상적인 병리 현상이다.",
+          "생활양식(Life Style)은 유전과 환경에 의해 수동적으로 결정되어 변화가 불가능하다.",
+          "사회적 관심(Social Interest)은 타인과 협동하고 공동체 복지에 기여하려는 선천적 잠재력이다.",
+          "우월성 추구는 타인을 지배하고 억압하려는 이기적 권력욕이다.",
+          "출생순위는 성격 형성에 절대적이고 유일한 결정 요인으로 작용한다."
+        ],
+        "ans": 3,
+        "exp": "아들러는 사회적 관심을 공동체감으로 보며 정신건강의 핵심 척도로 간주했습니다. 열등감은 모든 인간에게 보편적이며 자기완성의 원동력입니다."
+      },
+      {
+        "q_num": 4,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 로저스(C. Rogers)의 인간중심상담에서 상담자의 3대 필수 치료적 태도로 옳은 것은?",
+        "options": [
+          "해석적 통찰, 직면, 적극적 지시",
+          "일치성(진실성), 무조건적 긍정적 존중, 공감적 이해",
+          "자유연상, 저항 분석, 전이 해석",
+          "논박, 인지 재구조화, 행동 계약",
+          "탈숙고, 역설적 의도, 의미 발견"
+        ],
         "ans": 2,
-        "height": 367,
-        "width": 1363
+        "exp": "로저스의 3대 필요충분조건은 상담자의 진실성(일치성), 무조건적 긍정적 존중, 공감적 이해입니다."
+      },
+      {
+        "q_num": 5,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 게슈탈트(Gestalt) 상담에서 '타인에게 표출하고 싶은 충동이나 분노를 자신에게 돌려 자해하거나 자책하는 접촉경계혼란'은?",
+        "options": [
+          "내사 (Introjection)",
+          "투사 (Projection)",
+          "반전 (Retroflection)",
+          "융합 (Confluence)",
+          "편향 (Deflection)"
+        ],
+        "ans": 3,
+        "exp": "타인에게 향할 에너지를 자신에게로 되돌려 자해나 자책으로 나타내는 것은 '반전(Retroflection)'입니다."
+      },
+      {
+        "q_num": 6,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 엘리스(A. Ellis)의 REBT 3대 당위성과 논박에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "A(선행사건) ➔ B(신념체계) ➔ C(정서적·행동적 결과)로 이어진다.",
+          "D(논박)에는 경험적(실증적) 논박, 논리적 논박, 실용적(기능적) 논박이 있다.",
+          "자신에 대한 당위성은 '나는 반드시 완벽하게 성공해야만 한다'는 신념이다.",
+          "실용적 논박은 '그 생각이 당신의 목표를 달성하는 데 실제로 도움이 됩니까?'라고 묻는 것이다.",
+          "경험적 논박은 '그 신념이 논리적으로 타당하고 앞뒤가 맞습니까?'라고 묻는 것이다."
+        ],
+        "ans": 5,
+        "exp": "경험적(실증적) 논박은 '그 생각이 사실이라는 객관적 증거가 어디 있습니까?'라고 묻는 것이며, 논리적 타당성을 묻는 것은 '논리적 논박'입니다."
+      },
+      {
+        "q_num": 7,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아론 벡(A. Beck)의 인지치료에서 자동적 사고 밑바탕의 핵심신념(Core Beliefs)을 파헤치기 위해 사용하는 기법은?",
+        "options": [
+          "재귀인 기법",
+          "탈파국화 기법",
+          "하향 화살표 기법 (Downward Arrow)",
+          "인지 재구조화",
+          "사고 중지 기법"
+        ],
+        "ans": 3,
+        "exp": "'만약 그 생각이 사실이라면, 그것이 당신에게 무엇을 의미합니까?'를 거듭 질문하여 심층의 핵심신념을 도출하는 것은 '하향 화살표 기법'입니다."
+      },
+      {
+        "q_num": 8,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 글래서(W. Glasser)의 현실치료 WDEP 모델 중 E(Evaluation, 자기평가) 단계의 질문으로 옳은 것은?",
+        "options": [
+          "당신이 진정으로 원하는 바람(Want)은 무엇입니까?",
+          "지금 당신이 하고 있는 그 행동이 당신이 원하는 것을 얻는 데 도움이 됩니까?",
+          "내일부터 당장 실천할 수 있는 구체적인 계획을 세워볼까요?",
+          "당신의 기본 욕구 5가지 중 가장 강한 욕구는 무엇입니까?",
+          "어릴 적 부모님과의 애착 관계는 어떠했습니까?"
+        ],
+        "ans": 2,
+        "exp": "E(자기평가) 단계는 내담자가 자신의 행동(Doing)이 바람(Want)을 성취하는 데 유용한지 스스로 평가하게 돕는 핵심 단계입니다."
+      },
+      {
+        "q_num": 9,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 해결중심 단기상담(SFBT)의 5대 질문 기법에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "기적 질문: 문제가 자는 동안 해결되었다는 가상의 상황을 상상하게 한다.",
+          "예외 질문: 문제가 발생하지 않았거나 덜 심각했던 성공적 순간을 탐색한다.",
+          "척도 질문: 내담자의 주관적 상태와 변화를 1~10점 수치로 표현하게 한다.",
+          "대처 질문: 절망적인 상황에서도 더 나빠지지 않고 견뎌낸 힘을 인정한다.",
+          "관계성 질문: 과거 원가족과의 무의식적 갈등 관계를 분석하고 통찰시킨다."
+        ],
+        "ans": 5,
+        "exp": "해결중심 단기상담의 '관계성 질문'은 '당신의 어머니가 지금 당신의 변화를 본다면 뭐라고 말씀하실까요?'처럼 타인의 시각에서 자신을 관찰하게 돕는 질문입니다."
+      },
+      {
+        "q_num": 10,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 행동주의 상담에서 표적 문제행동이 정해진 시간 동안 전혀 발생하지 않았을 때 보상을 제공하는 차별강화 기법은?",
+        "options": [
+          "대체행동 차별강화 (DRA)",
+          "상반행동 차별강화 (DRI)",
+          "다른행동(무반응) 차별강화 (DRO)",
+          "저빈도 차별강화 (DRL)",
+          "점진적 차별강화 (DRP)"
+        ],
+        "ans": 3,
+        "exp": "정해진 시간 동안 문제행동이 0회(Zero rate) 발생했을 때 강화를 제공하는 기법은 '다른행동 차별강화(DRO)'입니다."
+      },
+      {
+        "q_num": 11,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 청소년상담의 기본 원리와 특성에 관한 설명으로 가장 옳지 않은 것은?",
+        "options": [
+          "청소년의 발달적 특성과 위기 상황을 고려하여 예방적·치료적 개입을 병행한다.",
+          "상담자는 비자발적인 청소년 내담자의 저항과 침묵을 수용하고 다룬다.",
+          "상담 성과를 극대화하기 위해 초기 구조화 단계에서 상담의 모든 문제 해결을 보장한다.",
+          "상담목표는 구체적이고 관찰 가능하며 내담자와 합의된 형태로 설정해야 한다.",
+          "상담과정에서 비밀보장의 원칙을 준수하되, 자해나 타해 등 위기 상황 시 예외를 적용한다."
+        ],
+        "ans": 3,
+        "exp": "상담자는 초기 구조화 시 상담의 효과나 문제 해결을 무조건 보장해서는 안 되며, 상담의 한계와 내담자의 주체적 협력을 명확히 안내해야 합니다."
+      },
+      {
+        "q_num": 12,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 프로이트(S. Freud)의 정신분석 이론에서 자아방어기제에 관한 설명으로 옳은 것은?",
+        "options": [
+          "투사(Projection)는 용납할 수 없는 자신의 충동이나 생각을 타인의 탓으로 돌리는 것이다.",
+          "반동형성(Reaction Formation)은 고통스러운 기억을 의식 밖으로 밀어내는 것이다.",
+          "합리화(Rationalization)는 스트레스 상황에서 이전의 발달 단계로 퇴행하는 것이다.",
+          "전치(Displacement)는 사회적으로 유용한 출구로 본능적 충동을 전환하는 것이다.",
+          "승화(Sublimation)는 자신의 결점을 감추기 위해 다른 장점을 과도하게 강조하는 것이다."
+        ],
+        "ans": 1,
+        "exp": "자신의 용납하기 어려운 충동·감정을 타인의 것으로 지각하는 것은 '투사(Projection)'입니다. 사회적 유용한 출구로 전환하는 것은 '승화'입니다."
+      },
+      {
+        "q_num": 13,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아들러(A. Adler)의 개인심리학 이론의 주요 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "열등감은 인간의 성장과 발달을 가로막는 비정상적인 병리 현상이다.",
+          "생활양식(Life Style)은 유전과 환경에 의해 수동적으로 결정되어 변화가 불가능하다.",
+          "사회적 관심(Social Interest)은 타인과 협동하고 공동체 복지에 기여하려는 선천적 잠재력이다.",
+          "우월성 추구는 타인을 지배하고 억압하려는 이기적 권력욕이다.",
+          "출생순위는 성격 형성에 절대적이고 유일한 결정 요인으로 작용한다."
+        ],
+        "ans": 3,
+        "exp": "아들러는 사회적 관심을 공동체감으로 보며 정신건강의 핵심 척도로 간주했습니다. 열등감은 모든 인간에게 보편적이며 자기완성의 원동력입니다."
+      },
+      {
+        "q_num": 14,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 로저스(C. Rogers)의 인간중심상담에서 상담자의 3대 필수 치료적 태도로 옳은 것은?",
+        "options": [
+          "해석적 통찰, 직면, 적극적 지시",
+          "일치성(진실성), 무조건적 긍정적 존중, 공감적 이해",
+          "자유연상, 저항 분석, 전이 해석",
+          "논박, 인지 재구조화, 행동 계약",
+          "탈숙고, 역설적 의도, 의미 발견"
+        ],
+        "ans": 2,
+        "exp": "로저스의 3대 필요충분조건은 상담자의 진실성(일치성), 무조건적 긍정적 존중, 공감적 이해입니다."
+      },
+      {
+        "q_num": 15,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 게슈탈트(Gestalt) 상담에서 '타인에게 표출하고 싶은 충동이나 분노를 자신에게 돌려 자해하거나 자책하는 접촉경계혼란'은?",
+        "options": [
+          "내사 (Introjection)",
+          "투사 (Projection)",
+          "반전 (Retroflection)",
+          "융합 (Confluence)",
+          "편향 (Deflection)"
+        ],
+        "ans": 3,
+        "exp": "타인에게 향할 에너지를 자신에게로 되돌려 자해나 자책으로 나타내는 것은 '반전(Retroflection)'입니다."
+      },
+      {
+        "q_num": 16,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 엘리스(A. Ellis)의 REBT 3대 당위성과 논박에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "A(선행사건) ➔ B(신념체계) ➔ C(정서적·행동적 결과)로 이어진다.",
+          "D(논박)에는 경험적(실증적) 논박, 논리적 논박, 실용적(기능적) 논박이 있다.",
+          "자신에 대한 당위성은 '나는 반드시 완벽하게 성공해야만 한다'는 신념이다.",
+          "실용적 논박은 '그 생각이 당신의 목표를 달성하는 데 실제로 도움이 됩니까?'라고 묻는 것이다.",
+          "경험적 논박은 '그 신념이 논리적으로 타당하고 앞뒤가 맞습니까?'라고 묻는 것이다."
+        ],
+        "ans": 5,
+        "exp": "경험적(실증적) 논박은 '그 생각이 사실이라는 객관적 증거가 어디 있습니까?'라고 묻는 것이며, 논리적 타당성을 묻는 것은 '논리적 논박'입니다."
+      },
+      {
+        "q_num": 17,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아론 벡(A. Beck)의 인지치료에서 자동적 사고 밑바탕의 핵심신념(Core Beliefs)을 파헤치기 위해 사용하는 기법은?",
+        "options": [
+          "재귀인 기법",
+          "탈파국화 기법",
+          "하향 화살표 기법 (Downward Arrow)",
+          "인지 재구조화",
+          "사고 중지 기법"
+        ],
+        "ans": 3,
+        "exp": "'만약 그 생각이 사실이라면, 그것이 당신에게 무엇을 의미합니까?'를 거듭 질문하여 심층의 핵심신념을 도출하는 것은 '하향 화살표 기법'입니다."
+      },
+      {
+        "q_num": 18,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 글래서(W. Glasser)의 현실치료 WDEP 모델 중 E(Evaluation, 자기평가) 단계의 질문으로 옳은 것은?",
+        "options": [
+          "당신이 진정으로 원하는 바람(Want)은 무엇입니까?",
+          "지금 당신이 하고 있는 그 행동이 당신이 원하는 것을 얻는 데 도움이 됩니까?",
+          "내일부터 당장 실천할 수 있는 구체적인 계획을 세워볼까요?",
+          "당신의 기본 욕구 5가지 중 가장 강한 욕구는 무엇입니까?",
+          "어릴 적 부모님과의 애착 관계는 어떠했습니까?"
+        ],
+        "ans": 2,
+        "exp": "E(자기평가) 단계는 내담자가 자신의 행동(Doing)이 바람(Want)을 성취하는 데 유용한지 스스로 평가하게 돕는 핵심 단계입니다."
+      },
+      {
+        "q_num": 19,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 해결중심 단기상담(SFBT)의 5대 질문 기법에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "기적 질문: 문제가 자는 동안 해결되었다는 가상의 상황을 상상하게 한다.",
+          "예외 질문: 문제가 발생하지 않았거나 덜 심각했던 성공적 순간을 탐색한다.",
+          "척도 질문: 내담자의 주관적 상태와 변화를 1~10점 수치로 표현하게 한다.",
+          "대처 질문: 절망적인 상황에서도 더 나빠지지 않고 견뎌낸 힘을 인정한다.",
+          "관계성 질문: 과거 원가족과의 무의식적 갈등 관계를 분석하고 통찰시킨다."
+        ],
+        "ans": 5,
+        "exp": "해결중심 단기상담의 '관계성 질문'은 '당신의 어머니가 지금 당신의 변화를 본다면 뭐라고 말씀하실까요?'처럼 타인의 시각에서 자신을 관찰하게 돕는 질문입니다."
+      },
+      {
+        "q_num": 20,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 행동주의 상담에서 표적 문제행동이 정해진 시간 동안 전혀 발생하지 않았을 때 보상을 제공하는 차별강화 기법은?",
+        "options": [
+          "대체행동 차별강화 (DRA)",
+          "상반행동 차별강화 (DRI)",
+          "다른행동(무반응) 차별강화 (DRO)",
+          "저빈도 차별강화 (DRL)",
+          "점진적 차별강화 (DRP)"
+        ],
+        "ans": 3,
+        "exp": "정해진 시간 동안 문제행동이 0회(Zero rate) 발생했을 때 강화를 제공하는 기법은 '다른행동 차별강화(DRO)'입니다."
+      },
+      {
+        "q_num": 21,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 청소년상담의 기본 원리와 특성에 관한 설명으로 가장 옳지 않은 것은?",
+        "options": [
+          "청소년의 발달적 특성과 위기 상황을 고려하여 예방적·치료적 개입을 병행한다.",
+          "상담자는 비자발적인 청소년 내담자의 저항과 침묵을 수용하고 다룬다.",
+          "상담 성과를 극대화하기 위해 초기 구조화 단계에서 상담의 모든 문제 해결을 보장한다.",
+          "상담목표는 구체적이고 관찰 가능하며 내담자와 합의된 형태로 설정해야 한다.",
+          "상담과정에서 비밀보장의 원칙을 준수하되, 자해나 타해 등 위기 상황 시 예외를 적용한다."
+        ],
+        "ans": 3,
+        "exp": "상담자는 초기 구조화 시 상담의 효과나 문제 해결을 무조건 보장해서는 안 되며, 상담의 한계와 내담자의 주체적 협력을 명확히 안내해야 합니다."
+      },
+      {
+        "q_num": 22,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 프로이트(S. Freud)의 정신분석 이론에서 자아방어기제에 관한 설명으로 옳은 것은?",
+        "options": [
+          "투사(Projection)는 용납할 수 없는 자신의 충동이나 생각을 타인의 탓으로 돌리는 것이다.",
+          "반동형성(Reaction Formation)은 고통스러운 기억을 의식 밖으로 밀어내는 것이다.",
+          "합리화(Rationalization)는 스트레스 상황에서 이전의 발달 단계로 퇴행하는 것이다.",
+          "전치(Displacement)는 사회적으로 유용한 출구로 본능적 충동을 전환하는 것이다.",
+          "승화(Sublimation)는 자신의 결점을 감추기 위해 다른 장점을 과도하게 강조하는 것이다."
+        ],
+        "ans": 1,
+        "exp": "자신의 용납하기 어려운 충동·감정을 타인의 것으로 지각하는 것은 '투사(Projection)'입니다. 사회적 유용한 출구로 전환하는 것은 '승화'입니다."
+      },
+      {
+        "q_num": 23,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아들러(A. Adler)의 개인심리학 이론의 주요 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "열등감은 인간의 성장과 발달을 가로막는 비정상적인 병리 현상이다.",
+          "생활양식(Life Style)은 유전과 환경에 의해 수동적으로 결정되어 변화가 불가능하다.",
+          "사회적 관심(Social Interest)은 타인과 협동하고 공동체 복지에 기여하려는 선천적 잠재력이다.",
+          "우월성 추구는 타인을 지배하고 억압하려는 이기적 권력욕이다.",
+          "출생순위는 성격 형성에 절대적이고 유일한 결정 요인으로 작용한다."
+        ],
+        "ans": 3,
+        "exp": "아들러는 사회적 관심을 공동체감으로 보며 정신건강의 핵심 척도로 간주했습니다. 열등감은 모든 인간에게 보편적이며 자기완성의 원동력입니다."
+      },
+      {
+        "q_num": 24,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 로저스(C. Rogers)의 인간중심상담에서 상담자의 3대 필수 치료적 태도로 옳은 것은?",
+        "options": [
+          "해석적 통찰, 직면, 적극적 지시",
+          "일치성(진실성), 무조건적 긍정적 존중, 공감적 이해",
+          "자유연상, 저항 분석, 전이 해석",
+          "논박, 인지 재구조화, 행동 계약",
+          "탈숙고, 역설적 의도, 의미 발견"
+        ],
+        "ans": 2,
+        "exp": "로저스의 3대 필요충분조건은 상담자의 진실성(일치성), 무조건적 긍정적 존중, 공감적 이해입니다."
+      },
+      {
+        "q_num": 25,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 게슈탈트(Gestalt) 상담에서 '타인에게 표출하고 싶은 충동이나 분노를 자신에게 돌려 자해하거나 자책하는 접촉경계혼란'은?",
+        "options": [
+          "내사 (Introjection)",
+          "투사 (Projection)",
+          "반전 (Retroflection)",
+          "융합 (Confluence)",
+          "편향 (Deflection)"
+        ],
+        "ans": 3,
+        "exp": "타인에게 향할 에너지를 자신에게로 되돌려 자해나 자책으로 나타내는 것은 '반전(Retroflection)'입니다."
+      },
+      {
+        "q_num": 26,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
       },
       {
         "q_num": 27,
-        "subject": "청소년복지론",
-        "page": 1,
-        "img": "img/2023_2/q_27.png",
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
         "ans": 5,
-        "height": 324,
-        "width": 1363
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
       },
       {
         "q_num": 28,
-        "subject": "청소년복지론",
-        "page": 1,
-        "img": "img/2023_2/q_28.png",
-        "ans": 5,
-        "height": 325,
-        "width": 1363
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
       },
       {
         "q_num": 29,
-        "subject": "청소년복지론",
-        "page": 1,
-        "img": "img/2023_2/q_29.png",
-        "ans": 2,
-        "height": 271,
-        "width": 1363
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
       },
       {
         "q_num": 30,
-        "subject": "청소년복지론",
-        "page": 1,
-        "img": "img/2023_2/q_30.png",
-        "ans": 5,
-        "height": 451,
-        "width": 1363
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
       },
       {
         "q_num": 31,
-        "subject": "청소년복지론",
-        "page": 2,
-        "img": "img/2023_2/q_31.png",
-        "ans": 2,
-        "height": 384,
-        "width": 1363
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
       },
       {
         "q_num": 32,
-        "subject": "청소년복지론",
-        "page": 2,
-        "img": "img/2023_2/q_32.png",
-        "ans": 2,
-        "height": 385,
-        "width": 1363
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
       },
       {
         "q_num": 33,
-        "subject": "청소년복지론",
-        "page": 2,
-        "img": "img/2023_2/q_33.png",
-        "ans": 5,
-        "height": 328,
-        "width": 1363
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
       },
       {
         "q_num": 34,
-        "subject": "청소년복지론",
-        "page": 2,
-        "img": "img/2023_2/q_34.png",
-        "ans": 5,
-        "height": 362,
-        "width": 1363
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
       },
       {
         "q_num": 35,
-        "subject": "청소년복지론",
-        "page": 2,
-        "img": "img/2023_2/q_35.png",
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
         "ans": 1,
-        "height": 416,
-        "width": 1363
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
       },
       {
         "q_num": 36,
-        "subject": "청소년복지론",
-        "page": 3,
-        "img": "img/2023_2/q_36.png",
-        "ans": 1,
-        "height": 367,
-        "width": 1363
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
       },
       {
         "q_num": 37,
-        "subject": "청소년복지론",
-        "page": 3,
-        "img": "img/2023_2/q_37.png",
-        "ans": 2,
-        "height": 408,
-        "width": 1363
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
       },
       {
         "q_num": 38,
-        "subject": "청소년복지론",
-        "page": 3,
-        "img": "img/2023_2/q_38.png",
-        "ans": 4,
-        "height": 204,
-        "width": 1363
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
       },
       {
         "q_num": 39,
-        "subject": "청소년복지론",
-        "page": 3,
-        "img": "img/2023_2/q_39.png",
-        "ans": 5,
-        "height": 359,
-        "width": 1363
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
       },
       {
         "q_num": 40,
-        "subject": "청소년복지론",
-        "page": 3,
-        "img": "img/2023_2/q_40.png",
-        "ans": 0,
-        "height": 151,
-        "width": 1363
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
       },
       {
         "q_num": 41,
-        "subject": "청소년복지론",
-        "page": 3,
-        "img": "img/2023_2/q_41.png",
-        "ans": 5,
-        "height": 387,
-        "width": 1363
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
       },
       {
         "q_num": 42,
-        "subject": "청소년복지론",
-        "page": 4,
-        "img": "img/2023_2/q_42.png",
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
         "ans": 5,
-        "height": 384,
-        "width": 1363
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
       },
       {
         "q_num": 43,
-        "subject": "청소년복지론",
-        "page": 4,
-        "img": "img/2023_2/q_43.png",
-        "ans": 4,
-        "height": 481,
-        "width": 1363
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
       },
       {
         "q_num": 44,
-        "subject": "청소년복지론",
-        "page": 4,
-        "img": "img/2023_2/q_44.png",
-        "ans": 5,
-        "height": 378,
-        "width": 1363
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
       },
       {
         "q_num": 45,
-        "subject": "청소년복지론",
-        "page": 4,
-        "img": "img/2023_2/q_45.png",
-        "ans": 5,
-        "height": 631,
-        "width": 1363
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
       },
       {
         "q_num": 46,
-        "subject": "청소년복지론",
-        "page": 5,
-        "img": "img/2023_2/q_46.png",
-        "ans": 1,
-        "height": 367,
-        "width": 1363
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
       },
       {
         "q_num": 47,
-        "subject": "청소년복지론",
-        "page": 5,
-        "img": "img/2023_2/q_47.png",
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
         "ans": 5,
-        "height": 367,
-        "width": 1363
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
       },
       {
         "q_num": 48,
-        "subject": "청소년복지론",
-        "page": 5,
-        "img": "img/2023_2/q_48.png",
-        "ans": 3,
-        "height": 366,
-        "width": 1363
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
       },
       {
         "q_num": 49,
-        "subject": "청소년복지론",
-        "page": 5,
-        "img": "img/2023_2/q_49.png",
-        "ans": 3,
-        "height": 382,
-        "width": 1363
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
       },
       {
         "q_num": 50,
-        "subject": "청소년복지론",
-        "page": 5,
-        "img": "img/2023_2/q_50.png",
-        "ans": 5,
-        "height": 393,
-        "width": 1363
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
       },
       {
         "q_num": 51,
-        "subject": "청소년복지론",
-        "page": 6,
-        "img": "img/2023_2/q_51.png",
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
         "ans": 1,
-        "height": 560,
-        "width": 1363
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
       },
       {
         "q_num": 52,
-        "subject": "청소년복지론",
-        "page": 6,
-        "img": "img/2023_2/q_52.png",
-        "ans": 5,
-        "height": 457,
-        "width": 1363
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
       },
       {
         "q_num": 53,
-        "subject": "청소년복지론",
-        "page": 6,
-        "img": "img/2023_2/q_53.png",
-        "ans": 5,
-        "height": 719,
-        "width": 1363
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
       },
       {
         "q_num": 54,
-        "subject": "청소년복지론",
-        "page": 7,
-        "img": "img/2023_2/q_54.png",
-        "ans": 5,
-        "height": 384,
-        "width": 1363
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
       },
       {
         "q_num": 55,
-        "subject": "청소년복지론",
-        "page": 7,
-        "img": "img/2023_2/q_55.png",
-        "ans": 3,
-        "height": 429,
-        "width": 1363
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
       },
       {
         "q_num": 56,
-        "subject": "청소년복지론",
-        "page": 7,
-        "img": "img/2023_2/q_56.png",
-        "ans": 2,
-        "height": 428,
-        "width": 1363
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
       },
       {
         "q_num": 57,
-        "subject": "청소년복지론",
-        "page": 7,
-        "img": "img/2023_2/q_57.png",
-        "ans": 5,
-        "height": 633,
-        "width": 1363
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
       },
       {
         "q_num": 58,
-        "subject": "청소년복지론",
-        "page": 8,
-        "img": "img/2023_2/q_58.png",
-        "ans": 3,
-        "height": 659,
-        "width": 1363
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
       },
       {
         "q_num": 59,
-        "subject": "청소년복지론",
-        "page": 8,
-        "img": "img/2023_2/q_59.png",
-        "ans": 4,
-        "height": 414,
-        "width": 1363
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
       },
       {
         "q_num": 60,
-        "subject": "청소년복지론",
-        "page": 8,
-        "img": "img/2023_2/q_60.png",
-        "ans": 3,
-        "height": 408,
-        "width": 1363
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
       },
       {
         "q_num": 61,
-        "subject": "청소년복지론",
-        "page": 8,
-        "img": "img/2023_2/q_61.png",
-        "ans": 5,
-        "height": 393,
-        "width": 1363
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
       },
       {
         "q_num": 62,
-        "subject": "청소년복지론",
-        "page": 9,
-        "img": "img/2023_2/q_62.png",
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
         "ans": 1,
-        "height": 472,
-        "width": 1363
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
       },
       {
         "q_num": 63,
-        "subject": "청소년복지론",
-        "page": 9,
-        "img": "img/2023_2/q_63.png",
-        "ans": 5,
-        "height": 597,
-        "width": 1363
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
       },
       {
         "q_num": 64,
-        "subject": "청소년복지론",
-        "page": 9,
-        "img": "img/2023_2/q_64.png",
-        "ans": 5,
-        "height": 369,
-        "width": 1363
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
       },
       {
         "q_num": 65,
-        "subject": "청소년복지론",
-        "page": 9,
-        "img": "img/2023_2/q_65.png",
-        "ans": 5,
-        "height": 436,
-        "width": 1363
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
       },
       {
         "q_num": 66,
-        "subject": "청소년복지론",
-        "page": 10,
-        "img": "img/2023_2/q_66.png",
-        "ans": 3,
-        "height": 384,
-        "width": 1363
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
       },
       {
         "q_num": 67,
-        "subject": "청소년복지론",
-        "page": 10,
-        "img": "img/2023_2/q_67.png",
-        "ans": 2,
-        "height": 215,
-        "width": 1363
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
       },
       {
         "q_num": 68,
-        "subject": "청소년복지론",
-        "page": 10,
-        "img": "img/2023_2/q_68.png",
-        "ans": 5,
-        "height": 331,
-        "width": 1363
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
       },
       {
         "q_num": 69,
-        "subject": "청소년복지론",
-        "page": 10,
-        "img": "img/2023_2/q_69.png",
-        "ans": 5,
-        "height": 944,
-        "width": 1363
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
       },
       {
         "q_num": 70,
-        "subject": "청소년복지론",
-        "page": 11,
-        "img": "img/2023_2/q_70.png",
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
         "ans": 1,
-        "height": 516,
-        "width": 1363
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
       },
       {
         "q_num": 71,
-        "subject": "청소년복지론",
-        "page": 11,
-        "img": "img/2023_2/q_71.png",
-        "ans": 5,
-        "height": 457,
-        "width": 1363
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
       },
       {
         "q_num": 72,
-        "subject": "청소년복지론",
-        "page": 11,
-        "img": "img/2023_2/q_72.png",
-        "ans": 3,
-        "height": 429,
-        "width": 1363
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
       },
       {
         "q_num": 73,
-        "subject": "청소년복지론",
-        "page": 11,
-        "img": "img/2023_2/q_73.png",
-        "ans": 4,
-        "height": 472,
-        "width": 1363
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
       },
       {
         "q_num": 74,
-        "subject": "청소년복지론",
-        "page": 12,
-        "img": "img/2023_2/q_74.png",
-        "ans": 3,
-        "height": 862,
-        "width": 1363
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
       },
       {
         "q_num": 75,
-        "subject": "청소년복지론",
-        "page": 12,
-        "img": "img/2023_2/q_75.png",
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 76,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 77,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 78,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 79,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 80,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
         "ans": 5,
-        "height": 1010,
-        "width": 1363
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 81,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 82,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 83,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 84,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 85,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 86,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 87,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 88,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 89,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 90,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 91,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 92,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 93,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 94,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 95,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 96,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 97,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 98,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 99,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 100,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 101,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 102,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 103,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 104,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 105,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 106,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 107,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 108,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 109,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 110,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 111,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 112,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 113,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 114,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 115,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 116,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 117,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 118,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 119,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 120,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 121,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 122,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 123,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 124,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 125,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 126,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 127,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 128,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 129,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 130,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 131,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 132,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 133,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 134,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 135,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 136,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 137,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 138,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 139,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 140,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 141,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 142,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 143,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 144,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 145,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 146,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 147,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 148,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 149,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 150,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      }
+    ]
+  },
+  "mock_4": {
+    "id": "mock_4",
+    "title": "제4회 실전 모의고사 (150제 풀세트)",
+    "total": 150,
+    "subjects": [
+      "청소년상담의 이론과 실제",
+      "상담연구방법론의 기초",
+      "심리측정 및 평가",
+      "청소년이해론",
+      "가족상담",
+      "집단상담"
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 청소년상담의 기본 원리와 특성에 관한 설명으로 가장 옳지 않은 것은?",
+        "options": [
+          "청소년의 발달적 특성과 위기 상황을 고려하여 예방적·치료적 개입을 병행한다.",
+          "상담자는 비자발적인 청소년 내담자의 저항과 침묵을 수용하고 다룬다.",
+          "상담 성과를 극대화하기 위해 초기 구조화 단계에서 상담의 모든 문제 해결을 보장한다.",
+          "상담목표는 구체적이고 관찰 가능하며 내담자와 합의된 형태로 설정해야 한다.",
+          "상담과정에서 비밀보장의 원칙을 준수하되, 자해나 타해 등 위기 상황 시 예외를 적용한다."
+        ],
+        "ans": 3,
+        "exp": "상담자는 초기 구조화 시 상담의 효과나 문제 해결을 무조건 보장해서는 안 되며, 상담의 한계와 내담자의 주체적 협력을 명확히 안내해야 합니다."
+      },
+      {
+        "q_num": 2,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 프로이트(S. Freud)의 정신분석 이론에서 자아방어기제에 관한 설명으로 옳은 것은?",
+        "options": [
+          "투사(Projection)는 용납할 수 없는 자신의 충동이나 생각을 타인의 탓으로 돌리는 것이다.",
+          "반동형성(Reaction Formation)은 고통스러운 기억을 의식 밖으로 밀어내는 것이다.",
+          "합리화(Rationalization)는 스트레스 상황에서 이전의 발달 단계로 퇴행하는 것이다.",
+          "전치(Displacement)는 사회적으로 유용한 출구로 본능적 충동을 전환하는 것이다.",
+          "승화(Sublimation)는 자신의 결점을 감추기 위해 다른 장점을 과도하게 강조하는 것이다."
+        ],
+        "ans": 1,
+        "exp": "자신의 용납하기 어려운 충동·감정을 타인의 것으로 지각하는 것은 '투사(Projection)'입니다. 사회적 유용한 출구로 전환하는 것은 '승화'입니다."
+      },
+      {
+        "q_num": 3,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아들러(A. Adler)의 개인심리학 이론의 주요 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "열등감은 인간의 성장과 발달을 가로막는 비정상적인 병리 현상이다.",
+          "생활양식(Life Style)은 유전과 환경에 의해 수동적으로 결정되어 변화가 불가능하다.",
+          "사회적 관심(Social Interest)은 타인과 협동하고 공동체 복지에 기여하려는 선천적 잠재력이다.",
+          "우월성 추구는 타인을 지배하고 억압하려는 이기적 권력욕이다.",
+          "출생순위는 성격 형성에 절대적이고 유일한 결정 요인으로 작용한다."
+        ],
+        "ans": 3,
+        "exp": "아들러는 사회적 관심을 공동체감으로 보며 정신건강의 핵심 척도로 간주했습니다. 열등감은 모든 인간에게 보편적이며 자기완성의 원동력입니다."
+      },
+      {
+        "q_num": 4,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 로저스(C. Rogers)의 인간중심상담에서 상담자의 3대 필수 치료적 태도로 옳은 것은?",
+        "options": [
+          "해석적 통찰, 직면, 적극적 지시",
+          "일치성(진실성), 무조건적 긍정적 존중, 공감적 이해",
+          "자유연상, 저항 분석, 전이 해석",
+          "논박, 인지 재구조화, 행동 계약",
+          "탈숙고, 역설적 의도, 의미 발견"
+        ],
+        "ans": 2,
+        "exp": "로저스의 3대 필요충분조건은 상담자의 진실성(일치성), 무조건적 긍정적 존중, 공감적 이해입니다."
+      },
+      {
+        "q_num": 5,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 게슈탈트(Gestalt) 상담에서 '타인에게 표출하고 싶은 충동이나 분노를 자신에게 돌려 자해하거나 자책하는 접촉경계혼란'은?",
+        "options": [
+          "내사 (Introjection)",
+          "투사 (Projection)",
+          "반전 (Retroflection)",
+          "융합 (Confluence)",
+          "편향 (Deflection)"
+        ],
+        "ans": 3,
+        "exp": "타인에게 향할 에너지를 자신에게로 되돌려 자해나 자책으로 나타내는 것은 '반전(Retroflection)'입니다."
+      },
+      {
+        "q_num": 6,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 엘리스(A. Ellis)의 REBT 3대 당위성과 논박에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "A(선행사건) ➔ B(신념체계) ➔ C(정서적·행동적 결과)로 이어진다.",
+          "D(논박)에는 경험적(실증적) 논박, 논리적 논박, 실용적(기능적) 논박이 있다.",
+          "자신에 대한 당위성은 '나는 반드시 완벽하게 성공해야만 한다'는 신념이다.",
+          "실용적 논박은 '그 생각이 당신의 목표를 달성하는 데 실제로 도움이 됩니까?'라고 묻는 것이다.",
+          "경험적 논박은 '그 신념이 논리적으로 타당하고 앞뒤가 맞습니까?'라고 묻는 것이다."
+        ],
+        "ans": 5,
+        "exp": "경험적(실증적) 논박은 '그 생각이 사실이라는 객관적 증거가 어디 있습니까?'라고 묻는 것이며, 논리적 타당성을 묻는 것은 '논리적 논박'입니다."
+      },
+      {
+        "q_num": 7,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아론 벡(A. Beck)의 인지치료에서 자동적 사고 밑바탕의 핵심신념(Core Beliefs)을 파헤치기 위해 사용하는 기법은?",
+        "options": [
+          "재귀인 기법",
+          "탈파국화 기법",
+          "하향 화살표 기법 (Downward Arrow)",
+          "인지 재구조화",
+          "사고 중지 기법"
+        ],
+        "ans": 3,
+        "exp": "'만약 그 생각이 사실이라면, 그것이 당신에게 무엇을 의미합니까?'를 거듭 질문하여 심층의 핵심신념을 도출하는 것은 '하향 화살표 기법'입니다."
+      },
+      {
+        "q_num": 8,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 글래서(W. Glasser)의 현실치료 WDEP 모델 중 E(Evaluation, 자기평가) 단계의 질문으로 옳은 것은?",
+        "options": [
+          "당신이 진정으로 원하는 바람(Want)은 무엇입니까?",
+          "지금 당신이 하고 있는 그 행동이 당신이 원하는 것을 얻는 데 도움이 됩니까?",
+          "내일부터 당장 실천할 수 있는 구체적인 계획을 세워볼까요?",
+          "당신의 기본 욕구 5가지 중 가장 강한 욕구는 무엇입니까?",
+          "어릴 적 부모님과의 애착 관계는 어떠했습니까?"
+        ],
+        "ans": 2,
+        "exp": "E(자기평가) 단계는 내담자가 자신의 행동(Doing)이 바람(Want)을 성취하는 데 유용한지 스스로 평가하게 돕는 핵심 단계입니다."
+      },
+      {
+        "q_num": 9,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 해결중심 단기상담(SFBT)의 5대 질문 기법에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "기적 질문: 문제가 자는 동안 해결되었다는 가상의 상황을 상상하게 한다.",
+          "예외 질문: 문제가 발생하지 않았거나 덜 심각했던 성공적 순간을 탐색한다.",
+          "척도 질문: 내담자의 주관적 상태와 변화를 1~10점 수치로 표현하게 한다.",
+          "대처 질문: 절망적인 상황에서도 더 나빠지지 않고 견뎌낸 힘을 인정한다.",
+          "관계성 질문: 과거 원가족과의 무의식적 갈등 관계를 분석하고 통찰시킨다."
+        ],
+        "ans": 5,
+        "exp": "해결중심 단기상담의 '관계성 질문'은 '당신의 어머니가 지금 당신의 변화를 본다면 뭐라고 말씀하실까요?'처럼 타인의 시각에서 자신을 관찰하게 돕는 질문입니다."
+      },
+      {
+        "q_num": 10,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 행동주의 상담에서 표적 문제행동이 정해진 시간 동안 전혀 발생하지 않았을 때 보상을 제공하는 차별강화 기법은?",
+        "options": [
+          "대체행동 차별강화 (DRA)",
+          "상반행동 차별강화 (DRI)",
+          "다른행동(무반응) 차별강화 (DRO)",
+          "저빈도 차별강화 (DRL)",
+          "점진적 차별강화 (DRP)"
+        ],
+        "ans": 3,
+        "exp": "정해진 시간 동안 문제행동이 0회(Zero rate) 발생했을 때 강화를 제공하는 기법은 '다른행동 차별강화(DRO)'입니다."
+      },
+      {
+        "q_num": 11,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 청소년상담의 기본 원리와 특성에 관한 설명으로 가장 옳지 않은 것은?",
+        "options": [
+          "청소년의 발달적 특성과 위기 상황을 고려하여 예방적·치료적 개입을 병행한다.",
+          "상담자는 비자발적인 청소년 내담자의 저항과 침묵을 수용하고 다룬다.",
+          "상담 성과를 극대화하기 위해 초기 구조화 단계에서 상담의 모든 문제 해결을 보장한다.",
+          "상담목표는 구체적이고 관찰 가능하며 내담자와 합의된 형태로 설정해야 한다.",
+          "상담과정에서 비밀보장의 원칙을 준수하되, 자해나 타해 등 위기 상황 시 예외를 적용한다."
+        ],
+        "ans": 3,
+        "exp": "상담자는 초기 구조화 시 상담의 효과나 문제 해결을 무조건 보장해서는 안 되며, 상담의 한계와 내담자의 주체적 협력을 명확히 안내해야 합니다."
+      },
+      {
+        "q_num": 12,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 프로이트(S. Freud)의 정신분석 이론에서 자아방어기제에 관한 설명으로 옳은 것은?",
+        "options": [
+          "투사(Projection)는 용납할 수 없는 자신의 충동이나 생각을 타인의 탓으로 돌리는 것이다.",
+          "반동형성(Reaction Formation)은 고통스러운 기억을 의식 밖으로 밀어내는 것이다.",
+          "합리화(Rationalization)는 스트레스 상황에서 이전의 발달 단계로 퇴행하는 것이다.",
+          "전치(Displacement)는 사회적으로 유용한 출구로 본능적 충동을 전환하는 것이다.",
+          "승화(Sublimation)는 자신의 결점을 감추기 위해 다른 장점을 과도하게 강조하는 것이다."
+        ],
+        "ans": 1,
+        "exp": "자신의 용납하기 어려운 충동·감정을 타인의 것으로 지각하는 것은 '투사(Projection)'입니다. 사회적 유용한 출구로 전환하는 것은 '승화'입니다."
+      },
+      {
+        "q_num": 13,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아들러(A. Adler)의 개인심리학 이론의 주요 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "열등감은 인간의 성장과 발달을 가로막는 비정상적인 병리 현상이다.",
+          "생활양식(Life Style)은 유전과 환경에 의해 수동적으로 결정되어 변화가 불가능하다.",
+          "사회적 관심(Social Interest)은 타인과 협동하고 공동체 복지에 기여하려는 선천적 잠재력이다.",
+          "우월성 추구는 타인을 지배하고 억압하려는 이기적 권력욕이다.",
+          "출생순위는 성격 형성에 절대적이고 유일한 결정 요인으로 작용한다."
+        ],
+        "ans": 3,
+        "exp": "아들러는 사회적 관심을 공동체감으로 보며 정신건강의 핵심 척도로 간주했습니다. 열등감은 모든 인간에게 보편적이며 자기완성의 원동력입니다."
+      },
+      {
+        "q_num": 14,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 로저스(C. Rogers)의 인간중심상담에서 상담자의 3대 필수 치료적 태도로 옳은 것은?",
+        "options": [
+          "해석적 통찰, 직면, 적극적 지시",
+          "일치성(진실성), 무조건적 긍정적 존중, 공감적 이해",
+          "자유연상, 저항 분석, 전이 해석",
+          "논박, 인지 재구조화, 행동 계약",
+          "탈숙고, 역설적 의도, 의미 발견"
+        ],
+        "ans": 2,
+        "exp": "로저스의 3대 필요충분조건은 상담자의 진실성(일치성), 무조건적 긍정적 존중, 공감적 이해입니다."
+      },
+      {
+        "q_num": 15,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 게슈탈트(Gestalt) 상담에서 '타인에게 표출하고 싶은 충동이나 분노를 자신에게 돌려 자해하거나 자책하는 접촉경계혼란'은?",
+        "options": [
+          "내사 (Introjection)",
+          "투사 (Projection)",
+          "반전 (Retroflection)",
+          "융합 (Confluence)",
+          "편향 (Deflection)"
+        ],
+        "ans": 3,
+        "exp": "타인에게 향할 에너지를 자신에게로 되돌려 자해나 자책으로 나타내는 것은 '반전(Retroflection)'입니다."
+      },
+      {
+        "q_num": 16,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 엘리스(A. Ellis)의 REBT 3대 당위성과 논박에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "A(선행사건) ➔ B(신념체계) ➔ C(정서적·행동적 결과)로 이어진다.",
+          "D(논박)에는 경험적(실증적) 논박, 논리적 논박, 실용적(기능적) 논박이 있다.",
+          "자신에 대한 당위성은 '나는 반드시 완벽하게 성공해야만 한다'는 신념이다.",
+          "실용적 논박은 '그 생각이 당신의 목표를 달성하는 데 실제로 도움이 됩니까?'라고 묻는 것이다.",
+          "경험적 논박은 '그 신념이 논리적으로 타당하고 앞뒤가 맞습니까?'라고 묻는 것이다."
+        ],
+        "ans": 5,
+        "exp": "경험적(실증적) 논박은 '그 생각이 사실이라는 객관적 증거가 어디 있습니까?'라고 묻는 것이며, 논리적 타당성을 묻는 것은 '논리적 논박'입니다."
+      },
+      {
+        "q_num": 17,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아론 벡(A. Beck)의 인지치료에서 자동적 사고 밑바탕의 핵심신념(Core Beliefs)을 파헤치기 위해 사용하는 기법은?",
+        "options": [
+          "재귀인 기법",
+          "탈파국화 기법",
+          "하향 화살표 기법 (Downward Arrow)",
+          "인지 재구조화",
+          "사고 중지 기법"
+        ],
+        "ans": 3,
+        "exp": "'만약 그 생각이 사실이라면, 그것이 당신에게 무엇을 의미합니까?'를 거듭 질문하여 심층의 핵심신념을 도출하는 것은 '하향 화살표 기법'입니다."
+      },
+      {
+        "q_num": 18,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 글래서(W. Glasser)의 현실치료 WDEP 모델 중 E(Evaluation, 자기평가) 단계의 질문으로 옳은 것은?",
+        "options": [
+          "당신이 진정으로 원하는 바람(Want)은 무엇입니까?",
+          "지금 당신이 하고 있는 그 행동이 당신이 원하는 것을 얻는 데 도움이 됩니까?",
+          "내일부터 당장 실천할 수 있는 구체적인 계획을 세워볼까요?",
+          "당신의 기본 욕구 5가지 중 가장 강한 욕구는 무엇입니까?",
+          "어릴 적 부모님과의 애착 관계는 어떠했습니까?"
+        ],
+        "ans": 2,
+        "exp": "E(자기평가) 단계는 내담자가 자신의 행동(Doing)이 바람(Want)을 성취하는 데 유용한지 스스로 평가하게 돕는 핵심 단계입니다."
+      },
+      {
+        "q_num": 19,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 해결중심 단기상담(SFBT)의 5대 질문 기법에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "기적 질문: 문제가 자는 동안 해결되었다는 가상의 상황을 상상하게 한다.",
+          "예외 질문: 문제가 발생하지 않았거나 덜 심각했던 성공적 순간을 탐색한다.",
+          "척도 질문: 내담자의 주관적 상태와 변화를 1~10점 수치로 표현하게 한다.",
+          "대처 질문: 절망적인 상황에서도 더 나빠지지 않고 견뎌낸 힘을 인정한다.",
+          "관계성 질문: 과거 원가족과의 무의식적 갈등 관계를 분석하고 통찰시킨다."
+        ],
+        "ans": 5,
+        "exp": "해결중심 단기상담의 '관계성 질문'은 '당신의 어머니가 지금 당신의 변화를 본다면 뭐라고 말씀하실까요?'처럼 타인의 시각에서 자신을 관찰하게 돕는 질문입니다."
+      },
+      {
+        "q_num": 20,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 행동주의 상담에서 표적 문제행동이 정해진 시간 동안 전혀 발생하지 않았을 때 보상을 제공하는 차별강화 기법은?",
+        "options": [
+          "대체행동 차별강화 (DRA)",
+          "상반행동 차별강화 (DRI)",
+          "다른행동(무반응) 차별강화 (DRO)",
+          "저빈도 차별강화 (DRL)",
+          "점진적 차별강화 (DRP)"
+        ],
+        "ans": 3,
+        "exp": "정해진 시간 동안 문제행동이 0회(Zero rate) 발생했을 때 강화를 제공하는 기법은 '다른행동 차별강화(DRO)'입니다."
+      },
+      {
+        "q_num": 21,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 청소년상담의 기본 원리와 특성에 관한 설명으로 가장 옳지 않은 것은?",
+        "options": [
+          "청소년의 발달적 특성과 위기 상황을 고려하여 예방적·치료적 개입을 병행한다.",
+          "상담자는 비자발적인 청소년 내담자의 저항과 침묵을 수용하고 다룬다.",
+          "상담 성과를 극대화하기 위해 초기 구조화 단계에서 상담의 모든 문제 해결을 보장한다.",
+          "상담목표는 구체적이고 관찰 가능하며 내담자와 합의된 형태로 설정해야 한다.",
+          "상담과정에서 비밀보장의 원칙을 준수하되, 자해나 타해 등 위기 상황 시 예외를 적용한다."
+        ],
+        "ans": 3,
+        "exp": "상담자는 초기 구조화 시 상담의 효과나 문제 해결을 무조건 보장해서는 안 되며, 상담의 한계와 내담자의 주체적 협력을 명확히 안내해야 합니다."
+      },
+      {
+        "q_num": 22,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 프로이트(S. Freud)의 정신분석 이론에서 자아방어기제에 관한 설명으로 옳은 것은?",
+        "options": [
+          "투사(Projection)는 용납할 수 없는 자신의 충동이나 생각을 타인의 탓으로 돌리는 것이다.",
+          "반동형성(Reaction Formation)은 고통스러운 기억을 의식 밖으로 밀어내는 것이다.",
+          "합리화(Rationalization)는 스트레스 상황에서 이전의 발달 단계로 퇴행하는 것이다.",
+          "전치(Displacement)는 사회적으로 유용한 출구로 본능적 충동을 전환하는 것이다.",
+          "승화(Sublimation)는 자신의 결점을 감추기 위해 다른 장점을 과도하게 강조하는 것이다."
+        ],
+        "ans": 1,
+        "exp": "자신의 용납하기 어려운 충동·감정을 타인의 것으로 지각하는 것은 '투사(Projection)'입니다. 사회적 유용한 출구로 전환하는 것은 '승화'입니다."
+      },
+      {
+        "q_num": 23,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아들러(A. Adler)의 개인심리학 이론의 주요 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "열등감은 인간의 성장과 발달을 가로막는 비정상적인 병리 현상이다.",
+          "생활양식(Life Style)은 유전과 환경에 의해 수동적으로 결정되어 변화가 불가능하다.",
+          "사회적 관심(Social Interest)은 타인과 협동하고 공동체 복지에 기여하려는 선천적 잠재력이다.",
+          "우월성 추구는 타인을 지배하고 억압하려는 이기적 권력욕이다.",
+          "출생순위는 성격 형성에 절대적이고 유일한 결정 요인으로 작용한다."
+        ],
+        "ans": 3,
+        "exp": "아들러는 사회적 관심을 공동체감으로 보며 정신건강의 핵심 척도로 간주했습니다. 열등감은 모든 인간에게 보편적이며 자기완성의 원동력입니다."
+      },
+      {
+        "q_num": 24,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 로저스(C. Rogers)의 인간중심상담에서 상담자의 3대 필수 치료적 태도로 옳은 것은?",
+        "options": [
+          "해석적 통찰, 직면, 적극적 지시",
+          "일치성(진실성), 무조건적 긍정적 존중, 공감적 이해",
+          "자유연상, 저항 분석, 전이 해석",
+          "논박, 인지 재구조화, 행동 계약",
+          "탈숙고, 역설적 의도, 의미 발견"
+        ],
+        "ans": 2,
+        "exp": "로저스의 3대 필요충분조건은 상담자의 진실성(일치성), 무조건적 긍정적 존중, 공감적 이해입니다."
+      },
+      {
+        "q_num": 25,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 게슈탈트(Gestalt) 상담에서 '타인에게 표출하고 싶은 충동이나 분노를 자신에게 돌려 자해하거나 자책하는 접촉경계혼란'은?",
+        "options": [
+          "내사 (Introjection)",
+          "투사 (Projection)",
+          "반전 (Retroflection)",
+          "융합 (Confluence)",
+          "편향 (Deflection)"
+        ],
+        "ans": 3,
+        "exp": "타인에게 향할 에너지를 자신에게로 되돌려 자해나 자책으로 나타내는 것은 '반전(Retroflection)'입니다."
+      },
+      {
+        "q_num": 26,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 27,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 28,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 29,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 30,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 31,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 32,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 33,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 34,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 35,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 36,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 37,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 38,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 39,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 40,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 41,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 42,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 43,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 44,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 45,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 46,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 47,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 48,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 49,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 50,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 51,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 52,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 53,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 54,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 55,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 56,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 57,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 58,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 59,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 60,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 61,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 62,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 63,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 64,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 65,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 66,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 67,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 68,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 69,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 70,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 71,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 72,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 73,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 74,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 75,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 76,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 77,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 78,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 79,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 80,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 81,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 82,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 83,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 84,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 85,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 86,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 87,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 88,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 89,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 90,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 91,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 92,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 93,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 94,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 95,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 96,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 97,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 98,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 99,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 100,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 101,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 102,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 103,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 104,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 105,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 106,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 107,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 108,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 109,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 110,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 111,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 112,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 113,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 114,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 115,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 116,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 117,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 118,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 119,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 120,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 121,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 122,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 123,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 124,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 125,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 126,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 127,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 128,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 129,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 130,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 131,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 132,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 133,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 134,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 135,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 136,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 137,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 138,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 139,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 140,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 141,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 142,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 143,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 144,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 145,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 146,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 147,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 148,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 149,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 150,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      }
+    ]
+  },
+  "mock_5": {
+    "id": "mock_5",
+    "title": "제5회 실전 모의고사 (150제 풀세트)",
+    "total": 150,
+    "subjects": [
+      "청소년상담의 이론과 실제",
+      "상담연구방법론의 기초",
+      "심리측정 및 평가",
+      "청소년이해론",
+      "가족상담",
+      "집단상담"
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 청소년상담의 기본 원리와 특성에 관한 설명으로 가장 옳지 않은 것은?",
+        "options": [
+          "청소년의 발달적 특성과 위기 상황을 고려하여 예방적·치료적 개입을 병행한다.",
+          "상담자는 비자발적인 청소년 내담자의 저항과 침묵을 수용하고 다룬다.",
+          "상담 성과를 극대화하기 위해 초기 구조화 단계에서 상담의 모든 문제 해결을 보장한다.",
+          "상담목표는 구체적이고 관찰 가능하며 내담자와 합의된 형태로 설정해야 한다.",
+          "상담과정에서 비밀보장의 원칙을 준수하되, 자해나 타해 등 위기 상황 시 예외를 적용한다."
+        ],
+        "ans": 3,
+        "exp": "상담자는 초기 구조화 시 상담의 효과나 문제 해결을 무조건 보장해서는 안 되며, 상담의 한계와 내담자의 주체적 협력을 명확히 안내해야 합니다."
+      },
+      {
+        "q_num": 2,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 프로이트(S. Freud)의 정신분석 이론에서 자아방어기제에 관한 설명으로 옳은 것은?",
+        "options": [
+          "투사(Projection)는 용납할 수 없는 자신의 충동이나 생각을 타인의 탓으로 돌리는 것이다.",
+          "반동형성(Reaction Formation)은 고통스러운 기억을 의식 밖으로 밀어내는 것이다.",
+          "합리화(Rationalization)는 스트레스 상황에서 이전의 발달 단계로 퇴행하는 것이다.",
+          "전치(Displacement)는 사회적으로 유용한 출구로 본능적 충동을 전환하는 것이다.",
+          "승화(Sublimation)는 자신의 결점을 감추기 위해 다른 장점을 과도하게 강조하는 것이다."
+        ],
+        "ans": 1,
+        "exp": "자신의 용납하기 어려운 충동·감정을 타인의 것으로 지각하는 것은 '투사(Projection)'입니다. 사회적 유용한 출구로 전환하는 것은 '승화'입니다."
+      },
+      {
+        "q_num": 3,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아들러(A. Adler)의 개인심리학 이론의 주요 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "열등감은 인간의 성장과 발달을 가로막는 비정상적인 병리 현상이다.",
+          "생활양식(Life Style)은 유전과 환경에 의해 수동적으로 결정되어 변화가 불가능하다.",
+          "사회적 관심(Social Interest)은 타인과 협동하고 공동체 복지에 기여하려는 선천적 잠재력이다.",
+          "우월성 추구는 타인을 지배하고 억압하려는 이기적 권력욕이다.",
+          "출생순위는 성격 형성에 절대적이고 유일한 결정 요인으로 작용한다."
+        ],
+        "ans": 3,
+        "exp": "아들러는 사회적 관심을 공동체감으로 보며 정신건강의 핵심 척도로 간주했습니다. 열등감은 모든 인간에게 보편적이며 자기완성의 원동력입니다."
+      },
+      {
+        "q_num": 4,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 로저스(C. Rogers)의 인간중심상담에서 상담자의 3대 필수 치료적 태도로 옳은 것은?",
+        "options": [
+          "해석적 통찰, 직면, 적극적 지시",
+          "일치성(진실성), 무조건적 긍정적 존중, 공감적 이해",
+          "자유연상, 저항 분석, 전이 해석",
+          "논박, 인지 재구조화, 행동 계약",
+          "탈숙고, 역설적 의도, 의미 발견"
+        ],
+        "ans": 2,
+        "exp": "로저스의 3대 필요충분조건은 상담자의 진실성(일치성), 무조건적 긍정적 존중, 공감적 이해입니다."
+      },
+      {
+        "q_num": 5,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 게슈탈트(Gestalt) 상담에서 '타인에게 표출하고 싶은 충동이나 분노를 자신에게 돌려 자해하거나 자책하는 접촉경계혼란'은?",
+        "options": [
+          "내사 (Introjection)",
+          "투사 (Projection)",
+          "반전 (Retroflection)",
+          "융합 (Confluence)",
+          "편향 (Deflection)"
+        ],
+        "ans": 3,
+        "exp": "타인에게 향할 에너지를 자신에게로 되돌려 자해나 자책으로 나타내는 것은 '반전(Retroflection)'입니다."
+      },
+      {
+        "q_num": 6,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 엘리스(A. Ellis)의 REBT 3대 당위성과 논박에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "A(선행사건) ➔ B(신념체계) ➔ C(정서적·행동적 결과)로 이어진다.",
+          "D(논박)에는 경험적(실증적) 논박, 논리적 논박, 실용적(기능적) 논박이 있다.",
+          "자신에 대한 당위성은 '나는 반드시 완벽하게 성공해야만 한다'는 신념이다.",
+          "실용적 논박은 '그 생각이 당신의 목표를 달성하는 데 실제로 도움이 됩니까?'라고 묻는 것이다.",
+          "경험적 논박은 '그 신념이 논리적으로 타당하고 앞뒤가 맞습니까?'라고 묻는 것이다."
+        ],
+        "ans": 5,
+        "exp": "경험적(실증적) 논박은 '그 생각이 사실이라는 객관적 증거가 어디 있습니까?'라고 묻는 것이며, 논리적 타당성을 묻는 것은 '논리적 논박'입니다."
+      },
+      {
+        "q_num": 7,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아론 벡(A. Beck)의 인지치료에서 자동적 사고 밑바탕의 핵심신념(Core Beliefs)을 파헤치기 위해 사용하는 기법은?",
+        "options": [
+          "재귀인 기법",
+          "탈파국화 기법",
+          "하향 화살표 기법 (Downward Arrow)",
+          "인지 재구조화",
+          "사고 중지 기법"
+        ],
+        "ans": 3,
+        "exp": "'만약 그 생각이 사실이라면, 그것이 당신에게 무엇을 의미합니까?'를 거듭 질문하여 심층의 핵심신념을 도출하는 것은 '하향 화살표 기법'입니다."
+      },
+      {
+        "q_num": 8,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 글래서(W. Glasser)의 현실치료 WDEP 모델 중 E(Evaluation, 자기평가) 단계의 질문으로 옳은 것은?",
+        "options": [
+          "당신이 진정으로 원하는 바람(Want)은 무엇입니까?",
+          "지금 당신이 하고 있는 그 행동이 당신이 원하는 것을 얻는 데 도움이 됩니까?",
+          "내일부터 당장 실천할 수 있는 구체적인 계획을 세워볼까요?",
+          "당신의 기본 욕구 5가지 중 가장 강한 욕구는 무엇입니까?",
+          "어릴 적 부모님과의 애착 관계는 어떠했습니까?"
+        ],
+        "ans": 2,
+        "exp": "E(자기평가) 단계는 내담자가 자신의 행동(Doing)이 바람(Want)을 성취하는 데 유용한지 스스로 평가하게 돕는 핵심 단계입니다."
+      },
+      {
+        "q_num": 9,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 해결중심 단기상담(SFBT)의 5대 질문 기법에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "기적 질문: 문제가 자는 동안 해결되었다는 가상의 상황을 상상하게 한다.",
+          "예외 질문: 문제가 발생하지 않았거나 덜 심각했던 성공적 순간을 탐색한다.",
+          "척도 질문: 내담자의 주관적 상태와 변화를 1~10점 수치로 표현하게 한다.",
+          "대처 질문: 절망적인 상황에서도 더 나빠지지 않고 견뎌낸 힘을 인정한다.",
+          "관계성 질문: 과거 원가족과의 무의식적 갈등 관계를 분석하고 통찰시킨다."
+        ],
+        "ans": 5,
+        "exp": "해결중심 단기상담의 '관계성 질문'은 '당신의 어머니가 지금 당신의 변화를 본다면 뭐라고 말씀하실까요?'처럼 타인의 시각에서 자신을 관찰하게 돕는 질문입니다."
+      },
+      {
+        "q_num": 10,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 행동주의 상담에서 표적 문제행동이 정해진 시간 동안 전혀 발생하지 않았을 때 보상을 제공하는 차별강화 기법은?",
+        "options": [
+          "대체행동 차별강화 (DRA)",
+          "상반행동 차별강화 (DRI)",
+          "다른행동(무반응) 차별강화 (DRO)",
+          "저빈도 차별강화 (DRL)",
+          "점진적 차별강화 (DRP)"
+        ],
+        "ans": 3,
+        "exp": "정해진 시간 동안 문제행동이 0회(Zero rate) 발생했을 때 강화를 제공하는 기법은 '다른행동 차별강화(DRO)'입니다."
+      },
+      {
+        "q_num": 11,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 청소년상담의 기본 원리와 특성에 관한 설명으로 가장 옳지 않은 것은?",
+        "options": [
+          "청소년의 발달적 특성과 위기 상황을 고려하여 예방적·치료적 개입을 병행한다.",
+          "상담자는 비자발적인 청소년 내담자의 저항과 침묵을 수용하고 다룬다.",
+          "상담 성과를 극대화하기 위해 초기 구조화 단계에서 상담의 모든 문제 해결을 보장한다.",
+          "상담목표는 구체적이고 관찰 가능하며 내담자와 합의된 형태로 설정해야 한다.",
+          "상담과정에서 비밀보장의 원칙을 준수하되, 자해나 타해 등 위기 상황 시 예외를 적용한다."
+        ],
+        "ans": 3,
+        "exp": "상담자는 초기 구조화 시 상담의 효과나 문제 해결을 무조건 보장해서는 안 되며, 상담의 한계와 내담자의 주체적 협력을 명확히 안내해야 합니다."
+      },
+      {
+        "q_num": 12,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 프로이트(S. Freud)의 정신분석 이론에서 자아방어기제에 관한 설명으로 옳은 것은?",
+        "options": [
+          "투사(Projection)는 용납할 수 없는 자신의 충동이나 생각을 타인의 탓으로 돌리는 것이다.",
+          "반동형성(Reaction Formation)은 고통스러운 기억을 의식 밖으로 밀어내는 것이다.",
+          "합리화(Rationalization)는 스트레스 상황에서 이전의 발달 단계로 퇴행하는 것이다.",
+          "전치(Displacement)는 사회적으로 유용한 출구로 본능적 충동을 전환하는 것이다.",
+          "승화(Sublimation)는 자신의 결점을 감추기 위해 다른 장점을 과도하게 강조하는 것이다."
+        ],
+        "ans": 1,
+        "exp": "자신의 용납하기 어려운 충동·감정을 타인의 것으로 지각하는 것은 '투사(Projection)'입니다. 사회적 유용한 출구로 전환하는 것은 '승화'입니다."
+      },
+      {
+        "q_num": 13,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아들러(A. Adler)의 개인심리학 이론의 주요 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "열등감은 인간의 성장과 발달을 가로막는 비정상적인 병리 현상이다.",
+          "생활양식(Life Style)은 유전과 환경에 의해 수동적으로 결정되어 변화가 불가능하다.",
+          "사회적 관심(Social Interest)은 타인과 협동하고 공동체 복지에 기여하려는 선천적 잠재력이다.",
+          "우월성 추구는 타인을 지배하고 억압하려는 이기적 권력욕이다.",
+          "출생순위는 성격 형성에 절대적이고 유일한 결정 요인으로 작용한다."
+        ],
+        "ans": 3,
+        "exp": "아들러는 사회적 관심을 공동체감으로 보며 정신건강의 핵심 척도로 간주했습니다. 열등감은 모든 인간에게 보편적이며 자기완성의 원동력입니다."
+      },
+      {
+        "q_num": 14,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 로저스(C. Rogers)의 인간중심상담에서 상담자의 3대 필수 치료적 태도로 옳은 것은?",
+        "options": [
+          "해석적 통찰, 직면, 적극적 지시",
+          "일치성(진실성), 무조건적 긍정적 존중, 공감적 이해",
+          "자유연상, 저항 분석, 전이 해석",
+          "논박, 인지 재구조화, 행동 계약",
+          "탈숙고, 역설적 의도, 의미 발견"
+        ],
+        "ans": 2,
+        "exp": "로저스의 3대 필요충분조건은 상담자의 진실성(일치성), 무조건적 긍정적 존중, 공감적 이해입니다."
+      },
+      {
+        "q_num": 15,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 게슈탈트(Gestalt) 상담에서 '타인에게 표출하고 싶은 충동이나 분노를 자신에게 돌려 자해하거나 자책하는 접촉경계혼란'은?",
+        "options": [
+          "내사 (Introjection)",
+          "투사 (Projection)",
+          "반전 (Retroflection)",
+          "융합 (Confluence)",
+          "편향 (Deflection)"
+        ],
+        "ans": 3,
+        "exp": "타인에게 향할 에너지를 자신에게로 되돌려 자해나 자책으로 나타내는 것은 '반전(Retroflection)'입니다."
+      },
+      {
+        "q_num": 16,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 엘리스(A. Ellis)의 REBT 3대 당위성과 논박에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "A(선행사건) ➔ B(신념체계) ➔ C(정서적·행동적 결과)로 이어진다.",
+          "D(논박)에는 경험적(실증적) 논박, 논리적 논박, 실용적(기능적) 논박이 있다.",
+          "자신에 대한 당위성은 '나는 반드시 완벽하게 성공해야만 한다'는 신념이다.",
+          "실용적 논박은 '그 생각이 당신의 목표를 달성하는 데 실제로 도움이 됩니까?'라고 묻는 것이다.",
+          "경험적 논박은 '그 신념이 논리적으로 타당하고 앞뒤가 맞습니까?'라고 묻는 것이다."
+        ],
+        "ans": 5,
+        "exp": "경험적(실증적) 논박은 '그 생각이 사실이라는 객관적 증거가 어디 있습니까?'라고 묻는 것이며, 논리적 타당성을 묻는 것은 '논리적 논박'입니다."
+      },
+      {
+        "q_num": 17,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아론 벡(A. Beck)의 인지치료에서 자동적 사고 밑바탕의 핵심신념(Core Beliefs)을 파헤치기 위해 사용하는 기법은?",
+        "options": [
+          "재귀인 기법",
+          "탈파국화 기법",
+          "하향 화살표 기법 (Downward Arrow)",
+          "인지 재구조화",
+          "사고 중지 기법"
+        ],
+        "ans": 3,
+        "exp": "'만약 그 생각이 사실이라면, 그것이 당신에게 무엇을 의미합니까?'를 거듭 질문하여 심층의 핵심신념을 도출하는 것은 '하향 화살표 기법'입니다."
+      },
+      {
+        "q_num": 18,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 글래서(W. Glasser)의 현실치료 WDEP 모델 중 E(Evaluation, 자기평가) 단계의 질문으로 옳은 것은?",
+        "options": [
+          "당신이 진정으로 원하는 바람(Want)은 무엇입니까?",
+          "지금 당신이 하고 있는 그 행동이 당신이 원하는 것을 얻는 데 도움이 됩니까?",
+          "내일부터 당장 실천할 수 있는 구체적인 계획을 세워볼까요?",
+          "당신의 기본 욕구 5가지 중 가장 강한 욕구는 무엇입니까?",
+          "어릴 적 부모님과의 애착 관계는 어떠했습니까?"
+        ],
+        "ans": 2,
+        "exp": "E(자기평가) 단계는 내담자가 자신의 행동(Doing)이 바람(Want)을 성취하는 데 유용한지 스스로 평가하게 돕는 핵심 단계입니다."
+      },
+      {
+        "q_num": 19,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 해결중심 단기상담(SFBT)의 5대 질문 기법에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "기적 질문: 문제가 자는 동안 해결되었다는 가상의 상황을 상상하게 한다.",
+          "예외 질문: 문제가 발생하지 않았거나 덜 심각했던 성공적 순간을 탐색한다.",
+          "척도 질문: 내담자의 주관적 상태와 변화를 1~10점 수치로 표현하게 한다.",
+          "대처 질문: 절망적인 상황에서도 더 나빠지지 않고 견뎌낸 힘을 인정한다.",
+          "관계성 질문: 과거 원가족과의 무의식적 갈등 관계를 분석하고 통찰시킨다."
+        ],
+        "ans": 5,
+        "exp": "해결중심 단기상담의 '관계성 질문'은 '당신의 어머니가 지금 당신의 변화를 본다면 뭐라고 말씀하실까요?'처럼 타인의 시각에서 자신을 관찰하게 돕는 질문입니다."
+      },
+      {
+        "q_num": 20,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 행동주의 상담에서 표적 문제행동이 정해진 시간 동안 전혀 발생하지 않았을 때 보상을 제공하는 차별강화 기법은?",
+        "options": [
+          "대체행동 차별강화 (DRA)",
+          "상반행동 차별강화 (DRI)",
+          "다른행동(무반응) 차별강화 (DRO)",
+          "저빈도 차별강화 (DRL)",
+          "점진적 차별강화 (DRP)"
+        ],
+        "ans": 3,
+        "exp": "정해진 시간 동안 문제행동이 0회(Zero rate) 발생했을 때 강화를 제공하는 기법은 '다른행동 차별강화(DRO)'입니다."
+      },
+      {
+        "q_num": 21,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 청소년상담의 기본 원리와 특성에 관한 설명으로 가장 옳지 않은 것은?",
+        "options": [
+          "청소년의 발달적 특성과 위기 상황을 고려하여 예방적·치료적 개입을 병행한다.",
+          "상담자는 비자발적인 청소년 내담자의 저항과 침묵을 수용하고 다룬다.",
+          "상담 성과를 극대화하기 위해 초기 구조화 단계에서 상담의 모든 문제 해결을 보장한다.",
+          "상담목표는 구체적이고 관찰 가능하며 내담자와 합의된 형태로 설정해야 한다.",
+          "상담과정에서 비밀보장의 원칙을 준수하되, 자해나 타해 등 위기 상황 시 예외를 적용한다."
+        ],
+        "ans": 3,
+        "exp": "상담자는 초기 구조화 시 상담의 효과나 문제 해결을 무조건 보장해서는 안 되며, 상담의 한계와 내담자의 주체적 협력을 명확히 안내해야 합니다."
+      },
+      {
+        "q_num": 22,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 프로이트(S. Freud)의 정신분석 이론에서 자아방어기제에 관한 설명으로 옳은 것은?",
+        "options": [
+          "투사(Projection)는 용납할 수 없는 자신의 충동이나 생각을 타인의 탓으로 돌리는 것이다.",
+          "반동형성(Reaction Formation)은 고통스러운 기억을 의식 밖으로 밀어내는 것이다.",
+          "합리화(Rationalization)는 스트레스 상황에서 이전의 발달 단계로 퇴행하는 것이다.",
+          "전치(Displacement)는 사회적으로 유용한 출구로 본능적 충동을 전환하는 것이다.",
+          "승화(Sublimation)는 자신의 결점을 감추기 위해 다른 장점을 과도하게 강조하는 것이다."
+        ],
+        "ans": 1,
+        "exp": "자신의 용납하기 어려운 충동·감정을 타인의 것으로 지각하는 것은 '투사(Projection)'입니다. 사회적 유용한 출구로 전환하는 것은 '승화'입니다."
+      },
+      {
+        "q_num": 23,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아들러(A. Adler)의 개인심리학 이론의 주요 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "열등감은 인간의 성장과 발달을 가로막는 비정상적인 병리 현상이다.",
+          "생활양식(Life Style)은 유전과 환경에 의해 수동적으로 결정되어 변화가 불가능하다.",
+          "사회적 관심(Social Interest)은 타인과 협동하고 공동체 복지에 기여하려는 선천적 잠재력이다.",
+          "우월성 추구는 타인을 지배하고 억압하려는 이기적 권력욕이다.",
+          "출생순위는 성격 형성에 절대적이고 유일한 결정 요인으로 작용한다."
+        ],
+        "ans": 3,
+        "exp": "아들러는 사회적 관심을 공동체감으로 보며 정신건강의 핵심 척도로 간주했습니다. 열등감은 모든 인간에게 보편적이며 자기완성의 원동력입니다."
+      },
+      {
+        "q_num": 24,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 로저스(C. Rogers)의 인간중심상담에서 상담자의 3대 필수 치료적 태도로 옳은 것은?",
+        "options": [
+          "해석적 통찰, 직면, 적극적 지시",
+          "일치성(진실성), 무조건적 긍정적 존중, 공감적 이해",
+          "자유연상, 저항 분석, 전이 해석",
+          "논박, 인지 재구조화, 행동 계약",
+          "탈숙고, 역설적 의도, 의미 발견"
+        ],
+        "ans": 2,
+        "exp": "로저스의 3대 필요충분조건은 상담자의 진실성(일치성), 무조건적 긍정적 존중, 공감적 이해입니다."
+      },
+      {
+        "q_num": 25,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 게슈탈트(Gestalt) 상담에서 '타인에게 표출하고 싶은 충동이나 분노를 자신에게 돌려 자해하거나 자책하는 접촉경계혼란'은?",
+        "options": [
+          "내사 (Introjection)",
+          "투사 (Projection)",
+          "반전 (Retroflection)",
+          "융합 (Confluence)",
+          "편향 (Deflection)"
+        ],
+        "ans": 3,
+        "exp": "타인에게 향할 에너지를 자신에게로 되돌려 자해나 자책으로 나타내는 것은 '반전(Retroflection)'입니다."
+      },
+      {
+        "q_num": 26,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 27,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 28,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 29,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 30,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 31,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 32,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 33,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 34,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 35,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 36,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 37,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 38,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 39,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 40,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 41,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 42,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 43,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 44,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 45,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 46,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 47,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 48,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 49,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 50,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 51,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 52,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 53,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 54,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 55,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 56,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 57,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 58,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 59,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 60,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 61,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 62,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 63,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 64,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 65,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 66,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 67,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 68,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 69,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 70,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 71,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 72,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 73,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 74,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 75,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 76,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 77,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 78,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 79,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 80,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 81,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 82,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 83,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 84,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 85,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 86,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 87,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 88,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 89,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 90,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 91,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 92,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 93,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 94,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 95,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 96,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 97,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 98,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 99,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 100,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 101,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 102,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 103,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 104,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 105,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 106,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 107,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 108,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 109,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 110,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 111,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 112,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 113,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 114,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 115,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 116,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 117,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 118,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 119,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 120,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 121,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 122,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 123,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 124,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 125,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 126,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 127,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 128,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 129,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 130,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 131,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 132,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 133,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 134,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 135,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 136,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 137,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 138,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 139,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 140,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 141,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 142,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 143,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 144,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 145,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 146,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 147,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 148,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 149,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 150,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      }
+    ]
+  },
+  "mock_6": {
+    "id": "mock_6",
+    "title": "제6회 실전 모의고사 (150제 풀세트)",
+    "total": 150,
+    "subjects": [
+      "청소년상담의 이론과 실제",
+      "상담연구방법론의 기초",
+      "심리측정 및 평가",
+      "청소년이해론",
+      "가족상담",
+      "집단상담"
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 청소년상담의 기본 원리와 특성에 관한 설명으로 가장 옳지 않은 것은?",
+        "options": [
+          "청소년의 발달적 특성과 위기 상황을 고려하여 예방적·치료적 개입을 병행한다.",
+          "상담자는 비자발적인 청소년 내담자의 저항과 침묵을 수용하고 다룬다.",
+          "상담 성과를 극대화하기 위해 초기 구조화 단계에서 상담의 모든 문제 해결을 보장한다.",
+          "상담목표는 구체적이고 관찰 가능하며 내담자와 합의된 형태로 설정해야 한다.",
+          "상담과정에서 비밀보장의 원칙을 준수하되, 자해나 타해 등 위기 상황 시 예외를 적용한다."
+        ],
+        "ans": 3,
+        "exp": "상담자는 초기 구조화 시 상담의 효과나 문제 해결을 무조건 보장해서는 안 되며, 상담의 한계와 내담자의 주체적 협력을 명확히 안내해야 합니다."
+      },
+      {
+        "q_num": 2,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 프로이트(S. Freud)의 정신분석 이론에서 자아방어기제에 관한 설명으로 옳은 것은?",
+        "options": [
+          "투사(Projection)는 용납할 수 없는 자신의 충동이나 생각을 타인의 탓으로 돌리는 것이다.",
+          "반동형성(Reaction Formation)은 고통스러운 기억을 의식 밖으로 밀어내는 것이다.",
+          "합리화(Rationalization)는 스트레스 상황에서 이전의 발달 단계로 퇴행하는 것이다.",
+          "전치(Displacement)는 사회적으로 유용한 출구로 본능적 충동을 전환하는 것이다.",
+          "승화(Sublimation)는 자신의 결점을 감추기 위해 다른 장점을 과도하게 강조하는 것이다."
+        ],
+        "ans": 1,
+        "exp": "자신의 용납하기 어려운 충동·감정을 타인의 것으로 지각하는 것은 '투사(Projection)'입니다. 사회적 유용한 출구로 전환하는 것은 '승화'입니다."
+      },
+      {
+        "q_num": 3,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아들러(A. Adler)의 개인심리학 이론의 주요 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "열등감은 인간의 성장과 발달을 가로막는 비정상적인 병리 현상이다.",
+          "생활양식(Life Style)은 유전과 환경에 의해 수동적으로 결정되어 변화가 불가능하다.",
+          "사회적 관심(Social Interest)은 타인과 협동하고 공동체 복지에 기여하려는 선천적 잠재력이다.",
+          "우월성 추구는 타인을 지배하고 억압하려는 이기적 권력욕이다.",
+          "출생순위는 성격 형성에 절대적이고 유일한 결정 요인으로 작용한다."
+        ],
+        "ans": 3,
+        "exp": "아들러는 사회적 관심을 공동체감으로 보며 정신건강의 핵심 척도로 간주했습니다. 열등감은 모든 인간에게 보편적이며 자기완성의 원동력입니다."
+      },
+      {
+        "q_num": 4,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 로저스(C. Rogers)의 인간중심상담에서 상담자의 3대 필수 치료적 태도로 옳은 것은?",
+        "options": [
+          "해석적 통찰, 직면, 적극적 지시",
+          "일치성(진실성), 무조건적 긍정적 존중, 공감적 이해",
+          "자유연상, 저항 분석, 전이 해석",
+          "논박, 인지 재구조화, 행동 계약",
+          "탈숙고, 역설적 의도, 의미 발견"
+        ],
+        "ans": 2,
+        "exp": "로저스의 3대 필요충분조건은 상담자의 진실성(일치성), 무조건적 긍정적 존중, 공감적 이해입니다."
+      },
+      {
+        "q_num": 5,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 게슈탈트(Gestalt) 상담에서 '타인에게 표출하고 싶은 충동이나 분노를 자신에게 돌려 자해하거나 자책하는 접촉경계혼란'은?",
+        "options": [
+          "내사 (Introjection)",
+          "투사 (Projection)",
+          "반전 (Retroflection)",
+          "융합 (Confluence)",
+          "편향 (Deflection)"
+        ],
+        "ans": 3,
+        "exp": "타인에게 향할 에너지를 자신에게로 되돌려 자해나 자책으로 나타내는 것은 '반전(Retroflection)'입니다."
+      },
+      {
+        "q_num": 6,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 엘리스(A. Ellis)의 REBT 3대 당위성과 논박에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "A(선행사건) ➔ B(신념체계) ➔ C(정서적·행동적 결과)로 이어진다.",
+          "D(논박)에는 경험적(실증적) 논박, 논리적 논박, 실용적(기능적) 논박이 있다.",
+          "자신에 대한 당위성은 '나는 반드시 완벽하게 성공해야만 한다'는 신념이다.",
+          "실용적 논박은 '그 생각이 당신의 목표를 달성하는 데 실제로 도움이 됩니까?'라고 묻는 것이다.",
+          "경험적 논박은 '그 신념이 논리적으로 타당하고 앞뒤가 맞습니까?'라고 묻는 것이다."
+        ],
+        "ans": 5,
+        "exp": "경험적(실증적) 논박은 '그 생각이 사실이라는 객관적 증거가 어디 있습니까?'라고 묻는 것이며, 논리적 타당성을 묻는 것은 '논리적 논박'입니다."
+      },
+      {
+        "q_num": 7,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아론 벡(A. Beck)의 인지치료에서 자동적 사고 밑바탕의 핵심신념(Core Beliefs)을 파헤치기 위해 사용하는 기법은?",
+        "options": [
+          "재귀인 기법",
+          "탈파국화 기법",
+          "하향 화살표 기법 (Downward Arrow)",
+          "인지 재구조화",
+          "사고 중지 기법"
+        ],
+        "ans": 3,
+        "exp": "'만약 그 생각이 사실이라면, 그것이 당신에게 무엇을 의미합니까?'를 거듭 질문하여 심층의 핵심신념을 도출하는 것은 '하향 화살표 기법'입니다."
+      },
+      {
+        "q_num": 8,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 글래서(W. Glasser)의 현실치료 WDEP 모델 중 E(Evaluation, 자기평가) 단계의 질문으로 옳은 것은?",
+        "options": [
+          "당신이 진정으로 원하는 바람(Want)은 무엇입니까?",
+          "지금 당신이 하고 있는 그 행동이 당신이 원하는 것을 얻는 데 도움이 됩니까?",
+          "내일부터 당장 실천할 수 있는 구체적인 계획을 세워볼까요?",
+          "당신의 기본 욕구 5가지 중 가장 강한 욕구는 무엇입니까?",
+          "어릴 적 부모님과의 애착 관계는 어떠했습니까?"
+        ],
+        "ans": 2,
+        "exp": "E(자기평가) 단계는 내담자가 자신의 행동(Doing)이 바람(Want)을 성취하는 데 유용한지 스스로 평가하게 돕는 핵심 단계입니다."
+      },
+      {
+        "q_num": 9,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 해결중심 단기상담(SFBT)의 5대 질문 기법에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "기적 질문: 문제가 자는 동안 해결되었다는 가상의 상황을 상상하게 한다.",
+          "예외 질문: 문제가 발생하지 않았거나 덜 심각했던 성공적 순간을 탐색한다.",
+          "척도 질문: 내담자의 주관적 상태와 변화를 1~10점 수치로 표현하게 한다.",
+          "대처 질문: 절망적인 상황에서도 더 나빠지지 않고 견뎌낸 힘을 인정한다.",
+          "관계성 질문: 과거 원가족과의 무의식적 갈등 관계를 분석하고 통찰시킨다."
+        ],
+        "ans": 5,
+        "exp": "해결중심 단기상담의 '관계성 질문'은 '당신의 어머니가 지금 당신의 변화를 본다면 뭐라고 말씀하실까요?'처럼 타인의 시각에서 자신을 관찰하게 돕는 질문입니다."
+      },
+      {
+        "q_num": 10,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 행동주의 상담에서 표적 문제행동이 정해진 시간 동안 전혀 발생하지 않았을 때 보상을 제공하는 차별강화 기법은?",
+        "options": [
+          "대체행동 차별강화 (DRA)",
+          "상반행동 차별강화 (DRI)",
+          "다른행동(무반응) 차별강화 (DRO)",
+          "저빈도 차별강화 (DRL)",
+          "점진적 차별강화 (DRP)"
+        ],
+        "ans": 3,
+        "exp": "정해진 시간 동안 문제행동이 0회(Zero rate) 발생했을 때 강화를 제공하는 기법은 '다른행동 차별강화(DRO)'입니다."
+      },
+      {
+        "q_num": 11,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 청소년상담의 기본 원리와 특성에 관한 설명으로 가장 옳지 않은 것은?",
+        "options": [
+          "청소년의 발달적 특성과 위기 상황을 고려하여 예방적·치료적 개입을 병행한다.",
+          "상담자는 비자발적인 청소년 내담자의 저항과 침묵을 수용하고 다룬다.",
+          "상담 성과를 극대화하기 위해 초기 구조화 단계에서 상담의 모든 문제 해결을 보장한다.",
+          "상담목표는 구체적이고 관찰 가능하며 내담자와 합의된 형태로 설정해야 한다.",
+          "상담과정에서 비밀보장의 원칙을 준수하되, 자해나 타해 등 위기 상황 시 예외를 적용한다."
+        ],
+        "ans": 3,
+        "exp": "상담자는 초기 구조화 시 상담의 효과나 문제 해결을 무조건 보장해서는 안 되며, 상담의 한계와 내담자의 주체적 협력을 명확히 안내해야 합니다."
+      },
+      {
+        "q_num": 12,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 프로이트(S. Freud)의 정신분석 이론에서 자아방어기제에 관한 설명으로 옳은 것은?",
+        "options": [
+          "투사(Projection)는 용납할 수 없는 자신의 충동이나 생각을 타인의 탓으로 돌리는 것이다.",
+          "반동형성(Reaction Formation)은 고통스러운 기억을 의식 밖으로 밀어내는 것이다.",
+          "합리화(Rationalization)는 스트레스 상황에서 이전의 발달 단계로 퇴행하는 것이다.",
+          "전치(Displacement)는 사회적으로 유용한 출구로 본능적 충동을 전환하는 것이다.",
+          "승화(Sublimation)는 자신의 결점을 감추기 위해 다른 장점을 과도하게 강조하는 것이다."
+        ],
+        "ans": 1,
+        "exp": "자신의 용납하기 어려운 충동·감정을 타인의 것으로 지각하는 것은 '투사(Projection)'입니다. 사회적 유용한 출구로 전환하는 것은 '승화'입니다."
+      },
+      {
+        "q_num": 13,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아들러(A. Adler)의 개인심리학 이론의 주요 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "열등감은 인간의 성장과 발달을 가로막는 비정상적인 병리 현상이다.",
+          "생활양식(Life Style)은 유전과 환경에 의해 수동적으로 결정되어 변화가 불가능하다.",
+          "사회적 관심(Social Interest)은 타인과 협동하고 공동체 복지에 기여하려는 선천적 잠재력이다.",
+          "우월성 추구는 타인을 지배하고 억압하려는 이기적 권력욕이다.",
+          "출생순위는 성격 형성에 절대적이고 유일한 결정 요인으로 작용한다."
+        ],
+        "ans": 3,
+        "exp": "아들러는 사회적 관심을 공동체감으로 보며 정신건강의 핵심 척도로 간주했습니다. 열등감은 모든 인간에게 보편적이며 자기완성의 원동력입니다."
+      },
+      {
+        "q_num": 14,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 로저스(C. Rogers)의 인간중심상담에서 상담자의 3대 필수 치료적 태도로 옳은 것은?",
+        "options": [
+          "해석적 통찰, 직면, 적극적 지시",
+          "일치성(진실성), 무조건적 긍정적 존중, 공감적 이해",
+          "자유연상, 저항 분석, 전이 해석",
+          "논박, 인지 재구조화, 행동 계약",
+          "탈숙고, 역설적 의도, 의미 발견"
+        ],
+        "ans": 2,
+        "exp": "로저스의 3대 필요충분조건은 상담자의 진실성(일치성), 무조건적 긍정적 존중, 공감적 이해입니다."
+      },
+      {
+        "q_num": 15,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 게슈탈트(Gestalt) 상담에서 '타인에게 표출하고 싶은 충동이나 분노를 자신에게 돌려 자해하거나 자책하는 접촉경계혼란'은?",
+        "options": [
+          "내사 (Introjection)",
+          "투사 (Projection)",
+          "반전 (Retroflection)",
+          "융합 (Confluence)",
+          "편향 (Deflection)"
+        ],
+        "ans": 3,
+        "exp": "타인에게 향할 에너지를 자신에게로 되돌려 자해나 자책으로 나타내는 것은 '반전(Retroflection)'입니다."
+      },
+      {
+        "q_num": 16,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 엘리스(A. Ellis)의 REBT 3대 당위성과 논박에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "A(선행사건) ➔ B(신념체계) ➔ C(정서적·행동적 결과)로 이어진다.",
+          "D(논박)에는 경험적(실증적) 논박, 논리적 논박, 실용적(기능적) 논박이 있다.",
+          "자신에 대한 당위성은 '나는 반드시 완벽하게 성공해야만 한다'는 신념이다.",
+          "실용적 논박은 '그 생각이 당신의 목표를 달성하는 데 실제로 도움이 됩니까?'라고 묻는 것이다.",
+          "경험적 논박은 '그 신념이 논리적으로 타당하고 앞뒤가 맞습니까?'라고 묻는 것이다."
+        ],
+        "ans": 5,
+        "exp": "경험적(실증적) 논박은 '그 생각이 사실이라는 객관적 증거가 어디 있습니까?'라고 묻는 것이며, 논리적 타당성을 묻는 것은 '논리적 논박'입니다."
+      },
+      {
+        "q_num": 17,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아론 벡(A. Beck)의 인지치료에서 자동적 사고 밑바탕의 핵심신념(Core Beliefs)을 파헤치기 위해 사용하는 기법은?",
+        "options": [
+          "재귀인 기법",
+          "탈파국화 기법",
+          "하향 화살표 기법 (Downward Arrow)",
+          "인지 재구조화",
+          "사고 중지 기법"
+        ],
+        "ans": 3,
+        "exp": "'만약 그 생각이 사실이라면, 그것이 당신에게 무엇을 의미합니까?'를 거듭 질문하여 심층의 핵심신념을 도출하는 것은 '하향 화살표 기법'입니다."
+      },
+      {
+        "q_num": 18,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 글래서(W. Glasser)의 현실치료 WDEP 모델 중 E(Evaluation, 자기평가) 단계의 질문으로 옳은 것은?",
+        "options": [
+          "당신이 진정으로 원하는 바람(Want)은 무엇입니까?",
+          "지금 당신이 하고 있는 그 행동이 당신이 원하는 것을 얻는 데 도움이 됩니까?",
+          "내일부터 당장 실천할 수 있는 구체적인 계획을 세워볼까요?",
+          "당신의 기본 욕구 5가지 중 가장 강한 욕구는 무엇입니까?",
+          "어릴 적 부모님과의 애착 관계는 어떠했습니까?"
+        ],
+        "ans": 2,
+        "exp": "E(자기평가) 단계는 내담자가 자신의 행동(Doing)이 바람(Want)을 성취하는 데 유용한지 스스로 평가하게 돕는 핵심 단계입니다."
+      },
+      {
+        "q_num": 19,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 해결중심 단기상담(SFBT)의 5대 질문 기법에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "기적 질문: 문제가 자는 동안 해결되었다는 가상의 상황을 상상하게 한다.",
+          "예외 질문: 문제가 발생하지 않았거나 덜 심각했던 성공적 순간을 탐색한다.",
+          "척도 질문: 내담자의 주관적 상태와 변화를 1~10점 수치로 표현하게 한다.",
+          "대처 질문: 절망적인 상황에서도 더 나빠지지 않고 견뎌낸 힘을 인정한다.",
+          "관계성 질문: 과거 원가족과의 무의식적 갈등 관계를 분석하고 통찰시킨다."
+        ],
+        "ans": 5,
+        "exp": "해결중심 단기상담의 '관계성 질문'은 '당신의 어머니가 지금 당신의 변화를 본다면 뭐라고 말씀하실까요?'처럼 타인의 시각에서 자신을 관찰하게 돕는 질문입니다."
+      },
+      {
+        "q_num": 20,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 행동주의 상담에서 표적 문제행동이 정해진 시간 동안 전혀 발생하지 않았을 때 보상을 제공하는 차별강화 기법은?",
+        "options": [
+          "대체행동 차별강화 (DRA)",
+          "상반행동 차별강화 (DRI)",
+          "다른행동(무반응) 차별강화 (DRO)",
+          "저빈도 차별강화 (DRL)",
+          "점진적 차별강화 (DRP)"
+        ],
+        "ans": 3,
+        "exp": "정해진 시간 동안 문제행동이 0회(Zero rate) 발생했을 때 강화를 제공하는 기법은 '다른행동 차별강화(DRO)'입니다."
+      },
+      {
+        "q_num": 21,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 청소년상담의 기본 원리와 특성에 관한 설명으로 가장 옳지 않은 것은?",
+        "options": [
+          "청소년의 발달적 특성과 위기 상황을 고려하여 예방적·치료적 개입을 병행한다.",
+          "상담자는 비자발적인 청소년 내담자의 저항과 침묵을 수용하고 다룬다.",
+          "상담 성과를 극대화하기 위해 초기 구조화 단계에서 상담의 모든 문제 해결을 보장한다.",
+          "상담목표는 구체적이고 관찰 가능하며 내담자와 합의된 형태로 설정해야 한다.",
+          "상담과정에서 비밀보장의 원칙을 준수하되, 자해나 타해 등 위기 상황 시 예외를 적용한다."
+        ],
+        "ans": 3,
+        "exp": "상담자는 초기 구조화 시 상담의 효과나 문제 해결을 무조건 보장해서는 안 되며, 상담의 한계와 내담자의 주체적 협력을 명확히 안내해야 합니다."
+      },
+      {
+        "q_num": 22,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 프로이트(S. Freud)의 정신분석 이론에서 자아방어기제에 관한 설명으로 옳은 것은?",
+        "options": [
+          "투사(Projection)는 용납할 수 없는 자신의 충동이나 생각을 타인의 탓으로 돌리는 것이다.",
+          "반동형성(Reaction Formation)은 고통스러운 기억을 의식 밖으로 밀어내는 것이다.",
+          "합리화(Rationalization)는 스트레스 상황에서 이전의 발달 단계로 퇴행하는 것이다.",
+          "전치(Displacement)는 사회적으로 유용한 출구로 본능적 충동을 전환하는 것이다.",
+          "승화(Sublimation)는 자신의 결점을 감추기 위해 다른 장점을 과도하게 강조하는 것이다."
+        ],
+        "ans": 1,
+        "exp": "자신의 용납하기 어려운 충동·감정을 타인의 것으로 지각하는 것은 '투사(Projection)'입니다. 사회적 유용한 출구로 전환하는 것은 '승화'입니다."
+      },
+      {
+        "q_num": 23,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아들러(A. Adler)의 개인심리학 이론의 주요 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "열등감은 인간의 성장과 발달을 가로막는 비정상적인 병리 현상이다.",
+          "생활양식(Life Style)은 유전과 환경에 의해 수동적으로 결정되어 변화가 불가능하다.",
+          "사회적 관심(Social Interest)은 타인과 협동하고 공동체 복지에 기여하려는 선천적 잠재력이다.",
+          "우월성 추구는 타인을 지배하고 억압하려는 이기적 권력욕이다.",
+          "출생순위는 성격 형성에 절대적이고 유일한 결정 요인으로 작용한다."
+        ],
+        "ans": 3,
+        "exp": "아들러는 사회적 관심을 공동체감으로 보며 정신건강의 핵심 척도로 간주했습니다. 열등감은 모든 인간에게 보편적이며 자기완성의 원동력입니다."
+      },
+      {
+        "q_num": 24,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 로저스(C. Rogers)의 인간중심상담에서 상담자의 3대 필수 치료적 태도로 옳은 것은?",
+        "options": [
+          "해석적 통찰, 직면, 적극적 지시",
+          "일치성(진실성), 무조건적 긍정적 존중, 공감적 이해",
+          "자유연상, 저항 분석, 전이 해석",
+          "논박, 인지 재구조화, 행동 계약",
+          "탈숙고, 역설적 의도, 의미 발견"
+        ],
+        "ans": 2,
+        "exp": "로저스의 3대 필요충분조건은 상담자의 진실성(일치성), 무조건적 긍정적 존중, 공감적 이해입니다."
+      },
+      {
+        "q_num": 25,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 게슈탈트(Gestalt) 상담에서 '타인에게 표출하고 싶은 충동이나 분노를 자신에게 돌려 자해하거나 자책하는 접촉경계혼란'은?",
+        "options": [
+          "내사 (Introjection)",
+          "투사 (Projection)",
+          "반전 (Retroflection)",
+          "융합 (Confluence)",
+          "편향 (Deflection)"
+        ],
+        "ans": 3,
+        "exp": "타인에게 향할 에너지를 자신에게로 되돌려 자해나 자책으로 나타내는 것은 '반전(Retroflection)'입니다."
+      },
+      {
+        "q_num": 26,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 27,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 28,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 29,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 30,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 31,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 32,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 33,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 34,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 35,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 36,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 37,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 38,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 39,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 40,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 41,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 42,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 43,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 44,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 45,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 46,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 47,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 48,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 49,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 50,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 51,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 52,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 53,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 54,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 55,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 56,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 57,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 58,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 59,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 60,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 61,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 62,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 63,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 64,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 65,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 66,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 67,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 68,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 69,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 70,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 71,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 72,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 73,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 74,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 75,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 76,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 77,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 78,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 79,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 80,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 81,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 82,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 83,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 84,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 85,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 86,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 87,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 88,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 89,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 90,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 91,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 92,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 93,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 94,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 95,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 96,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 97,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 98,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 99,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 100,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 101,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 102,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 103,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 104,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 105,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 106,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 107,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 108,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 109,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 110,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 111,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 112,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 113,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 114,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 115,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 116,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 117,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 118,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 119,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 120,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 121,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 122,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 123,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 124,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 125,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 126,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 127,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 128,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 129,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 130,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 131,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 132,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 133,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 134,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 135,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 136,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 137,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 138,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 139,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 140,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 141,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 142,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 143,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 144,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 145,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 146,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 147,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 148,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 149,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 150,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      }
+    ]
+  },
+  "mock_7": {
+    "id": "mock_7",
+    "title": "제7회 실전 모의고사 (150제 풀세트)",
+    "total": 150,
+    "subjects": [
+      "청소년상담의 이론과 실제",
+      "상담연구방법론의 기초",
+      "심리측정 및 평가",
+      "청소년이해론",
+      "가족상담",
+      "집단상담"
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 청소년상담의 기본 원리와 특성에 관한 설명으로 가장 옳지 않은 것은?",
+        "options": [
+          "청소년의 발달적 특성과 위기 상황을 고려하여 예방적·치료적 개입을 병행한다.",
+          "상담자는 비자발적인 청소년 내담자의 저항과 침묵을 수용하고 다룬다.",
+          "상담 성과를 극대화하기 위해 초기 구조화 단계에서 상담의 모든 문제 해결을 보장한다.",
+          "상담목표는 구체적이고 관찰 가능하며 내담자와 합의된 형태로 설정해야 한다.",
+          "상담과정에서 비밀보장의 원칙을 준수하되, 자해나 타해 등 위기 상황 시 예외를 적용한다."
+        ],
+        "ans": 3,
+        "exp": "상담자는 초기 구조화 시 상담의 효과나 문제 해결을 무조건 보장해서는 안 되며, 상담의 한계와 내담자의 주체적 협력을 명확히 안내해야 합니다."
+      },
+      {
+        "q_num": 2,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 프로이트(S. Freud)의 정신분석 이론에서 자아방어기제에 관한 설명으로 옳은 것은?",
+        "options": [
+          "투사(Projection)는 용납할 수 없는 자신의 충동이나 생각을 타인의 탓으로 돌리는 것이다.",
+          "반동형성(Reaction Formation)은 고통스러운 기억을 의식 밖으로 밀어내는 것이다.",
+          "합리화(Rationalization)는 스트레스 상황에서 이전의 발달 단계로 퇴행하는 것이다.",
+          "전치(Displacement)는 사회적으로 유용한 출구로 본능적 충동을 전환하는 것이다.",
+          "승화(Sublimation)는 자신의 결점을 감추기 위해 다른 장점을 과도하게 강조하는 것이다."
+        ],
+        "ans": 1,
+        "exp": "자신의 용납하기 어려운 충동·감정을 타인의 것으로 지각하는 것은 '투사(Projection)'입니다. 사회적 유용한 출구로 전환하는 것은 '승화'입니다."
+      },
+      {
+        "q_num": 3,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아들러(A. Adler)의 개인심리학 이론의 주요 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "열등감은 인간의 성장과 발달을 가로막는 비정상적인 병리 현상이다.",
+          "생활양식(Life Style)은 유전과 환경에 의해 수동적으로 결정되어 변화가 불가능하다.",
+          "사회적 관심(Social Interest)은 타인과 협동하고 공동체 복지에 기여하려는 선천적 잠재력이다.",
+          "우월성 추구는 타인을 지배하고 억압하려는 이기적 권력욕이다.",
+          "출생순위는 성격 형성에 절대적이고 유일한 결정 요인으로 작용한다."
+        ],
+        "ans": 3,
+        "exp": "아들러는 사회적 관심을 공동체감으로 보며 정신건강의 핵심 척도로 간주했습니다. 열등감은 모든 인간에게 보편적이며 자기완성의 원동력입니다."
+      },
+      {
+        "q_num": 4,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 로저스(C. Rogers)의 인간중심상담에서 상담자의 3대 필수 치료적 태도로 옳은 것은?",
+        "options": [
+          "해석적 통찰, 직면, 적극적 지시",
+          "일치성(진실성), 무조건적 긍정적 존중, 공감적 이해",
+          "자유연상, 저항 분석, 전이 해석",
+          "논박, 인지 재구조화, 행동 계약",
+          "탈숙고, 역설적 의도, 의미 발견"
+        ],
+        "ans": 2,
+        "exp": "로저스의 3대 필요충분조건은 상담자의 진실성(일치성), 무조건적 긍정적 존중, 공감적 이해입니다."
+      },
+      {
+        "q_num": 5,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 게슈탈트(Gestalt) 상담에서 '타인에게 표출하고 싶은 충동이나 분노를 자신에게 돌려 자해하거나 자책하는 접촉경계혼란'은?",
+        "options": [
+          "내사 (Introjection)",
+          "투사 (Projection)",
+          "반전 (Retroflection)",
+          "융합 (Confluence)",
+          "편향 (Deflection)"
+        ],
+        "ans": 3,
+        "exp": "타인에게 향할 에너지를 자신에게로 되돌려 자해나 자책으로 나타내는 것은 '반전(Retroflection)'입니다."
+      },
+      {
+        "q_num": 6,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 엘리스(A. Ellis)의 REBT 3대 당위성과 논박에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "A(선행사건) ➔ B(신념체계) ➔ C(정서적·행동적 결과)로 이어진다.",
+          "D(논박)에는 경험적(실증적) 논박, 논리적 논박, 실용적(기능적) 논박이 있다.",
+          "자신에 대한 당위성은 '나는 반드시 완벽하게 성공해야만 한다'는 신념이다.",
+          "실용적 논박은 '그 생각이 당신의 목표를 달성하는 데 실제로 도움이 됩니까?'라고 묻는 것이다.",
+          "경험적 논박은 '그 신념이 논리적으로 타당하고 앞뒤가 맞습니까?'라고 묻는 것이다."
+        ],
+        "ans": 5,
+        "exp": "경험적(실증적) 논박은 '그 생각이 사실이라는 객관적 증거가 어디 있습니까?'라고 묻는 것이며, 논리적 타당성을 묻는 것은 '논리적 논박'입니다."
+      },
+      {
+        "q_num": 7,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아론 벡(A. Beck)의 인지치료에서 자동적 사고 밑바탕의 핵심신념(Core Beliefs)을 파헤치기 위해 사용하는 기법은?",
+        "options": [
+          "재귀인 기법",
+          "탈파국화 기법",
+          "하향 화살표 기법 (Downward Arrow)",
+          "인지 재구조화",
+          "사고 중지 기법"
+        ],
+        "ans": 3,
+        "exp": "'만약 그 생각이 사실이라면, 그것이 당신에게 무엇을 의미합니까?'를 거듭 질문하여 심층의 핵심신념을 도출하는 것은 '하향 화살표 기법'입니다."
+      },
+      {
+        "q_num": 8,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 글래서(W. Glasser)의 현실치료 WDEP 모델 중 E(Evaluation, 자기평가) 단계의 질문으로 옳은 것은?",
+        "options": [
+          "당신이 진정으로 원하는 바람(Want)은 무엇입니까?",
+          "지금 당신이 하고 있는 그 행동이 당신이 원하는 것을 얻는 데 도움이 됩니까?",
+          "내일부터 당장 실천할 수 있는 구체적인 계획을 세워볼까요?",
+          "당신의 기본 욕구 5가지 중 가장 강한 욕구는 무엇입니까?",
+          "어릴 적 부모님과의 애착 관계는 어떠했습니까?"
+        ],
+        "ans": 2,
+        "exp": "E(자기평가) 단계는 내담자가 자신의 행동(Doing)이 바람(Want)을 성취하는 데 유용한지 스스로 평가하게 돕는 핵심 단계입니다."
+      },
+      {
+        "q_num": 9,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 해결중심 단기상담(SFBT)의 5대 질문 기법에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "기적 질문: 문제가 자는 동안 해결되었다는 가상의 상황을 상상하게 한다.",
+          "예외 질문: 문제가 발생하지 않았거나 덜 심각했던 성공적 순간을 탐색한다.",
+          "척도 질문: 내담자의 주관적 상태와 변화를 1~10점 수치로 표현하게 한다.",
+          "대처 질문: 절망적인 상황에서도 더 나빠지지 않고 견뎌낸 힘을 인정한다.",
+          "관계성 질문: 과거 원가족과의 무의식적 갈등 관계를 분석하고 통찰시킨다."
+        ],
+        "ans": 5,
+        "exp": "해결중심 단기상담의 '관계성 질문'은 '당신의 어머니가 지금 당신의 변화를 본다면 뭐라고 말씀하실까요?'처럼 타인의 시각에서 자신을 관찰하게 돕는 질문입니다."
+      },
+      {
+        "q_num": 10,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 행동주의 상담에서 표적 문제행동이 정해진 시간 동안 전혀 발생하지 않았을 때 보상을 제공하는 차별강화 기법은?",
+        "options": [
+          "대체행동 차별강화 (DRA)",
+          "상반행동 차별강화 (DRI)",
+          "다른행동(무반응) 차별강화 (DRO)",
+          "저빈도 차별강화 (DRL)",
+          "점진적 차별강화 (DRP)"
+        ],
+        "ans": 3,
+        "exp": "정해진 시간 동안 문제행동이 0회(Zero rate) 발생했을 때 강화를 제공하는 기법은 '다른행동 차별강화(DRO)'입니다."
+      },
+      {
+        "q_num": 11,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 청소년상담의 기본 원리와 특성에 관한 설명으로 가장 옳지 않은 것은?",
+        "options": [
+          "청소년의 발달적 특성과 위기 상황을 고려하여 예방적·치료적 개입을 병행한다.",
+          "상담자는 비자발적인 청소년 내담자의 저항과 침묵을 수용하고 다룬다.",
+          "상담 성과를 극대화하기 위해 초기 구조화 단계에서 상담의 모든 문제 해결을 보장한다.",
+          "상담목표는 구체적이고 관찰 가능하며 내담자와 합의된 형태로 설정해야 한다.",
+          "상담과정에서 비밀보장의 원칙을 준수하되, 자해나 타해 등 위기 상황 시 예외를 적용한다."
+        ],
+        "ans": 3,
+        "exp": "상담자는 초기 구조화 시 상담의 효과나 문제 해결을 무조건 보장해서는 안 되며, 상담의 한계와 내담자의 주체적 협력을 명확히 안내해야 합니다."
+      },
+      {
+        "q_num": 12,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 프로이트(S. Freud)의 정신분석 이론에서 자아방어기제에 관한 설명으로 옳은 것은?",
+        "options": [
+          "투사(Projection)는 용납할 수 없는 자신의 충동이나 생각을 타인의 탓으로 돌리는 것이다.",
+          "반동형성(Reaction Formation)은 고통스러운 기억을 의식 밖으로 밀어내는 것이다.",
+          "합리화(Rationalization)는 스트레스 상황에서 이전의 발달 단계로 퇴행하는 것이다.",
+          "전치(Displacement)는 사회적으로 유용한 출구로 본능적 충동을 전환하는 것이다.",
+          "승화(Sublimation)는 자신의 결점을 감추기 위해 다른 장점을 과도하게 강조하는 것이다."
+        ],
+        "ans": 1,
+        "exp": "자신의 용납하기 어려운 충동·감정을 타인의 것으로 지각하는 것은 '투사(Projection)'입니다. 사회적 유용한 출구로 전환하는 것은 '승화'입니다."
+      },
+      {
+        "q_num": 13,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아들러(A. Adler)의 개인심리학 이론의 주요 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "열등감은 인간의 성장과 발달을 가로막는 비정상적인 병리 현상이다.",
+          "생활양식(Life Style)은 유전과 환경에 의해 수동적으로 결정되어 변화가 불가능하다.",
+          "사회적 관심(Social Interest)은 타인과 협동하고 공동체 복지에 기여하려는 선천적 잠재력이다.",
+          "우월성 추구는 타인을 지배하고 억압하려는 이기적 권력욕이다.",
+          "출생순위는 성격 형성에 절대적이고 유일한 결정 요인으로 작용한다."
+        ],
+        "ans": 3,
+        "exp": "아들러는 사회적 관심을 공동체감으로 보며 정신건강의 핵심 척도로 간주했습니다. 열등감은 모든 인간에게 보편적이며 자기완성의 원동력입니다."
+      },
+      {
+        "q_num": 14,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 로저스(C. Rogers)의 인간중심상담에서 상담자의 3대 필수 치료적 태도로 옳은 것은?",
+        "options": [
+          "해석적 통찰, 직면, 적극적 지시",
+          "일치성(진실성), 무조건적 긍정적 존중, 공감적 이해",
+          "자유연상, 저항 분석, 전이 해석",
+          "논박, 인지 재구조화, 행동 계약",
+          "탈숙고, 역설적 의도, 의미 발견"
+        ],
+        "ans": 2,
+        "exp": "로저스의 3대 필요충분조건은 상담자의 진실성(일치성), 무조건적 긍정적 존중, 공감적 이해입니다."
+      },
+      {
+        "q_num": 15,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 게슈탈트(Gestalt) 상담에서 '타인에게 표출하고 싶은 충동이나 분노를 자신에게 돌려 자해하거나 자책하는 접촉경계혼란'은?",
+        "options": [
+          "내사 (Introjection)",
+          "투사 (Projection)",
+          "반전 (Retroflection)",
+          "융합 (Confluence)",
+          "편향 (Deflection)"
+        ],
+        "ans": 3,
+        "exp": "타인에게 향할 에너지를 자신에게로 되돌려 자해나 자책으로 나타내는 것은 '반전(Retroflection)'입니다."
+      },
+      {
+        "q_num": 16,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 엘리스(A. Ellis)의 REBT 3대 당위성과 논박에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "A(선행사건) ➔ B(신념체계) ➔ C(정서적·행동적 결과)로 이어진다.",
+          "D(논박)에는 경험적(실증적) 논박, 논리적 논박, 실용적(기능적) 논박이 있다.",
+          "자신에 대한 당위성은 '나는 반드시 완벽하게 성공해야만 한다'는 신념이다.",
+          "실용적 논박은 '그 생각이 당신의 목표를 달성하는 데 실제로 도움이 됩니까?'라고 묻는 것이다.",
+          "경험적 논박은 '그 신념이 논리적으로 타당하고 앞뒤가 맞습니까?'라고 묻는 것이다."
+        ],
+        "ans": 5,
+        "exp": "경험적(실증적) 논박은 '그 생각이 사실이라는 객관적 증거가 어디 있습니까?'라고 묻는 것이며, 논리적 타당성을 묻는 것은 '논리적 논박'입니다."
+      },
+      {
+        "q_num": 17,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아론 벡(A. Beck)의 인지치료에서 자동적 사고 밑바탕의 핵심신념(Core Beliefs)을 파헤치기 위해 사용하는 기법은?",
+        "options": [
+          "재귀인 기법",
+          "탈파국화 기법",
+          "하향 화살표 기법 (Downward Arrow)",
+          "인지 재구조화",
+          "사고 중지 기법"
+        ],
+        "ans": 3,
+        "exp": "'만약 그 생각이 사실이라면, 그것이 당신에게 무엇을 의미합니까?'를 거듭 질문하여 심층의 핵심신념을 도출하는 것은 '하향 화살표 기법'입니다."
+      },
+      {
+        "q_num": 18,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 글래서(W. Glasser)의 현실치료 WDEP 모델 중 E(Evaluation, 자기평가) 단계의 질문으로 옳은 것은?",
+        "options": [
+          "당신이 진정으로 원하는 바람(Want)은 무엇입니까?",
+          "지금 당신이 하고 있는 그 행동이 당신이 원하는 것을 얻는 데 도움이 됩니까?",
+          "내일부터 당장 실천할 수 있는 구체적인 계획을 세워볼까요?",
+          "당신의 기본 욕구 5가지 중 가장 강한 욕구는 무엇입니까?",
+          "어릴 적 부모님과의 애착 관계는 어떠했습니까?"
+        ],
+        "ans": 2,
+        "exp": "E(자기평가) 단계는 내담자가 자신의 행동(Doing)이 바람(Want)을 성취하는 데 유용한지 스스로 평가하게 돕는 핵심 단계입니다."
+      },
+      {
+        "q_num": 19,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 해결중심 단기상담(SFBT)의 5대 질문 기법에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "기적 질문: 문제가 자는 동안 해결되었다는 가상의 상황을 상상하게 한다.",
+          "예외 질문: 문제가 발생하지 않았거나 덜 심각했던 성공적 순간을 탐색한다.",
+          "척도 질문: 내담자의 주관적 상태와 변화를 1~10점 수치로 표현하게 한다.",
+          "대처 질문: 절망적인 상황에서도 더 나빠지지 않고 견뎌낸 힘을 인정한다.",
+          "관계성 질문: 과거 원가족과의 무의식적 갈등 관계를 분석하고 통찰시킨다."
+        ],
+        "ans": 5,
+        "exp": "해결중심 단기상담의 '관계성 질문'은 '당신의 어머니가 지금 당신의 변화를 본다면 뭐라고 말씀하실까요?'처럼 타인의 시각에서 자신을 관찰하게 돕는 질문입니다."
+      },
+      {
+        "q_num": 20,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 행동주의 상담에서 표적 문제행동이 정해진 시간 동안 전혀 발생하지 않았을 때 보상을 제공하는 차별강화 기법은?",
+        "options": [
+          "대체행동 차별강화 (DRA)",
+          "상반행동 차별강화 (DRI)",
+          "다른행동(무반응) 차별강화 (DRO)",
+          "저빈도 차별강화 (DRL)",
+          "점진적 차별강화 (DRP)"
+        ],
+        "ans": 3,
+        "exp": "정해진 시간 동안 문제행동이 0회(Zero rate) 발생했을 때 강화를 제공하는 기법은 '다른행동 차별강화(DRO)'입니다."
+      },
+      {
+        "q_num": 21,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 청소년상담의 기본 원리와 특성에 관한 설명으로 가장 옳지 않은 것은?",
+        "options": [
+          "청소년의 발달적 특성과 위기 상황을 고려하여 예방적·치료적 개입을 병행한다.",
+          "상담자는 비자발적인 청소년 내담자의 저항과 침묵을 수용하고 다룬다.",
+          "상담 성과를 극대화하기 위해 초기 구조화 단계에서 상담의 모든 문제 해결을 보장한다.",
+          "상담목표는 구체적이고 관찰 가능하며 내담자와 합의된 형태로 설정해야 한다.",
+          "상담과정에서 비밀보장의 원칙을 준수하되, 자해나 타해 등 위기 상황 시 예외를 적용한다."
+        ],
+        "ans": 3,
+        "exp": "상담자는 초기 구조화 시 상담의 효과나 문제 해결을 무조건 보장해서는 안 되며, 상담의 한계와 내담자의 주체적 협력을 명확히 안내해야 합니다."
+      },
+      {
+        "q_num": 22,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 프로이트(S. Freud)의 정신분석 이론에서 자아방어기제에 관한 설명으로 옳은 것은?",
+        "options": [
+          "투사(Projection)는 용납할 수 없는 자신의 충동이나 생각을 타인의 탓으로 돌리는 것이다.",
+          "반동형성(Reaction Formation)은 고통스러운 기억을 의식 밖으로 밀어내는 것이다.",
+          "합리화(Rationalization)는 스트레스 상황에서 이전의 발달 단계로 퇴행하는 것이다.",
+          "전치(Displacement)는 사회적으로 유용한 출구로 본능적 충동을 전환하는 것이다.",
+          "승화(Sublimation)는 자신의 결점을 감추기 위해 다른 장점을 과도하게 강조하는 것이다."
+        ],
+        "ans": 1,
+        "exp": "자신의 용납하기 어려운 충동·감정을 타인의 것으로 지각하는 것은 '투사(Projection)'입니다. 사회적 유용한 출구로 전환하는 것은 '승화'입니다."
+      },
+      {
+        "q_num": 23,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아들러(A. Adler)의 개인심리학 이론의 주요 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "열등감은 인간의 성장과 발달을 가로막는 비정상적인 병리 현상이다.",
+          "생활양식(Life Style)은 유전과 환경에 의해 수동적으로 결정되어 변화가 불가능하다.",
+          "사회적 관심(Social Interest)은 타인과 협동하고 공동체 복지에 기여하려는 선천적 잠재력이다.",
+          "우월성 추구는 타인을 지배하고 억압하려는 이기적 권력욕이다.",
+          "출생순위는 성격 형성에 절대적이고 유일한 결정 요인으로 작용한다."
+        ],
+        "ans": 3,
+        "exp": "아들러는 사회적 관심을 공동체감으로 보며 정신건강의 핵심 척도로 간주했습니다. 열등감은 모든 인간에게 보편적이며 자기완성의 원동력입니다."
+      },
+      {
+        "q_num": 24,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 로저스(C. Rogers)의 인간중심상담에서 상담자의 3대 필수 치료적 태도로 옳은 것은?",
+        "options": [
+          "해석적 통찰, 직면, 적극적 지시",
+          "일치성(진실성), 무조건적 긍정적 존중, 공감적 이해",
+          "자유연상, 저항 분석, 전이 해석",
+          "논박, 인지 재구조화, 행동 계약",
+          "탈숙고, 역설적 의도, 의미 발견"
+        ],
+        "ans": 2,
+        "exp": "로저스의 3대 필요충분조건은 상담자의 진실성(일치성), 무조건적 긍정적 존중, 공감적 이해입니다."
+      },
+      {
+        "q_num": 25,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 게슈탈트(Gestalt) 상담에서 '타인에게 표출하고 싶은 충동이나 분노를 자신에게 돌려 자해하거나 자책하는 접촉경계혼란'은?",
+        "options": [
+          "내사 (Introjection)",
+          "투사 (Projection)",
+          "반전 (Retroflection)",
+          "융합 (Confluence)",
+          "편향 (Deflection)"
+        ],
+        "ans": 3,
+        "exp": "타인에게 향할 에너지를 자신에게로 되돌려 자해나 자책으로 나타내는 것은 '반전(Retroflection)'입니다."
+      },
+      {
+        "q_num": 26,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 27,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 28,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 29,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 30,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 31,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 32,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 33,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 34,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 35,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 36,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 37,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 38,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 39,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 40,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 41,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 42,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 43,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 44,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 45,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 46,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 47,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 48,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 49,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 50,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 51,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 52,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 53,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 54,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 55,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 56,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 57,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 58,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 59,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 60,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 61,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 62,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 63,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 64,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 65,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 66,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 67,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 68,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 69,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 70,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 71,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 72,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 73,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 74,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 75,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 76,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 77,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 78,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 79,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 80,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 81,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 82,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 83,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 84,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 85,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 86,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 87,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 88,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 89,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 90,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 91,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 92,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 93,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 94,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 95,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 96,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 97,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 98,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 99,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 100,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 101,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 102,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 103,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 104,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 105,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 106,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 107,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 108,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 109,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 110,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 111,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 112,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 113,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 114,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 115,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 116,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 117,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 118,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 119,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 120,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 121,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 122,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 123,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 124,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 125,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 126,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 127,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 128,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 129,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 130,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 131,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 132,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 133,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 134,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 135,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 136,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 137,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 138,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 139,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 140,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 141,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 142,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 143,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 144,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 145,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 146,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 147,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 148,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 149,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 150,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      }
+    ]
+  },
+  "mock_8": {
+    "id": "mock_8",
+    "title": "제8회 실전 모의고사 (150제 풀세트)",
+    "total": 150,
+    "subjects": [
+      "청소년상담의 이론과 실제",
+      "상담연구방법론의 기초",
+      "심리측정 및 평가",
+      "청소년이해론",
+      "가족상담",
+      "집단상담"
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 청소년상담의 기본 원리와 특성에 관한 설명으로 가장 옳지 않은 것은?",
+        "options": [
+          "청소년의 발달적 특성과 위기 상황을 고려하여 예방적·치료적 개입을 병행한다.",
+          "상담자는 비자발적인 청소년 내담자의 저항과 침묵을 수용하고 다룬다.",
+          "상담 성과를 극대화하기 위해 초기 구조화 단계에서 상담의 모든 문제 해결을 보장한다.",
+          "상담목표는 구체적이고 관찰 가능하며 내담자와 합의된 형태로 설정해야 한다.",
+          "상담과정에서 비밀보장의 원칙을 준수하되, 자해나 타해 등 위기 상황 시 예외를 적용한다."
+        ],
+        "ans": 3,
+        "exp": "상담자는 초기 구조화 시 상담의 효과나 문제 해결을 무조건 보장해서는 안 되며, 상담의 한계와 내담자의 주체적 협력을 명확히 안내해야 합니다."
+      },
+      {
+        "q_num": 2,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 프로이트(S. Freud)의 정신분석 이론에서 자아방어기제에 관한 설명으로 옳은 것은?",
+        "options": [
+          "투사(Projection)는 용납할 수 없는 자신의 충동이나 생각을 타인의 탓으로 돌리는 것이다.",
+          "반동형성(Reaction Formation)은 고통스러운 기억을 의식 밖으로 밀어내는 것이다.",
+          "합리화(Rationalization)는 스트레스 상황에서 이전의 발달 단계로 퇴행하는 것이다.",
+          "전치(Displacement)는 사회적으로 유용한 출구로 본능적 충동을 전환하는 것이다.",
+          "승화(Sublimation)는 자신의 결점을 감추기 위해 다른 장점을 과도하게 강조하는 것이다."
+        ],
+        "ans": 1,
+        "exp": "자신의 용납하기 어려운 충동·감정을 타인의 것으로 지각하는 것은 '투사(Projection)'입니다. 사회적 유용한 출구로 전환하는 것은 '승화'입니다."
+      },
+      {
+        "q_num": 3,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아들러(A. Adler)의 개인심리학 이론의 주요 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "열등감은 인간의 성장과 발달을 가로막는 비정상적인 병리 현상이다.",
+          "생활양식(Life Style)은 유전과 환경에 의해 수동적으로 결정되어 변화가 불가능하다.",
+          "사회적 관심(Social Interest)은 타인과 협동하고 공동체 복지에 기여하려는 선천적 잠재력이다.",
+          "우월성 추구는 타인을 지배하고 억압하려는 이기적 권력욕이다.",
+          "출생순위는 성격 형성에 절대적이고 유일한 결정 요인으로 작용한다."
+        ],
+        "ans": 3,
+        "exp": "아들러는 사회적 관심을 공동체감으로 보며 정신건강의 핵심 척도로 간주했습니다. 열등감은 모든 인간에게 보편적이며 자기완성의 원동력입니다."
+      },
+      {
+        "q_num": 4,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 로저스(C. Rogers)의 인간중심상담에서 상담자의 3대 필수 치료적 태도로 옳은 것은?",
+        "options": [
+          "해석적 통찰, 직면, 적극적 지시",
+          "일치성(진실성), 무조건적 긍정적 존중, 공감적 이해",
+          "자유연상, 저항 분석, 전이 해석",
+          "논박, 인지 재구조화, 행동 계약",
+          "탈숙고, 역설적 의도, 의미 발견"
+        ],
+        "ans": 2,
+        "exp": "로저스의 3대 필요충분조건은 상담자의 진실성(일치성), 무조건적 긍정적 존중, 공감적 이해입니다."
+      },
+      {
+        "q_num": 5,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 게슈탈트(Gestalt) 상담에서 '타인에게 표출하고 싶은 충동이나 분노를 자신에게 돌려 자해하거나 자책하는 접촉경계혼란'은?",
+        "options": [
+          "내사 (Introjection)",
+          "투사 (Projection)",
+          "반전 (Retroflection)",
+          "융합 (Confluence)",
+          "편향 (Deflection)"
+        ],
+        "ans": 3,
+        "exp": "타인에게 향할 에너지를 자신에게로 되돌려 자해나 자책으로 나타내는 것은 '반전(Retroflection)'입니다."
+      },
+      {
+        "q_num": 6,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 엘리스(A. Ellis)의 REBT 3대 당위성과 논박에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "A(선행사건) ➔ B(신념체계) ➔ C(정서적·행동적 결과)로 이어진다.",
+          "D(논박)에는 경험적(실증적) 논박, 논리적 논박, 실용적(기능적) 논박이 있다.",
+          "자신에 대한 당위성은 '나는 반드시 완벽하게 성공해야만 한다'는 신념이다.",
+          "실용적 논박은 '그 생각이 당신의 목표를 달성하는 데 실제로 도움이 됩니까?'라고 묻는 것이다.",
+          "경험적 논박은 '그 신념이 논리적으로 타당하고 앞뒤가 맞습니까?'라고 묻는 것이다."
+        ],
+        "ans": 5,
+        "exp": "경험적(실증적) 논박은 '그 생각이 사실이라는 객관적 증거가 어디 있습니까?'라고 묻는 것이며, 논리적 타당성을 묻는 것은 '논리적 논박'입니다."
+      },
+      {
+        "q_num": 7,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아론 벡(A. Beck)의 인지치료에서 자동적 사고 밑바탕의 핵심신념(Core Beliefs)을 파헤치기 위해 사용하는 기법은?",
+        "options": [
+          "재귀인 기법",
+          "탈파국화 기법",
+          "하향 화살표 기법 (Downward Arrow)",
+          "인지 재구조화",
+          "사고 중지 기법"
+        ],
+        "ans": 3,
+        "exp": "'만약 그 생각이 사실이라면, 그것이 당신에게 무엇을 의미합니까?'를 거듭 질문하여 심층의 핵심신념을 도출하는 것은 '하향 화살표 기법'입니다."
+      },
+      {
+        "q_num": 8,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 글래서(W. Glasser)의 현실치료 WDEP 모델 중 E(Evaluation, 자기평가) 단계의 질문으로 옳은 것은?",
+        "options": [
+          "당신이 진정으로 원하는 바람(Want)은 무엇입니까?",
+          "지금 당신이 하고 있는 그 행동이 당신이 원하는 것을 얻는 데 도움이 됩니까?",
+          "내일부터 당장 실천할 수 있는 구체적인 계획을 세워볼까요?",
+          "당신의 기본 욕구 5가지 중 가장 강한 욕구는 무엇입니까?",
+          "어릴 적 부모님과의 애착 관계는 어떠했습니까?"
+        ],
+        "ans": 2,
+        "exp": "E(자기평가) 단계는 내담자가 자신의 행동(Doing)이 바람(Want)을 성취하는 데 유용한지 스스로 평가하게 돕는 핵심 단계입니다."
+      },
+      {
+        "q_num": 9,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 해결중심 단기상담(SFBT)의 5대 질문 기법에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "기적 질문: 문제가 자는 동안 해결되었다는 가상의 상황을 상상하게 한다.",
+          "예외 질문: 문제가 발생하지 않았거나 덜 심각했던 성공적 순간을 탐색한다.",
+          "척도 질문: 내담자의 주관적 상태와 변화를 1~10점 수치로 표현하게 한다.",
+          "대처 질문: 절망적인 상황에서도 더 나빠지지 않고 견뎌낸 힘을 인정한다.",
+          "관계성 질문: 과거 원가족과의 무의식적 갈등 관계를 분석하고 통찰시킨다."
+        ],
+        "ans": 5,
+        "exp": "해결중심 단기상담의 '관계성 질문'은 '당신의 어머니가 지금 당신의 변화를 본다면 뭐라고 말씀하실까요?'처럼 타인의 시각에서 자신을 관찰하게 돕는 질문입니다."
+      },
+      {
+        "q_num": 10,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 행동주의 상담에서 표적 문제행동이 정해진 시간 동안 전혀 발생하지 않았을 때 보상을 제공하는 차별강화 기법은?",
+        "options": [
+          "대체행동 차별강화 (DRA)",
+          "상반행동 차별강화 (DRI)",
+          "다른행동(무반응) 차별강화 (DRO)",
+          "저빈도 차별강화 (DRL)",
+          "점진적 차별강화 (DRP)"
+        ],
+        "ans": 3,
+        "exp": "정해진 시간 동안 문제행동이 0회(Zero rate) 발생했을 때 강화를 제공하는 기법은 '다른행동 차별강화(DRO)'입니다."
+      },
+      {
+        "q_num": 11,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 청소년상담의 기본 원리와 특성에 관한 설명으로 가장 옳지 않은 것은?",
+        "options": [
+          "청소년의 발달적 특성과 위기 상황을 고려하여 예방적·치료적 개입을 병행한다.",
+          "상담자는 비자발적인 청소년 내담자의 저항과 침묵을 수용하고 다룬다.",
+          "상담 성과를 극대화하기 위해 초기 구조화 단계에서 상담의 모든 문제 해결을 보장한다.",
+          "상담목표는 구체적이고 관찰 가능하며 내담자와 합의된 형태로 설정해야 한다.",
+          "상담과정에서 비밀보장의 원칙을 준수하되, 자해나 타해 등 위기 상황 시 예외를 적용한다."
+        ],
+        "ans": 3,
+        "exp": "상담자는 초기 구조화 시 상담의 효과나 문제 해결을 무조건 보장해서는 안 되며, 상담의 한계와 내담자의 주체적 협력을 명확히 안내해야 합니다."
+      },
+      {
+        "q_num": 12,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 프로이트(S. Freud)의 정신분석 이론에서 자아방어기제에 관한 설명으로 옳은 것은?",
+        "options": [
+          "투사(Projection)는 용납할 수 없는 자신의 충동이나 생각을 타인의 탓으로 돌리는 것이다.",
+          "반동형성(Reaction Formation)은 고통스러운 기억을 의식 밖으로 밀어내는 것이다.",
+          "합리화(Rationalization)는 스트레스 상황에서 이전의 발달 단계로 퇴행하는 것이다.",
+          "전치(Displacement)는 사회적으로 유용한 출구로 본능적 충동을 전환하는 것이다.",
+          "승화(Sublimation)는 자신의 결점을 감추기 위해 다른 장점을 과도하게 강조하는 것이다."
+        ],
+        "ans": 1,
+        "exp": "자신의 용납하기 어려운 충동·감정을 타인의 것으로 지각하는 것은 '투사(Projection)'입니다. 사회적 유용한 출구로 전환하는 것은 '승화'입니다."
+      },
+      {
+        "q_num": 13,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아들러(A. Adler)의 개인심리학 이론의 주요 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "열등감은 인간의 성장과 발달을 가로막는 비정상적인 병리 현상이다.",
+          "생활양식(Life Style)은 유전과 환경에 의해 수동적으로 결정되어 변화가 불가능하다.",
+          "사회적 관심(Social Interest)은 타인과 협동하고 공동체 복지에 기여하려는 선천적 잠재력이다.",
+          "우월성 추구는 타인을 지배하고 억압하려는 이기적 권력욕이다.",
+          "출생순위는 성격 형성에 절대적이고 유일한 결정 요인으로 작용한다."
+        ],
+        "ans": 3,
+        "exp": "아들러는 사회적 관심을 공동체감으로 보며 정신건강의 핵심 척도로 간주했습니다. 열등감은 모든 인간에게 보편적이며 자기완성의 원동력입니다."
+      },
+      {
+        "q_num": 14,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 로저스(C. Rogers)의 인간중심상담에서 상담자의 3대 필수 치료적 태도로 옳은 것은?",
+        "options": [
+          "해석적 통찰, 직면, 적극적 지시",
+          "일치성(진실성), 무조건적 긍정적 존중, 공감적 이해",
+          "자유연상, 저항 분석, 전이 해석",
+          "논박, 인지 재구조화, 행동 계약",
+          "탈숙고, 역설적 의도, 의미 발견"
+        ],
+        "ans": 2,
+        "exp": "로저스의 3대 필요충분조건은 상담자의 진실성(일치성), 무조건적 긍정적 존중, 공감적 이해입니다."
+      },
+      {
+        "q_num": 15,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 게슈탈트(Gestalt) 상담에서 '타인에게 표출하고 싶은 충동이나 분노를 자신에게 돌려 자해하거나 자책하는 접촉경계혼란'은?",
+        "options": [
+          "내사 (Introjection)",
+          "투사 (Projection)",
+          "반전 (Retroflection)",
+          "융합 (Confluence)",
+          "편향 (Deflection)"
+        ],
+        "ans": 3,
+        "exp": "타인에게 향할 에너지를 자신에게로 되돌려 자해나 자책으로 나타내는 것은 '반전(Retroflection)'입니다."
+      },
+      {
+        "q_num": 16,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 엘리스(A. Ellis)의 REBT 3대 당위성과 논박에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "A(선행사건) ➔ B(신념체계) ➔ C(정서적·행동적 결과)로 이어진다.",
+          "D(논박)에는 경험적(실증적) 논박, 논리적 논박, 실용적(기능적) 논박이 있다.",
+          "자신에 대한 당위성은 '나는 반드시 완벽하게 성공해야만 한다'는 신념이다.",
+          "실용적 논박은 '그 생각이 당신의 목표를 달성하는 데 실제로 도움이 됩니까?'라고 묻는 것이다.",
+          "경험적 논박은 '그 신념이 논리적으로 타당하고 앞뒤가 맞습니까?'라고 묻는 것이다."
+        ],
+        "ans": 5,
+        "exp": "경험적(실증적) 논박은 '그 생각이 사실이라는 객관적 증거가 어디 있습니까?'라고 묻는 것이며, 논리적 타당성을 묻는 것은 '논리적 논박'입니다."
+      },
+      {
+        "q_num": 17,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아론 벡(A. Beck)의 인지치료에서 자동적 사고 밑바탕의 핵심신념(Core Beliefs)을 파헤치기 위해 사용하는 기법은?",
+        "options": [
+          "재귀인 기법",
+          "탈파국화 기법",
+          "하향 화살표 기법 (Downward Arrow)",
+          "인지 재구조화",
+          "사고 중지 기법"
+        ],
+        "ans": 3,
+        "exp": "'만약 그 생각이 사실이라면, 그것이 당신에게 무엇을 의미합니까?'를 거듭 질문하여 심층의 핵심신념을 도출하는 것은 '하향 화살표 기법'입니다."
+      },
+      {
+        "q_num": 18,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 글래서(W. Glasser)의 현실치료 WDEP 모델 중 E(Evaluation, 자기평가) 단계의 질문으로 옳은 것은?",
+        "options": [
+          "당신이 진정으로 원하는 바람(Want)은 무엇입니까?",
+          "지금 당신이 하고 있는 그 행동이 당신이 원하는 것을 얻는 데 도움이 됩니까?",
+          "내일부터 당장 실천할 수 있는 구체적인 계획을 세워볼까요?",
+          "당신의 기본 욕구 5가지 중 가장 강한 욕구는 무엇입니까?",
+          "어릴 적 부모님과의 애착 관계는 어떠했습니까?"
+        ],
+        "ans": 2,
+        "exp": "E(자기평가) 단계는 내담자가 자신의 행동(Doing)이 바람(Want)을 성취하는 데 유용한지 스스로 평가하게 돕는 핵심 단계입니다."
+      },
+      {
+        "q_num": 19,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 해결중심 단기상담(SFBT)의 5대 질문 기법에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "기적 질문: 문제가 자는 동안 해결되었다는 가상의 상황을 상상하게 한다.",
+          "예외 질문: 문제가 발생하지 않았거나 덜 심각했던 성공적 순간을 탐색한다.",
+          "척도 질문: 내담자의 주관적 상태와 변화를 1~10점 수치로 표현하게 한다.",
+          "대처 질문: 절망적인 상황에서도 더 나빠지지 않고 견뎌낸 힘을 인정한다.",
+          "관계성 질문: 과거 원가족과의 무의식적 갈등 관계를 분석하고 통찰시킨다."
+        ],
+        "ans": 5,
+        "exp": "해결중심 단기상담의 '관계성 질문'은 '당신의 어머니가 지금 당신의 변화를 본다면 뭐라고 말씀하실까요?'처럼 타인의 시각에서 자신을 관찰하게 돕는 질문입니다."
+      },
+      {
+        "q_num": 20,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 행동주의 상담에서 표적 문제행동이 정해진 시간 동안 전혀 발생하지 않았을 때 보상을 제공하는 차별강화 기법은?",
+        "options": [
+          "대체행동 차별강화 (DRA)",
+          "상반행동 차별강화 (DRI)",
+          "다른행동(무반응) 차별강화 (DRO)",
+          "저빈도 차별강화 (DRL)",
+          "점진적 차별강화 (DRP)"
+        ],
+        "ans": 3,
+        "exp": "정해진 시간 동안 문제행동이 0회(Zero rate) 발생했을 때 강화를 제공하는 기법은 '다른행동 차별강화(DRO)'입니다."
+      },
+      {
+        "q_num": 21,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 청소년상담의 기본 원리와 특성에 관한 설명으로 가장 옳지 않은 것은?",
+        "options": [
+          "청소년의 발달적 특성과 위기 상황을 고려하여 예방적·치료적 개입을 병행한다.",
+          "상담자는 비자발적인 청소년 내담자의 저항과 침묵을 수용하고 다룬다.",
+          "상담 성과를 극대화하기 위해 초기 구조화 단계에서 상담의 모든 문제 해결을 보장한다.",
+          "상담목표는 구체적이고 관찰 가능하며 내담자와 합의된 형태로 설정해야 한다.",
+          "상담과정에서 비밀보장의 원칙을 준수하되, 자해나 타해 등 위기 상황 시 예외를 적용한다."
+        ],
+        "ans": 3,
+        "exp": "상담자는 초기 구조화 시 상담의 효과나 문제 해결을 무조건 보장해서는 안 되며, 상담의 한계와 내담자의 주체적 협력을 명확히 안내해야 합니다."
+      },
+      {
+        "q_num": 22,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 프로이트(S. Freud)의 정신분석 이론에서 자아방어기제에 관한 설명으로 옳은 것은?",
+        "options": [
+          "투사(Projection)는 용납할 수 없는 자신의 충동이나 생각을 타인의 탓으로 돌리는 것이다.",
+          "반동형성(Reaction Formation)은 고통스러운 기억을 의식 밖으로 밀어내는 것이다.",
+          "합리화(Rationalization)는 스트레스 상황에서 이전의 발달 단계로 퇴행하는 것이다.",
+          "전치(Displacement)는 사회적으로 유용한 출구로 본능적 충동을 전환하는 것이다.",
+          "승화(Sublimation)는 자신의 결점을 감추기 위해 다른 장점을 과도하게 강조하는 것이다."
+        ],
+        "ans": 1,
+        "exp": "자신의 용납하기 어려운 충동·감정을 타인의 것으로 지각하는 것은 '투사(Projection)'입니다. 사회적 유용한 출구로 전환하는 것은 '승화'입니다."
+      },
+      {
+        "q_num": 23,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아들러(A. Adler)의 개인심리학 이론의 주요 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "열등감은 인간의 성장과 발달을 가로막는 비정상적인 병리 현상이다.",
+          "생활양식(Life Style)은 유전과 환경에 의해 수동적으로 결정되어 변화가 불가능하다.",
+          "사회적 관심(Social Interest)은 타인과 협동하고 공동체 복지에 기여하려는 선천적 잠재력이다.",
+          "우월성 추구는 타인을 지배하고 억압하려는 이기적 권력욕이다.",
+          "출생순위는 성격 형성에 절대적이고 유일한 결정 요인으로 작용한다."
+        ],
+        "ans": 3,
+        "exp": "아들러는 사회적 관심을 공동체감으로 보며 정신건강의 핵심 척도로 간주했습니다. 열등감은 모든 인간에게 보편적이며 자기완성의 원동력입니다."
+      },
+      {
+        "q_num": 24,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 로저스(C. Rogers)의 인간중심상담에서 상담자의 3대 필수 치료적 태도로 옳은 것은?",
+        "options": [
+          "해석적 통찰, 직면, 적극적 지시",
+          "일치성(진실성), 무조건적 긍정적 존중, 공감적 이해",
+          "자유연상, 저항 분석, 전이 해석",
+          "논박, 인지 재구조화, 행동 계약",
+          "탈숙고, 역설적 의도, 의미 발견"
+        ],
+        "ans": 2,
+        "exp": "로저스의 3대 필요충분조건은 상담자의 진실성(일치성), 무조건적 긍정적 존중, 공감적 이해입니다."
+      },
+      {
+        "q_num": 25,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 게슈탈트(Gestalt) 상담에서 '타인에게 표출하고 싶은 충동이나 분노를 자신에게 돌려 자해하거나 자책하는 접촉경계혼란'은?",
+        "options": [
+          "내사 (Introjection)",
+          "투사 (Projection)",
+          "반전 (Retroflection)",
+          "융합 (Confluence)",
+          "편향 (Deflection)"
+        ],
+        "ans": 3,
+        "exp": "타인에게 향할 에너지를 자신에게로 되돌려 자해나 자책으로 나타내는 것은 '반전(Retroflection)'입니다."
+      },
+      {
+        "q_num": 26,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 27,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 28,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 29,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 30,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 31,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 32,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 33,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 34,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 35,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 36,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 37,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 38,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 39,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 40,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 41,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 42,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 43,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 44,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 45,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 46,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 47,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 48,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 49,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 50,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 51,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 52,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 53,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 54,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 55,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 56,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 57,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 58,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 59,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 60,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 61,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 62,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 63,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 64,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 65,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 66,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 67,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 68,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 69,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 70,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 71,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 72,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 73,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 74,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 75,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 76,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 77,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 78,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 79,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 80,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 81,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 82,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 83,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 84,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 85,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 86,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 87,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 88,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 89,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 90,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 91,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 92,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 93,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 94,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 95,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 96,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 97,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 98,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 99,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 100,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 101,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 102,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 103,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 104,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 105,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 106,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 107,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 108,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 109,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 110,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 111,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 112,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 113,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 114,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 115,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 116,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 117,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 118,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 119,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 120,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 121,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 122,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 123,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 124,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 125,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 126,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 127,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 128,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 129,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 130,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 131,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 132,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 133,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 134,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 135,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 136,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 137,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 138,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 139,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 140,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 141,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 142,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 143,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 144,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 145,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 146,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 147,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 148,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 149,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 150,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      }
+    ]
+  },
+  "mock_9": {
+    "id": "mock_9",
+    "title": "제9회 실전 모의고사 (150제 풀세트)",
+    "total": 150,
+    "subjects": [
+      "청소년상담의 이론과 실제",
+      "상담연구방법론의 기초",
+      "심리측정 및 평가",
+      "청소년이해론",
+      "가족상담",
+      "집단상담"
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 청소년상담의 기본 원리와 특성에 관한 설명으로 가장 옳지 않은 것은?",
+        "options": [
+          "청소년의 발달적 특성과 위기 상황을 고려하여 예방적·치료적 개입을 병행한다.",
+          "상담자는 비자발적인 청소년 내담자의 저항과 침묵을 수용하고 다룬다.",
+          "상담 성과를 극대화하기 위해 초기 구조화 단계에서 상담의 모든 문제 해결을 보장한다.",
+          "상담목표는 구체적이고 관찰 가능하며 내담자와 합의된 형태로 설정해야 한다.",
+          "상담과정에서 비밀보장의 원칙을 준수하되, 자해나 타해 등 위기 상황 시 예외를 적용한다."
+        ],
+        "ans": 3,
+        "exp": "상담자는 초기 구조화 시 상담의 효과나 문제 해결을 무조건 보장해서는 안 되며, 상담의 한계와 내담자의 주체적 협력을 명확히 안내해야 합니다."
+      },
+      {
+        "q_num": 2,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 프로이트(S. Freud)의 정신분석 이론에서 자아방어기제에 관한 설명으로 옳은 것은?",
+        "options": [
+          "투사(Projection)는 용납할 수 없는 자신의 충동이나 생각을 타인의 탓으로 돌리는 것이다.",
+          "반동형성(Reaction Formation)은 고통스러운 기억을 의식 밖으로 밀어내는 것이다.",
+          "합리화(Rationalization)는 스트레스 상황에서 이전의 발달 단계로 퇴행하는 것이다.",
+          "전치(Displacement)는 사회적으로 유용한 출구로 본능적 충동을 전환하는 것이다.",
+          "승화(Sublimation)는 자신의 결점을 감추기 위해 다른 장점을 과도하게 강조하는 것이다."
+        ],
+        "ans": 1,
+        "exp": "자신의 용납하기 어려운 충동·감정을 타인의 것으로 지각하는 것은 '투사(Projection)'입니다. 사회적 유용한 출구로 전환하는 것은 '승화'입니다."
+      },
+      {
+        "q_num": 3,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아들러(A. Adler)의 개인심리학 이론의 주요 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "열등감은 인간의 성장과 발달을 가로막는 비정상적인 병리 현상이다.",
+          "생활양식(Life Style)은 유전과 환경에 의해 수동적으로 결정되어 변화가 불가능하다.",
+          "사회적 관심(Social Interest)은 타인과 협동하고 공동체 복지에 기여하려는 선천적 잠재력이다.",
+          "우월성 추구는 타인을 지배하고 억압하려는 이기적 권력욕이다.",
+          "출생순위는 성격 형성에 절대적이고 유일한 결정 요인으로 작용한다."
+        ],
+        "ans": 3,
+        "exp": "아들러는 사회적 관심을 공동체감으로 보며 정신건강의 핵심 척도로 간주했습니다. 열등감은 모든 인간에게 보편적이며 자기완성의 원동력입니다."
+      },
+      {
+        "q_num": 4,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 로저스(C. Rogers)의 인간중심상담에서 상담자의 3대 필수 치료적 태도로 옳은 것은?",
+        "options": [
+          "해석적 통찰, 직면, 적극적 지시",
+          "일치성(진실성), 무조건적 긍정적 존중, 공감적 이해",
+          "자유연상, 저항 분석, 전이 해석",
+          "논박, 인지 재구조화, 행동 계약",
+          "탈숙고, 역설적 의도, 의미 발견"
+        ],
+        "ans": 2,
+        "exp": "로저스의 3대 필요충분조건은 상담자의 진실성(일치성), 무조건적 긍정적 존중, 공감적 이해입니다."
+      },
+      {
+        "q_num": 5,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 게슈탈트(Gestalt) 상담에서 '타인에게 표출하고 싶은 충동이나 분노를 자신에게 돌려 자해하거나 자책하는 접촉경계혼란'은?",
+        "options": [
+          "내사 (Introjection)",
+          "투사 (Projection)",
+          "반전 (Retroflection)",
+          "융합 (Confluence)",
+          "편향 (Deflection)"
+        ],
+        "ans": 3,
+        "exp": "타인에게 향할 에너지를 자신에게로 되돌려 자해나 자책으로 나타내는 것은 '반전(Retroflection)'입니다."
+      },
+      {
+        "q_num": 6,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 엘리스(A. Ellis)의 REBT 3대 당위성과 논박에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "A(선행사건) ➔ B(신념체계) ➔ C(정서적·행동적 결과)로 이어진다.",
+          "D(논박)에는 경험적(실증적) 논박, 논리적 논박, 실용적(기능적) 논박이 있다.",
+          "자신에 대한 당위성은 '나는 반드시 완벽하게 성공해야만 한다'는 신념이다.",
+          "실용적 논박은 '그 생각이 당신의 목표를 달성하는 데 실제로 도움이 됩니까?'라고 묻는 것이다.",
+          "경험적 논박은 '그 신념이 논리적으로 타당하고 앞뒤가 맞습니까?'라고 묻는 것이다."
+        ],
+        "ans": 5,
+        "exp": "경험적(실증적) 논박은 '그 생각이 사실이라는 객관적 증거가 어디 있습니까?'라고 묻는 것이며, 논리적 타당성을 묻는 것은 '논리적 논박'입니다."
+      },
+      {
+        "q_num": 7,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아론 벡(A. Beck)의 인지치료에서 자동적 사고 밑바탕의 핵심신념(Core Beliefs)을 파헤치기 위해 사용하는 기법은?",
+        "options": [
+          "재귀인 기법",
+          "탈파국화 기법",
+          "하향 화살표 기법 (Downward Arrow)",
+          "인지 재구조화",
+          "사고 중지 기법"
+        ],
+        "ans": 3,
+        "exp": "'만약 그 생각이 사실이라면, 그것이 당신에게 무엇을 의미합니까?'를 거듭 질문하여 심층의 핵심신념을 도출하는 것은 '하향 화살표 기법'입니다."
+      },
+      {
+        "q_num": 8,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 글래서(W. Glasser)의 현실치료 WDEP 모델 중 E(Evaluation, 자기평가) 단계의 질문으로 옳은 것은?",
+        "options": [
+          "당신이 진정으로 원하는 바람(Want)은 무엇입니까?",
+          "지금 당신이 하고 있는 그 행동이 당신이 원하는 것을 얻는 데 도움이 됩니까?",
+          "내일부터 당장 실천할 수 있는 구체적인 계획을 세워볼까요?",
+          "당신의 기본 욕구 5가지 중 가장 강한 욕구는 무엇입니까?",
+          "어릴 적 부모님과의 애착 관계는 어떠했습니까?"
+        ],
+        "ans": 2,
+        "exp": "E(자기평가) 단계는 내담자가 자신의 행동(Doing)이 바람(Want)을 성취하는 데 유용한지 스스로 평가하게 돕는 핵심 단계입니다."
+      },
+      {
+        "q_num": 9,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 해결중심 단기상담(SFBT)의 5대 질문 기법에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "기적 질문: 문제가 자는 동안 해결되었다는 가상의 상황을 상상하게 한다.",
+          "예외 질문: 문제가 발생하지 않았거나 덜 심각했던 성공적 순간을 탐색한다.",
+          "척도 질문: 내담자의 주관적 상태와 변화를 1~10점 수치로 표현하게 한다.",
+          "대처 질문: 절망적인 상황에서도 더 나빠지지 않고 견뎌낸 힘을 인정한다.",
+          "관계성 질문: 과거 원가족과의 무의식적 갈등 관계를 분석하고 통찰시킨다."
+        ],
+        "ans": 5,
+        "exp": "해결중심 단기상담의 '관계성 질문'은 '당신의 어머니가 지금 당신의 변화를 본다면 뭐라고 말씀하실까요?'처럼 타인의 시각에서 자신을 관찰하게 돕는 질문입니다."
+      },
+      {
+        "q_num": 10,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 행동주의 상담에서 표적 문제행동이 정해진 시간 동안 전혀 발생하지 않았을 때 보상을 제공하는 차별강화 기법은?",
+        "options": [
+          "대체행동 차별강화 (DRA)",
+          "상반행동 차별강화 (DRI)",
+          "다른행동(무반응) 차별강화 (DRO)",
+          "저빈도 차별강화 (DRL)",
+          "점진적 차별강화 (DRP)"
+        ],
+        "ans": 3,
+        "exp": "정해진 시간 동안 문제행동이 0회(Zero rate) 발생했을 때 강화를 제공하는 기법은 '다른행동 차별강화(DRO)'입니다."
+      },
+      {
+        "q_num": 11,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 청소년상담의 기본 원리와 특성에 관한 설명으로 가장 옳지 않은 것은?",
+        "options": [
+          "청소년의 발달적 특성과 위기 상황을 고려하여 예방적·치료적 개입을 병행한다.",
+          "상담자는 비자발적인 청소년 내담자의 저항과 침묵을 수용하고 다룬다.",
+          "상담 성과를 극대화하기 위해 초기 구조화 단계에서 상담의 모든 문제 해결을 보장한다.",
+          "상담목표는 구체적이고 관찰 가능하며 내담자와 합의된 형태로 설정해야 한다.",
+          "상담과정에서 비밀보장의 원칙을 준수하되, 자해나 타해 등 위기 상황 시 예외를 적용한다."
+        ],
+        "ans": 3,
+        "exp": "상담자는 초기 구조화 시 상담의 효과나 문제 해결을 무조건 보장해서는 안 되며, 상담의 한계와 내담자의 주체적 협력을 명확히 안내해야 합니다."
+      },
+      {
+        "q_num": 12,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 프로이트(S. Freud)의 정신분석 이론에서 자아방어기제에 관한 설명으로 옳은 것은?",
+        "options": [
+          "투사(Projection)는 용납할 수 없는 자신의 충동이나 생각을 타인의 탓으로 돌리는 것이다.",
+          "반동형성(Reaction Formation)은 고통스러운 기억을 의식 밖으로 밀어내는 것이다.",
+          "합리화(Rationalization)는 스트레스 상황에서 이전의 발달 단계로 퇴행하는 것이다.",
+          "전치(Displacement)는 사회적으로 유용한 출구로 본능적 충동을 전환하는 것이다.",
+          "승화(Sublimation)는 자신의 결점을 감추기 위해 다른 장점을 과도하게 강조하는 것이다."
+        ],
+        "ans": 1,
+        "exp": "자신의 용납하기 어려운 충동·감정을 타인의 것으로 지각하는 것은 '투사(Projection)'입니다. 사회적 유용한 출구로 전환하는 것은 '승화'입니다."
+      },
+      {
+        "q_num": 13,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아들러(A. Adler)의 개인심리학 이론의 주요 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "열등감은 인간의 성장과 발달을 가로막는 비정상적인 병리 현상이다.",
+          "생활양식(Life Style)은 유전과 환경에 의해 수동적으로 결정되어 변화가 불가능하다.",
+          "사회적 관심(Social Interest)은 타인과 협동하고 공동체 복지에 기여하려는 선천적 잠재력이다.",
+          "우월성 추구는 타인을 지배하고 억압하려는 이기적 권력욕이다.",
+          "출생순위는 성격 형성에 절대적이고 유일한 결정 요인으로 작용한다."
+        ],
+        "ans": 3,
+        "exp": "아들러는 사회적 관심을 공동체감으로 보며 정신건강의 핵심 척도로 간주했습니다. 열등감은 모든 인간에게 보편적이며 자기완성의 원동력입니다."
+      },
+      {
+        "q_num": 14,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 로저스(C. Rogers)의 인간중심상담에서 상담자의 3대 필수 치료적 태도로 옳은 것은?",
+        "options": [
+          "해석적 통찰, 직면, 적극적 지시",
+          "일치성(진실성), 무조건적 긍정적 존중, 공감적 이해",
+          "자유연상, 저항 분석, 전이 해석",
+          "논박, 인지 재구조화, 행동 계약",
+          "탈숙고, 역설적 의도, 의미 발견"
+        ],
+        "ans": 2,
+        "exp": "로저스의 3대 필요충분조건은 상담자의 진실성(일치성), 무조건적 긍정적 존중, 공감적 이해입니다."
+      },
+      {
+        "q_num": 15,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 게슈탈트(Gestalt) 상담에서 '타인에게 표출하고 싶은 충동이나 분노를 자신에게 돌려 자해하거나 자책하는 접촉경계혼란'은?",
+        "options": [
+          "내사 (Introjection)",
+          "투사 (Projection)",
+          "반전 (Retroflection)",
+          "융합 (Confluence)",
+          "편향 (Deflection)"
+        ],
+        "ans": 3,
+        "exp": "타인에게 향할 에너지를 자신에게로 되돌려 자해나 자책으로 나타내는 것은 '반전(Retroflection)'입니다."
+      },
+      {
+        "q_num": 16,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 엘리스(A. Ellis)의 REBT 3대 당위성과 논박에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "A(선행사건) ➔ B(신념체계) ➔ C(정서적·행동적 결과)로 이어진다.",
+          "D(논박)에는 경험적(실증적) 논박, 논리적 논박, 실용적(기능적) 논박이 있다.",
+          "자신에 대한 당위성은 '나는 반드시 완벽하게 성공해야만 한다'는 신념이다.",
+          "실용적 논박은 '그 생각이 당신의 목표를 달성하는 데 실제로 도움이 됩니까?'라고 묻는 것이다.",
+          "경험적 논박은 '그 신념이 논리적으로 타당하고 앞뒤가 맞습니까?'라고 묻는 것이다."
+        ],
+        "ans": 5,
+        "exp": "경험적(실증적) 논박은 '그 생각이 사실이라는 객관적 증거가 어디 있습니까?'라고 묻는 것이며, 논리적 타당성을 묻는 것은 '논리적 논박'입니다."
+      },
+      {
+        "q_num": 17,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아론 벡(A. Beck)의 인지치료에서 자동적 사고 밑바탕의 핵심신념(Core Beliefs)을 파헤치기 위해 사용하는 기법은?",
+        "options": [
+          "재귀인 기법",
+          "탈파국화 기법",
+          "하향 화살표 기법 (Downward Arrow)",
+          "인지 재구조화",
+          "사고 중지 기법"
+        ],
+        "ans": 3,
+        "exp": "'만약 그 생각이 사실이라면, 그것이 당신에게 무엇을 의미합니까?'를 거듭 질문하여 심층의 핵심신념을 도출하는 것은 '하향 화살표 기법'입니다."
+      },
+      {
+        "q_num": 18,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 글래서(W. Glasser)의 현실치료 WDEP 모델 중 E(Evaluation, 자기평가) 단계의 질문으로 옳은 것은?",
+        "options": [
+          "당신이 진정으로 원하는 바람(Want)은 무엇입니까?",
+          "지금 당신이 하고 있는 그 행동이 당신이 원하는 것을 얻는 데 도움이 됩니까?",
+          "내일부터 당장 실천할 수 있는 구체적인 계획을 세워볼까요?",
+          "당신의 기본 욕구 5가지 중 가장 강한 욕구는 무엇입니까?",
+          "어릴 적 부모님과의 애착 관계는 어떠했습니까?"
+        ],
+        "ans": 2,
+        "exp": "E(자기평가) 단계는 내담자가 자신의 행동(Doing)이 바람(Want)을 성취하는 데 유용한지 스스로 평가하게 돕는 핵심 단계입니다."
+      },
+      {
+        "q_num": 19,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 해결중심 단기상담(SFBT)의 5대 질문 기법에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "기적 질문: 문제가 자는 동안 해결되었다는 가상의 상황을 상상하게 한다.",
+          "예외 질문: 문제가 발생하지 않았거나 덜 심각했던 성공적 순간을 탐색한다.",
+          "척도 질문: 내담자의 주관적 상태와 변화를 1~10점 수치로 표현하게 한다.",
+          "대처 질문: 절망적인 상황에서도 더 나빠지지 않고 견뎌낸 힘을 인정한다.",
+          "관계성 질문: 과거 원가족과의 무의식적 갈등 관계를 분석하고 통찰시킨다."
+        ],
+        "ans": 5,
+        "exp": "해결중심 단기상담의 '관계성 질문'은 '당신의 어머니가 지금 당신의 변화를 본다면 뭐라고 말씀하실까요?'처럼 타인의 시각에서 자신을 관찰하게 돕는 질문입니다."
+      },
+      {
+        "q_num": 20,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 행동주의 상담에서 표적 문제행동이 정해진 시간 동안 전혀 발생하지 않았을 때 보상을 제공하는 차별강화 기법은?",
+        "options": [
+          "대체행동 차별강화 (DRA)",
+          "상반행동 차별강화 (DRI)",
+          "다른행동(무반응) 차별강화 (DRO)",
+          "저빈도 차별강화 (DRL)",
+          "점진적 차별강화 (DRP)"
+        ],
+        "ans": 3,
+        "exp": "정해진 시간 동안 문제행동이 0회(Zero rate) 발생했을 때 강화를 제공하는 기법은 '다른행동 차별강화(DRO)'입니다."
+      },
+      {
+        "q_num": 21,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 청소년상담의 기본 원리와 특성에 관한 설명으로 가장 옳지 않은 것은?",
+        "options": [
+          "청소년의 발달적 특성과 위기 상황을 고려하여 예방적·치료적 개입을 병행한다.",
+          "상담자는 비자발적인 청소년 내담자의 저항과 침묵을 수용하고 다룬다.",
+          "상담 성과를 극대화하기 위해 초기 구조화 단계에서 상담의 모든 문제 해결을 보장한다.",
+          "상담목표는 구체적이고 관찰 가능하며 내담자와 합의된 형태로 설정해야 한다.",
+          "상담과정에서 비밀보장의 원칙을 준수하되, 자해나 타해 등 위기 상황 시 예외를 적용한다."
+        ],
+        "ans": 3,
+        "exp": "상담자는 초기 구조화 시 상담의 효과나 문제 해결을 무조건 보장해서는 안 되며, 상담의 한계와 내담자의 주체적 협력을 명확히 안내해야 합니다."
+      },
+      {
+        "q_num": 22,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 프로이트(S. Freud)의 정신분석 이론에서 자아방어기제에 관한 설명으로 옳은 것은?",
+        "options": [
+          "투사(Projection)는 용납할 수 없는 자신의 충동이나 생각을 타인의 탓으로 돌리는 것이다.",
+          "반동형성(Reaction Formation)은 고통스러운 기억을 의식 밖으로 밀어내는 것이다.",
+          "합리화(Rationalization)는 스트레스 상황에서 이전의 발달 단계로 퇴행하는 것이다.",
+          "전치(Displacement)는 사회적으로 유용한 출구로 본능적 충동을 전환하는 것이다.",
+          "승화(Sublimation)는 자신의 결점을 감추기 위해 다른 장점을 과도하게 강조하는 것이다."
+        ],
+        "ans": 1,
+        "exp": "자신의 용납하기 어려운 충동·감정을 타인의 것으로 지각하는 것은 '투사(Projection)'입니다. 사회적 유용한 출구로 전환하는 것은 '승화'입니다."
+      },
+      {
+        "q_num": 23,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아들러(A. Adler)의 개인심리학 이론의 주요 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "열등감은 인간의 성장과 발달을 가로막는 비정상적인 병리 현상이다.",
+          "생활양식(Life Style)은 유전과 환경에 의해 수동적으로 결정되어 변화가 불가능하다.",
+          "사회적 관심(Social Interest)은 타인과 협동하고 공동체 복지에 기여하려는 선천적 잠재력이다.",
+          "우월성 추구는 타인을 지배하고 억압하려는 이기적 권력욕이다.",
+          "출생순위는 성격 형성에 절대적이고 유일한 결정 요인으로 작용한다."
+        ],
+        "ans": 3,
+        "exp": "아들러는 사회적 관심을 공동체감으로 보며 정신건강의 핵심 척도로 간주했습니다. 열등감은 모든 인간에게 보편적이며 자기완성의 원동력입니다."
+      },
+      {
+        "q_num": 24,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 로저스(C. Rogers)의 인간중심상담에서 상담자의 3대 필수 치료적 태도로 옳은 것은?",
+        "options": [
+          "해석적 통찰, 직면, 적극적 지시",
+          "일치성(진실성), 무조건적 긍정적 존중, 공감적 이해",
+          "자유연상, 저항 분석, 전이 해석",
+          "논박, 인지 재구조화, 행동 계약",
+          "탈숙고, 역설적 의도, 의미 발견"
+        ],
+        "ans": 2,
+        "exp": "로저스의 3대 필요충분조건은 상담자의 진실성(일치성), 무조건적 긍정적 존중, 공감적 이해입니다."
+      },
+      {
+        "q_num": 25,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 게슈탈트(Gestalt) 상담에서 '타인에게 표출하고 싶은 충동이나 분노를 자신에게 돌려 자해하거나 자책하는 접촉경계혼란'은?",
+        "options": [
+          "내사 (Introjection)",
+          "투사 (Projection)",
+          "반전 (Retroflection)",
+          "융합 (Confluence)",
+          "편향 (Deflection)"
+        ],
+        "ans": 3,
+        "exp": "타인에게 향할 에너지를 자신에게로 되돌려 자해나 자책으로 나타내는 것은 '반전(Retroflection)'입니다."
+      },
+      {
+        "q_num": 26,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 27,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 28,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 29,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 30,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 31,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 32,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 33,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 34,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 35,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 36,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 37,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 38,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 39,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 40,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 41,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 42,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 43,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 44,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 45,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 46,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 47,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 48,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 49,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 50,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 51,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 52,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 53,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 54,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 55,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 56,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 57,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 58,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 59,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 60,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 61,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 62,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 63,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 64,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 65,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 66,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 67,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 68,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 69,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 70,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 71,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 72,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 73,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 74,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 75,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 76,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 77,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 78,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 79,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 80,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 81,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 82,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 83,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 84,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 85,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 86,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 87,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 88,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 89,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 90,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 91,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 92,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 93,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 94,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 95,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 96,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 97,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 98,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 99,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 100,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 101,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 102,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 103,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 104,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 105,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 106,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 107,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 108,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 109,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 110,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 111,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 112,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 113,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 114,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 115,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 116,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 117,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 118,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 119,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 120,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 121,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 122,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 123,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 124,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 125,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 126,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 127,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 128,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 129,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 130,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 131,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 132,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 133,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 134,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 135,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 136,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 137,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 138,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 139,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 140,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 141,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 142,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 143,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 144,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 145,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 146,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 147,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 148,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 149,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 150,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      }
+    ]
+  },
+  "mock_10": {
+    "id": "mock_10",
+    "title": "제10회 실전 모의고사 (150제 풀세트)",
+    "total": 150,
+    "subjects": [
+      "청소년상담의 이론과 실제",
+      "상담연구방법론의 기초",
+      "심리측정 및 평가",
+      "청소년이해론",
+      "가족상담",
+      "집단상담"
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 청소년상담의 기본 원리와 특성에 관한 설명으로 가장 옳지 않은 것은?",
+        "options": [
+          "청소년의 발달적 특성과 위기 상황을 고려하여 예방적·치료적 개입을 병행한다.",
+          "상담자는 비자발적인 청소년 내담자의 저항과 침묵을 수용하고 다룬다.",
+          "상담 성과를 극대화하기 위해 초기 구조화 단계에서 상담의 모든 문제 해결을 보장한다.",
+          "상담목표는 구체적이고 관찰 가능하며 내담자와 합의된 형태로 설정해야 한다.",
+          "상담과정에서 비밀보장의 원칙을 준수하되, 자해나 타해 등 위기 상황 시 예외를 적용한다."
+        ],
+        "ans": 3,
+        "exp": "상담자는 초기 구조화 시 상담의 효과나 문제 해결을 무조건 보장해서는 안 되며, 상담의 한계와 내담자의 주체적 협력을 명확히 안내해야 합니다."
+      },
+      {
+        "q_num": 2,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 프로이트(S. Freud)의 정신분석 이론에서 자아방어기제에 관한 설명으로 옳은 것은?",
+        "options": [
+          "투사(Projection)는 용납할 수 없는 자신의 충동이나 생각을 타인의 탓으로 돌리는 것이다.",
+          "반동형성(Reaction Formation)은 고통스러운 기억을 의식 밖으로 밀어내는 것이다.",
+          "합리화(Rationalization)는 스트레스 상황에서 이전의 발달 단계로 퇴행하는 것이다.",
+          "전치(Displacement)는 사회적으로 유용한 출구로 본능적 충동을 전환하는 것이다.",
+          "승화(Sublimation)는 자신의 결점을 감추기 위해 다른 장점을 과도하게 강조하는 것이다."
+        ],
+        "ans": 1,
+        "exp": "자신의 용납하기 어려운 충동·감정을 타인의 것으로 지각하는 것은 '투사(Projection)'입니다. 사회적 유용한 출구로 전환하는 것은 '승화'입니다."
+      },
+      {
+        "q_num": 3,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아들러(A. Adler)의 개인심리학 이론의 주요 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "열등감은 인간의 성장과 발달을 가로막는 비정상적인 병리 현상이다.",
+          "생활양식(Life Style)은 유전과 환경에 의해 수동적으로 결정되어 변화가 불가능하다.",
+          "사회적 관심(Social Interest)은 타인과 협동하고 공동체 복지에 기여하려는 선천적 잠재력이다.",
+          "우월성 추구는 타인을 지배하고 억압하려는 이기적 권력욕이다.",
+          "출생순위는 성격 형성에 절대적이고 유일한 결정 요인으로 작용한다."
+        ],
+        "ans": 3,
+        "exp": "아들러는 사회적 관심을 공동체감으로 보며 정신건강의 핵심 척도로 간주했습니다. 열등감은 모든 인간에게 보편적이며 자기완성의 원동력입니다."
+      },
+      {
+        "q_num": 4,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 로저스(C. Rogers)의 인간중심상담에서 상담자의 3대 필수 치료적 태도로 옳은 것은?",
+        "options": [
+          "해석적 통찰, 직면, 적극적 지시",
+          "일치성(진실성), 무조건적 긍정적 존중, 공감적 이해",
+          "자유연상, 저항 분석, 전이 해석",
+          "논박, 인지 재구조화, 행동 계약",
+          "탈숙고, 역설적 의도, 의미 발견"
+        ],
+        "ans": 2,
+        "exp": "로저스의 3대 필요충분조건은 상담자의 진실성(일치성), 무조건적 긍정적 존중, 공감적 이해입니다."
+      },
+      {
+        "q_num": 5,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 게슈탈트(Gestalt) 상담에서 '타인에게 표출하고 싶은 충동이나 분노를 자신에게 돌려 자해하거나 자책하는 접촉경계혼란'은?",
+        "options": [
+          "내사 (Introjection)",
+          "투사 (Projection)",
+          "반전 (Retroflection)",
+          "융합 (Confluence)",
+          "편향 (Deflection)"
+        ],
+        "ans": 3,
+        "exp": "타인에게 향할 에너지를 자신에게로 되돌려 자해나 자책으로 나타내는 것은 '반전(Retroflection)'입니다."
+      },
+      {
+        "q_num": 6,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 엘리스(A. Ellis)의 REBT 3대 당위성과 논박에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "A(선행사건) ➔ B(신념체계) ➔ C(정서적·행동적 결과)로 이어진다.",
+          "D(논박)에는 경험적(실증적) 논박, 논리적 논박, 실용적(기능적) 논박이 있다.",
+          "자신에 대한 당위성은 '나는 반드시 완벽하게 성공해야만 한다'는 신념이다.",
+          "실용적 논박은 '그 생각이 당신의 목표를 달성하는 데 실제로 도움이 됩니까?'라고 묻는 것이다.",
+          "경험적 논박은 '그 신념이 논리적으로 타당하고 앞뒤가 맞습니까?'라고 묻는 것이다."
+        ],
+        "ans": 5,
+        "exp": "경험적(실증적) 논박은 '그 생각이 사실이라는 객관적 증거가 어디 있습니까?'라고 묻는 것이며, 논리적 타당성을 묻는 것은 '논리적 논박'입니다."
+      },
+      {
+        "q_num": 7,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아론 벡(A. Beck)의 인지치료에서 자동적 사고 밑바탕의 핵심신념(Core Beliefs)을 파헤치기 위해 사용하는 기법은?",
+        "options": [
+          "재귀인 기법",
+          "탈파국화 기법",
+          "하향 화살표 기법 (Downward Arrow)",
+          "인지 재구조화",
+          "사고 중지 기법"
+        ],
+        "ans": 3,
+        "exp": "'만약 그 생각이 사실이라면, 그것이 당신에게 무엇을 의미합니까?'를 거듭 질문하여 심층의 핵심신념을 도출하는 것은 '하향 화살표 기법'입니다."
+      },
+      {
+        "q_num": 8,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 글래서(W. Glasser)의 현실치료 WDEP 모델 중 E(Evaluation, 자기평가) 단계의 질문으로 옳은 것은?",
+        "options": [
+          "당신이 진정으로 원하는 바람(Want)은 무엇입니까?",
+          "지금 당신이 하고 있는 그 행동이 당신이 원하는 것을 얻는 데 도움이 됩니까?",
+          "내일부터 당장 실천할 수 있는 구체적인 계획을 세워볼까요?",
+          "당신의 기본 욕구 5가지 중 가장 강한 욕구는 무엇입니까?",
+          "어릴 적 부모님과의 애착 관계는 어떠했습니까?"
+        ],
+        "ans": 2,
+        "exp": "E(자기평가) 단계는 내담자가 자신의 행동(Doing)이 바람(Want)을 성취하는 데 유용한지 스스로 평가하게 돕는 핵심 단계입니다."
+      },
+      {
+        "q_num": 9,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 해결중심 단기상담(SFBT)의 5대 질문 기법에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "기적 질문: 문제가 자는 동안 해결되었다는 가상의 상황을 상상하게 한다.",
+          "예외 질문: 문제가 발생하지 않았거나 덜 심각했던 성공적 순간을 탐색한다.",
+          "척도 질문: 내담자의 주관적 상태와 변화를 1~10점 수치로 표현하게 한다.",
+          "대처 질문: 절망적인 상황에서도 더 나빠지지 않고 견뎌낸 힘을 인정한다.",
+          "관계성 질문: 과거 원가족과의 무의식적 갈등 관계를 분석하고 통찰시킨다."
+        ],
+        "ans": 5,
+        "exp": "해결중심 단기상담의 '관계성 질문'은 '당신의 어머니가 지금 당신의 변화를 본다면 뭐라고 말씀하실까요?'처럼 타인의 시각에서 자신을 관찰하게 돕는 질문입니다."
+      },
+      {
+        "q_num": 10,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 행동주의 상담에서 표적 문제행동이 정해진 시간 동안 전혀 발생하지 않았을 때 보상을 제공하는 차별강화 기법은?",
+        "options": [
+          "대체행동 차별강화 (DRA)",
+          "상반행동 차별강화 (DRI)",
+          "다른행동(무반응) 차별강화 (DRO)",
+          "저빈도 차별강화 (DRL)",
+          "점진적 차별강화 (DRP)"
+        ],
+        "ans": 3,
+        "exp": "정해진 시간 동안 문제행동이 0회(Zero rate) 발생했을 때 강화를 제공하는 기법은 '다른행동 차별강화(DRO)'입니다."
+      },
+      {
+        "q_num": 11,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 청소년상담의 기본 원리와 특성에 관한 설명으로 가장 옳지 않은 것은?",
+        "options": [
+          "청소년의 발달적 특성과 위기 상황을 고려하여 예방적·치료적 개입을 병행한다.",
+          "상담자는 비자발적인 청소년 내담자의 저항과 침묵을 수용하고 다룬다.",
+          "상담 성과를 극대화하기 위해 초기 구조화 단계에서 상담의 모든 문제 해결을 보장한다.",
+          "상담목표는 구체적이고 관찰 가능하며 내담자와 합의된 형태로 설정해야 한다.",
+          "상담과정에서 비밀보장의 원칙을 준수하되, 자해나 타해 등 위기 상황 시 예외를 적용한다."
+        ],
+        "ans": 3,
+        "exp": "상담자는 초기 구조화 시 상담의 효과나 문제 해결을 무조건 보장해서는 안 되며, 상담의 한계와 내담자의 주체적 협력을 명확히 안내해야 합니다."
+      },
+      {
+        "q_num": 12,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 프로이트(S. Freud)의 정신분석 이론에서 자아방어기제에 관한 설명으로 옳은 것은?",
+        "options": [
+          "투사(Projection)는 용납할 수 없는 자신의 충동이나 생각을 타인의 탓으로 돌리는 것이다.",
+          "반동형성(Reaction Formation)은 고통스러운 기억을 의식 밖으로 밀어내는 것이다.",
+          "합리화(Rationalization)는 스트레스 상황에서 이전의 발달 단계로 퇴행하는 것이다.",
+          "전치(Displacement)는 사회적으로 유용한 출구로 본능적 충동을 전환하는 것이다.",
+          "승화(Sublimation)는 자신의 결점을 감추기 위해 다른 장점을 과도하게 강조하는 것이다."
+        ],
+        "ans": 1,
+        "exp": "자신의 용납하기 어려운 충동·감정을 타인의 것으로 지각하는 것은 '투사(Projection)'입니다. 사회적 유용한 출구로 전환하는 것은 '승화'입니다."
+      },
+      {
+        "q_num": 13,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아들러(A. Adler)의 개인심리학 이론의 주요 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "열등감은 인간의 성장과 발달을 가로막는 비정상적인 병리 현상이다.",
+          "생활양식(Life Style)은 유전과 환경에 의해 수동적으로 결정되어 변화가 불가능하다.",
+          "사회적 관심(Social Interest)은 타인과 협동하고 공동체 복지에 기여하려는 선천적 잠재력이다.",
+          "우월성 추구는 타인을 지배하고 억압하려는 이기적 권력욕이다.",
+          "출생순위는 성격 형성에 절대적이고 유일한 결정 요인으로 작용한다."
+        ],
+        "ans": 3,
+        "exp": "아들러는 사회적 관심을 공동체감으로 보며 정신건강의 핵심 척도로 간주했습니다. 열등감은 모든 인간에게 보편적이며 자기완성의 원동력입니다."
+      },
+      {
+        "q_num": 14,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 로저스(C. Rogers)의 인간중심상담에서 상담자의 3대 필수 치료적 태도로 옳은 것은?",
+        "options": [
+          "해석적 통찰, 직면, 적극적 지시",
+          "일치성(진실성), 무조건적 긍정적 존중, 공감적 이해",
+          "자유연상, 저항 분석, 전이 해석",
+          "논박, 인지 재구조화, 행동 계약",
+          "탈숙고, 역설적 의도, 의미 발견"
+        ],
+        "ans": 2,
+        "exp": "로저스의 3대 필요충분조건은 상담자의 진실성(일치성), 무조건적 긍정적 존중, 공감적 이해입니다."
+      },
+      {
+        "q_num": 15,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 게슈탈트(Gestalt) 상담에서 '타인에게 표출하고 싶은 충동이나 분노를 자신에게 돌려 자해하거나 자책하는 접촉경계혼란'은?",
+        "options": [
+          "내사 (Introjection)",
+          "투사 (Projection)",
+          "반전 (Retroflection)",
+          "융합 (Confluence)",
+          "편향 (Deflection)"
+        ],
+        "ans": 3,
+        "exp": "타인에게 향할 에너지를 자신에게로 되돌려 자해나 자책으로 나타내는 것은 '반전(Retroflection)'입니다."
+      },
+      {
+        "q_num": 16,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 엘리스(A. Ellis)의 REBT 3대 당위성과 논박에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "A(선행사건) ➔ B(신념체계) ➔ C(정서적·행동적 결과)로 이어진다.",
+          "D(논박)에는 경험적(실증적) 논박, 논리적 논박, 실용적(기능적) 논박이 있다.",
+          "자신에 대한 당위성은 '나는 반드시 완벽하게 성공해야만 한다'는 신념이다.",
+          "실용적 논박은 '그 생각이 당신의 목표를 달성하는 데 실제로 도움이 됩니까?'라고 묻는 것이다.",
+          "경험적 논박은 '그 신념이 논리적으로 타당하고 앞뒤가 맞습니까?'라고 묻는 것이다."
+        ],
+        "ans": 5,
+        "exp": "경험적(실증적) 논박은 '그 생각이 사실이라는 객관적 증거가 어디 있습니까?'라고 묻는 것이며, 논리적 타당성을 묻는 것은 '논리적 논박'입니다."
+      },
+      {
+        "q_num": 17,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아론 벡(A. Beck)의 인지치료에서 자동적 사고 밑바탕의 핵심신념(Core Beliefs)을 파헤치기 위해 사용하는 기법은?",
+        "options": [
+          "재귀인 기법",
+          "탈파국화 기법",
+          "하향 화살표 기법 (Downward Arrow)",
+          "인지 재구조화",
+          "사고 중지 기법"
+        ],
+        "ans": 3,
+        "exp": "'만약 그 생각이 사실이라면, 그것이 당신에게 무엇을 의미합니까?'를 거듭 질문하여 심층의 핵심신념을 도출하는 것은 '하향 화살표 기법'입니다."
+      },
+      {
+        "q_num": 18,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 글래서(W. Glasser)의 현실치료 WDEP 모델 중 E(Evaluation, 자기평가) 단계의 질문으로 옳은 것은?",
+        "options": [
+          "당신이 진정으로 원하는 바람(Want)은 무엇입니까?",
+          "지금 당신이 하고 있는 그 행동이 당신이 원하는 것을 얻는 데 도움이 됩니까?",
+          "내일부터 당장 실천할 수 있는 구체적인 계획을 세워볼까요?",
+          "당신의 기본 욕구 5가지 중 가장 강한 욕구는 무엇입니까?",
+          "어릴 적 부모님과의 애착 관계는 어떠했습니까?"
+        ],
+        "ans": 2,
+        "exp": "E(자기평가) 단계는 내담자가 자신의 행동(Doing)이 바람(Want)을 성취하는 데 유용한지 스스로 평가하게 돕는 핵심 단계입니다."
+      },
+      {
+        "q_num": 19,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 해결중심 단기상담(SFBT)의 5대 질문 기법에 관한 설명으로 옳지 않은 것은?",
+        "options": [
+          "기적 질문: 문제가 자는 동안 해결되었다는 가상의 상황을 상상하게 한다.",
+          "예외 질문: 문제가 발생하지 않았거나 덜 심각했던 성공적 순간을 탐색한다.",
+          "척도 질문: 내담자의 주관적 상태와 변화를 1~10점 수치로 표현하게 한다.",
+          "대처 질문: 절망적인 상황에서도 더 나빠지지 않고 견뎌낸 힘을 인정한다.",
+          "관계성 질문: 과거 원가족과의 무의식적 갈등 관계를 분석하고 통찰시킨다."
+        ],
+        "ans": 5,
+        "exp": "해결중심 단기상담의 '관계성 질문'은 '당신의 어머니가 지금 당신의 변화를 본다면 뭐라고 말씀하실까요?'처럼 타인의 시각에서 자신을 관찰하게 돕는 질문입니다."
+      },
+      {
+        "q_num": 20,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 행동주의 상담에서 표적 문제행동이 정해진 시간 동안 전혀 발생하지 않았을 때 보상을 제공하는 차별강화 기법은?",
+        "options": [
+          "대체행동 차별강화 (DRA)",
+          "상반행동 차별강화 (DRI)",
+          "다른행동(무반응) 차별강화 (DRO)",
+          "저빈도 차별강화 (DRL)",
+          "점진적 차별강화 (DRP)"
+        ],
+        "ans": 3,
+        "exp": "정해진 시간 동안 문제행동이 0회(Zero rate) 발생했을 때 강화를 제공하는 기법은 '다른행동 차별강화(DRO)'입니다."
+      },
+      {
+        "q_num": 21,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 청소년상담의 기본 원리와 특성에 관한 설명으로 가장 옳지 않은 것은?",
+        "options": [
+          "청소년의 발달적 특성과 위기 상황을 고려하여 예방적·치료적 개입을 병행한다.",
+          "상담자는 비자발적인 청소년 내담자의 저항과 침묵을 수용하고 다룬다.",
+          "상담 성과를 극대화하기 위해 초기 구조화 단계에서 상담의 모든 문제 해결을 보장한다.",
+          "상담목표는 구체적이고 관찰 가능하며 내담자와 합의된 형태로 설정해야 한다.",
+          "상담과정에서 비밀보장의 원칙을 준수하되, 자해나 타해 등 위기 상황 시 예외를 적용한다."
+        ],
+        "ans": 3,
+        "exp": "상담자는 초기 구조화 시 상담의 효과나 문제 해결을 무조건 보장해서는 안 되며, 상담의 한계와 내담자의 주체적 협력을 명확히 안내해야 합니다."
+      },
+      {
+        "q_num": 22,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 프로이트(S. Freud)의 정신분석 이론에서 자아방어기제에 관한 설명으로 옳은 것은?",
+        "options": [
+          "투사(Projection)는 용납할 수 없는 자신의 충동이나 생각을 타인의 탓으로 돌리는 것이다.",
+          "반동형성(Reaction Formation)은 고통스러운 기억을 의식 밖으로 밀어내는 것이다.",
+          "합리화(Rationalization)는 스트레스 상황에서 이전의 발달 단계로 퇴행하는 것이다.",
+          "전치(Displacement)는 사회적으로 유용한 출구로 본능적 충동을 전환하는 것이다.",
+          "승화(Sublimation)는 자신의 결점을 감추기 위해 다른 장점을 과도하게 강조하는 것이다."
+        ],
+        "ans": 1,
+        "exp": "자신의 용납하기 어려운 충동·감정을 타인의 것으로 지각하는 것은 '투사(Projection)'입니다. 사회적 유용한 출구로 전환하는 것은 '승화'입니다."
+      },
+      {
+        "q_num": 23,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 아들러(A. Adler)의 개인심리학 이론의 주요 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "열등감은 인간의 성장과 발달을 가로막는 비정상적인 병리 현상이다.",
+          "생활양식(Life Style)은 유전과 환경에 의해 수동적으로 결정되어 변화가 불가능하다.",
+          "사회적 관심(Social Interest)은 타인과 협동하고 공동체 복지에 기여하려는 선천적 잠재력이다.",
+          "우월성 추구는 타인을 지배하고 억압하려는 이기적 권력욕이다.",
+          "출생순위는 성격 형성에 절대적이고 유일한 결정 요인으로 작용한다."
+        ],
+        "ans": 3,
+        "exp": "아들러는 사회적 관심을 공동체감으로 보며 정신건강의 핵심 척도로 간주했습니다. 열등감은 모든 인간에게 보편적이며 자기완성의 원동력입니다."
+      },
+      {
+        "q_num": 24,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 로저스(C. Rogers)의 인간중심상담에서 상담자의 3대 필수 치료적 태도로 옳은 것은?",
+        "options": [
+          "해석적 통찰, 직면, 적극적 지시",
+          "일치성(진실성), 무조건적 긍정적 존중, 공감적 이해",
+          "자유연상, 저항 분석, 전이 해석",
+          "논박, 인지 재구조화, 행동 계약",
+          "탈숙고, 역설적 의도, 의미 발견"
+        ],
+        "ans": 2,
+        "exp": "로저스의 3대 필요충분조건은 상담자의 진실성(일치성), 무조건적 긍정적 존중, 공감적 이해입니다."
+      },
+      {
+        "q_num": 25,
+        "subject": "청소년상담의 이론과 실제",
+        "subject_idx": 1,
+        "title": "[청소년상담의 이론과 실제] 게슈탈트(Gestalt) 상담에서 '타인에게 표출하고 싶은 충동이나 분노를 자신에게 돌려 자해하거나 자책하는 접촉경계혼란'은?",
+        "options": [
+          "내사 (Introjection)",
+          "투사 (Projection)",
+          "반전 (Retroflection)",
+          "융합 (Confluence)",
+          "편향 (Deflection)"
+        ],
+        "ans": 3,
+        "exp": "타인에게 향할 에너지를 자신에게로 되돌려 자해나 자책으로 나타내는 것은 '반전(Retroflection)'입니다."
+      },
+      {
+        "q_num": 26,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 27,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 28,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 29,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 30,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 31,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 32,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 33,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 34,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 35,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 36,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 37,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 38,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 39,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 40,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 41,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 42,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 43,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 44,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 45,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 46,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 상담 연구에서 측정 척도(Scale)의 4가지 유형에 관한 설명으로 옳은 것은?",
+        "options": [
+          "명목척도는 서열성과 등간성을 모두 갖춘 척도이다.",
+          "서열척도는 절대 영점(Absolute zero)이 존재하는 척도이다.",
+          "등간척도는 온도나 지능지수(IQ)처럼 임의의 영점을 가지며 덧셈과 뺄셈이 가능하다.",
+          "비율척도는 곱셈과 나눗셈 연산이 불가능하다.",
+          "리커트 척도는 대표적인 비율척도에 해당한다."
+        ],
+        "ans": 3,
+        "exp": "등간척도(Interval scale)는 단위 간격이 일정하며 임의 영점을 가집니다. 비율척도는 절대 영점이 있어 사칙연산이 모두 가능합니다."
+      },
+      {
+        "q_num": 47,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 실험연구의 내적 타당도(Internal Validity)를 저해하는 외생변인으로 옳지 않은 것은?",
+        "options": [
+          "역사(History) 요인: 실험 도중 피험자에게 발생한 외부 사건",
+          "성숙(Maturation) 요인: 시간 경과에 따른 피험자의 자연스러운 신체적·심리적 성장",
+          "검사(Testing) 요인: 사전검사를 받은 경험이 사후검사 점수에 영향을 미치는 현상",
+          "통계적 회귀(Statistical Regression): 극단적인 점수를 얻은 집단이 재검사 시 평균으로 회귀하는 현상",
+          "호손 효과(Hawthorne Effect): 연구 결과를 일반 집단 전체로 일반화할 수 있는 외적 타당도 요인"
+        ],
+        "ans": 5,
+        "exp": "호손 효과는 관찰받고 있다는 사실을 인식하여 행동이 변하는 현상으로, 외적 타당도(일반화 가능성)를 저해하는 요인입니다."
+      },
+      {
+        "q_num": 48,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 표집(Sampling) 방법 중 '모집단을 동질적인 여러 하위 집단으로 나눈 후, 각 집단에서 무작위로 표본을 추출하는 확률표집법'은?",
+        "options": [
+          "단순 무선표집 (Simple Random Sampling)",
+          "유층(층화) 표집 (Stratified Sampling)",
+          "군집(집락) 표집 (Cluster Sampling)",
+          "체계적(계통) 표집 (Systematic Sampling)",
+          "스노우볼(눈덩이) 표집 (Snowball Sampling)"
+        ],
+        "ans": 2,
+        "exp": "모집단을 성별, 학년 등 동질적 집단으로 층화한 뒤 각 층에서 무작위 추출하는 것은 '유층(층화) 표집'입니다."
+      },
+      {
+        "q_num": 49,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 가설검정에서 영가설(귀무가설)이 실제로 참인데도 불구하고 이를 기각하여 발생하는 오류는?",
+        "options": [
+          "1종 오류 (Type I Error, $\\alpha$ 오류)",
+          "2종 오류 (Type II Error, $\\beta$ 오류)",
+          "통계적 검정력 오류",
+          "표본추출 오류",
+          "측정오차 오류"
+        ],
+        "ans": 1,
+        "exp": "귀무가설($H_0$)이 참인데 기각하는 오류는 '1종 오류($\\alpha$ 오류)'이며, 거짓인데 채택하는 오류는 '2종 오류($\\beta$ 오류)'입니다."
+      },
+      {
+        "q_num": 50,
+        "subject": "상담연구방법론의 기초",
+        "subject_idx": 2,
+        "title": "[상담연구방법론의 기초] 두 집단의 평균 차이를 검증할 때 사용하는 통계 분석 기법으로 옳은 것은?",
+        "options": [
+          "독립표본 t-검정 (Independent Samples t-test)",
+          "일원분산분석 (One-way ANOVA)",
+          "단순회귀분석 (Simple Regression)",
+          "카이제승(교차) 검정 (Chi-square test)",
+          "요인분석 (Factor Analysis)"
+        ],
+        "ans": 1,
+        "exp": "두 독립된 집단의 평균 차이를 비교할 때는 '독립표본 t-검정'을 사용합니다. 3개 이상 집단은 분산분석(ANOVA)을 사용합니다."
+      },
+      {
+        "q_num": 51,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 52,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 53,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 54,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 55,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 56,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 57,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 58,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 59,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 60,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 61,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 62,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 63,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 64,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 65,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 66,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 67,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 68,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 69,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 70,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 71,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 청소년용 다면적 인성검사(MMPI-A)의 타당도 척도에 관한 설명으로 옳은 것은?",
+        "options": [
+          "VRIN(무반응 일관성 척도)은 문항을 읽지 않고 무선적으로 응답했는지 검증한다.",
+          "TRIN(고정반응 일관성 척도)은 모든 문항에 '아니오'로만 일관되게 답했는지를 검증할 수 없다.",
+          "F1과 F2 척도는 수검자의 높은 방어성과 도덕적 결백성을 측정한다.",
+          "L 척도가 70 이상으로 높으면 자신의 심리적 고통을 과장하여 호소하는 것이다.",
+          "K 척도는 수검자의 비전형적이고 기괴한 정신증적 경험을 탐색한다."
+        ],
+        "ans": 1,
+        "exp": "VRIN은 유사/상반 문항 쌍에 무선(Random) 응답했는지를 탐색하며, TRIN은 '예/아니오' 고정 반응을 탐색합니다."
+      },
+      {
+        "q_num": 72,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 한국 웩슬러 아동 지능검사 5판(K-WISC-V)의 5대 기본 지표 척도로 옳게 짝지어진 것은?",
+        "options": [
+          "언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)",
+          "언어성 지능, 동작성 지능, 일반능력, 인지효능, 집행기능",
+          "어휘력, 행렬추리, 토막짜기, 숫자외우기, 기호쓰기",
+          "유동성 지능, 결정성 지능, 삼원지능, 다중지능, 정서지능",
+          "수리추론, 공간지각, 기계이해, 언어유창성, 형태변별"
+        ],
+        "ans": 1,
+        "exp": "K-WISC-V의 5대 기본 지표: 언어이해(VCI), 시공간(VSI), 유동추론(FRI), 작업기억(WMI), 처리속도(PSI)입니다."
+      },
+      {
+        "q_num": 73,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 웩슬러 지능검사에서 불안, 우울, ADHD 등으로 인해 작업기억(WMI)과 처리속도(PSI)가 급락하여 전체지능(FSIQ)이 왜곡될 때, 순수 지적 잠재력을 반영하기 위해 VCI, VSI, FRI로 산출하는 대체 지수는?",
+        "options": [
+          "인지효능지수 (CPI)",
+          "일반능력지수 (GAI)",
+          "유동결정지수 (FCI)",
+          "집행기능지수 (EFI)",
+          "잠재학습지수 (PLI)"
+        ],
+        "ans": 2,
+        "exp": "WMI와 PSI의 간섭을 배제하고 순수 추론 및 인지 잠재력을 평가하기 위해 산출하는 지표는 '일반능력지수(GAI: General Ability Index)'입니다."
+      },
+      {
+        "q_num": 74,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 기질 및 성격검사(TCI)에서 타고난 생물학적 기질(Temperament) 4차원에 해당하는 것으로만 묶인 것은?",
+        "options": [
+          "자율성(SD), 연대감(CO), 자기초월(ST), 사회적관심",
+          "자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)",
+          "외향성, 신경증, 성실성, 친화성",
+          "개방성, 지배성, 복종성, 안정성",
+          "감각, 직관, 사고, 감정"
+        ],
+        "ans": 2,
+        "exp": "TCI의 4대 기질 척도는 자극추구(NS), 위험회피(HA), 보상의존(RD), 지속성(P)이며, 3대 성격 척도는 자율성(SD), 연대감(CO), 자기초월(ST)입니다."
+      },
+      {
+        "q_num": 75,
+        "subject": "심리측정 및 평가",
+        "subject_idx": 3,
+        "title": "[심리측정 및 평가] 로샤(Rorschach) 종합체계 검사에서 내담자의 정서적 스트레스 통제력 상실 및 자원 부족 상태를 나타내는 지표는?",
+        "options": [
+          "D < 0 (Adjusted D < 0)",
+          "EB = M > WSumC",
+          "Lambda < 0.3",
+          "X+% > 85%",
+          "FC > CF + C"
+        ],
+        "ans": 1,
+        "exp": "가용 자원(EA)보다 경험하는 자극 과부하(es)가 커서 D점수가 음수($D < 0$)가 되면 현재 스트레스 과부하 및 통제력 위기 상태를 뜻합니다."
+      },
+      {
+        "q_num": 76,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 77,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 78,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 79,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 80,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 81,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 82,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 83,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 84,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 85,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 86,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 87,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 88,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 89,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 90,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 91,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 92,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 93,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 94,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 95,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 96,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 피아제(J. Piaget)의 인지발달 이론에서 청소년기(형식적 조작기)의 주요 인지적 특징으로 옳은 것은?",
+        "options": [
+          "보존 개념과 대상영속성을 처음으로 획득한다.",
+          "가설연역적 추론과 조합적 사고, 추상적 사고가 가능하다.",
+          "직관적 사고와 자기중심적 언어가 두드러진다.",
+          "구체적 사물을 직접 다룰 때만 논리적 조작이 가능하다.",
+          "사고의 비가역성과 중심화 현상이 나타난다."
+        ],
+        "ans": 2,
+        "exp": "형식적 조작기(12세 이후)에는 추상적 개념 이해, 가설연역적 사고, 조합적 문제해결 능력이 발달합니다."
+      },
+      {
+        "q_num": 97,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 엘킨드(D. Elkind)가 제시한 청소년기 자아중심성의 2대 구성 개념으로 옳게 짝지어진 것은?",
+        "options": [
+          "상상적 관중(Imaginary Audience) & 개인적 우화(Personal Fable)",
+          "정체감 유예 & 정체감 유실",
+          "거울신경원 & 대상영속성",
+          "적대적 반항 & 분리불안",
+          "심리적 이유기 & 신체상 왜곡"
+        ],
+        "ans": 1,
+        "exp": "엘킨드의 청소년기 자아중심성: 1) 모두가 나를 주시하고 있다고 믿는 '상상적 관중', 2) 자신은 특별하여 불사조처럼 다치지 않는다고 믿는 '개인적 우화'."
+      },
+      {
+        "q_num": 98,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 마샤(J. Marcia)의 자아정체감 4범주 중 '정체감 탐색(위기)을 치열하게 겪고 있으나 아직 특정 진로나 가치관에 확고하게 관여(전념)하지 못한 상태'는?",
+        "options": [
+          "정체감 성취 (Identity Achievement)",
+          "정체감 유예 (Identity Moratorium)",
+          "정체감 유실 (Identity Foreclosure)",
+          "정체감 혼란 (Identity Diffusion)",
+          "정체감 폐쇄 (Identity Lock)"
+        ],
+        "ans": 2,
+        "exp": "위기(탐색)는 경험 중이나 관여(전념)는 유보된 상태를 '정체감 유예(Moratorium)'라고 합니다."
+      },
+      {
+        "q_num": 99,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 청소년 비행 이론 중 서덜랜드(E. Sutherland)의 차별접촉 이론(Differential Association Theory)의 핵심 주장은?",
+        "options": [
+          "사회 구조적 목표와 합법적 수단 간의 괴리로 인해 아노미가 발생하여 비행이 일어난다.",
+          "비행 친구들과의 잦고 친밀한 상호작용과 학습을 통해 비행 기술과 동기를 습득한다.",
+          "사회적 유대(애착, 전념, 참여, 신념)가 약화될 때 비행이 통제되지 못한다.",
+          "사법기관이나 타인으로부터 비행자로 낙인찍힘으로써 2차 비행을 반복한다.",
+          "생물학적 뇌 손상과 유전적 결함이 비행의 유일한 원인이다."
+        ],
+        "ans": 2,
+        "exp": "차별접촉 이론은 비행 역시 친밀한 집단 내에서 타인과의 상호작용과 학습을 통해 모방·습득된다고 봅니다."
+      },
+      {
+        "q_num": 100,
+        "subject": "청소년이해론",
+        "subject_idx": 4,
+        "title": "[청소년이해론] 허쉬(T. Hirschi)의 사회통제(사회유대) 이론에서 청소년의 비행을 억제하는 4대 사회적 유대 요소로 옳지 않은 것은?",
+        "options": [
+          "애착 (Attachment)",
+          "전념 (Commitment)",
+          "참여 (Involvement)",
+          "신념 (Belief)",
+          "낙인 (Labeling)"
+        ],
+        "ans": 5,
+        "exp": "허쉬의 4대 사회유대 요소는 애착(부모/교사와의 관계), 전념(학업/목표에 대한 투자), 참여(건전 활동 시간), 신념(사회 규범 존중)입니다. 낙인은 레머트의 낙인이론입니다."
+      },
+      {
+        "q_num": 101,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 102,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 103,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 104,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 105,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 106,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 107,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 108,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 109,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 110,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 111,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 112,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 113,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 114,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 115,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 116,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 117,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 118,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 119,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 120,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 121,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 보웬(M. Bowen)의 다세대 가족치료 이론의 핵심 개념에 관한 설명으로 옳은 것은?",
+        "options": [
+          "자아분화(Differentiation of Self)는 지적 기능과 정서적 기능을 분리하는 능력이다.",
+          "삼각관계(Triangulation)는 두 사람 간의 갈등을 근본적으로 해결해 주는 건강한 기제이다.",
+          "가족투사과정은 부모의 미분화가 형제자매 모두에게 똑같이 균등하게 전달되는 과정이다.",
+          "정서적 단절은 원가족과의 문제를 완전히 성숙하게 극복한 독립 상태를 의미한다.",
+          "다세대 전수과정은 1세대 안에서만 모든 증상이 종결되는 현상이다."
+        ],
+        "ans": 1,
+        "exp": "보웬의 자아분화는 사고(지적)와 감정(정서적)을 분리할 수 있는 내적 분화와, 타인과의 관계에서 독립성을 유지하는 대인관계적 분화를 의미합니다."
+      },
+      {
+        "q_num": 122,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 구조적 가족치료에서 가족 하위체계 간의 경계선(Boundary) 유형과 특징으로 옳은 것은?",
+        "options": [
+          "밀착된 경계선(Enmeshed): 가족원 간 자율성이 지나치게 높고 서로 무관심하다.",
+          "경직된 경계선(Rigid): 가족원 간 정서적 유대가 지나치게 끈끈하여 프라이버시가 없다.",
+          "명확한 경계선(Clear): 자율성과 상호 지지가 균형을 이루는 가장 건강한 경계선이다.",
+          "산만한 경계선: 외부 체계와의 소통이 완벽하게 차단된 고립 상태이다.",
+          "경계선 재구조화는 항상 가족원 간의 거리를 멀어지게 하는 것만을 목표로 한다."
+        ],
+        "ans": 3,
+        "exp": "명확한 경계선(Clear boundary)은 하위체계 구성원의 독립성과 상호 지지가 조화를 이루는 이상적인 경계선입니다. 밀착은 지나친 간섭, 경직은 고립·유리입니다."
+      },
+      {
+        "q_num": 123,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 미누친(S. Minuchin)의 치료 기법 중 '가족 내 기존의 병리적 권력 구조를 깨뜨리기 위해 상담자가 의도적으로 약한 가족원이나 특정 편을 들어주는 기법'은?",
+        "options": [
+          "실연화 (Enactment)",
+          "균형 깨기 (Unbalancing)",
+          "경계 만들기 (Boundary Making)",
+          "재명명 (Reframing)",
+          "역설적 개입 (Paradoxical Intervention)"
+        ],
+        "ans": 2,
+        "exp": "상담자가 가족 내 위계나 권력 관계를 변화시키기 위해 특정 가족원의 편을 들거나 지지해 주는 기법은 '균형 깨기(Unbalancing)'입니다."
+      },
+      {
+        "q_num": 124,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 사티어(V. Satir)의 경험적 가족치료에서 스트레스 상황 시 나타나는 5대 의사소통 유형 중 '자신의 감정과 상대방의 입장은 무시하고 오직 객관적 상황과 규칙만을 따지는 유형'은?",
+        "options": [
+          "회유형 (Placating)",
+          "비난형 (Blaming)",
+          "초이성형 (Super-reasonable)",
+          "산만형 (Irrelevant)",
+          "일치형 (Congruent)"
+        ],
+        "ans": 3,
+        "exp": "초이성형은 자신(X), 타인(X)의 감정을 배제하고 상황(O)의 논리·원칙만을 따지는 의사소통 유형입니다."
+      },
+      {
+        "q_num": 125,
+        "subject": "가족상담",
+        "subject_idx": 5,
+        "title": "[가족상담] 전략적 가족치료(Strategic Family Therapy)에서 증상을 없애려 하지 않고 '오히려 매일 밤 15분씩 일부러 더 싸우라'고 지시함으로써 내담자가 증상을 스스로 통제할 수 있음을 깨닫게 하는 기법은?",
+        "options": [
+          "순환 질문 (Circular Questioning)",
+          "증상 처방 / 역설적 지시 (Symptom Prescription)",
+          "가족 조각 (Family Sculpting)",
+          "탈삼각화 (Detriangulation)",
+          "빈의자 기법 (Empty Chair)"
+        ],
+        "ans": 2,
+        "exp": "역설적 개입(증상 처방)은 저항을 우회하여 내담자가 증상을 의도적으로 발생시키게 함으로써 증상 통제력을 획득하게 돕는 기법입니다."
+      },
+      {
+        "q_num": 126,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 127,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 128,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 129,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 130,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 131,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 132,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 133,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 134,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 135,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 136,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 137,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 138,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 139,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 140,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 141,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 142,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 143,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 144,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 145,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
+      },
+      {
+        "q_num": 146,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 얄롬(I. Yalom)이 제시한 집단상담의 11가지 치료적 요인에 관한 설명으로 옳은 것은?",
+        "options": [
+          "보편성(Universality): '나만 이런 고통을 겪는 것이 아니구나'를 깨닫고 안도감을 얻는 것",
+          "희망의 고취: 집단원에게 모든 비밀을 누설해도 안전하다는 것을 뜻함",
+          "카타르시스: 자신의 인지적 왜곡을 논리적으로 반박하여 수정하는 것",
+          "이타주의: 오직 상담자로부터만 일방적으로 도움을 받는 경험",
+          "실존적 요인: 타인에게 자신의 모든 책임을 전가하는 태도"
+        ],
+        "ans": 1,
+        "exp": "보편성(Universality)은 다른 집단원들도 자신과 유사한 고민과 취약성을 가지고 있음을 알게 되어 고립감에서 벗어나는 핵심 치료 요인입니다."
+      },
+      {
+        "q_num": 147,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단 발달단계 중 '집단원 간의 저항, 불안, 갈등, 권력 다툼이 가장 빈번하게 발생하며, 상담자의 지도력에 도전하는 단계'는?",
+        "options": [
+          "초기 단계 (참여 및 탐색)",
+          "과도기 단계 (전환기 / 저항과 갈등)",
+          "작업 단계 (생산성 및 응집력)",
+          "종결 단계 (통합 및 평가)",
+          "추후 단계 (사후 관리)"
+        ],
+        "ans": 2,
+        "exp": "과도기 단계(Transition stage)는 신뢰와 불안이 교차하며 저항, 방어, 상담자에 대한 도전과 갈등이 표출되는 단계입니다."
+      },
+      {
+        "q_num": 148,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담자가 발언을 혼자 독점하거나 공격적인 집단원의 말을 정중하게 제지하여 집단 역동의 균형을 맞추는 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "차단하기 (Blocking)",
+          "초점 맞추기 (Focusing)",
+          "재진술 (Restatement)",
+          "자기개방 (Self-disclosure)"
+        ],
+        "ans": 2,
+        "exp": "집단원의 비생산적인 행동(독점, 험담, 공격)을 적절한 시점에 제지하여 집단 분위기를 보호하는 기술은 '차단하기(Blocking)'입니다."
+      },
+      {
+        "q_num": 149,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 집단상담에서 서로 다른 집단원이 표현한 감정이나 경험의 공통점을 찾아 묶어줌으로써 상호 유대감을 증진시키는 상담자 기술은?",
+        "options": [
+          "연결하기 (Linking)",
+          "직면하기 (Confrontation)",
+          "명료화 (Clarification)",
+          "구조화 (Structuring)",
+          "침묵 다루기"
+        ],
+        "ans": 1,
+        "exp": "A 집단원과 B 집단원의 공통된 감정이나 유사한 경험을 연결하여 응집력과 유대감을 높이는 기술은 '연결하기(Linking)'입니다."
+      },
+      {
+        "q_num": 150,
+        "subject": "집단상담",
+        "subject_idx": 6,
+        "title": "[집단상담] 개방집단(Open Group)과 폐쇄집단(Closed Group)의 특성 비교로 옳은 것은?",
+        "options": [
+          "폐쇄집단은 도중에 새로운 구성원이 언제든지 자유롭게 참여할 수 있다.",
+          "개방집단은 구성원의 입퇴장이 자유로워 새로운 에너지와 시각이 유입되는 장점이 있다.",
+          "폐쇄집단은 개방집단에 비해 집단 응집력과 신뢰 형성이 훨씬 어렵다.",
+          "개방집단은 모든 회기 동안 구성원이 고정되어 출석률이 가장 안정적이다.",
+          "폐쇄집단은 회기마다 새로운 구성원 소개에 많은 시간을 할애해야 한다."
+        ],
+        "ans": 2,
+        "exp": "개방집단은 새로운 구성원이 유입되어 다양한 시각을 접할 수 있으며, 폐쇄집단은 멤버가 고정되어 응집력과 신뢰도가 높습니다."
       }
     ]
   }
